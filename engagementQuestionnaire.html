@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]>
+<html class="no-js" lang="en"> <![endif]-->
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="css/main.css">
+
+    <link href="css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Feedback</span></h1>
+            <nav>
+                <a class="help" href="#help">Help</a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+
+        <!--javascript for back button-->
+        <!-- <nav class="back-nav">
+                  <a id="backButton" href="javascript:history.back()">Back</a>
+          </nav> !-->
+
+        <article>
+
+            <h1>Replica use feedback</h1>
+                <form action="mailto:cau.cads@dwp.gsi.gov.uk?Subject=Replica_feedback" name="engagementQuestionnaire" enctype="text/plain" method="post">
+
+                <div class="form-wrap">
+                    <fieldset class="form-elements">
+                        <ul>
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>Do you use the service replica tool?</legend>
+                                        <ul class="radio" for="doYouUse">
+                                            <li>
+                                                <label id="doYouUse_yes" class="remove-detail">
+                                                    <input type="radio" id="doYouUse_yes" name="Do you use the replica  " value="Yes"/>
+                                                    <span>Yes</span></label>
+                                            </li>
+
+                                            <li for="Do you use the replica  ">
+                                                <label id="doYouUse_no" class="show-detail">
+                                                    <input type="radio" id="doYouUse_no" name="Do you use the replica  " value="No"/>
+                                                    <span>No</span></label>
+                                        </ul>
+                                </fieldset>
+                            </li>
+
+                                            <li id="doYouUse_no_why" class="open-detail">
+                                                <ul class="extra-group">
+                                                    <li>
+                                                        <label for="doYouUseNo_why">What would help you make use of it?</label>
+                                                            <textarea id="doYouUseNo_why" name="Do not use the replica " onkeyup="countChar(this)" value="" maxlength="3000"></textarea>
+                                                            <p class="helper" id="charNum"></p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>How do you rate the service replica tool?</legend>
+                                        <p class="helper above">1 = Poor, 5 = Excellent</p>
+                                        <ul class="radio" for="howDoYouRate">
+                                            <li>
+                                                <label id="howDoYouRate_1">
+                                                    <input type="radio" id="howDoYouRate_1" name="How do you rate the replica " value="1"/>
+                                                    <span> 1</span></label>
+                                            </li>
+
+                                            <li>
+                                                <label id="howDoYouRate_2">
+                                                    <input type="radio" id="howDoYouRate_2" name="How do you rate the replica " value="2"/>
+                                                    <span> 2</span></label>
+                                            </li>
+
+                                            <li>
+                                                <label id="howDoYouRate_3">
+                                                    <input type="radio" id="howDoYouRate_3" name="How do you rate the replica " value="3"/>
+                                                    <span> 3</span></label>
+                                            </li>
+
+                                            <li>
+                                                <label id="howDoYouRate_4">
+                                                    <input type="radio" id="howDoYouRate_4" name="How do you rate the replica " value="4"/>
+                                                    <span> 4</span></label>
+                                            </li>
+
+                                            <li>
+                                                <label id="howDoYouRate_5">
+                                                    <input type="radio" id="howDoYouRate_5" name="How do you rate the replica " value="5"/>
+                                                    <span> 5</span></label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>
+
+                                    <li>
+                                        <fieldset class="question-group">
+                                            <legend>What features would you like to see on your replica?</legend>
+                                                <ul>
+                                                    <li>
+                                                        <label for="addedFeatures"></label>
+                                                        <textarea type="text" id="addedFeatures" name="Added features " value="" onkeyup="countChar2(this)" maxlength="3000"></textarea>
+                                                        <p class="helper" id="charNum2"></p>
+                                                    </li>
+                                                </ul>
+                                        </fieldset>
+                                    </li>
+
+                                    <li>
+                                        <fieldset class="question-group">
+                                            <legend>Please provide some feedback on the service replica</legend>
+                                                <p class="helper">If you do not use it, please say why.</p>
+                                                    <ul>
+                                                        <li>
+                                                            <label for="feedback"></label>
+                                                                <textarea type="text" id="feedback" name="Feedback " value="" onkeyup="countChar3(this)" maxlength="3000"></textarea>
+                                                                <p class="helper" id="charNum3"></p>
+                                                        </li>
+                                                    </ul>
+                                        </fieldset>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                            <nav>
+                                <ul>
+                                       <li>
+                                           <input type="submit" class="button" value="Finish"/>
+                                       </li>
+                                </ul>
+                            </nav>
+                    </div>
+                </form>
+        </article>
+
+        <aside class="left-col">
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed on public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+            </section>
+
+        </aside>
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="js/custom.js"></script>
+
+<!--  Custom character counter -->
+
+<script>
+      function countChar(val) {
+        var len = val.value.length;
+        if (len >= 3000) {
+          val.value = val.value.substring(0, 3000);
+        } else {
+          $('#charNum').text(3000 - len);
+        }
+      };
+    </script>
+<script>
+      function countChar2(val) {
+        var len = val.value.length;
+        if (len >= 3000) {
+          val.value = val.value.substring(0, 3000);
+        } else {
+          $('#charNum2').text(3000 - len);
+        }
+      };
+    </script>
+<script>
+      function countChar3(val) {
+        var len = val.value.length;
+        if (len >= 3000) {
+          val.value = val.value.substring(0, 3000);
+        } else {
+          $('#charNum3').text(3000 - len);
+        }
+      };
+    </script>
+</body>
+</html>
+
