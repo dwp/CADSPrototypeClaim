@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+			   	
+			   	
+			   	<aside class="left-col">
+		        
+					<section id="help">
+						<h2>Get help</h2>
+                        <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+						<h3>Helpline 0345 608 4321</h3>
+						<p>Monday to Thursday, 8:30am to 5pm.</p>
+				        <p class="grouped">Friday, 8:30am to 4:30pm.</p>
+				        <p>Closed public holidays.</p>
+				        <p>Calls answered within 5 minutes</p>
+                        <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+				
+					</section>
+				
+				</aside>
+
+
+<article>
+
+<nav class="back-nav">
+    <a id="backButton" href="javascript:history.back()">Back</a>
+</nav>
+
+<div class="section-progress">
+    Section 6 of 9
+</div>
+<h1>Your income - work</h1>
+<form action="/self-employment/about-self-employment" method="POST" id="paidEmployment">
+
+
+<input type="hidden" name="csrfToken"
+       value="393a5f0ba31ed2babc30d64e1d6fb08c9763158e-1415036475445-44f661c90c2507fe6ba3387a"/>
+
+<div class="form-wrap">
+<fieldset class="form-elements" data-journey="carers-allowance:page:self-employment">
+<ul>
+<li>
+<fieldset class="question-group">
+		<ul>
+		    <li>
+
+
+        <label for="5d4b5ea013079b4cc898c0f34fb1a62c">
+
+
+            Type of business or work
+
+
+        </label>
+
+        <input type="text" id="5d4b5ea013079b4cc898c0f34fb1a62c" name="5d4b5ea013079b4cc898c0f34fb1a62c" value=""
+               maxLength="60" autocomplete="off">
+
+
+    </li>
+	<li>
+
+
+		<label for="total">
+
+
+            Is your total income more than £110 a week?
+
+
+        </label>
+
+
+        <ul class="radio " id="total">
+			
+
+            <li>
+
+                <label for="totalYes" class="" onmousedown="">
+                    <input type="radio" id="totalYes"
+                           name="total" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="totalNo" class="" onmousedown="">
+                    <input type="radio" id="totalNo"
+                           name="total" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+
+    </li>
+		<fieldset class="question-group">
+			<li>
+                <legend>
+					Did you start this job more than a year ago?
+                </legend>
+                <ul class="radio " id="job">
+					<li>
+						<label for="jobYes" onmousedown="" class="remove-detail show-detail2">
+							<input type="radio" id="jobYes" name="job" onmousedown="" value="Yes"/>
+							<span>Yes</span>
+						</label>
+					</li>
+                    <li>
+						<label for="jobNo" onmousedown="" class="remove-detail2 show-detail">
+							<input type="radio" id="jobNo" name="job" onmousedown="" value="No"/>
+							<span>No</span>
+						</label>
+                    </li>
+				</ul>
+				<!-- openDetail -->
+				<ul class="extra-group">
+					<li class="open-detail extra-group">
+							<legend>
+								When did you start this work?
+							</legend>
+							<!-- datePlaceholder -->
+							<ul class="inline year" id="8b78c4b09e37ffb7f8ec14b8952301d85c26f0d56218738b0e33f4e7f1bec217">
+								<li>
+									<label>Day</label>
+									<input type="tel" id="startDay" name="startDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+								</li>
+								<li class="month">
+									<label>Month</label>
+									<input type="tel" id="startMonth" name="startMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+								</li>
+								<li>
+								<label>Year</label>
+									<input type="tel" id="startYear" name="startYear" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+								</li>
+							</ul>
+						
+					</li>
+				</ul>
+				<!-- openDetail -->
+				<ul class="extra-group">
+					<li class="open-detail2 extra-group">
+        <label for="accounts">
+
+
+            Do you have accounts?
+
+
+        </label>
+
+
+        <ul class="radio " id="accounts">
+			
+
+            <li>
+
+                <label for="accountsYes" class="show-detail3 remove-detail4" onmousedown="">
+                    <input type="radio" id="accountsYes"
+                           name="accounts" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="accountsNo" class="remove-detail3 show-detail4" onmousedown="">
+                    <input type="radio" id="accountsNo"
+                           name="accounts" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+			<li class="open-detail4">
+				<legend>
+					When did your last trading year end?
+				</legend>
+				<p class="helper above">This is the date your accounts were made up to and is the same date each year - it's not necessarily the same as the tax year.</p>
+				<!-- datePlaceholder -->
+				<ul class="inline year" id="8b78c4b09e37ffb7f8ec14b8952301d85c26f0d56218738b0e33f4e7f1bec217">
+					<li>
+						<label>Day</label>
+						<input type="tel" id="startDay" name="startDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+					</li>
+					<li class="month">
+						<label>Month</label>
+						<input type="tel" id="startMonth" name="startMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+					</li>
+					<li>
+						<label>Year</label>
+						<input type="tel" id="startYear" name="startYear" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+					</li>
+				</ul>
+			</li>
+		</ul>
+ 		<p class="helper below open-detail3">You must send a copy of your most recent accounts to the Carer's Allowance Unit.</p>
+						
+					</li>
+				</ul>
+		</li>
+		</fieldset>
+</ul>
+    </fieldset>
+</li>
+
+
+<li id="selfEmployedNoWrap" class="other-detail">
+
+</li>
+
+</ul>
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li><a href="yourIncome01Previous.html" class="button"> Next </a></li>
+        <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li>
+        <li><a href="javascript:history.back()">Back</a></li>
+    </ul>
+</nav>
+</div>
+
+</form>
+
+</article>
+
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink">Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+<script>
+	$('#paidEmployment input[type="radio"]').click(function() {
+    var g1 = $("#totalNo").is(":checked");
+    var g2 = $("#accountsYes").is(":checked");
+
+    var addr = "";
+        if (g1) addr = "yourIncome01PreviousNull.html";
+		if (g2) addr = "yourIncome01PreviousNull.html";
+    $("#paidEmployment a").attr('href', addr);
+});
+</script>
+<script>
+ $(document).ready(function() {
+    $("#saveProgress").click(function() {
+        alert("Your progress has been saved for 3 hours");
+    });
+ });
+</script>
+</body>
+</html>
