@@ -46,8 +46,7 @@
 	      errorFieldClass: "error-focus",
 	        rules: [
 	            "required,title,Please enter your title",
-	            "required,first_name,Please enter your first name",
-	            "required,surname,Please enter your last name",
+	            "required,fullName,Please enter your full name",
 	            "required,nationalInsuranceNumber,Please enter when your National Insurance Number",
 	            "required,dateOfBirth_day,Please enter your date of birth: day",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
@@ -159,24 +158,8 @@
                         </li>
 
                         <li>
-                            <label for="first_name">First name</label>
-
-                           <!-- <p class="helper above">Enter name as shown on your birth certificate or passport</p> -->
-
-                            <input type="text" id="first_name" name="first_name" value="" maxlength="17"
-                                   autocomplete="off" required>
-                        </li>
-
-                        <li>
-                            <label for="middleName">Middle name(s)</label>
-                            <input type="text" id="middleName" name="middleName" value="" maxlength="17"
-                                   autocomplete="off">
-                        </li>
-
-                        <li>
-                            <label for="surname">Last name</label>
-                            <input type="text" id="surname" name="surname" value="" maxlength="35" autocomplete="off">
-                        </li>
+                            <label for="name">Full name</label>
+                            <input type="text" id="name" name="fullName" value="" autocomplete="off"/>
 
                         <li>
                             <label for="otherNames">Other surname or maiden name<em>(optional)</em></label>
@@ -271,8 +254,16 @@
 
                         <li>
                             <fieldset class="question-group">
-                                <legend>Do you have a partner</legend>
-                                    <ul class="radio" id="partner">
+                                <legend>Have you lived with a partner at any time since your claim date?</legend>
+                                <div class="prompt nested-prompt partner-linked">
+                                    <p>By partner we mean:</p>
+                                    <ul>
+                                        <li>a person you are married to or live with as if you are married.</li>
+                                        <li>a civil partner or a person you live with as if you are civil partners.</li>
+                                    </ul>
+                                </div>
+
+                                    <ul class="radio partner-group" id="partner">
                                         <li>
                                             <label for="partner_yes" class="show-detail">
                                             <input type="radio" id="partner_yes" name="partner" value="Yes"/>
@@ -286,7 +277,8 @@
                                         </li>
                                     </ul>
                                 </fieldset>
-                            </li>
+                        </li>
+
 
                         <li id="partnerDetailsWrap" class="other-detail open-detail">
                         <ul class="extra-group">
@@ -320,23 +312,12 @@
 
                             </select></li>
 
-                        <li><label for="partner_firstName">First name</label>
+                        <li><label for="partner_fullName">Full name</label>
 
-                            <input type="text" id="partner_firstName" name="partner_firstName" value="" maxLength="17" autocomplete="off">
-
-                        </li>
-
-                        <li><label for="partner_middleName"> Middle name(s)</label>
-
-                            <input type="text" id="partner_middleName" name="partner_middleName" value="" maxLength="17" autocomplete="off">
+                            <input type="text" id="partner_fullName" name="partner_fullName" value="" autocomplete="off">
 
                         </li>
 
-                        <li><label for="partner_surname"> Last name </label>
-
-                            <input type="text" id="partner_surname" name="partner_surname" value="" maxLength="35" autocomplete="off">
-
-                        </li>
 
                         <li>
 
