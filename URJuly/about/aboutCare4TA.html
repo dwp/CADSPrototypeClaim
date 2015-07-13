@@ -88,11 +88,9 @@
                 <h2>Get help</h2>
                 <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                 <h3>Helpline 0345 608 4321</h3>
-                <p>Mon to Thurs: 8:30am - 5pm.</p>
-                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
-                <p>Closed public holidays.</p>
-                <p>Calls answered within 5 minutes</p>
-                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
             </section>
 
@@ -167,8 +165,8 @@
 
                 <nav class="form-steps">
                     <ul>
-                        <li><a href="../education/educationTutor.html" class="button"> Next </a></li>
-                        <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li>
+                        <li><a href="#" id="nextPage" class="button"> Next </a></li>
+                        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
                         <li><a href="javascript:history.back()">Back</a></li>
                     </ul>
                 </nav>
@@ -206,26 +204,24 @@
 </footer>
 <!--/ footer -->
 <!-- -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="../js/custom.js"></script>
-<script>
-	$('#breaksInCare input[type="radio"]').click(function() {
-    var g1 = $("#breaksInCare_yes").is(":checked");
-    var g2 = $("#breaksInCare_yes").is(":checked");
+<script type="text/javascript">
 
-    var addr = "";
-    if (g1) {
-        if (g2) addr = "../about/aboutCare5.html";
-        else    addr = "../about/aboutCare5.html";
-    } else {
-        if (g2) addr = "../about/aboutCare5.html";
-        else    addr = "../education/educationTutor.html";
-    }
-    $("#breaksInCare a").attr('href', addr);
+$('document').ready(function() {
+
+    $('#breaksInCare_yes').click(function(){
+        $('#nextPage').attr('href', 'aboutCare5.html');
+        console.log('test');
+    });
+
+    $('#breaksInCare_no').click(function() {
+        $('#nextPage').attr('href', '../education/educationTutor.html');
+    });
+
 });
 </script>
-
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
     $('#pauseProgress').click(function() {
         if($(this).val() == "Pause") {
@@ -238,6 +234,6 @@
                 }
         });
 </script>
-
+-->
 </body>
 </html>

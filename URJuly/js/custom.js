@@ -153,7 +153,7 @@ $('.helper-more').click(function(){
 	//$('.ni-number input, .sort-code input, .year input').autotab_magic();
 
     // smooth scroll
-    $('a[href^="#"]').bind('click.smoothscroll', function (e) {
+    $('a[href^="#"]:not(.button)').bind('click.smoothscroll', function (e) {
         e.preventDefault();
         var target = this.hash,
             $target = $(target);

@@ -47,8 +47,7 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,haveAccount,How would you like to be paid? This field is required",
-	            "required,paymentFrequency,How often would you like to get paid? This field is required"
+	            "required,haveAccount,Please confirm that you have a bank account"
 	        ]
 	    });
 	});
@@ -90,11 +89,9 @@
                    <h2>Get help</h2>
                    <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                    <h3>Helpline 0345 608 4321</h3>
-                   <p>Mon to Thurs: 8:30am - 5pm.</p>
-                   <p class="grouped">Friday: 8:30am - 4:30pm.</p>
-                   <p>Closed public holidays.</p>
-                   <p>Calls answered within 5 minutes</p>
-                   <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+                   <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                   <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
                </section>
 
@@ -112,7 +109,7 @@
 <h1>Pay details</h1>
 
 
-<form action="../consent/consent2.html" method="post" id="form_demo">
+<form action="../checkYourAnswers.html" method="post" id="form_demo">
     <div id="validation" class="validation-summary"></div>
 
 <input type="hidden" name="csrfToken"
@@ -127,7 +124,6 @@
 
 <legend class="legend-hidden">Pay details</legend>
 
-
 <ul>
 <li>
     <fieldset class="nested-fieldset">
@@ -136,39 +132,41 @@
         <legend class="nestedLabel">
 
 
-            How would you like to get paid?
+            Do you have a bank account?
 
 
         </legend>
 
 
-        <ul class="radio radio-stack" id="haveAccount">
+        <ul class="radio" id="haveAccount">
 
 
             <li>
 
-                <label for="haveAccount_yes" class="show-detail"
+                <label for="haveAccount_yes" class="show-detail remove-detail2"
                        onmousedown="">
                     <input type="radio"
                            id="haveAccount_yes"
                            name="haveAccount" onmousedown=""
                            value="UK bank or building society account"/>
-                    <span>UK bank or building society account</span></label>
+                    <span>Yes</span></label>
             </li>
 
             <li>
 
-                <label for="haveAccount_no" class="remove-detail"
+                <label for="haveAccount_no" class="remove-detail show-detail2"
                        onmousedown="">
                     <input type="radio"
                            id="haveAccount_no"
                            name="haveAccount" onmousedown=""
                            value="You don&#x27;t have an account but intend to open one"/>
-                    <span>You dont have an account but intend to open one</span></label>
+                    <span>No</span></label>
             </li>
 
 
         </ul>
+
+<p class="open-detail2 prompt breaks-prompt eligibility-prompt">You can carry on without giving bank details, but you'll need an account if your claim's successful.</p>
 
 <li id="getAccountDetailsWrap" class="other-detail open-detail">
     <ul class="extra-group">
@@ -352,12 +350,6 @@
         </ul>
     </fieldset>
     </li>
-</ul>
-</li>
-<li>
-
-	<fieldset class="nested-fieldset">
-
 		
 		<legend class="nestedLabel">How often do you want to get paid? </legend>
 
@@ -396,7 +388,7 @@
 <nav class="form-steps">
     <ul>
         <li><input type="submit" value="Next" class="button" /></li>
-        <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li>
+    <!--     <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
         <li><a href="javascript:history.back()">Back</a></li>
     </ul>
 </nav>
