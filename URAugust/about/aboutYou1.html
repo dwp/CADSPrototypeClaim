@@ -45,15 +45,15 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,title,Please enter your title",
-	            "required,fullName,Please enter your full name",
-	            "required,nationalInsuranceNumber,Please enter when your National Insurance Number",
-	            "required,dateOfBirth_day,Please enter your date of birth: day",
-	            "digits_only,dateOfBirth_day,The date field may only contain digits",
-	            "required,dateOfBirth_month,Please enter your date of birth: month",
-	            "digits_only,dateOfBirth_month,The date field may only contain digits",
-	            "required,dateOfBirth_year,Please enter your date of birth: year",
-	            "digits_only,dateOfBirth_year,The date field may only contain digits"
+	            "required,title,Select a title",
+	            "required,fullName,Enter your full name",
+	            "required,nationalInsuranceNumber,Enter your National Insurance Number",
+	            "required,dateOfBirth_day,Enter your date of birth",
+	            "digits_only,dateOfBirth_day,The date field can only contain digits",
+	            "required,dateOfBirth_month,Enter your month of birth:",
+	            "digits_only,dateOfBirth_month,The date field can only contain digits",
+	            "required,dateOfBirth_year,Enter your year of birth",
+	            "digits_only,dateOfBirth_year,The date field can only contain digits"
 	        ]
 	    });
 	});
@@ -131,7 +131,7 @@
                             <label for="title">Title</label>
                             <select id="title" name="title">
 
-                                <option value="">Please select</option>
+                                <option value="">Choose one</option>
 
                                 <option value="Mr">Mr</option>
 
@@ -319,9 +319,9 @@
                         </li>
 
                             <li>
-                                <label for="nationalInsuranceNumber"><em> National Insurance Number </em></label>
+                                <label for="partner_nationalInsuranceNumber"><em> National Insurance Number </em></label>
                                 <p class="helper above"> For example, VO 12 34 56 D</p>
-                                <input type="text" id="nationalInsuranceNumber" name="nationalInsuranceNumber"
+                                <input type="text" id="partner_nationalInsuranceNumber" name="partner_nationalInsuranceNumber"
                                        value="" maxlength="13" autocomplete="off"/>
                             </li>
 
