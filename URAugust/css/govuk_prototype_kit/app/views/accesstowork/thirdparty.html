@@ -1,0 +1,93 @@
+{{<layout}}
+
+{{$pageTitle}}About you{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+
+<div class="phase-banner">
+    <p>
+      <strong class="phase-tag">ALPHA</strong>
+      <span>This is a new service – your <a href="/feedback">feedback</a> will help us to improve it.</span>
+    </p>
+  </div>
+
+
+
+
+<div class="grid-row">
+
+
+
+{{>includes/leftcol}}
+
+
+<div class="column-two-thirds">
+
+ 
+
+<h1 class="form-title heading-large">
+	<span class="section-progress">Section 2 of 4</span>
+      Third party
+    </h1>
+    
+
+
+<form action="/" method="post" class="form">
+
+	
+   <div class="form-group">
+  	 <fieldset class="inline">
+	    <legend class="form-label-bold">Would you like someone else to communicate with us on your behalf?</legend>
+	    <div class="form-group form-group-compound">
+	      <label class="block-label" data-target="thirdparty" for="radio-indent-3partyyes">
+	        <input id="radio-indent-3partyyes" type="radio" name="radio-indent-group" value="Yes">
+	        Yes
+	      </label>
+	      <label class="block-label" for="radio-indent-3partyno">
+	        <input id="radio-indent-3partyno" type="radio" name="radio-indent-group" value="No">
+	        No
+	      </label>
+	    </div>
+	    <div class="panel-indent js-hidden" id="thirdparty">
+	    	<div class="form-group">
+		    <label class="form-label" for="name">Name</label>
+		    <input class="form-control" id="name" type="text">
+		  </div>
+		  <div class="form-group">
+		    <label class="form-label" for="phone">Contact phone or mobile number</label>
+		    <input class="form-control" id="phone" type="text">
+		  </div>
+		  <div class="form-group">
+		    <label class="form-label" for="relationship">Relationship to you</label>
+		    <input class="form-control" id="relationship" type="text">
+		  </div>
+	    </div>
+	  </fieldset>
+  	</div>
+
+    
+
+
+    <!-- Primary buttons, secondary links -->
+    <div class="form-group">
+      <ul>
+		<li><a href="aboutjob" class="button">Next</a></li>
+        <li><a href="aboutyou2">Back</a></li>
+      </ul>
+    </div>
+
+  </form>
+  
+</div>
+
+
+
+
+</main>
+
+{{/content}}
+
+{{/layout}}
+

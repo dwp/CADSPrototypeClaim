@@ -30,7 +30,6 @@
     <script src="../js/respond.min.js"></script>
     <![endif]-->
 
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
     <script src="../js/jquery.rsv.js" type="text/javascript"></script>
@@ -46,16 +45,14 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,address.lineOne,Please enter the first line of your address",
-	            "required,address.lineTwo,Please enter the second line of your address",
-	            "required,postcode,Please enter your postcode",
-	            "required,howWeContactYou,Contact phone or mobile number - this field is required",
-	            "required,contactYou,Do you want an email when we have received this application? This field is required"
+	            "required,address.lineOne,Please complete line one of your address.",
+	            "required,address.lineTwo,Please complete line two of your address.",
+	            "required,postcode,Please enter your postcode.",
+	            "required,howWeContactYou,Please enter your telephone number or tell us if you do not have one."
 	        ]
 	    });
 	});
 	</script>
-
 </head>
 
 <body>
@@ -65,44 +62,46 @@
 
 
 <header role="banner" id="global-header">
-    <div class="wrapper clearfix">
-        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
-            <img src="../img/crown.png" alt="GOV.UK">
-            GOV.UK
-        </a>
-        <section>
-            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
-        </section>
-
-    </div>
-</header>
-<!--end header-->
-
-
-<main role="main" id="main">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
 
 
-    <div class="carers-allowance clearfix">
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
 
-        <section class="helper-mobile">
-            <a class="help">Get help</a>
-        </section>
 
 
+               <aside class="left-col">
 
-        <aside class="left-col">
+                   <section id="help">
+                       <h2>Get help</h2>
+                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                       <h3>Helpline 0345 608 4321</h3>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
 
-            <section id="help">
-                <h2>Get help</h2>
-                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
-                <h3>Helpline 0345 608 4321</h3>
-                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                       <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
-                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+                   </section>
 
-            </section>
+               </aside>
 
-        </aside>
+			   	
 
         <article>
             <nav class="back-nav">
@@ -111,7 +110,7 @@
 
 
             <div class="section-progress">
-                Section 2 of 9
+                Section 2 of 10
             </div>
             <h1>About you - the carer</h1>
 
@@ -125,14 +124,14 @@
                         <li><p class="sub">Address</p>
                             <ul class="address-stack">
 
-                                <li><label for="address_lineOne">address_lineOne<em>(optional)</em></label>
+                                <li><label for="address_lineOne">address_lineOne</label>
 
                                     <input type="text" id="address_lineOne" name="address.lineOne" value=""
-                                           maxLength="35" autocomplete="off">
+                                           maxLength="35" autocomplete="off" required>
 
                                 </li>
 
-                                <li><label for="address_lineTwo">address_lineTwo<em>(optional)</em></label>
+                                <li><label for="address_lineTwo">address_lineTwo</label>
 
                                     <input type="text" id="address_lineTwo" name="address.lineTwo" value=""
                                            maxLength="35" autocomplete="off">
@@ -174,80 +173,9 @@
 
                         </li>
 
-<!--                        <li>
-                            <label>Have you lived with a partner at any time since your claim date?</label>
-                                <div class="prompt nested-prompt partner-linked">
-                                    <p>Your claim date is 11 July 2012 . By partner we mean:</p>
-                                    <ul>
-                                        <li>a person you are married to or live with as if you are married.</li>
-                                        <li>a civil partner or a person you live with as if you are civil partners.</li>
-                                    </ul>
-                                </div>
-                                </li>
-
-                                    <ul class="radio" id="havePartner">
-                                <li>
-                                    <label for="havePartner_yes">
-                                        <input type="radio"
-                                               id="havePartner_yes"
-                                               name="havePartner"
-                                               value="Yes"/>
-                                        <span>Yes</span></label>
-                                </li>
-
-                                <li>
-                                    <label for="havePartner_no">
-                                        <input type="radio"
-                                               id="havePartner_no"
-                                               name="havePartner"
-                                               value="No"/>
-                                        <span>No</span></label>
-                                </li>
-                                </ul>
-                        </li>-->
-
-                        <li>
-                            <fieldset class="question-group">
-                                <legend> Do you want an email to confirm we have received this application? </legend>
-                                <ul class="radio" id="contactYou">
-
-                                    <li>
-                                        <label for="contactYou_yes" class="show-detail">
-                                            <input type="radio"
-                                                   id="contactYou_yes"
-                                                   name="contactYou" onmousedown=""
-                                                   value="yes"/>
-                                            <span>Yes</span>
-                                        </label>
-                                    </li>
-
-                                    <li>
-                                        <label for="contactYou_no" class="remove-detail">
-                                            <input type="radio"
-                                                   id="contactYou_no"
-                                                   name="contactYou" onmousedown=""
-                                                   value="No"/>
-                                            <span>No</span>
-                                        </label>
-                                    </li>
-                                </ul>
-                            </fieldset>
-                        </li>
-
-                    <li class="extra-detail open-detail">
-                    	<ul class="extra-group">
-	                        <li>
-	                            <label for="contactByEmail"> Please enter your email address </label>
-	                            <input type="text" id="contactByEmail" name="contactByEmail" />
-	                        </li>
-	                         <li>
-	                             <label for="confirmYourEmail"> Please confirm your email address </label>
-	                             <input type="text" id="confirmYourEmail" name="confirmYourEmail" />
-	                        </li>
-                    	</ul>
-                    </li>
                     </ul>
                 </fieldset>
+
 
                 <nav class="form-steps">
                     <ul>
@@ -262,9 +190,9 @@
 
         </article>
 
-    </div>
+           </div>
 
-</main>
+        </main>
 
 <footer>
     <div class="container clearfix">

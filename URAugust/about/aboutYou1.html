@@ -47,7 +47,7 @@
 	        rules: [
 	            "required,title,Please enter your title",
 	            "required,fullName,Please enter your full name",
-	            "required,nationalInsuranceNumber,Please enter your National Insurance Number",
+	            "required,nationalInsuranceNumber,Please enter when your National Insurance Number",
 	            "required,dateOfBirth_day,Please enter your date of birth: day",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
 	            "required,dateOfBirth_month,Please enter your date of birth: month",
@@ -159,15 +159,56 @@
                         <li>
                             <label for="name">Full name</label>
                             <input type="text" id="name" name="fullName" value="" autocomplete="off"/>
-                        </li>
 
                         <li>
-                            <label for="national_InsuranceNumber"><em>National Insurance Number </em></label>
+                            <label for="nationalInsuranceNumber"><em>National Insurance Number </em></label>
                             <p class="helper above"> For example, VO 12 34 56 D </p>
-                                <input type="text" id="national_InsuranceNumber" name="nationalInsuranceNumber"
+                                <input type="text" id="nationalInsuranceNumber" name="nationalInsuranceNumber"
                                        value="" maxlength="13" autocomplete="off"/>
                         </li>
 
+                          <!-- <fieldset class="question-group">
+                                <legend>National Insurance number</legend>
+                                <p class="helper above">For example, VO 12 34 56 D</p>
+                                <ul class="inline ni-number label-strip">
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni1">]nationalInsuranceNumber_ni1<em>(optional)</em></label>
+                                        <input type="text" id="nationalInsuranceNumber_ni1"
+                                               name="nationalInsuranceNumber.ni1" value="" maxlength="2"
+                                               autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni2">nationalInsuranceNumber_ni2<em>(optional)</em></label>
+                                        <input type="tel" id="nationalInsuranceNumber_ni2"
+                                               name="nationalInsuranceNumber.ni2" pattern="[0-9 \-]{1,20}"
+                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni3">nationalInsuranceNumber_ni3<em>(optional)</em></label>
+                                        <input type="tel" id="nationalInsuranceNumber_ni3"
+                                               name="nationalInsuranceNumber.ni3" pattern="[0-9 \-]{1,20}"
+                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni4">nationalInsuranceNumber_ni4<em>(optional)</em></label>
+                                        <input type="tel" id="nationalInsuranceNumber_ni4"
+                                               name="nationalInsuranceNumber.ni4" pattern="[0-9 \-]{1,20}"
+                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni5">nationalInsuranceNumber_ni5<em>(optional)</em></label>
+                                        <input type="text" id="nationalInsuranceNumber_ni5"
+                                               name="nationalInsuranceNumber.ni5" value="" maxlength="1" class="single"
+                                               autocomplete="off">
+                                    </li>
+                                </ul>
+
+                                    <p class="helper">This is on your NI number card, benefit letter, payslip or P60</p>
+                                </li>-->
 
                         <li>
                             <fieldset class="question-group">

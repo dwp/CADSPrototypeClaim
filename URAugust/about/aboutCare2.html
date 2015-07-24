@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+
+               <section class="helper-mobile">
+                   <a class="help">Get help</a>
+               </section>
+
+               <aside class="left-col">
+
+                   <section id="help">
+                       <h2>Get help</h2>
+                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                       <h3>Helpline 0345 608 4321</h3>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                       <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+                   </section>
+
+               </aside>
+
+
+        <article>
+
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+
+
+            <div class="section-progress">
+                Section 4 of 9
+            </div>
+            <h1>About the care you provide</h1>
+
+            <form action="/care-you-provide/their-contact-details" method="POST">
+
+                <input type="hidden" name="csrfToken"
+                       value="71839c356ddb2a9428c15299bfd76ba77de535de-1415014061219-44f661c90c2507fe6ba3387a"/>
+
+                <div class="form-wrap">
+                    <fieldset class="form-elements">
+                        <legend>Contact details of the person you care for</legend>
+
+                        <ul>
+
+                            <li>
+
+                                <p class="sub">
+
+                                    Address
+                                </p>
+
+                                <ul class="address-stack">
+                                    <li>
+                                        <label for="e63523e7e38890103bd0e13e2938cd42">address_lineOne<em>(optional)</em></label>
+                                        <input type="text" id="e63523e7e38890103bd0e13e2938cd42"
+                                               name="11a71d5f933a31061c768fc150c91346" value="" maxLength="35"
+                                               autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="b698f3d635487b9ae8fd38a2ceed10ad">address_lineTwo<em>(optional)</em></label>
+
+                                        <input type="text" id="b698f3d635487b9ae8fd38a2ceed10ad"
+                                               name="666fd48d2fe6041705b0c8410b030ce1" value="" maxLength="35"
+                                               autocomplete="off">
+                                    </li>
+
+                                    <li>
+
+                                        <label for="0700efc8a75a73ddcc1d66cdde202338dfa0d0ed304640ebb779fe584d5c2e01">address_lineThree<em>(optional)</em></label>
+
+                                        <input type="text"
+                                               id="0700efc8a75a73ddcc1d66cdde202338dfa0d0ed304640ebb779fe584d5c2e01"
+                                               name="aa4afa23cb10389f4fb387272e890065dfa0d0ed304640ebb779fe584d5c2e01"
+                                               value="" maxLength="35" autocomplete="off">
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                            <li>
+
+                                <label for="163ff8baf43ea0679a49b7a84083b41f">Postcode</label>
+
+                                <input type="text" id="163ff8baf43ea0679a49b7a84083b41f"
+                                       name="163ff8baf43ea0679a49b7a84083b41f" value="" class="postcode"
+                                       autocomplete="off" maxLength="60">
+
+                            </li>
+
+                        </ul>
+                    </fieldset>
+
+                    <nav class="form-steps">
+                        <ul>
+
+                            <li><input type="submit" value="Next" class="button" /></li>
+                           <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+                            <li><a href="javascript:history.back()">Back</a></li>
+                        </ul>
+                    </nav>
+
+            </form>
+
+        </article>
+
+           </div>
+
+        </main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2">Open Government
+                Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm">&copy;
+                Crown Copyright</a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="../js/custom.js"></script>
+
+<!-- <script type="text/javascript">
+
+    $('#pauseProgress').click(function() {
+        if($(this).val() == "Pause") {
+            $(this).val("Resume");
+                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
+                } else {
+                    ($(this).val() == "Resume")
+                    $(this).val("Pause");
+                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
+                }
+        });
+</script>
+-->
+</body>
+</html>

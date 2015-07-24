@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+
+           <aside class="left-col">
+
+               <section id="help">
+                   <h2>Get help</h2>
+                   <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                   <h3>Helpline 0345 608 4321</h3>
+                   <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                   <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+               </section>
+
+           </aside>
+
+
+<article>
+
+    <nav class="back-nav">
+        <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav>
+
+    <div class="section-progress">
+        Section 6 of 9
+    </div>
+    <h1>Your income - allowable expenses</h1>
+
+	<p>Some costs can lower your income, which means you may still get Carer's Allowance even if you earn over £110.</p>
+    <form action="/self-employment/pensions-and-expenses" method="POST">
+        <div class="form-wrap">
+            <fieldset class="form-elements">
+                <ul>
+					<li>
+						<fieldset class="question-group">
+							<legend>Do you pay into any pensions?</legend>
+							<ul class="radio " id="pension">
+								<li>
+									<label for="pensionYes" class="show-detail">
+									<input type="radio" id="pensionYes" name="pensionYes" onmousedown="" value="yes"/>
+                                    <span>Yes</span></label>
+                                </li>
+								<li>
+									<label for="pensionNo" class="remove-detail">
+									<input type="radio" id="pensionNo" name="pensionNo" onmousedown="" value="no"/>
+                                    <span>No</span></label>
+                                </li>
+							</ul>
+						</fieldset>
+					</li>
+					<li id="pensionExpenses" class="other-detail open-detail">
+                        <ul class="extra-group">
+							<li>
+								<label for="pensionDetails">
+									Give details of each of your pensions, include how much and how often you pay into them.
+								</label>
+								<textarea id="pensionDetails" name="pensionDetails" maxLength="300"></textarea>
+							</li>
+						</ul>
+                    </li>
+					<li>
+						<fieldset class="question-group">
+							<legend>Do you have to pay for things you need to do your job?</legend>
+							<p class="helper above">This means anything that you don't get paid back as expenses through your work.</p>
+							<ul class="radio " id="expenses">
+								<li>
+									<label for="expensesYes" class="show-detail2">
+                                    <input type="radio" id="expensesYes" name="expensesYes" onmousedown="" value="yes"/>
+                                    <span>Yes</span></label>
+                                </li>
+								<li>
+									<label for="expensesNo" class="remove-detail2">
+                                    <input type="radio" id="expensesNo" name="expensesNo"
+                                               onmousedown=""
+                                               value="no"/>
+                                        <span>No</span></label>
+                                </li>
+
+
+                            </ul>
+                        </fieldset>
+					</li>
+
+
+                    <li id="jobExpenses" class="other-detail open-detail2">
+                        <ul class="extra-group">
+
+
+                            <li>
+
+
+                                <label for="217c07c324c736a9a64e00cbb1c716f969ec92e13204033b59237d09d5c37d68">
+
+
+                                    Give details of what you need to buy, why you need it and how much it costs.
+
+
+                                </label>
+
+                                <textarea id="217c07c324c736a9a64e00cbb1c716f969ec92e13204033b59237d09d5c37d68"
+                                          name="217c07c324c736a9a64e00cbb1c716f90e0d8334d720109cc11d13e2d735da8d"
+                                          maxLength="300"></textarea>
+
+
+                            </li>
+
+
+                        </ul>
+                    </li>
+					<li>
+
+
+                        <fieldset class="question-group">
+
+
+                            <legend>
+
+
+                                Do you have to pay for someone to look after the person you care for or your children while you're at work?
+
+
+                            </legend>
+							<p class="helper above">This includes things such as nursery care.</p>
+
+                            <ul class="radio " id="217c07c324c736a9a64e00cbb1c716f9f9ccd082d517f99aa109b1269c02b44">
+
+
+                                <li>
+
+                                    <label for="217c07c324c736a9a64e00cbb1c716f9704d6b24ab91841e22042da252c9456" class="show-detail3">
+                                        <input type="radio"
+                                               id="217c07c324c736a9a64e00cbb1c716f9704d6b24ab91841e22042da252c9456"
+                                               name="217c07c324c736a9a64e00cbb1c716f92ec63080f54bed52054b763ae85106d"
+                                               onmousedown=""
+                                               value="yes"/>
+                                        <span>Yes</span></label>
+                                </li>
+
+                                <li>
+
+                                    <label for="217c07c324c736a9a64e00cbb1c716f93aad4e874cbfb3bc1559d03e5a9739d" class="remove-detail3">
+                                        <input type="radio"
+                                               id="217c07c324c736a9a64e00cbb1c716f93aad4e874cbfb3bc1559d03e5a9739d"
+                                               name="217c07c324c736a9a64e00cbb1c716f92ec63080f54bed52054b763ae85106d"
+                                               onmousedown=""
+                                               value="no"/>
+                                        <span>No</span></label>
+                                </li>
+
+
+                            </ul>
+
+                        </fieldset>
+
+
+                    </li>
+
+
+                    <li id="careExpenses" class="other-detail open-detail3">
+                        <ul class="extra-group">
+
+
+                            <li>
+
+
+                                <label for="217c07c324c736a9a64e00cbb1c716f969ec92e13204033b59237d09d5c37d6">
+
+
+                                    Give details of who you pay, how much and how often.
+
+
+                                </label>
+
+
+                                <textarea id="217c07c324c736a9a64e00cbb1c716f969ec92e13204033b59237d09d5c37d6"
+                                          name="217c07c324c736a9a64e00cbb1c716f90e0d8334d720109cc11d13e2d735da8"
+                                          maxLength="300"></textarea>
+
+
+                            </li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <nav class="form-steps">
+                <ul>
+                    <li><a href="../payDetails/payDetailsCombined.html" class="button"> Next </a></li>
+                   <!--  <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
+                    <li><a href="javascript:history.back()">Back</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </form>
+
+</article>
+
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+<!--
+<script>
+ $(document).ready(function() {
+    $("#saveProgress").click(function() {
+        alert("Your progress has been saved for 3 hours");
+    });
+ });
+</script>
+-->
+</body>
+</html>
