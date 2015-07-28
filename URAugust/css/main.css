@@ -1693,3 +1693,7 @@ ul#paddingDetail li {
     position: relative;
     left: 5px;
     }
+
+.extra-group-detail {
+    border-left: 10px solid #dee0e2;
+    }
