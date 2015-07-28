@@ -117,7 +117,7 @@
 
                                             <li>
 
-                                                <label for="maritalStatus_Married_or_civil_partner" onmousedown="">
+                                                <label for="maritalStatus_Married_or_civil_partner" class="remove-detail" onmousedown="">
                                                     <input type="radio" id="maritalStatus_Married_or_civil_partner"
                                                            name="maritalStatus" onmousedown=""
                                                            value="Married or civil partner" required/>
@@ -126,7 +126,7 @@
 
                                             <li>
 
-                                                <label for="maritalStatus_Single" onmousedown="">
+                                                <label for="maritalStatus_Single" class="remove-detail" onmousedown="">
                                                     <input type="radio" id="maritalStatus_Single" name="maritalStatus"
                                                            onmousedown="" value="Single"/>
                                                     <span>Disability Living Allowance</span></label>
@@ -135,7 +135,7 @@
                                             <li>
 
                                                 <label for="maritalStatus_Divorced_or_civil_partnership_dissolved"
-                                                       onmousedown="">
+                                                        class="remove-detail" onmousedown="">
                                                     <input type="radio"
                                                            id="maritalStatus_Divorced_or_civil_partnership_dissolved"
                                                            name="maritalStatus" onmousedown=""
@@ -146,7 +146,7 @@
                                             <li>
 
                                                 <label for="maritalStatus_Widowed_or_surviving_civil_partner"
-                                                       onmousedown="">
+                                                        class="remove-detail" onmousedown="">
                                                     <input type="radio"
                                                            id="maritalStatus_Widowed_or_surviving_civil_partner"
                                                            name="maritalStatus" onmousedown=""
@@ -157,17 +157,22 @@
 
                                             <li>
 
-                                                <label for="maritalStatus_Separated" onmousedown="">
+                                                <label for="maritalStatus_Separated" class="remove-detail" onmousedown="">
                                                     <input type="radio" id="maritalStatus_Separated"
                                                            name="maritalStatus" onmousedown="" value="Separated"/>
                                                     <span>Armed Forces Independence Payment</span></label>
                                             </li>
 
-                                            <li> <label for="maritalStatus_Other" onmousedown="">
+                                            <li> <label for="maritalStatus_Other" class="show-detail" onmousedown="">
                                                  <input type="radio" id="maritalStatus_Other"
                                                             name="maritalStatus" value="None of the above"/>
                                                             <span>None of the above</span></label>
                                             </li>
+
+                                            <div id="answerNoMessageWrap" class="open-detail prompt breaks-prompt eligibility-prompt">
+                                                <p>If they have applied for one of the benefits above and are still waiting on a decision, please do not apply for Carer's Allowance until that decision has been made.</p>
+                                                <p>You are legally entitled to claim Carer's Allowance even though you do not qualify and will not get Carer's Allowance.</p>
+                                            </div>
 
                                         </ul>
                                     </fieldset>
@@ -178,6 +183,7 @@
                                 <ul>
 
                                     <li><input type="submit" value="Next" class="button" /></li>
+                                    <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
                                   <!--   <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
                                     <li><a href="javascript:history.back()">Back</a></li>
                                 </ul>

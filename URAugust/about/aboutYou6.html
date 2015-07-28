@@ -120,24 +120,26 @@
                 <input type="hidden" name="csrfToken"
                        value="2c0ec5f13abef623db9c48873d004abcb99ea4bf-1414766900838-a1f6a7881e92e25a7db7e9d0"/>
                 <fieldset class="form-elements">
-                    <legend>Payments from abroad and working abroad</legend>
 
-                    <div class="help-statement">
-                        <h3>These questions are about the following countries:</h3>
+                    <p>These questions are about the following countries:</p>
+
+                    <ul class="extra-group">
 
                         <p class="help-info">Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark,
                             Estonia, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Italy,
                             Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal,
-                            Romania, Slovakia, Slovenia, Spain, Sweden and Switzerland.</p>
-                    </div>
+                            Romania, Slovakia, Slovenia, Spain, Sweden and Switzerland.
+                        </p>
+                    </ul>
 
                     <ul>
                         <li>
                             <fieldset class="question-group">
 
-                                <legend> Have you or anyone in your family claimed or been paid any benefits or pensions
+                                <legend> Have you or anyone in your close family claimed or been paid any benefits or pensions
                                     from any of these countries?
                                 </legend>
+                                <p class="helper above">This means your partner, parents or children.</p>
 
                                 <ul class="radio " id="benefitsFromEEA">
 
@@ -167,10 +169,9 @@
 
                             <fieldset class="question-group">
 
-                                <legend>Do you or anyone in your family work or pay insurance in any of these
-                                    countries?
+                                <legend>Have you or your close family worked or paid national insurance in any of these countries since your claim date?
                                 </legend>
-
+                                    <p class="helper above">This means your partner, parents or children.</p>
                                 <ul class="radio " id="workingForEEA">
 
                                     <li>
@@ -203,11 +204,11 @@
                     <ul>
 
                         <li><input type="submit" value="Next" class="button" /></li>
+                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
                        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
-                        <li><a href="javascript:history.back()">Back</a></li>
+                        <li><a id="backButton" href="javascript:history.back()">Back</a></li>
                     </ul>
                 </nav>
-
             </form>
 
         </article>

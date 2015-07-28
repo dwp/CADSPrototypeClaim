@@ -46,7 +46,7 @@
 	      errorFieldClass: "error-focus",
 	        rules: [
 	            "required,relationship,Please confirm your relationship to the person you care for.",
-	            "required,title,Please enter your title",
+	            "required,dpTitle,Please enter your title",
 	            "required,full_name,Please enter your first name",
 	            "required,dateOfBirth_day,Please enter your date of birth: day",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
@@ -142,32 +142,8 @@
 
             <label for="title">Title</label>
 
-            <select id="title" name="title">
-
-
-                <option value="">Please select</option>
-
-                <option value="Mr">Mr</option>
-
-                <option value="Mrs">Mrs</option>
-
-                <option value="Miss">Miss</option>
-
-                <option value="Ms">Ms</option>
-
-                <option value="Dr">Dr</option>
-
-                <option value="Rev">Rev</option>
-
-                <option value="Sir">Sir</option>
-
-                <option value="Lord">Lord</option>
-
-                <option value="Lady">Lady</option>
-
-                <option value="Dame">Dame</option>
-
-            </select>
+            <input type="text" id="title" name="dpTitle" autocomplete="off"
+                        value=""/>
 
         </li>
 
@@ -181,9 +157,9 @@
         </li>
 
         <li>
-                <label for="nationalInsuranceNumber"><em> National Insurance Number </em></label>
+                <label for="national_InsuranceNumber"><em> National Insurance Number </em></label>
                 <p class="helper above"> If the person you care for it under 16 this is their Disability Living Allowance reference number, e.g. VO123456D.</p>
-                    <input type="text" id="nationalInsuranceNumber" name="nationalInsuranceNumber" value="" maxlength="13"
+                    <input type="text" id="national_InsuranceNumber" name="nationalInsuranceNumber" value="" maxlength="13"
                            autocomplete="off"/>
 
             <!--<fieldset class="question-group">
@@ -403,6 +379,7 @@
     <ul>
 
         <li><input type="submit" value="Next" class="button" /></li>
+        <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
        <!--  <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
         <li><a href="javascript:history.back()">Back</a></li>
     </ul>
