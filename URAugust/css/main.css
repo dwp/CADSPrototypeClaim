@@ -1238,7 +1238,7 @@ header div {
         left: 0;
         width: 100%;
         background: #000;
-        z-index: 9999; }             
+        z-index: 9999; }
         .carers-allowance .form-steps ul {
           overflow: hidden; }
         .carers-allowance .form-steps li {
@@ -1653,3 +1653,43 @@ html {
        line-height: 1.25em;
        border: none;
        }
+
+a:after {
+    content: url('../img/external-link-black-12x12.png');
+    margin-left: 4px;
+}
+
+div.fr a:after {
+    content:none;
+}
+
+#next:after {
+    content: none;
+    }
+
+/* hack for check your answers */
+.secondary:after {
+    content: none;
+    }
+
+/* hack for .toUpper on NINO */
+#national_InsuranceNumber {
+    text-transform: uppercase;
+    }
+
+#backButton:after {
+    content: none;
+    }
+
+.button:after {
+    content: none;
+    }
+
+a[href='javascript:history.back()']:after {
+    content: none!important;
+    }
+
+ul#paddingDetail li {
+    position: relative;
+    left: 5px;
+    }
