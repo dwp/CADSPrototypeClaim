@@ -45,9 +45,9 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,yourTitle,Please enter your title",
+	            "required,title,Please enter your title",
 	            "required,fullName,Please enter your full name",
-	            "required,National_InsuranceNumber,Please enter your National Insurance Number",
+	            "required,nationalInsuranceNumber,Please enter when your National Insurance Number",
 	            "required,dateOfBirth_day,Please enter your date of birth: day",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
 	            "required,dateOfBirth_month,Please enter your date of birth: month",
@@ -110,7 +110,7 @@
         <article class="eligible">
 
             <nav class="back-nav">
-                <a href="javascript:history.back()">Back</a>
+                <a id="backButton" href="javascript:history.back()">Back</a>
             </nav>
 
             <div class="section-progress">Section 2 of 9</div>
@@ -129,8 +129,31 @@
                     <ul>
                         <li>
                             <label for="title">Title</label>
-                            <input type="text" id="title" name="yourTitle" autocomplete="off"
-                                   value=""/>
+                            <select id="title" name="title">
+
+                                <option value="">Please select</option>
+
+                                <option value="Mr">Mr</option>
+
+                                <option value="Mrs">Mrs</option>
+
+                                <option value="Miss">Miss</option>
+
+                                <option value="Ms">Ms</option>
+
+                                <option value="Dr">Dr</option>
+
+                                <option value="Rev">Rev</option>
+
+                                <option value="Sir">Sir</option>
+
+                                <option value="Lord">Lord</option>
+
+                                <option value="Lady">Lady</option>
+
+                                <option value="Dame">Dame</option>
+
+                            </select>
                         </li>
 
                         <li>
@@ -140,9 +163,52 @@
                         <li>
                             <label for="nationalInsuranceNumber"><em>National Insurance Number </em></label>
                             <p class="helper above"> For example, VO 12 34 56 D </p>
-                                <input type="text" id="national_InsuranceNumber" name="National_InsuranceNumber"
+                                <input type="text" id="nationalInsuranceNumber" name="nationalInsuranceNumber"
                                        value="" maxlength="13" autocomplete="off"/>
                         </li>
+
+                          <!-- <fieldset class="question-group">
+                                <legend>National Insurance number</legend>
+                                <p class="helper above">For example, VO 12 34 56 D</p>
+                                <ul class="inline ni-number label-strip">
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni1">]nationalInsuranceNumber_ni1<em>(optional)</em></label>
+                                        <input type="text" id="nationalInsuranceNumber_ni1"
+                                               name="nationalInsuranceNumber.ni1" value="" maxlength="2"
+                                               autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni2">nationalInsuranceNumber_ni2<em>(optional)</em></label>
+                                        <input type="tel" id="nationalInsuranceNumber_ni2"
+                                               name="nationalInsuranceNumber.ni2" pattern="[0-9 \-]{1,20}"
+                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni3">nationalInsuranceNumber_ni3<em>(optional)</em></label>
+                                        <input type="tel" id="nationalInsuranceNumber_ni3"
+                                               name="nationalInsuranceNumber.ni3" pattern="[0-9 \-]{1,20}"
+                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni4">nationalInsuranceNumber_ni4<em>(optional)</em></label>
+                                        <input type="tel" id="nationalInsuranceNumber_ni4"
+                                               name="nationalInsuranceNumber.ni4" pattern="[0-9 \-]{1,20}"
+                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label for="nationalInsuranceNumber_ni5">nationalInsuranceNumber_ni5<em>(optional)</em></label>
+                                        <input type="text" id="nationalInsuranceNumber_ni5"
+                                               name="nationalInsuranceNumber.ni5" value="" maxlength="1" class="single"
+                                               autocomplete="off">
+                                    </li>
+                                </ul>
+
+                                    <p class="helper">This is on your NI number card, benefit letter, payslip or P60</p>
+                                </li>-->
 
                         <li>
                             <fieldset class="question-group">
@@ -210,9 +276,32 @@
 
                         <li><label for="title">Title</label>
 
-                            <input type="text" id="title" name="partnerTitle" autocomplete="off"
-                                    value=""/>
-                            </li>
+                            <select id="partner_title" name="partner_title">
+
+
+                                <option value="">Please select</option>
+
+                                <option value="Mr">Mr</option>
+
+                                <option value="Mrs">Mrs</option>
+
+                                <option value="Miss">Miss</option>
+
+                                <option value="Ms">Ms</option>
+
+                                <option value="Dr">Dr</option>
+
+                                <option value="Rev">Rev</option>
+
+                                <option value="Sir">Sir</option>
+
+                                <option value="Lord">Lord</option>
+
+                                <option value="Lady">Lady</option>
+
+                                <option value="Dame">Dame</option>
+
+                            </select></li>
 
                         <li><label for="partner_fullName">Full name</label>
 
@@ -221,10 +310,18 @@
                         </li>
 
 
+                        <li>
+
+                            <label for="partner_otherNames">Other surname or maiden name<em> (optional)</em></label>
+
+                            <input type="text" id="partner_otherNames" name="partner_otherNames" value="" maxLength="35" autocomplete="off">
+
+                        </li>
+
                             <li>
                                 <label for="nationalInsuranceNumber"><em> National Insurance Number </em></label>
                                 <p class="helper above"> For example, VO 12 34 56 D</p>
-                                <input type="text" id="nationalInsuranceNumber" name="national_InsuranceNumber"
+                                <input type="text" id="nationalInsuranceNumber" name="nationalInsuranceNumber"
                                        value="" maxlength="13" autocomplete="off"/>
                             </li>
 
@@ -267,21 +364,11 @@
                                                title="Must be numbers only" value="" maxLength="4" autocomplete="off">
 
                                     </li>
-
                                 </ul>
+
                             </fieldset>
 
-                        <fieldset class="question-group"
-                            <legen
-                            <li>
-
-                                <label for="partner_otherNames">Other surname or maiden name<em> (optional)</em></label>
-
-                                <input type="text" id="partner_otherNames" name="partner_otherNames" value="" maxLength="35" autocomplete="off">
-
-                            </li>
-
-                    </li>
+                        </li>
 
                         <li>
 
@@ -359,12 +446,10 @@
                     <ul>
                      
                         <li><input type="submit" value="Next" class="button" /></li>
-                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
-                        <li><a href="javascript:history.back()">Back</a></li>
                        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+                        <li><a href="javascript:history.back()">Back</a></li>
                     </ul>
                 </nav>
-
 
             </form>
 
