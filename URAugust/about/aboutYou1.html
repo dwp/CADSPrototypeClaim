@@ -47,7 +47,7 @@
 	        rules: [
 	            "required,title,Please enter your title",
 	            "required,fullName,Please enter your full name",
-	            "required,nationalInsuranceNumber,Please enter when your National Insurance Number",
+	            "required,national_InsuranceNumber,Please enter when your National Insurance Number",
 	            "required,dateOfBirth_day,Please enter your date of birth: day",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
 	            "required,dateOfBirth_month,Please enter your date of birth: month",
@@ -129,31 +129,8 @@
                     <ul>
                         <li>
                             <label for="title">Title</label>
-                            <select id="title" name="title">
-
-                                <option value="">Please select</option>
-
-                                <option value="Mr">Mr</option>
-
-                                <option value="Mrs">Mrs</option>
-
-                                <option value="Miss">Miss</option>
-
-                                <option value="Ms">Ms</option>
-
-                                <option value="Dr">Dr</option>
-
-                                <option value="Rev">Rev</option>
-
-                                <option value="Sir">Sir</option>
-
-                                <option value="Lord">Lord</option>
-
-                                <option value="Lady">Lady</option>
-
-                                <option value="Dame">Dame</option>
-
-                            </select>
+                            <input type="text" id="title" name="title" value=""
+                                   autocomplete="off"/>
                         </li>
 
                         <li>
@@ -163,7 +140,7 @@
                         <li>
                             <label for="nationalInsuranceNumber"><em>National Insurance Number </em></label>
                             <p class="helper above"> For example, VO 12 34 56 D </p>
-                                <input type="text" id="nationalInsuranceNumber" name="nationalInsuranceNumber"
+                                <input type="text" id="nationalInsuranceNumber" name="national_InsuranceNumber"
                                        value="" maxlength="13" autocomplete="off"/>
                         </li>
 
@@ -276,45 +253,13 @@
 
                         <li><label for="title">Title</label>
 
-                            <select id="partner_title" name="partner_title">
-
-
-                                <option value="">Please select</option>
-
-                                <option value="Mr">Mr</option>
-
-                                <option value="Mrs">Mrs</option>
-
-                                <option value="Miss">Miss</option>
-
-                                <option value="Ms">Ms</option>
-
-                                <option value="Dr">Dr</option>
-
-                                <option value="Rev">Rev</option>
-
-                                <option value="Sir">Sir</option>
-
-                                <option value="Lord">Lord</option>
-
-                                <option value="Lady">Lady</option>
-
-                                <option value="Dame">Dame</option>
-
-                            </select></li>
+                            <input type="text" id="partnerTitle" name="partnerTitle" value=""
+                                   autocomplete="off"/>
+                        </li>
 
                         <li><label for="partner_fullName">Full name</label>
 
                             <input type="text" id="partner_fullName" name="partner_fullName" value="" autocomplete="off">
-
-                        </li>
-
-
-                        <li>
-
-                            <label for="partner_otherNames">Other surname or maiden name<em> (optional)</em></label>
-
-                            <input type="text" id="partner_otherNames" name="partner_otherNames" value="" maxLength="35" autocomplete="off">
 
                         </li>
 
@@ -369,6 +314,15 @@
                             </fieldset>
 
                         </li>
+
+                    <li>
+                        <fieldset class="question-group">
+                            <legend for="partner_otherNames">Other surname or maiden name<em> (optional)</em></legend>
+                                <input type="text" id="partner_otherNames" name="partner_otherNames" value="" maxLength="35" autocomplete="off">
+
+                        </fieldset>
+                    </li>
+
 
                         <li>
 
@@ -437,7 +391,7 @@
                             </fieldset>
 
                         </li>
-
+                        </ul>
                         </li>
                     </ul>
                 </fieldset>
