@@ -83,90 +83,95 @@
 <div class="section-progress">
     Section 6 of 9
 </div>
-<h1>Your income - work</h1>
+<h1>Your income</h1>
+
 <form action="/self-employment/about-self-employment" method="POST" id="paidEmployment">
 	<div class="form-wrap">
-	<fieldset class="form-elements" data-journey="carers-allowance:page:self-employment">
+	<fieldset class="form-elements" data-journey="carers-allowance:page:self-employment" id="paidEmployment">
 	<ul>
-		<fieldset class="question-group">
-		<li>
-			<label for="employer">Who did you work for?</label>
-			<p class="helper above">The Carer's Allowance Unit might contact your employer.</p>
-			<input type="text" id="employer" name="employer" value="" maxLength="60" autocomplete="off">
-		</li>
-		<li>
-			<p class="sub">Address</p>
-			<ul class="address-stack">
-				<li>
-					<label for="addressOne">address_lineOne</label>
-					<input type="text" id="addressOne" name="addressOne" value="" maxLength="35" autocomplete="off">
-				</li>
-				<li>
-					<label for="addressTwo">address_lineTwo</label>
-					<input type="text" id="addressTwo" name="addressTwo" value="" maxLength="35" autocomplete="off">
-				</li>
-				<li>
-					<label for="addressThree">address_lineThree</label>
-					<input type="text" id="addressThree" name="addressThree" value="" maxLength="35" autocomplete="off">
-				</li>
-			</ul>
-		</li>
-		<li>
-			<label for="postcode">
-				Postcode
-			</label>
-			<input type="text" id="postcode" name="postcode" value="" class="postcode" autocomplete="off" maxLength="60">
-		</li>
-				<li>
-			<label for="phone">Phone number</label>
-			<input type="tel" id="phone" name="phone" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" autocomplete="off" maxLength="60">
-		</li>
-		</fieldset>
-		<!-- earningsThreshold -->
-		<fieldset class="question-group">
-		<li>
-			<label for="accounts">
-				Did you earn more than £110 a week before tax and any other deductions?
-			</label>
-			<ul class="radio " id="total">
-				<li>
-					<label for="totalYes" class="" onmousedown="">
-					<input type="radio" id="totalYes" name="total" onmousedown="" value="yes"/>
-					<span>Yes</span></label>
-				</li>
-				<li>
-					<label for="totalNo" class="" onmousedown="">
-					<input type="radio" id="totalNo" name="total" onmousedown="" value="no"/>
-					<span>No</span></label>
-				</li>
-			</ul>
-		</li>
-		</fieldset>
-		<!-- startDate -->
-		<fieldset class="question-group">
+	<li>
+		<label for="payFrequency">
+			How much were you paid, before tax and deductions?
+		</label>
+		£<input type="text" id="payFrequency" name="payFrequency" value="" style="max-width: 60px;" maxLength="10" autocomplete="off">
+		<select id="oftenGetPaid_frequency" name="oftenGetPaid.frequency" class="selectWithOther" style="top: 0px;">
+			<option value="" >Select how often you're paid</option>
+			<option value="Weekly" >a week</option>
+			<option value="Fortnightly" >every 2 weeks</option>
+			<option value="Four-Weekly" >every 4 weeks</option>
+			<option value="Monthly" >a month</option>
+			<option value="Other" >other</option>
+		</select>
+	</li>
+	<li>
+		<label >
+			Were you always paid the same amount?
+		</label>
+		<ul class="radio " id="sameAmountEachTime">
+			<li>
+				<label for="sameAmountEachTime_yes" onmousedown="" class="remove-detail">
+				<input type="radio" id="sameAmountEachTime_yes" name="sameAmountEachTime" onmousedown=""  value="yes"  />
+				<span>Yes</span></label>
+			</li>
+			<li>
+				<label for="sameAmountEachTime_no" onmousedown="" class="show-detail">
+				<input type="radio" id="sameAmountEachTime_no" name="sameAmountEachTime" onmousedown=""  value="no"  />
+				<span>No</span></label>
+			</li>
+		</ul>
+	<li>
+		<label for="datePaid">
+			When were you last paid?
+		</label>
+	        <!-- datePlaceholder -->
+		<ul class="inline year" id="8b78c4b09e37ffb7f8ec14b8952301d85c26f0d56218738b0e33f4e7f1bec217">
+            <li>
+                <label>Day</label>
+				<input type="tel" id="payDay" name="payDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+			</li>
+			<li class="month">
+                <label>Month</label>
+				<input type="tel" id="payMonth" name="payMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+			</li>
+			<li>
+                <label>Year</label>
+				<input type="tel" id="payYear"
+                       name="payYear" pattern="[0-9 \-]{1,20}"
+                       title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+			</li>
+		</ul>
+	</li>
+			<fieldset class="question-group">
 			<li>
                 <legend>
-					Did you start this job before April 2015 (a month before your claim date)?
+					Are you still owed any money from this work?
                 </legend>
                 <ul class="radio " id="job">
 					<li>
-						<label for="jobYes" onmousedown="" class="remove-detail">
+						<label for="jobYes" onmousedown="" class="show-detail">
 							<input type="radio" id="jobYes" name="job" onmousedown="" value="Yes"/>
 							<span>Yes</span>
 						</label>
 					</li>
                     <li>
-						<label for="jobNo" onmousedown="" class="show-detail">
+						<label for="jobNo" onmousedown="" class="remove-detail">
 							<input type="radio" id="jobNo" name="job" onmousedown="" value="No"/>
 							<span>No</span>
 						</label>
                     </li>
 				</ul>
 				<!-- openDetail -->
-				<ul class="extra-group">
-					<li class="open-detail extra-group">
+				<ul class="open-detail extra-group">
+					<li class="">
+							<label for="howMuch">
+								How much money are you owed?
+							</label>
+							<input type="text" id="howMuch" name="howMuch" />
+						
+					</li>
+					<li class="">
 							<legend>
-								When did you start this job?
+								When do you expect to be paid?
 							</legend>
 							<!-- datePlaceholder -->
 							<ul class="inline year" id="8b78c4b09e37ffb7f8ec14b8952301d85c26f0d56218738b0e33f4e7f1bec217">
@@ -186,22 +191,20 @@
 						
 					</li>
 				</ul>
-		</li>
+			</li>
 		</fieldset>
+	</ul>
+	<nav class="form-steps">
+		<ul>
+			<li><a href="yourIncome01Previous.html" class="button"> Next </a></li>
+        <!--     <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
+			<li><a href="javascript:history.back()" id="backButton">Back</a></li>
 		</ul>
-		<nav class="form-steps">
-			<ul>
-				<li><a href="yourIncome02EmployedIncome.html" class="button"> Next </a></li>
-              <!--   <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li>  -->
-				<li><a href="javascript:history.back()" id="backButton">Back</a></li>
-			</ul>
-		</nav>
+	</nav>
 	</fieldset>
 	</div>
 </form>
-
 </article>
-
 </div>
 </main>
 
@@ -233,26 +236,63 @@
 <script src="../js/custom.js"></script>
 <script>
 	$('#paidEmployment input[type="radio"]').click(function() {
-    var g1 = $("#totalYes").is(":checked");
-    var g2 = $("#totalNo").is(":checked");
+    var g1 = $("#anotherJob_yes").is(":checked");
+    var g2 = $("#anotherJob_yes").is(":checked");
 
     var addr = "";
     if (g1) {
-        addr = "yourIncome02EmployedIncomePast.html";
+        if (g2) addr = "yourIncome2b.html";
+        else    addr = "yourIncome3.html";
     } else {
-        addr = "yourIncome01Previous.html";
+        if (g2) addr = "yourIncome2b.html";
+        else    addr = "yourIncome3.html";
     }
-	if (g2) addr = "yourIncome01PreviousNull.html";	
     $("#paidEmployment a").attr('href', addr);
 });
 </script>
-<!--<script>
+<script>
+(function() {
+  $(function() {
+    $("select[class=selectWithOther] option:selected").each(function() {
+      var otherTextArea;
+      otherTextArea = $(this).parent().next();
+      if ($(this).val().toLowerCase() === "other") {
+        return otherTextArea.slideDown(0);
+      } else {
+        return otherTextArea.slideUp(0);
+      }
+    });
+    return $("select[class=selectWithOther]").change(function() {
+      var textArea;
+      if ($(this).val().toLowerCase() === "other") {
+        return $(this).next().slideDown(0);
+      } else {
+        textArea = $(this).parent().find("textarea");
+        return $(this).next().slideUp({
+          duration: 0,
+          complete: function() {
+            return textArea.val("");
+          }
+        });
+      }
+    });
+  });
+
+}).call(this);
+</script>
+<script type="text/javascript">
+$(function(){
+    window.areaCounter({selector:"oftenGetPaid_frequency_other",maxChars:60});
+})
+</script>
+<!--
+<script>
  $(document).ready(function() {
     $("#saveProgress").click(function() {
         alert("Your progress has been saved for 3 hours");
     });
  });
-</script>-->
-
+</script>
+-->
 </body>
 </html>
