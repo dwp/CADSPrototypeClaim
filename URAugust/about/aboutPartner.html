@@ -160,36 +160,55 @@
 </li>
 
 <li id="partnerDetailsWrap" class="other-detail open-detail">
-<ul class="extra-group">
-
-<li><label for="title">Title</label>
-
-    <select id="title" name="title">
-
-
-        <option value="">Please select</option>
-
-        <option value="Mr">Mr</option>
-
-        <option value="Mrs">Mrs</option>
-
-        <option value="Miss">Miss</option>
-
-        <option value="Ms">Ms</option>
-
-        <option value="Dr">Dr</option>
-
-        <option value="Rev">Rev</option>
-
-        <option value="Sir">Sir</option>
-
-        <option value="Lord">Lord</option>
-
-        <option value="Lady">Lady</option>
-
-        <option value="Dame">Dame</option>
-
-    </select></li>
+		
+	<ul class="extra-group">
+	
+		<li>
+			<label>Title</label>
+		    <ul class="radio radio-stack" id="nationality">
+		        <li>
+		            <label for="titleMr" class="show-detail">
+		            <input type="radio" id="titleMr" name="title" onmousedown="">
+		                    <span>Mr</span>
+		            </label>
+		        </li>
+		        <li>
+		            <label for="titleMrs" class="show-detail">
+		            <input type="radio" id="titleMrs" name="title" onmousedown="">
+		                    <span>Mrs</span>
+		            </label>
+		        </li>
+		        <li>
+		            <label for="titleMiss" class="show-detail">
+		            <input type="radio" id="titleMiss" name="title" onmousedown="">
+		                    <span>Miss</span>
+		            </label>
+		        </li>
+		        <li>
+		            <label for="titleMs" class="show-detail">
+		            <input type="radio" id="titleMs" name="title" onmousedown="">
+		                    <span>Ms</span>
+		            </label>
+		        </li>
+		        <li>
+		            <label for="titleOther" class="show-detail">
+		            <input type="radio" id="titleOther" name="title" onmousedown="">
+		                    <span>Other</span>
+		            </label>
+		        </li>
+				<li class="hidden other-field">
+				    <input type="text" id="titleOtherField" name="title" value="" maxlength="17" autocomplete="off">
+				</li>
+				<script>
+					$("#titleOther").click(function() {
+						$(".other-field").removeClass("hidden");
+			        });
+					$("#titleMr, #titleMrs, #titleMiss, #titleMs").click(function() {
+						$(".other-field").addClass("hidden");
+			        });
+				</script>
+		    </ul>
+		</li>
 
 <li><label for="firstName">First name</label>
 
