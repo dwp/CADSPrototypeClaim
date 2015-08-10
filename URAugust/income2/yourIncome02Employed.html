@@ -128,7 +128,7 @@
 		<fieldset class="question-group">
 		<li>
 			<label for="accounts">
-				Do you earn £110 a week or less before tax and any other deductions?
+				Do you earn more than £110 before tax and any other deductions?
 			</label>
 			<ul class="radio " id="total">
 				<li>
@@ -235,8 +235,8 @@
 <script src="../js/custom.js"></script>
 <script>
 	$('#paidEmployment input[type="radio"]').click(function() {
-    var g1 = $("#totalYes").is(":checked");
-    var g2 = $("#totalNo").is(":checked");
+    var g1 = $("#totalNo").is(":checked");
+    var g2 = $("#totalYes").is(":checked");
 
     var addr = "";
     if (g2) {
