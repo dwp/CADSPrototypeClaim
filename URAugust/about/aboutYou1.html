@@ -292,11 +292,42 @@
                         <li id="partnerDetailsWrap" class="other-detail open-detail">
                         <ul class="extra-group">
 
-                        <li><label for="title">Title</label>
-
-                            <input type="text" id="partnerTitle" name="partnerTitle" value=""
-                                   autocomplete="off"/>
-                        </li>
+                            <li>
+                                <label>Title</label>
+                                <ul class="radio" id="nationality">
+                                    <li>
+                                        <label for="partnerTitleMr">
+                                            <input type="radio" id="partnerTitleMr" name="title" onmousedown="">
+                                            <span>Mr</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="partnerTitleMrs">
+                                            <input type="radio" id="partnerTitleMrs" name="title" onmousedown="">
+                                            <span>Mrs</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="partnerTitleMiss">
+                                            <input type="radio" id="partnerTitleMiss" name="title" onmousedown="">
+                                            <span>Miss</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="partnerTitleMs">
+                                            <input type="radio" id="partnerTitleMs" name="title" onmousedown="">
+                                            <span>Ms</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="partnerTitleOther">
+                                            <input type="radio" id="partnerTitleOther" name="title" onmousedown="">
+                                            <span>Other</span>
+                                        </label>
+                                    </li>
+                                    <li class="hidden other-field">
+                                        <input type="text" id="titleOtherField" name="title" value="" maxlength="17" autocomplete="off">
+                                    </li>
 
                         <li><label for="partner_fullName">Full name</label>
 
@@ -434,6 +465,8 @@
                         </li>
                         </ul>
                         </li>
+                    </ul>
+                    </li>
                     </ul>
                 </fieldset>
 
