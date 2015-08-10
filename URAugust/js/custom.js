@@ -116,7 +116,7 @@ $('.helper-more').click(function(){
 	  });
 	  
 	  
-	   // show - hide - remove
+	    // show - hide - remove
      $(".open-detail5").css("display", "none");
      $('.show-detail5 span, .show-detail5 input').click(function(){
      	$( ".open-detail5" ).show();
@@ -128,21 +128,25 @@ $('.helper-more').click(function(){
 	    $( ".open-detail5" ).hide();
 	  });
 	  
-	  
-	  
-	   // show - hide - checkbox
-     $(".open-check").css("display", "none");
-     $('.show-check input, .show-check label').click(function(){
-     	$( ".open-check" ).slideToggle();
-     });
-
-
+	  	
 // Help & Feedback container
      $('.helper-mobile a').click(function(){
      	$( ".left-col" ).slideToggle(0);
      	$(this).toggleClass("open-helper")
      });
 
+
+	   // show - hide - checkbox
+ $(".check-open-detail").css("display", "none");
+     $('.check-show-detail span, .check-show-detail input').click(function(){
+     	$( ".check-open-detail" ).toggle();
+     	$(this).toggleClass("active-detail")
+     });
+
+
+	  $('.check-remove-detail span, .check-remove-detail input').click(function(){
+	    $( ".check-open-detail" ).hide();
+	  });
 
      
      // Non JS message 

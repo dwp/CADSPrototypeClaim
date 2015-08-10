@@ -1697,3 +1697,17 @@ ul#paddingDetail li {
 .extra-group-detail {
     border-left: 10px solid #dee0e2;
     }
+
+.warning-text {
+  position: relative;
+  padding-left: 50px;
+  color:#000000!important; }
+  .warning-text:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-image: url("../img/icon-important.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px; }

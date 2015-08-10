@@ -23,7 +23,7 @@
     <!--<![endif]-->
 
     <!--[if (lt IE 9) & (!IEMobile)]>
-    <script src="@routes.Assets.at("javascripts/respond.min.js")"></script>
+    <script src="@routes.Assets.at(<"javascripts/respond.min.js")"></script>
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -96,8 +96,9 @@
 
                     <section>
                         <div>
-                            <p><b>To make your application, you will need:</b></p>
                             <ul class="extra-group-detail" id="paddingDetail">
+                            <p><b>To make your application, you will need:</b></p>
+                            <ul>
                                  <li>
                                     <p id="nino" name="nino">your National Insurance number</p>
                                 </li>
@@ -110,6 +111,7 @@
                                 <li>
                                     <p id="dpDetails" name="dpDetails">the National Insurance number or Disability Living Allowance reference of the person you care for</p>
                                 </li>
+                            </ul>
                             </ul>
                         </div>
                     </section>
