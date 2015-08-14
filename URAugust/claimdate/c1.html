@@ -41,13 +41,13 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,day_1,Please enter when you started to care: day",
-				"digits_only,day_1,The date field may only contain digits",
-	            "required,month_1,Please enter when you started to care: month",
-	            "digits_only,month_1,The month field may only contain digits",
-	            "required,year_1,Please enter when you started to care: year",
-	            "digits_only,year_1,The year field may only contain digits",
-	            "required,beganCaring,Were you caring for this person for more than 35 hours a week before this date? - This field is required"
+	            "required,day_1,Enter the day you started to care",
+				"digits_only,day_1,Enter a date using  digits",
+	            "required,month_1,Enter the month you started to care",
+	            "digits_only,month_1,Enter a month in digits",
+	            "required,year_1,Enter the year you started to care",
+	            "digits_only,year_1,Enter a year using four digits",
+	            "required,beganCaring,You must answer 'were you caring for this person for more than 35 hours a week before this date?'"
 	        ]
 	    });
 	}); 
@@ -120,11 +120,6 @@
                                 <ul>
                                     <li>
                                         <fieldset class="question-group">
-                                            <legend>When do you want to claim from?</legend>
-
-                                            <p class="helper above"
-                                               id="4741f0c9701b901448cffbb9ae4f3f7f8372f7eabcfee9aefe9d487c2f5309f7_defaultDateContextualHelp">
-                                                For example, 03 11 2013</p>
 
                                             <!-- datePlaceholder -->
 
