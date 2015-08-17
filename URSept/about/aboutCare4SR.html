@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+
+	function myOnComplete(){}
+
+	$(document).ready(function() {
+	    $("#form_demo").RSV({
+	      onCompleteHandler: myOnComplete,
+	      displayType: "display-html",
+	      errorFieldClass: "error-focus",
+	        rules: [
+	            "required,breaksInCare,Please confirm if you have had any breaks in caring."
+	        ]
+	    });
+	});
+	</script>
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <section class="helper-mobile">
+            <a class="help">Get help</a>
+        </section>
+
+
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+            </section>
+
+        </aside>
+
+
+        <article>
+
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+
+
+            <div class="section-progress">
+                Section 4 of 9
+            </div>
+            <h1>About the person you care for</h1>
+
+
+
+            <form action="aboutCare5TA.html" method="POST" id="form_demo">
+                <div id="validation" class="validation-summary"></div>
+
+
+                <fieldset class="form-elements">
+                    <legend>Breaks from care</legend>
+
+                    <div class="prompt nested-prompt">
+                        <p>A break is any time you spent less than 35 hours a week caring for the other person. For
+                            example when:</p>
+
+                        <ul>
+                            <li>they were in respite care, hospital or on holiday without you</li>
+                            <li>you were in hospital or on holiday without them</li>
+                        </ul>
+
+                        <p>You might still get Carer's Allowance for these times. <a href="../guide/guide.html" target="_blank">Find out more</a></p>
+                    </div>
+
+                    <ul>
+
+                        <li>
+                            <fieldset class="question-group">
+
+                                <legend>Have you had any breaks from caring for this person since 11 November 2014
+                                </legend>
+
+                                <ul class="radio " id="breaksInCare">
+
+                                    <li>
+
+                                        <label for="breaksInCare_yes" onmousedown="">
+                                            <input type="radio" id="breaksInCare_yes"
+                                                   name="breaksInCare" onmousedown=""
+                                                   value="yes"/>
+                                            <span>Yes</span></label>
+                                    </li>
+
+                                    <li>
+
+                                        <label for="breaksInCare_no" onmousedown="">
+                                            <input type="radio" id="breaksInCare_no"
+                                                   name="breaksInCare" onmousedown=""
+                                                   value="no"/>
+                                            <span>No</span></label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <nav class="form-steps">
+                    <ul>
+                        <li><a href="#" id="nextPage" class="button"> Next </a></li>
+                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
+                        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+                        <li><a href="javascript:history.back()">Back</a></li>
+                    </ul>
+                </nav>
+
+            </form>
+        </article>
+
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink">&copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../js/custom.js"></script>
+<script type="text/javascript">
+
+$('document').ready(function() {
+
+    $('#breaksInCare_yes').click(function(){
+        $('#nextPage').attr('href', 'aboutCare5.html');
+        console.log('test');
+    });
+
+    $('#breaksInCare_no').click(function() {
+        $('#nextPage').attr('href', '../education/educationTutor.html');
+    });
+
+    $('#saveExit').click(function() {
+        $('#saveExit').attr('href','../saveAndReturn/savePage.html');
+    });
+
+});
+</script>
+<!-- <script type="text/javascript">
+
+    $('#pauseProgress').click(function() {
+        if($(this).val() == "Pause") {
+            $(this).val("Resume");
+                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
+                } else {
+                    ($(this).val() == "Resume")
+                    $(this).val("Pause");
+                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
+                }
+        });
+</script>
+-->
+</body>
+</html>

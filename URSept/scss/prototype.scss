@@ -1,0 +1,141 @@
+.prototype {
+		   zoom: 1;
+		   padding: 1em 0;
+		   border-bottom: 1px solid #bfc1c3;
+
+		   p {
+			   margin: 0;
+			   padding: 0;
+			   line-height: 1.2em;
+			   font-weight: 300;
+			   font-size: 16px;
+
+			   strong {
+				    font-size: 15px;
+			   }
+			   a {
+				   margin-left: .25em;
+				   &:hover {
+					   text-decoration: none;
+				   }
+			   }
+		   }
+	   }
+	   
+	   
+.templates {
+	section {
+		margin-top: 2em;
+		h2 {
+			font-size: 18px;
+		}
+		ul {
+			margin-top: .6em;
+			li {
+				margin-top: .4em;
+			}
+		}
+	}
+}
+
+
+.pre-claim {
+	margin-top: 2.5em;
+	
+	p {
+		margin-top: 1em;
+	}
+	
+	ul {
+		list-style: disc;
+		margin: 1.25em 0 0 1.25em;
+		li {
+			font-size: 19px;
+			margin-top: .5em;
+		}
+	}
+	
+}	   
+
+
+.duration {
+	margin-top: 2em;
+	padding-left: .8em;
+	border-left: 5px solid #dee0e2;
+}
+
+
+
+.radio {
+	.linkage {
+		a {
+			background-color: #eee;
+			background-image: url('../img/radio.png');
+			background-size: 14px 15px;
+			background-position: 14px 48%;
+			background-repeat: no-repeat;
+			display: inline-block;
+			padding: 12px 22px 12px 40px;
+			font-size: 19px;
+			font-weight: 400;
+			text-decoration: none;
+			color: #0b0c0c;
+			&:hover {
+				background-color: #ccc;
+				background-image: url('../img/radio2.png');
+			}
+		}
+	}
+}
+
+
+
+.helper-mobile {
+	display: none;
+	@media screen and (max-width: 700px) {
+		display: block;
+		border-bottom: 1px solid #bfc1c3;
+	}
+	
+	a {
+		display: block;
+		background-image: url('../img/open.png');
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-size: 16px 10px;
+		font-size: 17px;
+		color: #2e3191;
+		text-decoration: none;
+		font-weight: 300;
+		padding: 1em 0;
+		line-height: 1em;
+		cursor: pointer;
+		&.open-helper {
+			background-image: url('../img/close.png');
+			background-size: 14px 14px;
+		}
+	}
+
+}
+
+
+.content {
+	margin-top: 2em;
+	h3 {
+		margin-top: 2em;
+	}
+	p {
+		margin-top: 1em;
+	}
+}
+
+
+.finish-claim {
+	margin-top: 1em!important;
+}
+
+.donor {
+	margin-top: 2em;
+	border-top: 1px solid #bfc1c3;
+	padding-top: 2em;
+}
