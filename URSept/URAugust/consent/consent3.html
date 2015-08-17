@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Service Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <section class="helper-mobile">
+            <a class="help">Get help</a>
+        </section>
+
+
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+            </section>
+        </aside>
+
+<article>
+
+<nav class="back-nav">
+    <a id="backButton" href="javascript:history.back()">Back</a>
+</nav>
+
+<h1>Consent and Declaration</h1>
+
+
+<form action="/consent-and-declaration/declaration" method="POST">
+
+<input type="hidden" name="csrfToken"
+       value="e2280315b5e36adc417ca8ca03130bc61f589067-1415045172353-44f661c90c2507fe6ba3387a"/>
+
+<input type="hidden" id="js" name="jsEnabled" value="false">
+
+<fieldset class="form-elements">
+
+    <ul class="group">
+
+        <li>
+            <fieldset class="question-group">
+                <legend>Do you agree to us getting information from any current or previous employer you have told us about as part of this claim?</legend>
+
+                <ul class="radio "
+                    id="infoFromEmployer">
+                    <li>
+                        <label for="infoFromEmployer_yes" class="remove-detail">
+                            <input type="radio"
+                                   id="infoFromEmployer_yes"
+                                   name="infoFromEmployer"
+                                   onmousedown="" value="yes"/>
+                            <span>Yes</span></label>
+                    </li>
+
+                    <li>
+                        <label for="infoFromEmployer_no" class="show-detail">
+                            <input type="radio"
+                                   id="infoFromEmployer_no"
+                                   name="infoFromEmployer"
+                                   onmousedown="" value="no"/>
+                            <span>No</span></label>
+                    </li>
+                </ul>
+            </fieldset>
+        </li>
+
+        <li id="whyWrapper" class="other-detail open-detail">
+            <ul class="extra-group">
+                <li>
+                    <label for="whyWrapper">
+                        Tell us why
+                    </label>
+                    <textarea
+                            id="whyNoWrapper"
+                            name="whyWrapper"
+                            maxLength="300"></textarea>
+                    <p class="helper right">300 characters left</p>
+                </li>
+            </ul>
+        </li>
+
+                <li>
+                    <fieldset class="question-group">
+                        <legend>
+                            Do you agree to us getting information from any other person or organisation you have told us about as part of this claim?
+                        </legend>
+                        <ul class="radio "
+                            id="infoFromOthers">
+
+
+                            <li>
+
+                                <label for="infoFromOthers_yes" class="remove-detail2">
+                                    <input type="radio"
+                                           id="infoFromOthers_yes"
+                                           name="infoFromOthers"
+                                           onmousedown="" value="yes"/>
+                                    <span>Yes</span></label>
+                            </li>
+
+                            <li>
+
+                                <label for="infoFromOthers_no" class="show-detail2">
+                                    <input type="radio"
+                                           id="infoFromOthers_no"
+                                           name="infoFromOthers"
+                                           onmousedown="" value="no"/>
+                                    <span>No</span></label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </li>
+
+                <li id="whyWrapper2" class="other-detail open-detail2">
+                    <ul class="extra-group">
+                        <li>
+                            <label for="whyWrapper2">
+
+                                Tell us why
+
+                            </label>
+                            <textarea
+                                    id="whyNoWrapper2"
+                                    name="whyWrapper2"
+                                    maxLength="300"></textarea>
+
+                            <p class="helper right">300 characters left</p>
+                        </li>
+                    </ul>
+                </li>
+    </ul>
+</fieldset>
+<fieldset class="form-elements">
+
+    <section class="dec">
+        <p>By sending this application you agree that:</p>
+
+        <ul>
+            <li>The information in this application is complete and correct as far as you know
+            </li>
+            <li>You will report changes to your circumstances or those of the person you care for promptly - either <a href="https://www.gov.uk/carers-allowance-report-change" target="_blank">online </a>or by contacting <a href="https://www.gov.uk/carers-allowance-unit" target="_blank"> the Carer's Allowance Unit</a>
+            </li>
+            <li>You understand the terms and conditions of claiming Carer's Allowance
+            </li>
+        </ul>
+    </section>
+
+    <div>
+        <ul>
+            <li>
+                <p class="warning-text">
+                    You could be prosecuted or have to pay a financial penalty if you deliberately give wrong or incomplete information or
+                    don't report changes. Your Carer's Allowance may also be stopped or reduced.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="group declare check-show-detail">
+        <input type="checkbox" id="832722a17299c4636d4f2dadedb2b135" name="832722a17299c4636d4f2dadedb2b135"
+               value="true">
+        <label for="832722a17299c4636d4f2dadedb2b135">
+            Please tick this box if this claim form has been filled in by someone else if so, please ensure that you understand the declarations
+            above as another person cannot make the declarations on your behalf.</label>
+    </div>
+
+        <ul class="extra-group">
+            <li class="other-detail check-open-detail">
+                <label for="organisationName">Your name and/or organisation</label>
+                    <input type="text" id="organisationName" name="organisationName" value=""
+                           autocomplete="off"/>
+            </li>
+        </ul>
+</fieldset>
+
+    <nav class="form-steps">
+        <ul>
+            <li><a href="../thankYou.html" class="button">I agree - send my application</a></li>
+            <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
+            <!--     <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
+            <li><a href="javascript:history.back()">Back</a></li>
+        </ul>
+    </nav>
+
+</form>
+
+</article>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

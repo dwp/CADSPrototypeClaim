@@ -1,0 +1,82 @@
+{{<layout}}
+
+{{$pageTitle}}Consent &amp; Declaration{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+
+<div class="phase-banner">
+    <p>
+      <strong class="phase-tag">ALPHA</strong>
+      <span>This is a new service – your <a href="/feedback">feedback</a> will help us to improve it.</span>
+    </p>
+  </div>
+
+
+
+
+<div class="grid-row">
+
+
+{{>includes/leftcol}}
+
+
+<div class="column-two-thirds">
+
+ 
+
+<h1 class="form-title heading-large">
+      Declaration
+    </h1>
+
+
+<form action="/" method="post" class="form">
+
+	
+ <div class="form-group">
+	   <p>By sending this application you agree that:</p>
+			<ul class="list-bullet">
+				<li>the information in this application is correct as far as you know</li>
+				<li>you'll <a href="#">report any changes</a> to your condition or circumstances</li>
+				<li>you're <a href="intro2">eligible to apply</a> for an Access to Work grant</li>
+			</ul>
+	<div class="application-notice help-notice">
+		<p>You could be fined or sent to prison and have to repay your grant if you deliberately give false information or don't report changes.</p>
+	</div>
+			<!-- <p><button id="TryJs" type="submit" name="action" value="next" class="button" onmousedown="trackEvent(&quot;/error&quot;,&quot;Chose try again&quot;);" onkeydown="trackEvent(&quot;/error&quot;,&quot;Chose try again&quot;);" onclick="history.back()" aria-label="Try again claim button" style="display:none;">I agree - send my application</button> -->
+               
+
+     </div>
+
+
+		    <div class="form-group">
+		      <label class="block-label" for="dec-agree">
+		        <input id="dec-agree" type="checkbox" value="agree">
+		        I agree - send my application
+		      </label>
+		    </div>  
+
+
+
+    <!-- Primary buttons, secondary links -->
+    <div class="form-group">
+      <ul>
+		<li><a href="finish" class="button">Submit</a></li>
+        <li><a href="aboutdisability">Back</a></li>
+      </ul>
+    </div>
+
+  </form>
+  
+</div>
+
+
+
+
+</main>
+
+{{/content}}
+
+{{/layout}}
+
