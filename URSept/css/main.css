@@ -1711,3 +1711,12 @@ ul#paddingDetail li {
     background-size: cover;
     height: 35px;
     width: 35px; }
+
+    #upLoadDocs {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+    }
+    input[type=file] {
+            width: 1px;
+        }
