@@ -116,9 +116,9 @@
 
 
                 <fieldset class="form-elements">
-                    <legend>Breaks from care</legend>
+                    <!--<legend>About the person you care for</legend> -->
 
-                    <div class="prompt nested-prompt">
+                   <!-- <div class="prompt nested-prompt">
                         <p>A break is any time you spent less than 35 hours a week caring for the other person. For
                             example when:</p>
 
@@ -128,15 +128,15 @@
                         </ul>
 
                         <p>You might still get Carer's Allowance for these times. <a href="../guide/guide.html" target="_blank">Find out more</a></p>
-                    </div>
+                    </div> -->
 
                     <ul>
 
                         <li>
                             <fieldset class="question-group">
 
-                                <legend>Have you had any breaks from caring for this person since 11 November 2014
-                                </legend>
+                                <legend>Have you cared for the person you look after for 35 hours or more each week since 11 November 2014?</legend>
+                                <P class="helper above"> Times you may not have been able to care 35 hours might be where you or the person you are looking after was in hospital, respite, on holiday or another reason. <p/>
 
                                 <ul class="radio " id="breaksInCare">
 
@@ -212,12 +212,12 @@
 $('document').ready(function() {
 
     $('#breaksInCare_yes').click(function(){
-        $('#nextPage').attr('href', 'aboutCare5.html');
+        $('#nextPage').attr('href', '../education/educationTutor.html');
         console.log('test');
     });
 
     $('#breaksInCare_no').click(function() {
-        $('#nextPage').attr('href', '../education/educationTutor.html');
+        $('#nextPage').attr('href', 'aboutCare5.html');
     });
 
     $('#saveExit').click(function() {

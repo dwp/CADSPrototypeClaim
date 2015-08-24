@@ -96,58 +96,165 @@
 
 <div class="form-wrap">
 <fieldset class="form-elements">
-<legend>About the break from care since 11 November 2014</legend>
+<legend>Times you've not been able to care for 35 hours a week since 11 November 2014</legend>
 
-<div class="prompt helper-prompt"><p>We understand if you don't have exact details for each break but please add as much
+<!--<div class="prompt helper-prompt"><p>We understand if you don't have exact details for each break but please add as much
     information as possible as it will help us process your claim and prevent any unnecessary delays.</p>
 
-    <p>We may contact you for additional information.</p></div>
+    <p>We may contact you for additional information.</p></div> -->
 
 <ul>
 
 <li>
 
-    <label for="whereWereYou">Where were you during the
-        break?</label>
-
-    <select id="whereWereYou"
-            name="whereabouts" class="selectWithOther">
+    <label for="whereWereYou">Where were you at this time?</label>
 
 
-        <option value="">Please select</option>
+    <ul class="radio radio-stack" id="whereWereYou">
 
-        <option value="Home">Home</option>
+        <li>
 
-        <option value="Hospital">Hospital</option>
-
-        <option value="Holiday">Holiday</option>
-
-        <option value="Respite Care">Respite Care</option>
-
-        <option value="Other">Other</option>
-
-    </select>
-
-    <ul style="display: block;">
-        <li class="extra-text">
-
-            <label for="whereWereYou">Where were you during the
-                break?<em>(optional)</em> </label>
-
-            <textarea id="whereWereYou_break"
-                      name="Whereabouts" maxLength="60"></textarea>
-
-            <p class="helper right">60 characters left</p>
+            <label for="Home" class="remove-detail" onmousedown="">
+                <input type="radio" id="Home"
+                       name="whereWereyou" onmousedown=""
+                       value="Married or civil partner" required/>
+                <span>Home</span></label>
         </li>
-    </ul>
-</li>
+
+        <li>
+
+            <label for="Hospital" class="remove-detail" onmousedown="">
+                <input type="radio" id="Hospital" name="whereWereyou"
+                       onmousedown="" value="Single"/>
+                <span>Hospital</span></label>
+        </li>
+
+        <li>
+
+            <label for="respiteCare"
+                   class="remove-detail" onmousedown="">
+                <input type="radio"
+                       id="respiteCare"
+                       name="whereWereyou" onmousedown=""
+                       value="Divorced or civil partnership dissolved"/>
+                <span>Respite Care</span></label>
+        </li>
+
+        <li>
+
+            <label for="careHome"
+                   class="remove-detail" onmousedown="">
+                <input type="radio"
+                       id="careHome"
+                       name="whereWereyou" onmousedown=""
+                       value="Widowed or surviving civil partner"/>
+                <span>Care Home</span></label>
+
+        </li>
+
+        <li>
+
+            <label for="nursingHome" class="remove-detail" onmousedown="">
+                <input type="radio" id="nursingHome"
+                       name="whereWereyou" onmousedown="" value="Separated"/>
+                <span>Nursing home</span></label>
+        </li>
+
+        <li> <label for="otherCust" class="show-detail" onmousedown="">
+            <input type="radio" id="otherCust"
+                   name="whereWereyou" value="None of the above"/>
+            <span>Other</span></label>
+
+
+        </li>
+
+        <li id="otherCust" class="other-detail open-detail">
+            <ul    class="extra-group">
+
+                <li> <label for="otherCust">Where were you at this time?</label>
+
+                    <input type="text" id="otherCust" name="otherCust" maxlength="20"/> </li> </ul>
+
+        </li>
+
+
+
+        </ul>
+    </li>
+
 
 <li>
 
     <label for="whereWasDP">Where was the person you care for
-        during the break?</label>
+        at this time?</label>
+    <ul class="radio radio-stack" id="whereWasDP">
 
-    <select id="whereWasDP"
+        <li>
+
+            <label for="homeDP" class="remove-detail2" onmousedown="">
+                <input type="radio" id="homeDP"
+                       name="whereWasDP" onmousedown=""
+                       value="homeDP" required/>
+                <span>Home</span></label>
+        </li>
+
+        <li>
+
+            <label for="hospitalDP" class="remove-detail2" onmousedown="">
+                <input type="radio" id="hospitalDP" name="whereWasDP"
+                       onmousedown="" value="hospitalDP"/>
+                <span>Hospital</span></label>
+        </li>
+
+        <li>
+
+            <label for="respiteCareDP"
+                   class="remove-detail2" onmousedown="">
+                <input type="radio"
+                       id="respiteCareDP"
+                       name="whereWasDP" onmousedown=""
+                       value="respiteCareDP"/>
+                <span>Respite Care</span></label>
+        </li>
+
+        <li>
+
+            <label for="careHomeDP"
+                   class="remove-detail2" onmousedown="">
+                <input type="radio"
+                       id="careHomeDP"
+                       name="whereWasDP" onmousedown=""
+                       value="careHomeDP"/>
+                <span>Care Home</span></label>
+
+        </li>
+
+        <li>
+
+            <label for="nursingHomeDP" class="remove-detail2" onmousedown="">
+                <input type="radio" id="nursingHomeDP"
+                       name="whereWasDP" onmousedown="" value="nursingHomeDP"/>
+                <span>Nursing home</span></label>
+        </li>
+        <li>
+            <label for="DPother" class="show-detail2" onmousedown="">
+            <input type="radio" id="DPother"
+                   name="whereWasDP" value="DPother"/>
+            <span>Other</span></label>
+
+        </li>
+
+        <li id="DPother" class="other-detail open-detail2">
+        <ul    class="extra-group">
+
+              <li> <label for="DPother">Where was the person you care for at this time?</label>
+
+                 <input type="text" id="DPother" name="DPother" maxlength="20"/> </li> </ul>
+
+        </li>
+
+
+   <!-- <select id="whereWasDP"
             name="whereaboutsDP" class="selectWithOther">
 
 
@@ -174,9 +281,9 @@
                 for during the break?<em>(optional)</em></label>
 
             <textarea id="whereaboutsDP"
-                      name="whereWasDp" maxLength="60"></textarea>
+                      name="whereWasDp" maxLength="60"></textarea> -->
 
-            <p class="helper right">60 characters left</p>
+           <!-- <p class="helper right">60 characters left</p> -->
         </li>
     </ul>
 
@@ -190,7 +297,7 @@
 
             <fieldset class="question-group">
 
-                <legend>When did the break start?</legend>
+                <legend>When did this start?</legend>
 
                 <p class="helper above" id="b609f180c2ed183f4f5cc805f9571a59_defaultDateContextualHelp">For example, 30
                     9 2014</p>
@@ -229,14 +336,21 @@
         <li>
 
 
-            <p class="sub">Break start time?<em>(optional)</em></p>
+            <p class="sub">What time did this start?<em>(optional)</em></p>
             <ul class="inline year">
                 <li>
 
-                    <select id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b">
+                    <input type="tel" id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b"
+                            pattern="[0-9 \-]{1,24}" title="Must be numbers only" value="" maxLength="2"
+                            autocomplete="off">
+                <li><label>:</label></li>
+                <li>
 
+                <input type="tel" id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b"
+                            pattern="[0-9 \-]{1,24}" title="Must be numbers only" value="" maxlength="2"
+                            autocomplete="off>">
 
-                        <option value="">Hour</option>
+                       <!--<option value="">Hour</option>
 
                         <option value="0">00</option>
 
@@ -284,16 +398,16 @@
 
                         <option value="22">22</option>
 
-                        <option value="23">23</option>
-                    </select>
+                        <option value="23">23</option> -->
+                    </input>
                 </li>
 
                 <li>
 
-                    <select id="974734f296513ab5dea8c83487077fca" name="7b25dc789cfa50273ae4fea5310b86b9">
+                  <!--  <input id="974734f296513ab5dea8c83487077fca" name="7b25dc789cfa50273ae4fea5310b86b9"> -->
 
 
-                        <option value="">Minutes</option>
+                       <!-- <option value="">Minutes</option>
 
                         <option value="00">00</option>
 
@@ -301,9 +415,9 @@
 
                         <option value="30">30</option>
 
-                        <option value="45">45</option>
+                        <option value="45">45</option> -->
 
-                    </select>
+                    </input>
 
 
                 </li>
@@ -320,7 +434,7 @@
 
             <fieldset class="question-group">
 
-                <legend>When did the break end?<em>(optional)</em></legend>
+                <legend>When did this end?<em>(optional)</em></legend>
 
                 <p class="helper above" id="2bc2815841896f8afd8444a4ccb7aced_defaultDateContextualHelp">For example, 07
                     10 2014</p>
@@ -357,11 +471,19 @@
 
         <li>
 
-            <p class="sub">Break end time?<em>(optional)</em></p>
+            <p class="sub">What time did this end?<em>(optional)</em></p>
             <ul class="inline year">
                 <li>
+                    <input type="tel" id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b"
+                           pattern="[0-9 \-]{1,24}" title="Must be numbers only" value="" maxLength="2"
+                           autocomplete="off">
+                <li><label>:</label></li>
+                <li>
 
-                    <select id="69a044fc1e55845436d6942ada84d4dc" name="29709f858efeb0e1f23f3f4ae64dc48e">
+                    <input type="tel" id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b"
+                           pattern="[0-9 \-]{1,24}" title="Must be numbers only" value="" maxlength="2"
+                           autocomplete="off>">
+                   <!-- <select id="69a044fc1e55845436d6942ada84d4dc" name="29709f858efeb0e1f23f3f4ae64dc48e">
 
 
                         <option value="">Hour</option>
@@ -414,12 +536,12 @@
 
                         <option value="23">23</option>
 
-                    </select>
+                    </select> -->
                 </li>
 
                 <li>
 
-                    <select id="ec5403adfeb2ed6820f33ab5f2c64375" name="8cc7de1ede0ed9193bcc15167bca8288">
+                    <!--<select id="ec5403adfeb2ed6820f33ab5f2c64375" name="8cc7de1ede0ed9193bcc15167bca8288">
 
 
                         <option value="">Minutes</option>
@@ -433,7 +555,7 @@
                         <option value="45">45</option>
 
                     </select>
-                </li>
+                </li> -->
             </ul>
         </li>
     </ul>
@@ -476,7 +598,7 @@
     <ul>
 
         <li><input type="submit" value="Next" class="button" /></li>
-        <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
+        <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
         <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
         <li><a href="javascript:history.back()">Back</a></li>
     </ul>
