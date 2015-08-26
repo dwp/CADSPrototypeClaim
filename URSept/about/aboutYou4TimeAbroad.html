@@ -45,9 +45,9 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,nationality,Please select your nationality.",
-	            "required,residence,Please confirm if you have always lived in England Scotland or Wales.",
-	            "required,anyTrips,Please confirm if you have been away from England Scotland or Wales for more than 52 weeks in the last 3 years."
+	            "required,nationality,Select your nationality.",
+	            "required,residence,Confirm if you've always lived in England Scotland or Wales.",
+	            "required,anyTrips,Confirm if you've been away from England Scotland or Wales for more than 52 weeks in the last 3 years."
 	        ]
 	    });
 	});
@@ -92,7 +92,7 @@
                 <h3>Helpline 0345 608 4321</h3>
                 <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
 
-                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+                <p>Calls cost up 9p a minute from landlines, calls from mobiles may cost more.</p>
 
             </section>
 
@@ -110,16 +110,15 @@
             </div>
 
             <h1> About you - the carer </h1>
-                <form action="aboutYou6.html" method="post" id="form_demo">
+                <form action="aboutYou5a.html" method="post" id="form_demo">
                     <div id="validation" class="validation-summary"></div>
 
             <fieldset class="form-elements">
-                <legend>Nationality and where you live</legend>
 
                 <ul>
                     <li>
                         <fieldset class="question-group">
-                            <legend>What is your nationality?</legend>
+                            <legend>Your nationality</legend>
                                 <ul class="radio radio-stack" id="nationality">
                                     <li>
                                         <label for="nationality_British" class="remove-detail">
@@ -305,9 +304,7 @@
                             <li>
                                 <label for="tripDetails">
 
-                                    Tell us about this time away. Include the dates you left and returned and
-                                    details of where
-                                    you've been. We may need to contact you for more information.
+                                    Give details about where you've been and the dates you left and came back.
 
                                 </label>
                                 <textarea id="tripDetails" name="tripDetails" maxLength="3000"></textarea>
