@@ -105,9 +105,9 @@
 
 
             <div class="section-progress">
-                Section 5 of 9
+                Section 4 of 9
             </div>
-            <h1>The care you give</h1>
+            <h1>About the person you care for</h1>
 
 
 
@@ -116,9 +116,9 @@
 
 
                 <fieldset class="form-elements">
-                    <!--<legend>About the person you care for</legend> -->
+                    <legend>Breaks from care</legend>
 
-                   <!-- <div class="prompt nested-prompt">
+                    <div class="prompt nested-prompt">
                         <p>A break is any time you spent less than 35 hours a week caring for the other person. For
                             example when:</p>
 
@@ -128,16 +128,17 @@
                         </ul>
 
                         <p>You might still get Carer's Allowance for these times. <a href="../guide/guide.html" target="_blank">Find out more</a></p>
-                    </div> -->
+                    </div>
 
                     <ul>
 
                         <li>
                             <fieldset class="question-group">
 
-                                <legend>Have you cared for at least 35 hours a week every week since 11 November 2014?</legend>
-								<p class="helper above">You may be paid for some weeks you couldn't care for 35 hours in this time, eg if it was due to respite or hospital care or some holiday.</p>
-                                <ul class="radio radio-stack" id="breaksInCare">
+                                <legend>Have you had any breaks from caring for this person since 11 November 2014
+                                </legend>
+
+                                <ul class="radio " id="breaksInCare">
 
                                     <li>
 
@@ -154,15 +155,7 @@
                                             <input type="radio" id="breaksInCare_no"
                                                    name="breaksInCare" onmousedown=""
                                                    value="no"/>
-                                            <span>No, you usually care for 35 hours or more, but there were some weeks you couldn't</span></label>
-                                    </li>
-                                    <li>
-
-                                        <label for="breaksInCare_no" onmousedown="">
-                                            <input type="radio" id="breaksInCare_no"
-                                                   name="breaksInCare" onmousedown=""
-                                                   value="no"/>
-                                            <span>No, you don't care for 35 hours or more a week</span></label>
+                                            <span>No</span></label>
                                     </li>
                                 </ul>
                             </fieldset>
@@ -173,7 +166,7 @@
                 <nav class="form-steps">
                     <ul>
                         <li><a href="#" id="nextPage" class="button"> Next </a></li>
-                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
+                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
                         <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
                         <li><a href="javascript:history.back()">Back</a></li>
                     </ul>
@@ -219,16 +212,12 @@
 $('document').ready(function() {
 
     $('#breaksInCare_yes').click(function(){
-        $('#nextPage').attr('href', '../education/educationTutor.html');
+        $('#nextPage').attr('href', 'aboutCare5.html');
         console.log('test');
     });
 
     $('#breaksInCare_no').click(function() {
-        $('#nextPage').attr('href', 'aboutCare5.html');
-    });
-
-    $('#saveExit').click(function() {
-        $('#saveExit').attr('href','../saveAndReturn/savePage.html');
+        $('#nextPage').attr('href', '../education/educationTutor.html');
     });
 
 });
