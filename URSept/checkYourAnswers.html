@@ -44,10 +44,6 @@
 
 <article class="column-full-width main-content">
 
-<nav class="back-nav">
-    <a id="backButton" href="/preview-back">Back</a>
-</nav>
-
 <h1 class="form-title heading-large">Summary of your application</h1>
 
 
@@ -500,6 +496,13 @@
             <input type="button" id="saveAcopy" class="button" value="Save summary"/>
         </nav>
 
+        <nav>
+            <input type="file" style="visibility:hidden;" id="upLoadDocs" />
+            <input class="button" type="button" id="upLoad" value="Upload documents" />
+            <input type="text" id="fileName" value="" />
+            <input type="button" id="upLoadNow" value="Upload" />
+        </nav>
+
 </article>
 </div>
 </main>
@@ -510,26 +513,45 @@
 
     $(document).ready(function() {
         $("#print").click(function() {
+            print();
             alert("Select ok to continue once printed");
         });
 
         $('#saveAcopy').click(function() {
+            save();
             alert("A copy has been saved to your 'Downloads' folder");
         });
     });
 
-
-
 </script>
+
+<script type="text/javascript">
+    $(function(){
+    $('#upLoad').click(function(){
+        $('#upLoadDocs').click();
+    });
+
+    $('#upLoadDocs').change(function(){
+        $('#fileName').val($(this).val());
+    });
+
+    $('#upLoadNow').click(function() {
+        alert('Your documents have been uploaded');
+
+    });
+});
+</script>
+
 <!--
 <script type="text/javascript">
 $('document').ready(function() {
     $('body').mouseleave(function() {
-        alert("STOP!! Step away from the mouse!");
+        alert("STOP!! Hammer time!");
     });
 });
 </script>
 -->
+
 </html>
 
                     

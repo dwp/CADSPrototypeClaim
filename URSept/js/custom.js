@@ -38,6 +38,15 @@ $('.helper-more').click(function(){
         $(this).text(labelText);
 });    
 
+// Close keyboard on date fields (mobile)
+	if (matchMedia('(max-width: 640px)').matches) {
+		$('.form-group-year input').on("keyup", function( event ){
+		    if(this.value.length == this.getAttribute('maxlength')) {
+				alert("test");
+			}
+		});
+	}
+
 
 // Add the "focus" value to class attribute 
   $('ul.radio li label').focusin( function() {

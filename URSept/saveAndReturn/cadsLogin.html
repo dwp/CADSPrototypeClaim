@@ -91,20 +91,45 @@
             <form action="../about/aboutCare4SR.html" name="myForm" method="POST" id="form_demo">
                 <div id="validation" class="validation-summary"></div>
             <fieldset class="form-elements">
-                <legend>Continue your application for Carer's Allowance</legend>
-
+                <legend>Continue an application for Carer's Allowance</legend>
+                    <section class="prompt e-prompt">
+                        <ul class="extra-group-detail" id="paddingDetail">
+                                    <p><b>To make your application, you will need:</b></p>
+                                    <ul>
+                                        <li>
+                                            <p id="nino" name="nino">your National Insurance number</p>
+                                        </li>
+                                        <li>
+                                            <p id="act" name="act">bank details</p>
+                                        </li>
+                                        <li>
+                                            <p id="work" name="work">your employment history and income for up to the last 9 months</p>
+                                        </li>
+                                        <li>
+                                            <p id="dpDetails" name="dpDetails">the National Insurance number or Disability Living Allowance reference of the person you care for</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                        </section>
                 <ul>
-                    <li>
-                        <label>Enter your reference number</label>
-                        <p class="helper above">This was the 6 digit number you were given when you saved your application</p>
-                    <input type="tel" maxlength="6" id="refNum" autocomplete="off" name="refNum"/>
-                    </li>
+                    <div>
+                        <ul>
+                            <li>
+                                <label>Enter your reference</label>
+                                <p class="helper above">This was the 12 character reference you were given when you saved your application</p>
+                                <input type="tel" maxlength="6" id="refNum" autocomplete="off" name="refNum"/>
+                            </li>
+                        </ul>
+                    </div>
                 </ul>
 
-                <ul>
-                    <li><input type="submit" class="button" value="Resume application" id="enter" name="enter"/></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><input type="submit" class="button" value="Resume application" id="enter" name="enter"/></li>
+                    </ul>
+                </nav>
             </fieldset>
+            </form>
         </article>
 
         <aside class="left-col">
