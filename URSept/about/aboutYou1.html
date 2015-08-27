@@ -45,13 +45,14 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,title,Please enter your title",
-	            "required,national_InsuranceNumber,Please enter your National Insurance Number",
-	            "required,dateOfBirth_day,Please enter your date of birth: day",
+	            "required,title,Enter your title",
+                "required,firstName,Enter your first name",
+	            "required,national_InsuranceNumber,Enter your National Insurance Number",
+	            "required,dateOfBirth_day,Enter your date of birth",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
-	            "required,dateOfBirth_month,Please enter your date of birth: month",
+	            "required,dateOfBirth_month,Enter your month of birth",
 	            "digits_only,dateOfBirth_month,The date field may only contain digits",
-	            "required,dateOfBirth_year,Please enter your date of birth: year",
+	            "required,dateOfBirth_year,Enter your year of birth",
 	            "digits_only,dateOfBirth_year,The date field may only contain digits"
 	        ]
 	    });
@@ -178,7 +179,7 @@
                             <input type="text" id="name" name="firstName" value="" autocomplete="off"/>
                         </li>
                         <li>
-                            <label for="name">Middle name (optional)</label>
+                            <label for="name">Middle name</label>
                             <input type="text" id="name" name="midName" value="" autocomplete="off"/>
                         </li>
                         <li>
@@ -297,15 +298,15 @@
 
                         <li>
                             <label for="name">First name</label>
-                            <input type="text" id="name" name="firstName" value="" autocomplete="off"/>
+                            <input type="text" id="name" name="firstNamePard" value="" autocomplete="off"/>
                         </li>
                         <li>
-                            <label for="name">Middle name (optional)</label>
-                            <input type="text" id="name" name="midName" value="" autocomplete="off"/>
+                            <label for="name">Middle name</label>
+                            <input type="text" id="name" name="midNamePard" value="" autocomplete="off"/>
                         </li>
                         <li>
                             <label for="name">Last name</label>
-                            <input type="text" id="name" name="lastName" value="" autocomplete="off"/>
+                            <input type="text" id="name" name="lastNamePard" value="" autocomplete="off"/>
                         </li>
 
                             <li>
