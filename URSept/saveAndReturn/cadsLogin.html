@@ -90,8 +90,7 @@
         <article>
             <form action="login.html" name="myForm" method="POST" id="form_demo">
                 <div id="validation" class="validation-summary"></div>
-            <fieldset class="form-elements">
-                <legend>Continue an application for Carer's Allowance</legend>
+            <h1>Continue your Carer's Allowance application</h1>
                     <section class="prompt e-prompt">
                                     <p><b>To complete your application, you'll need:</b></p>
                                     <ul>
@@ -106,13 +105,14 @@
                                         </li>
                                     </ul>
                         </section>
-                <ul>
+                <fieldset class="form-elements">
+                    <ul>
                     <div>
                         <ul>
                             <li>
-                                <label>Your reference</label>
-                                <p class="helper above">This is the 12 character reference you were given.</p>
-                                <input type="text" maxlength="12" id="refNum" autocomplete="off" name="refNum"/>
+                                <label>Enter your reference number</label>
+                                <p class="helper above">You were given this when you saved your application.</p>
+                                <input type="text" maxlength="14" id="refNum" autocomplete="off" name="refNum"/>
                             </li>
                         </ul>
                     </div>
