@@ -460,20 +460,17 @@
 </footer>
 <!--/ footer -->
 <!-- -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="../js/custom.js"></script>
+<script type="text/javascript">
 
-<!-- <script type="text/javascript">
+$('document').ready(function() {
 
-    $('#pauseProgress').click(function() {
-        if($(this).val() == "Pause") {
-            $(this).val("Resume");
-                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
-                } else {
-                    ($(this).val() == "Resume")
-                    $(this).val("Pause");
-                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
-                }
-        });
+    $('#saveExit').click(function() {
+        $('#saveExit').attr('href','../saveAndReturn/savePage.html');
+    });
+
+});
 </script>
 -->
 
