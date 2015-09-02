@@ -25,7 +25,7 @@ function datepicker(dateFieldId) {
 
 //selects the year field
     $(document).ready(function() {
-        $('ul .inline li:nth-child(3)').addClass('year');
+        $('ul .inline li:last-child').addClass('year');
     });
 
 
