@@ -45,16 +45,16 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,relationship,Please confirm your relationship to the person you care for.",
-	            "required,title,Please enter your title",
-	            "required,firstName,Please enter your first name",
-	            "required,dateOfBirth_day,Please enter your date of birth: day",
-	            "digits_only,dateOfBirth_day,The date field may only contain digits",
-	            "required,dateOfBirth_month,Please enter your date of birth: month",
-	            "digits_only,dateOfBirth_month,The date field may only contain digits",
-	            "required,dateOfBirth_year,Please enter your date of birth: year",
-	            "digits_only,dateOfBirth_year,The date field may only contain digits",
-	            "required,sameAddress,Please confirm if the person you care for lives at the same address as you."
+	            "required,relationship,Confirm your relationship to the person you care for.",
+	            "required,title,Choose your title",
+	            "required,firstName,Enter your first name",
+	            "required,dateOfBirth_day,Enter your date of birth",
+	            "digits_only,dateOfBirth_day,Enter a date using digits",
+	            "required,dateOfBirth_month,Enter your month of birth",
+	            "digits_only,dateOfBirth_month,Enter a month as digits",
+	            "required,dateOfBirth_year,Enter your year of birth",
+	            "digits_only,dateOfBirth_year,Enter a year as 4 digits",
+	            "required,sameAddress,Confirm if the person you care for lives with you"
 	        ]
 	    });
 	});
@@ -100,7 +100,7 @@
                    <h2>Get help</h2>
                    <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                    <h3>Helpline 0345 608 4321</h3>
-                   <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                   <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
                    <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
 
@@ -200,7 +200,7 @@
 
         <li>
                 <label for="national_InsuranceNumber"><em> National Insurance Number </em></label>
-                <p class="helper above"> If the person you care for it under 16 this is their Disability Living Allowance reference number, e.g. VO123456D.</p>
+                <p class="helper above"> If the person you care for is under 16 this is their Disability Living Allowance reference number, e.g. VO123456D.</p>
                     <input type="text" id="national_InsuranceNumber" name="nationalInsuranceNumber" value="" maxlength="13"
                            autocomplete="off"/>
 
