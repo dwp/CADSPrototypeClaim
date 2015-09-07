@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="added some custom js to add class to year to enable auto unfocus - ian">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/about/aboutCare4TAOLD.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/URSept/about/aboutCare4TA.OLDhtml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URSept/about/aboutCareOLD.html" afterPath="$PROJECT_DIR$/URSept/about/aboutCareOLD.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URSept/about/aboutYou1.html" afterPath="$PROJECT_DIR$/URSept/about/aboutYou1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URSept/css/main.css" afterPath="$PROJECT_DIR$/URSept/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URSept/saveAndReturn/savePage.html" afterPath="$PROJECT_DIR$/URSept/saveAndReturn/savePage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URSept/thankYou.html" afterPath="$PROJECT_DIR$/URSept/thankYou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URSept/about/aboutYou2TextEmail.html" afterPath="$PROJECT_DIR$/URSept/about/aboutYou2TextEmail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -33,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="thankYou.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/URSept/thankYou.html">
+      <file leaf-file-name="aboutYou1.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39320388" vertical-offset="1602" max-vertical-offset="2505">
-              <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="7680">
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URSept/css/main.css">
+      <file leaf-file-name="c1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URSept/claimdate/c1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="19805" max-vertical-offset="25785">
-              <caret line="1353" column="26" selection-start-line="1353" selection-start-column="26" selection-end-line="1353" selection-end-column="26" />
+            <state vertical-scroll-proportion="-14.375" vertical-offset="1290" max-vertical-offset="4050">
+              <caret line="109" column="52" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -78,15 +73,16 @@
         <option value="$PROJECT_DIR$/URSept/checkClaimQ.html" />
         <option value="$PROJECT_DIR$/URSept/payDetails/payDetailsCombined.html" />
         <option value="$PROJECT_DIR$/URSept/about/aboutCare4TAOLD.html" />
-        <option value="$PROJECT_DIR$/URSept/about/aboutCareOLD.html" />
         <option value="$PROJECT_DIR$/URSept/checkYourAnswers/checkClaimQ.html" />
-        <option value="$PROJECT_DIR$/URSept/about/aboutYou1.html" />
         <option value="$PROJECT_DIR$/URSept/saveAndReturn/savePage.html" />
         <option value="$PROJECT_DIR$/URSept/about/aboutCare4SR.html" />
         <option value="$PROJECT_DIR$/URSept/about/aboutYou4TimeAbroad.html" />
         <option value="$PROJECT_DIR$/URSept/about/aboutYou5a.html" />
         <option value="$PROJECT_DIR$/URSept/css/main.css" />
         <option value="$PROJECT_DIR$/URSept/thankYou.html" />
+        <option value="$PROJECT_DIR$/URSept/about/aboutYou2TextEmail.html" />
+        <option value="$PROJECT_DIR$/URSept/about/aboutCareOLD.html" />
+        <option value="$PROJECT_DIR$/URSept/about/aboutYou1.html" />
       </list>
     </option>
   </component>
@@ -121,6 +117,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,14 +183,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="claimdate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URSept" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="checkYourAnswers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URSept" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -436,8 +468,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32848233" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -465,41 +497,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/URSept/thankYou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2505">
-          <caret line="84" column="87" selection-start-line="84" selection-start-column="87" selection-end-line="84" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="19805" max-vertical-offset="25785">
-          <caret line="1344" column="22" selection-start-line="1344" selection-start-column="22" selection-end-line="1344" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/thankYou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2505">
-          <caret line="84" column="87" selection-start-line="84" selection-start-column="87" selection-end-line="84" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="19805" max-vertical-offset="25785">
-          <caret line="1344" column="22" selection-start-line="1344" selection-start-column="22" selection-end-line="1344" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/thankYou.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2340">
           <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,24 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/about/aboutCareOLD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7077922" vertical-offset="6584" max-vertical-offset="7245">
-          <caret line="468" column="37" selection-start-line="468" selection-start-column="37" selection-end-line="468" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URSept/saveAndReturn/savePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26644182" vertical-offset="952" max-vertical-offset="2115">
           <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/payDetails/payDetailsCombined.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7548701" vertical-offset="1200" max-vertical-offset="6600">
-          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -769,24 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou5a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27184466" vertical-offset="1392" max-vertical-offset="3165">
-          <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URSept/checkYourAnswers/checkClaimQ.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7184465" vertical-offset="0" max-vertical-offset="2985">
           <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.625" vertical-offset="1560" max-vertical-offset="7680">
-          <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -797,25 +768,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/claimdate/c1.html">
+    <entry file="file://$PROJECT_DIR$/URSept/thankYou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6990291" vertical-offset="1125" max-vertical-offset="4065">
-          <caret line="145" column="53" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.49188313" vertical-offset="1422" max-vertical-offset="2505">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URSept/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="19805" max-vertical-offset="25785">
+        <state vertical-scroll-proportion="0.765625" vertical-offset="19805" max-vertical-offset="25785">
           <caret line="1353" column="26" selection-start-line="1353" selection-start-column="26" selection-end-line="1353" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/payDetails/payDetails1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0194175" vertical-offset="630" max-vertical-offset="4080">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URSept/thankYou.html">
+    <entry file="file://$PROJECT_DIR$/URSept/payDetails/payDetailsCombined.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39320388" vertical-offset="1602" max-vertical-offset="2505">
-          <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
+        <state vertical-scroll-proportion="1.9417475" vertical-offset="465" max-vertical-offset="6600">
+          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/payDetails/payDetailsCombined2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/payDetails/payDetails2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70388347" vertical-offset="405" max-vertical-offset="5505">
+          <caret line="56" column="92" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou5a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6359223" vertical-offset="1392" max-vertical-offset="3165">
+          <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/about/aboutCareOLD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33495146" vertical-offset="6582" max-vertical-offset="7200">
+          <caret line="425" column="6" selection-start-line="425" selection-start-column="6" selection-end-line="425" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou2TextEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1699029" vertical-offset="1530" max-vertical-offset="4740">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou1i.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2135923" vertical-offset="1830" max-vertical-offset="7755">
+          <caret line="172" column="70" selection-start-line="172" selection-start-column="70" selection-end-line="172" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/claimdate/c1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375" vertical-offset="1290" max-vertical-offset="4050">
+          <caret line="109" column="52" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URSept/about/aboutYou1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="7680">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
           <folding />
         </state>
       </provider>
