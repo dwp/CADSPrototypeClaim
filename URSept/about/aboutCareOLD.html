@@ -49,11 +49,11 @@
 	            "required,title,Choose your title",
 	            "required,firstName,Enter your first name",
 	            "required,dateOfBirth_day,Enter your date of birth",
-	            "digits_only,dateOfBirth_day,Enter a date using digits",
+	            "digits_only,dateOfBirth_day,Enter a date as a number",
 	            "required,dateOfBirth_month,Enter your month of birth",
-	            "digits_only,dateOfBirth_month,Enter a month as digits",
+	            "digits_only,dateOfBirth_month,Enter a month as a number",
 	            "required,dateOfBirth_year,Enter your year of birth",
-	            "digits_only,dateOfBirth_year,Enter a year as 4 digits",
+	            "digits_only,dateOfBirth_year,Enter a year using 4 numbers",
 	            "required,sameAddress,Confirm if the person you care for lives with you"
 	        ]
 	    });
@@ -172,6 +172,7 @@
                     </label>
                 </li>
                 <li class="hidden other-field">
+					<label for="titleOtherField">Enter your title</label>
                     <input type="text" id="titleOtherField" name="title" value="" maxlength="17" autocomplete="off">
                 </li>
                 <script>
