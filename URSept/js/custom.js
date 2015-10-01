@@ -23,8 +23,12 @@ function datepicker(dateFieldId) {
     });
 }
 
+//selects the year field
+    $(document).ready(function() {
+        $('ul .inline li:last-child').addClass('year');
+    });
 
-    
+
     
 $(function() {    
     // view more / view less
@@ -40,10 +44,10 @@ $('.helper-more').click(function(){
 
 // Close keyboard on date fields (mobile)
 	if (matchMedia('(max-width: 640px)').matches) {
-		$('.form-group-year input').on("keyup", function( event ){
+		$('.year input').on("keyup", function( event ){
 		    if(this.value.length == this.getAttribute('maxlength')) {
-				alert("test");
-			}
+		        this.blur();
+		    }
 		});
 	}
 
@@ -219,12 +223,6 @@ function opt(v){
     if (typeof v == 'undefined') return [];
     else return[v];
 }
-
-//button script for pause and return
-
-
-
-
 
 //script for customer journey from radio button
 /*

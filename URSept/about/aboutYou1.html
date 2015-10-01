@@ -30,7 +30,7 @@
     <script src="../js/respond.min.js"></script>
     <![endif]-->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
     <script src="../js/jquery.rsv.js" type="text/javascript"></script>
 
@@ -45,14 +45,14 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,title,Please enter your title",
-	            "required,fullName,Please enter your full name",
-	            "required,national_InsuranceNumber,Please enter when your National Insurance Number",
-	            "required,dateOfBirth_day,Please enter your date of birth: day",
+	            "required,title,Enter your title",
+                "required,firstName,Enter your first name",
+	            "required,national_InsuranceNumber,Enter your National Insurance Number",
+	            "required,dateOfBirth_day,Enter your date of birth",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
-	            "required,dateOfBirth_month,Please enter your date of birth: month",
+	            "required,dateOfBirth_month,Enter your month of birth",
 	            "digits_only,dateOfBirth_month,The date field may only contain digits",
-	            "required,dateOfBirth_year,Please enter your date of birth: year",
+	            "required,dateOfBirth_year,Enter your year of birth",
 	            "digits_only,dateOfBirth_year,The date field may only contain digits"
 	        ]
 	    });
@@ -129,7 +129,7 @@
                     <ul>
 		<li>
 			<label>Title</label>
-		    <ul class="radio " id="nationality">
+		    <ul class="radio radio-stack" id="nationality">
 		        <li>
 		            <label for="titleMr">
 		            <input type="radio" id="titleMr" name="title" onmousedown="">
@@ -179,7 +179,7 @@
                             <input type="text" id="name" name="firstName" value="" autocomplete="off"/>
                         </li>
                         <li>
-                            <label for="name">Middle name (optional)</label>
+                            <label for="name">Middle name</label>
                             <input type="text" id="name" name="midName" value="" autocomplete="off"/>
                         </li>
                         <li>
@@ -192,49 +192,6 @@
                                 <input type="text" id="nationalInsuranceNumber" name="national_InsuranceNumber"
                                        value="" maxlength="13" autocomplete="off"/>
                         </li>
-
-                          <!-- <fieldset class="question-group">
-                                <legend>National Insurance number</legend>
-                                <p class="helper above">For example, VO 12 34 56 D</p>
-                                <ul class="inline ni-number label-strip">
-                                    <li>
-                                        <label for="nationalInsuranceNumber_ni1">]nationalInsuranceNumber_ni1<em>(optional)</em></label>
-                                        <input type="text" id="nationalInsuranceNumber_ni1"
-                                               name="nationalInsuranceNumber.ni1" value="" maxlength="2"
-                                               autocomplete="off">
-                                    </li>
-
-                                    <li>
-                                        <label for="nationalInsuranceNumber_ni2">nationalInsuranceNumber_ni2<em>(optional)</em></label>
-                                        <input type="tel" id="nationalInsuranceNumber_ni2"
-                                               name="nationalInsuranceNumber.ni2" pattern="[0-9 \-]{1,20}"
-                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                    </li>
-
-                                    <li>
-                                        <label for="nationalInsuranceNumber_ni3">nationalInsuranceNumber_ni3<em>(optional)</em></label>
-                                        <input type="tel" id="nationalInsuranceNumber_ni3"
-                                               name="nationalInsuranceNumber.ni3" pattern="[0-9 \-]{1,20}"
-                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                    </li>
-
-                                    <li>
-                                        <label for="nationalInsuranceNumber_ni4">nationalInsuranceNumber_ni4<em>(optional)</em></label>
-                                        <input type="tel" id="nationalInsuranceNumber_ni4"
-                                               name="nationalInsuranceNumber.ni4" pattern="[0-9 \-]{1,20}"
-                                               title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                    </li>
-
-                                    <li>
-                                        <label for="nationalInsuranceNumber_ni5">nationalInsuranceNumber_ni5<em>(optional)</em></label>
-                                        <input type="text" id="nationalInsuranceNumber_ni5"
-                                               name="nationalInsuranceNumber.ni5" value="" maxlength="1" class="single"
-                                               autocomplete="off">
-                                    </li>
-                                </ul>
-
-                                    <p class="helper">This is on your NI number card, benefit letter, payslip or P60</p>
-                                </li>-->
 
                         <li>
                             <fieldset class="question-group">
@@ -303,7 +260,7 @@
 
                             <li>
                                 <label>Title</label>
-                                <ul class="radio" id="nationality">
+                                <ul class="radio radio-stack" id="nationality">
                                     <li>
                                         <label for="partnerTitleMr">
                                             <input type="radio" id="partnerTitleMr" name="title" onmousedown="">
@@ -340,10 +297,16 @@
                                 </ul>
 
                         <li>
-                            <label for="partner_fullName">Full name</label>
-
-                            <input type="text" id="partner_fullName" name="partner_fullName" value="" autocomplete="off">
-
+                            <label for="name">First name</label>
+                            <input type="text" id="name" name="firstNamePard" value="" autocomplete="off"/>
+                        </li>
+                        <li>
+                            <label for="name">Middle name</label>
+                            <input type="text" id="name" name="midNamePard" value="" autocomplete="off"/>
+                        </li>
+                        <li>
+                            <label for="name">Last name</label>
+                            <input type="text" id="name" name="lastNamePard" value="" autocomplete="off"/>
                         </li>
 
                             <li>

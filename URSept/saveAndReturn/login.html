@@ -44,7 +44,7 @@
 	      errorFieldClass: "error-focus",
 	        rules: [
 	            "required,refNum,Please enter your reference number",
-	            "required,refNum,Your reference will be 12 characters long"
+	            "digits_only,refNum,Your reference will be 6 numbers long"
 	        ]
 	    });
 	});
@@ -88,54 +88,43 @@
           </nav> !-->
 
         <article>
-            <form action="../about/aboutCareOLD.html" name="myForm" method="POST" id="form_demo">
+            <form action="../about/aboutCare4SR.html" name="myForm" method="POST" id="form_demo">
                 <div id="validation" class="validation-summary"></div>
-            <h1>Continue your Carer's Allowance application</h1>
-                    <section class="prompt e-prompt">
-                                    <p><b>To complete your application, you'll need:</b></p>
-                                    <ul>
-                                        <li>
-                                            <p id="act" name="act">bank details</p>
-                                        </li>
-                                        <li>
-                                            <p id="work" name="work">your employment history and income for up to the last 9 months</p>
-                                        </li>
-                                        <li>
-                                            <p id="dpDetails" name="dpDetails">the National Insurance number or Disability Living Allowance reference of the person you care for</p>
-                                        </li>
-                                    </ul>
-                        </section>
                 <fieldset class="form-elements">
+                    <legend>Continue an application for Carer's Allowance</legend>
+                    <section class="prompt e-prompt">
                     <ul>
-                    <div>
-                        <ul>
-                            <li>
-                                <label>Enter your reference number</label>
-                                <p class="helper above">You were given this when you saved your application.</p>
-                                <input type="text" maxlength="14" id="refNum" autocomplete="off" name="refNum"/>
-                            </li>
-                        </ul>
-                    </div>
-                </ul>
+                        <div>
+                            <ul>
 
-                <nav>
-                    <ul>
-                        <li><input type="submit" class="button" value="Go" id="enter" name="enter"/></li>
+                                    <label>Enter your National Insurance number</label>
+                                    <p class="helper above">If you don't know you're NINO. Unluck</p>
+                                    <input type="tel" maxlength="12" id="refNum" autocomplete="off" name="refNum"/>
+
+                            </ul>
+                        </div>
                     </ul>
-                </nav>
-            </fieldset>
+
+                    <nav>
+                        <ul>
+                            <li><input type="submit" class="button" value="Resume application" id="enter" name="enter"/></li>
+                        </ul>
+                    </nav>
+                </fieldset>
             </form>
         </article>
 
         <aside class="left-col">
 
             <section id="help">
-                       <h2>Get help</h2>
-                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
-                       <h3>Helpline 0345 608 4321</h3>
-                       <p>Weekdays, 8.30am to 5pm (except Fridays 4.30pm)</p>
-
-                       <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
 
             </section>
 

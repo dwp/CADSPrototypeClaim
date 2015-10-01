@@ -49,8 +49,9 @@
 	            "required,address.lineOne,Please enter the first line of your address",
 	            "required,address.lineTwo,Please enter the second line of your address",
 	            "required,postcode,Please enter your postcode",
-	            "required,howWeContactYou,Contact phone or mobile number - this field is required",
-	            "required,contactYou,Do you want an email when we have received this application? This field is required"
+	            "required,contactYou,Do you want an email when we have received this application? This field is required",
+	            "digits_only,howWeContactYou,Contact telephone number - enter numbers only"
+
 	        ]
 	    });
 	});
@@ -96,7 +97,7 @@
                 <h2>Get help</h2>
                 <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                 <h3>Helpline 0345 608 4321</h3>
-                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
                 <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
@@ -108,7 +109,6 @@
             <nav class="back-nav">
                 <a id="backButton" href="javascript:history.back()">Back</a>
             </nav>
-
 
             <div class="section-progress">
                 Section 2 of 9
@@ -158,9 +158,9 @@
 
                         <li><label for="howWeContactYou">Contact phone or mobile number</label>
 
-                            <p class="helper above">Alternatively, tell us here if you do not have a contact number</p>
+                            <p class="helper above">Alternatively, leave this blank if you don't have a contact number</p>
 
-                            <input type="text" id="howWeContactYou" name="howWeContactYou" value="" maxLength="35"
+                            <input type="tel" id="howWeContactYou" name="howWeContactYou" value="" maxLength="35"
                                    autocomplete="off">
 
                         </li>
@@ -169,8 +169,7 @@
 
                             <input type="checkbox" id="contactYouByTextphone" name="contactYouByTextphone" value="true">
 
-                            <label for="contactYouByTextphone"> I have hearing difficulties and I use a
-                                textphone</label>
+                            <label for="contactYouByTextphone">This is a textphone for people with hearing difficulties</label>
 
                         </li>
 
@@ -208,7 +207,7 @@
 
                         <li>
                             <fieldset class="question-group">
-                                <legend> Do you want an email to confirm your application has been received? </legend>
+                                <legend> Do you want an email to confirm your application's been received? </legend>
                                 <ul class="radio" id="contactYou">
 
                                     <li>

@@ -44,7 +44,7 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,breaksInCare,Please confirm if you have had any breaks in caring."
+	            "required,breaksInCare,Confirm if you've had any breaks in caring."
 	        ]
 	    });
 	});
@@ -88,7 +88,7 @@
                 <h2>Get help</h2>
                 <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                 <h3>Helpline 0345 608 4321</h3>
-                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
                 <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
@@ -135,9 +135,9 @@
                         <li>
                             <fieldset class="question-group">
 
-                                <legend>Have you cared for the person you look after for 35 hours or more every week since 26 November 2014?</legend>
+                                <legend>Have you cared for the person you look after for 35 hours or more every week since 8 September 2015</legend>
 
-                                <ul class="radio " id="breaksInCare">
+                                <ul class="radio" id="breaksInCare">
 
                                     <li>
 
@@ -217,10 +217,6 @@ $('document').ready(function() {
 
     $('#breaksInCare_no').click(function() {
         $('#nextPage').attr('href', 'aboutCare5.html');
-    });
-
-    $('#saveExit').click(function() {
-        $('#saveExit').attr('href','../saveAndReturn/savePage.html');
     });
 
 });

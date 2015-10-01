@@ -46,8 +46,8 @@
 	            "required,month_1,Enter the month you started to care",
 	            "digits_only,month_1,Enter a month in digits",
 	            "required,year_1,Enter the year you started to care",
-	            "digits_only,year_1,Enter a year using four digits",
-	            "required,beganCaring,You must answer 'were you caring for this person for more than 35 hours a week before this date?'"
+	            "digits_only,year_1,Enter a year using 4 digits",
+	            "required,beganCaring,Confirm if you were caring for this person before your claim date"
 	        ]
 	    });
 	}); 
@@ -89,7 +89,7 @@
                        <h2>Get help</h2>
                        <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                        <h3>Helpline 0345 608 4321</h3>
-                       <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
                        <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
@@ -105,19 +105,18 @@
 	                
 	                <div class="section-progress">Section 1 of 9</div>
 
-		            <h1><legend>Are you the carer?</legend></h1>
+		            
 
                     <form action="c1.html" method="post" id="form_demo">
                         <div id="validation" class="validation-summary"></div>
-
-                    <fieldset class="form-elements">
- 
+						<fieldset class="form-elements">
+						<h1><legend>Are you applying for Carer's Allowance for yourself?</legend></h1>
                                 <ul>
                                     <li>
                                         <fieldset class="question-group">
                                             <ul class="radio radio-stack" id="beganCaring">
                                                 <li>
-                                                    <label for="beganCaring_yes" class="extra-detail">
+                                                    <label for="beganCaring_yes" class="extra-detail remove-detail">
                                                         <input type="radio" id="beganCaring_yes" name="beganCaring"
                                                                onmousedown="" value="Yes"/>
                                                         <span>Yes</span></label>
@@ -126,7 +125,7 @@
                                                     <label for="beganCaring_no" class="show-detail">
                                                         <input type="radio" id="beganCaring_no" name="beganCaring"
                                                                onmousedown="" value="No"/>
-                                                        <span>No, you're filling this in for someone else</span></label>
+                                                        <span>No, you're applying on behalf of someone else</span></label>
                                                 </li>
                                             </ul>
                                         </fieldset>
@@ -148,8 +147,8 @@
                             <ul>
 
                                 <li><input type="submit" value="Next" class="button" /></li>
-                                <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
-                               <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+                               <!-- <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
+                                <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
                                 <li><a href="javascript:history.back()">Back</a></li>
                             </ul>
                         </nav>
