@@ -45,9 +45,9 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,nationality,Select your nationality.",
-	            "required,residence,Confirm if you've always lived in England Scotland or Wales.",
-	            "required,anyTrips,Confirm if you've been away from England Scotland or Wales for more than 52 weeks in the last 3 years."
+	            "required,nationality,Please select your nationality.",
+	            "required,residence,Please confirm if you have always lived in England Scotland or Wales.",
+	            "required,anyTrips,Please confirm if you have been away from England Scotland or Wales for more than 52 weeks in the last 3 years."
 	        ]
 	    });
 	});
@@ -83,16 +83,17 @@
             <a class="help">Get help</a>
         </section>
 
-
         <aside class="left-col">
 
             <section id="help">
                 <h2>Get help</h2>
                 <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                 <h3>Helpline 0345 608 4321</h3>
-                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
-
-                <p>Calls cost up 9p a minute from landlines, calls from mobiles may cost more.</p>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
 
             </section>
 
@@ -106,226 +107,228 @@
             </nav>
 
             <div class="section-progress">
-                        Section 2 of 9
+                Section 2 of 9
             </div>
 
             <h1> About you - the carer </h1>
-                <form action="aboutYou5a.html" method="post" id="form_demo">
-                    <div id="validation" class="validation-summary"></div>
+            <form action="aboutYou6.html" method="post" id="form_demo">
+                <div id="validation" class="validation-summary"></div>
 
-            <fieldset class="form-elements">
+                <fieldset class="form-elements">
+                    <legend>Nationality and where you live</legend>
 
-                <ul>
-                    <li>
-                        <fieldset class="question-group">
-                            <legend>Your nationality</legend>
+                    <ul>
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>What is your nationality?</legend>
                                 <ul class="radio radio-stack" id="nationality">
                                     <li>
                                         <label for="nationality_British" class="remove-detail">
-                                        <input type="radio" id="nationality_British" name="nationality"
-                                               onmousedown="" value="British" required/>
-                                                <span>British</span>
+                                            <input type="radio" id="nationality_British" name="nationality"
+                                                   onmousedown="" value="British" required/>
+                                            <span>British</span>
                                         </label>
                                     </li>
 
                                     <li>
                                         <label for="nationality_Another_Nationality" class="show-detail">
-                                        <input type="radio" id="nationality_Another_Nationality" name="nationality"
-                                               onmousedown="" value="Another nationality"/>
-                                                <span>Another nationality</span>
+                                            <input type="radio" id="nationality_Another_Nationality" name="nationality"
+                                                   onmousedown="" value="Another nationality"/>
+                                            <span>Another nationality</span>
                                         </label>
                                     </li>
                                 </ul>
                             </fieldset>
 
 
-                                    <li id="nationality_other" class="other-detail open-detail">
-                                        <ul class="extra-group">
-                                            <li>
-                                                <label for="nationalityOther">Your nationality</label>
-                                                <input type="text" id="nationalityOther" name="nationalityOther" maxlength=""/>
-                                            </li>
-                                        </ul>
-                                    </li>
-                    </ul>
-
-                <ul>
-
-                     <li>
-                        <fieldset class="question-group">
-                            <legend>Have you always lived in England, Scotland or Wales</legend>
-                            <ul class="radio" id="residence">
+                        <li id="nationality_other" class="other-detail open-detail">
+                            <ul class="extra-group">
                                 <li>
-                                    <label for="residence_yes" class="remove-detail2 remove-detail3">
-                                        <input type="radio" id="residence_yes" name="residence"
-                                               onmousedown="" value="Yes"/>
-                                        <span>Yes</span></label>
-                                </li>
-
-                                <li>
-                                    <label for="residence_no" class="show-detail2">
-                                        <input type="radio" id="residence_no" name="residence"
-                                               onmousedown="" value="No"/>
-                                        <span>No</span></label>
+                                    <label for="nationalityOther">Your nationality</label>
+                                    <input type="text" id="nationalityOther" name="nationalityOther" maxlength=""/>
                                 </li>
                             </ul>
-                        </fieldset>
-                      </li>
-                </ul>
+                        </li>
+                    </ul>
 
-                <ul>
+                    <ul>
+
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Have you always lived in England, Scotland or Wales</legend>
+                                <ul class="radio" id="residence">
+                                    <li>
+                                        <label for="residence_yes" class="remove-detail2 remove-detail3">
+                                            <input type="radio" id="residence_yes" name="residence"
+                                                   onmousedown="" value="Yes"/>
+                                            <span>Yes</span></label>
+                                    </li>
+
+                                    <li>
+                                        <label for="residence_no" class="show-detail2">
+                                            <input type="radio" id="residence_no" name="residence"
+                                                   onmousedown="" value="No"/>
+                                            <span>No</span></label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+                    </ul>
+
+                    <ul>
                         <li id="currentResidence" class="other-detail open-detail2">
                             <fieldset class="nested-fieldset">
                                 <legend class="nestedLabel"> Are you currently living in England, Scotland or Wales?</legend>
-                                    <ul class="extra-group radio">
-                                        <li>
-                                            <label for="currentResidence_yes" class="show-detail3">
-                                                <input type="radio" id="currentResidence_yes" name="currentResidence" onmousedown=""
-                                                       value="Yes"/>
-                                                <span>Yes</span></label>
-                                        </li>
+                                <ul class="extra-group radio">
+                                    <li>
+                                        <label for="currentResidence_yes" class="show-detail3">
+                                            <input type="radio" id="currentResidence_yes" name="currentResidence" onmousedown=""
+                                                   value="Yes"/>
+                                            <span>Yes</span></label>
+                                    </li>
 
-                                        <li>
-                                            <label for="currentResidence_no" class="remove-detail3">
-                                                <input type="radio" id="currentResidence_no" name="currentResidence" onmousedown=""
-                                                       value="No"/>
-                                                <span>No</span></label>
-                                        </li>
-                                    </ul>
-                                </fieldset>
+                                    <li>
+                                        <label for="currentResidence_no" class="remove-detail3">
+                                            <input type="radio" id="currentResidence_no" name="currentResidence" onmousedown=""
+                                                   value="No"/>
+                                            <span>No</span></label>
+                                    </li>
+                                </ul>
+                            </fieldset>
                         </li>
 
                         <li id="dateOfArrival" class="other-detail open-detail3">
                             <fieldset class="question-group">
                                 <legend>When did you arrive?</legend>
-                                    <ul class="extra-group inline year">
+                                <ul class="extra-group inline year">
+                                    <li>
+                                        <label>Day</label>
+                                        <input type="tel" id="dateOfArrival_day" name="dateOfArrival"v
+                                               value="" maxlength="2"/>
+                                    </li>
+
+                                    <li>
+                                        <label>Month</label>
+                                        <input type="tel" id="dateOfArrival_month" name="dateOfArrival_month"
+                                               value="" maxlength="2"/>
+                                    </li>
+
+                                    <li>
+                                        <label>Year</label>
+                                        <input type="tel" id="dateOfArrival_year" name="dateOfArrival_year"
+                                               value="" maxlength="4"/>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li id="countryCameFrom" class="open-detail3">
+                                        <ul class="extra-group">
                                             <li>
-                                                <label>Day</label>
-                                                <input type="tel" id="dateOfArrival_day" name="dateOfArrival"v
-                                                       value="" maxlength="2"/>
+                                                <label>Which country did you come from?
+                                                    <input type="text" id="countryCameFromDetail" name="countryCameFromDetail"
+                                                           maxlength="" value=""/>
+                                                </label>
                                             </li>
+                                        </ul>
+                                    </li>
+                                </ul>
 
+                                <ul>
+                                    <li id="planToReturn" class="other-detail open-detail2">
+                                        <fieldset class="question-group">
+                                            <legend>Do you plan to go back to that country?</legend>
+                                            <ul class="radio">
+                                                <li>
+                                                    <label for="planToReturn_yes" class="show-detail4">
+                                                        <input type="radio" id="planToReturn_yes" name="planToReturn"
+                                                               onmousedown="" value="Yes"/>
+                                                        <span>Yes</span></label>
+                                                </li>
+
+                                                <li>
+                                                    <label for="planToReturn_no" class="remove-detail4">
+                                                        <input type="radio" id="planToReturn_no" name="planToReturn"
+                                                               onmousedown="" value="No"/>
+                                                        <span>No</span></label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li id="plannedToReturn" class="other-detail open-detail4">
+                                        <ul class="extra-group">
                                             <li>
-                                                <label>Month</label>
-                                                <input type="tel" id="dateOfArrival_month" name="dateOfArrival_month"
-                                                       value="" maxlength="2"/>
-                                            </li>
-
-                                            <li>
-                                                <label>Year</label>
-                                                <input type="tel" id="dateOfArrival_year" name="dateOfArrival_year"
-                                                       value="" maxlength="4"/>
+                                                <label>When do you plan to go back?</label>
+                                                <input type="text" id="plannedToReturn_yes" name="plannedToReturn_yes"
+                                                       onmousedown=""/>
                                             </li>
                                         </ul>
-
-                                        <ul>
-                                            <li id="countryCameFrom" class="open-detail3">
-                                                <ul class="extra-group">
-                                                  <li>
-                                                    <label>Which country did you come from?
-                                                        <input type="text" id="countryCameFromDetail" name="countryCameFromDetail"
-                                                               maxlength="" value=""/>
-                                                    </label>
-                                                  </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-
-                                        <ul>
-                                            <li id="planToReturn" class="other-detail open-detail2">
-                                                <fieldset class="question-group">
-                                                    <legend>Do you plan to go back to that country?</legend>
-                                                        <ul class="radio">
-                                                            <li>
-                                                                <label for="planToReturn_yes" class="show-detail4">
-                                                                    <input type="radio" id="planToReturn_yes" name="planToReturn"
-                                                                           onmousedown="" value="Yes"/>
-                                                                <span>Yes</span></label>
-                                                            </li>
-
-                                                            <li>
-                                                                <label for="planToReturn_no" class="remove-detail4">
-                                                                    <input type="radio" id="planToReturn_no" name="planToReturn"
-                                                                           onmousedown="" value="No"/>
-                                                                    <span>No</span></label>
-                                                            </li>
-                                                        </ul>
-                                                </fieldset>
-                                            </li>
-                                        </ul>
-
-                                        <ul>
-                                            <li id="plannedToReturn" class="other-detail open-detail4">
-                                                <ul class="extra-group">
-                                                    <li>
-                                                        <label>When do you plan to go back?</label>
-                                                        <input type="text" id="plannedToReturn_yes" name="plannedToReturn_yes"
-                                                               onmousedown=""/>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                     </fieldset>
-                            </li>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
 
 
-                <ul>
-                    <li>
-                        <fieldset class="question-group">
-                            <legend>
-                                Have you been away from England, Scotland or Wales for more than 52 weeks in the
-                                3 years before
-                                your claim date?
-                            </legend>
-                            <p class="helper above">This could be one trip, or a number of trips adding up to 52
-                                week.</p>
-                            <ul class="radio" id="anyTrips">
-                                <li>
-
-                                    <label for="anyTrips_yes" class="show-detail5">
-                                        <input type="radio" id="anyTrips_yes" name="anyTrips" onmousedown=""
-                                               value="yes"/>
-                                        <span>Yes</span></label>
-                                </li>
-
-                                <li>
-
-                                    <label for="anyTrips_no" class="remove-detail5">
-                                        <input type="radio" id="anyTrips_no" name="anyTrips" onmousedown=""
-                                               value="no"/>
-                                        <span>No</span></label>
-                                </li>
-                            </ul>
-                        </fieldset>
-                    </li>
-
-                    <li id="tripDetailsWrapper" class="other-detail open-detail5">
-                        <ul class="extra-group">
-                            <li>
-                                <label for="tripDetails">
-
-                                    Give details about where you've been and the dates you left and came back.
-
-                                </label>
-                                <textarea id="tripDetails" name="tripDetails" maxLength="3000"></textarea>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                </ul>
-            </fieldset>
-
-                    <nav class="form-steps">
                         <ul>
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>
+                                        Have you been away from England, Scotland or Wales for more than 52 weeks in the
+                                        3 years before
+                                        your claim date?
+                                    </legend>
+                                    <p class="helper above">This could be one trip, or a number of trips adding up to 52
+                                        week.</p>
+                                    <ul class="radio" id="anyTrips">
+                                        <li>
 
-                            <li><input type="submit" value="Next" class="button" /></li>
-                            <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
-                           <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
-                            <li><a href="javascript:history.back()">Back</a></li>
+                                            <label for="anyTrips_yes" class="show-detail5">
+                                                <input type="radio" id="anyTrips_yes" name="anyTrips" onmousedown=""
+                                                       value="yes"/>
+                                                <span>Yes</span></label>
+                                        </li>
+
+                                        <li>
+
+                                            <label for="anyTrips_no" class="remove-detail5">
+                                                <input type="radio" id="anyTrips_no" name="anyTrips" onmousedown=""
+                                                       value="no"/>
+                                                <span>No</span></label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+
+                            <li id="tripDetailsWrapper" class="other-detail open-detail5">
+                                <ul class="extra-group">
+                                    <li>
+                                        <label for="tripDetails">
+
+                                            Tell us about this time away. Include the dates you left and returned and
+                                            details of where
+                                            you've been. We may need to contact you for more information.
+
+                                        </label>
+                                        <textarea id="tripDetails" name="tripDetails" maxLength="3000"></textarea>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
-                    </nav>
+                    </ul>
+                </fieldset>
 
-                </form>
+                <nav class="form-steps">
+                    <ul>
+
+                        <li><input type="submit" value="Next" class="button" /></li>
+                        <li><input type="button" value="Save for later" id="pauseProgress" class="button"/></li>
+                        <li><a href="javascript:history.back()">Back</a></li>
+                    </ul>
+                </nav>
+
+            </form>
 
         </article>
 
@@ -359,7 +362,7 @@
 <!--/ footer -->
 <!-- -->
 <script src="../js/custom.js"></script>
-<!--
+
 <script type="text/javascript">
 
     $('#pauseProgress').click(function() {
@@ -373,6 +376,6 @@
                 }
         });
 </script>
--->
+
 </body>
 </html>
