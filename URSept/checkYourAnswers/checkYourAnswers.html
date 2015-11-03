@@ -26,16 +26,20 @@
         #next {
         margin-top: 10px;
         }
+
+       label.active {
+            background-color: yellow;
+       }
+
+       .button.secondary {
+        background-color: green;
+        }
+
+        tr:hover {
+            background-color: #f3f3f3;
+        }
+
    </style>
-
-        <!--.button.secondary:hover {-->
-        <!--background-color: white;-->
-        <!--}-->
-
-        <!--tr:hover {-->
-        <!--background-color: #00beb7;-->
-        <!--}-->
-
 
 </head>
 
@@ -58,26 +62,22 @@
 
 
     <tbody>
-    <tr class="review-change">
+    <tr aria-label="Name" class="review-change">
         <td class="review-label">
-
             <b>Name</b>
-
         </td>
         <td class="review-value">
             Mr ed reed
         </td>
         <td class="review-action">
-            <a class="button secondary" href="about/aboutYou1.html">Change this</a>
+            <a class="button" href="about/aboutYou1.html">Change this</a>
         </td>
     </tr>
 
 
     <tr class="review-change">
         <td class="review-label">
-
             <b>National Insurance number</b>
-
         </td>
         <td class="review-value">
             Select 'change this' to view your National Insurance number
@@ -228,13 +228,15 @@
 <div class="accordion-content open">
     <table class="review">
 
+        <caption class="hidden" aria-hidden="true">About your partner</caption>
+
         <tbody>
         <tr class="review-change">
-            <td class="review-label">
+            <th class="review-label">
 
                 <b>Have you lived with a partner at any time since your claim date?</b>
 
-            </td>
+            </th>
             <td class="review-value">
                 No
             </td>
@@ -348,14 +350,14 @@
         <tr class="review-change">
             <td class="review-label">
 
-                <b>Have you had any breaks in caring for this person</b>
+                <p id="ian">Breaks</p>
 
             </td>
             <td class="review-value">
                 No
             </td>
             <td class="review-action">
-                <a class="button secondary">Change this</a>
+                <a class="button secondary" aria-labelledby="ian">Change this</a>
             </td>
         </tr>
 
@@ -528,34 +530,19 @@
 
 </script>
 
-<!--
 <script type="text/javascript">
-    $(function(){
-    $('#upLoad').click(function(){
-        $('#upLoadDocs').click();
+    $(document).ready(function() {
+        $('label').click(function() {
+            $('label').toggleClass('.active');
+        });
     });
-
-    $('#upLoadDocs').change(function(){
-        $('#fileName').val($(this).val());
-    });
-
-    $('#upLoadNow').click(function() {
-        alert('Your documents have been uploaded');
-
-    });
-});
 </script>
--->
 
-<!--
 <script type="text/javascript">
-$('document').ready(function() {
-    $('body').mouseleave(function() {
-        alert("STOP!! Hammer time!");
+    $(document).ready(function() {
+        $('tr').attr('tabindex', '1');
     });
-});
 </script>
--->
 
 </html>
 

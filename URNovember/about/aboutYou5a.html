@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+			   	
+			   	
+			   	<aside class="left-col">
+		        
+                   <section id="help">
+                       <h2>Get help</h2>
+                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                       <h3>Helpline 0345 608 4321</h3>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                       <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
+
+                   </section>
+				
+				</aside>
+
+
+<article>
+
+    <nav class="back-nav">
+        <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav>
+
+
+            <div class="section-progress">
+                Section 2 of 9
+            </div>
+            <h1>About you - the carer</h1>
+
+
+    <form action="#" method="POST" id="familyAbroad">
+
+        <input type="hidden" name="csrfToken"
+               value=""/>
+
+        <div class="form-wrap">
+            <fieldset class="form-elements">
+                <legend class="legend-hidden">Your job</legend>
+
+
+                <ul>
+					<li>
+                        <fieldset class="question-group">
+
+
+                            <legend>
+
+
+                                Have you or any of your family worked abroad or been paid benefits from another country since your claim date?
+
+
+                            </legend>
+							<p class="helper above">This means your partner, parents or children. 'Benefits' includes state pensions.</p>
+                            <ul class="radio "
+                                id="job">
+
+
+                                <li>
+
+                                    <label for="Yes"
+                                           onmousedown="" class="remove-detail">
+                                        <input type="radio"
+                                               id="Yes"
+                                               name="job"
+                                               onmousedown="" value="Yes"/>
+                                        <span>Yes</span></label>
+                                </li>
+
+                                <li>
+
+                                    <label for="No"
+                                           onmousedown="" class="show-detail">
+                                        <input type="radio"
+                                               id="No"
+                                               name="job"
+                                               onmousedown="" value="No"/>
+                                        <span>No</span></label>
+                                </li>
+
+
+                            </ul>
+
+                        </fieldset>
+					</ul>
+					
+            </fieldset>
+
+            <nav class="form-steps">
+                <ul>
+                    <li><a href="aboutYou6.html" name="next" class="button"> Next </a></li>
+					<li><input type="submit" value="Save for later" class="button" /></li>
+                </ul>
+            </nav>
+        </div>
+    </form>
+</article>
+
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright </a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+<script>
+	$('#familyAbroad input[type="radio"]').click(function() {
+    var g1 = $("#No").is(":checked");
+    var addr = "aboutYou6.html";
+	if (g1) {
+		addr = "../about/aboutCareOLD.html";
+		}
+    $("#familyAbroad a").attr('href', addr);
+});
+</script>
+
+
+</body>
+</html>

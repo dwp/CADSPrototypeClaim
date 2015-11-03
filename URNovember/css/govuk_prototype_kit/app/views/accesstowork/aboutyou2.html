@@ -1,0 +1,125 @@
+{{<layout}}
+
+{{$pageTitle}}About you{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+
+<div class="phase-banner">
+    <p>
+      <strong class="phase-tag">ALPHA</strong>
+      <span>This is a new service – your <a href="/feedback">feedback</a> will help us to improve it.</span>
+    </p>
+  </div>
+
+
+
+
+<div class="grid-row">
+
+
+
+{{>includes/leftcol}}
+
+
+<div class="column-two-thirds">
+
+ 
+
+<h1 class="form-title heading-large">
+	<span class="section-progress">Section 1 of 4</span>
+      About you
+    </h1>
+    
+
+
+<form action="/" method="post" class="form">
+
+	
+    
+   <div class="form-group">
+    <fieldset>
+    
+    <legend class="form-label-bold">Your address</legend>
+    
+    <p>If you have no fixed address, provide a contact address where we can write to you.</p>
+    
+    <div class="form-group">
+    	<p class="form-label">Address</p>
+      <label class="form-label"><input type="text" class="form-control" id="address-line1"></label>
+      <label class="form-label"><input type="text" class="form-control" id="address-line2"></label>
+      <label class="form-label"><input type="text" class="form-control" id="address-line3"></label>
+  	</div>
+  	
+  	<div class="form-group">
+  	  <label class="form-label" for="address">Postcode</label>
+  	  <input type="text" class="form-control-1-4" id="postcode">
+  	</div>
+  	
+  	</fieldset>  
+   </div>  
+  	
+  	<div class="form-group">
+  		 <label class="form-label-bold" for="telephone-number">Contact phone or mobile number</label>
+  		 <p>Alternatively, tell us here if you do not have a contact number.</p>
+		  <input class="form-control" id="telephone-number" type="text">
+		  <label class="form-checkbox" for="checkbox-telephone-number">
+		    <input id="checkbox-telephone-number" type="checkbox" value="checkbox-telephone-number">
+		    I need to be contacted using a text phone
+		  </label>
+  	</div>
+  	
+  	<div class="form-group">
+  	 <fieldset class="inline">
+	    <legend class="form-label-bold">Would you like to be contacted via email?</legend>
+	    <div class="form-group form-group-compound">
+	      <label class="block-label" data-target="email-option" for="radio-indent-1">
+	        <input id="radio-indent-1" type="radio" name="radio-indent-group" value="Yes">
+	        Yes
+	      </label>
+	      <label class="block-label" for="radio-indent-2">
+	        <input id="radio-indent-2" type="radio" name="radio-indent-group" value="No">
+	        No
+	      </label>
+	    </div>
+	    <div class="panel-indent js-hidden" id="email-option">
+	      <div class="form-group">
+		      <label class="form-label" for="email-address">Enter you email address</label>
+		      <input class="form-control" type="text" id="email-address">
+	      </div>
+	      <div class="form-group">
+		      <label class="form-label" for="email-address-confirm">Confirm your email address</label>
+		      <input class="form-control" type="text" id="email-address-confirm">
+	      </div>
+	    </div>
+	  </fieldset>
+  	</div>
+  	
+  	
+
+
+    
+
+
+    <!-- Primary buttons, secondary links -->
+    <div class="form-group">
+      <ul>
+		<li><a href="thirdparty" class="button">Next</a></li>
+        <li><a href="aboutyou1">Back</a></li>
+      </ul>
+    </div>
+
+  </form>
+  
+</div>
+
+
+
+
+</main>
+
+{{/content}}
+
+{{/layout}}
+
