@@ -156,9 +156,8 @@
 
                         </li>
 
-                        <li><label for="howWeContactYou">Contact phone or mobile number</label>
+                        <li><label for="howWeContactYou">Contact number</label>
 
-                            <p class="helper above">Alternatively, leave this blank if you don't have a contact number</p>
 
                             <input type="tel" id="howWeContactYou" name="howWeContactYou" value="" maxLength="35"
                                    autocomplete="off">
@@ -206,12 +205,12 @@
                         </li>-->
 
                         <li>
-                            <fieldset class="question-group">
+                            <fieldset class="question-group" >
                                 <legend> Have you got an email address? </legend>
                                 <ul class="radio" id="contactYou">
 
                                     <li>
-                                        <label for="contactYou_yes" class="remove-detail">
+                                        <label for="contactYou_yes" class="show-detail3 remove-detail2">
                                             <input type="radio"
                                                    id="contactYou_yes"
                                                    name="contactYou" onmousedown=""
@@ -221,7 +220,7 @@
                                     </li>
 
                                     <li>
-                                        <label for="contactYou_no" class="show-detail">
+                                        <label for="contactYou_no" class="show-detail2 remove-detail3">
                                             <input type="radio"
                                                    id="contactYou_no"
                                                    name="contactYou" onmousedown=""
@@ -233,9 +232,35 @@
                             </fieldset>
                         </li>
 
-                    <li class="extra-detail open-detail">
+                        </li>
+
+
+
+
+                        <li class="extra-detail open-detail3">
+                            <ul class="extra-group">
+                                <li>
+                                    <label for="contactYou_yes"> Your email address </label>
+                                    <input type="text" id="contactByEmail" name="contactByEmail" />
+                                </li>
+                                <li>
+                                    <label for="confirmYourEmail"> Confirm your email address </label>
+                                    <input type="text" id="confirmYourEmail" name="confirmYourEmail" />
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+
+
+                        <li class="extra-detail open-detail2">
                     	<ul class="extra-group">
-            <li>  <p class="helper above">If you don't add an email address you won't get a confirmation your application is received and won't be able to save your application for later if you need to.
+            <li>  <p class="helper above">If you don't add an email address you won't get confirmation your application
+                is received and won't be able to save your application for later if you need to.
             </p></li>
 	                        </li>
                     	</ul>
