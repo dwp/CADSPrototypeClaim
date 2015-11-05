@@ -97,7 +97,7 @@
                 <h2>Get help</h2>
                 <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                 <h3>Helpline 0345 608 4321</h3>
-                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
                 <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
@@ -115,7 +115,7 @@
             </div>
             <h1>About you - the carer</h1>
 
-            <form action="aboutYou5a.html" method="POST" id="form_demo">
+            <form action="aboutYou4TimeAbroad.html" method="POST" id="form_demo">
                 <div id="validation" class="validation-summary"></div>
                 <input type="hidden" name="csrfToken"
                        value="82a7385d0b278fc920052ceb83fa6aaaee877e4e-1414598539901-6954aa9a71f61e61c39e9a86"/>
@@ -156,9 +156,8 @@
 
                         </li>
 
-                        <li><label for="howWeContactYou">Contact phone or mobile number</label>
+                        <li><label for="howWeContactYou">Contact number</label>
 
-                            <p class="helper above">Alternatively, leave this blank if you do not have a contact number</p>
 
                             <input type="tel" id="howWeContactYou" name="howWeContactYou" value="" maxLength="35"
                                    autocomplete="off">
@@ -169,8 +168,7 @@
 
                             <input type="checkbox" id="contactYouByTextphone" name="contactYouByTextphone" value="true">
 
-                            <label for="contactYouByTextphone"> I have hearing difficulties and I use a
-                                textphone</label>
+                            <label for="contactYouByTextphone">This is a textphone for people with hearing difficulties.</label>
 
                         </li>
 
@@ -207,12 +205,12 @@
                         </li>-->
 
                         <li>
-                            <fieldset class="question-group">
-                                <legend> Do you want an email to confirm your application has been received? </legend>
+                            <fieldset class="question-group" >
+                                <legend> Have you got an email address? </legend>
                                 <ul class="radio" id="contactYou">
 
                                     <li>
-                                        <label for="contactYou_yes" class="show-detail">
+                                        <label for="contactYou_yes" class="show-detail3 remove-detail2">
                                             <input type="radio"
                                                    id="contactYou_yes"
                                                    name="contactYou" onmousedown=""
@@ -222,7 +220,7 @@
                                     </li>
 
                                     <li>
-                                        <label for="contactYou_no" class="remove-detail">
+                                        <label for="contactYou_no" class="show-detail2 remove-detail3">
                                             <input type="radio"
                                                    id="contactYou_no"
                                                    name="contactYou" onmousedown=""
@@ -234,15 +232,35 @@
                             </fieldset>
                         </li>
 
-                    <li class="extra-detail open-detail">
+                        </li>
+
+
+
+
+                        <li class="extra-detail open-detail3">
+                            <ul class="extra-group">
+                                <li>
+                                    <label for="contactYou_yes"> Your email address </label>
+                                    <input type="text" id="contactByEmail" name="contactByEmail" />
+                                </li>
+                                <li>
+                                    <label for="confirmYourEmail"> Confirm your email address </label>
+                                    <input type="text" id="confirmYourEmail" name="confirmYourEmail" />
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+
+
+                        <li class="extra-detail open-detail2">
                     	<ul class="extra-group">
-	                        <li>
-	                            <label for="contactByEmail"> Enter your email address </label>
-	                            <input type="text" id="contactByEmail" name="contactByEmail" />
-	                        </li>
-	                         <li>
-	                             <label for="confirmYourEmail"> Confirm your email address </label>
-	                             <input type="text" id="confirmYourEmail" name="confirmYourEmail" />
+            <li>  <p class="helper above">If you don't have an email address you won't get confirmation when we receive your application, or be able to save your application if you need to.
+            </p></li>
 	                        </li>
                     	</ul>
                     </li>
