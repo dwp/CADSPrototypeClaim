@@ -45,15 +45,15 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,title,Please enter your title",
-	            "required,fullName,Please enter your full name",
-	            "required,nationalInsuranceNumber,Please enter when your National Insurance Number",
-	            "required,dateOfBirth_day,Please enter your date of birth: day",
-	            "digits_only,dateOfBirth_day,The date field may only contain digits",
-	            "required,dateOfBirth_month,Please enter your date of birth: month",
-	            "digits_only,dateOfBirth_month,The date field may only contain digits",
-	            "required,dateOfBirth_year,Please enter your date of birth: year",
-	            "digits_only,dateOfBirth_year,The date field may only contain digits"
+	            "required,title,Enter your title",
+	            "required,fullName,Enter your full name",
+	            "required,nationalInsuranceNumber,Enter your National Insurance Number",
+	            "required,dateOfBirth_day,Enter the day you were born",
+	            "digits_only,dateOfBirth_day,Enter a date as a number",
+	            "required,dateOfBirth_month,Enter the month you were born",
+	            "digits_only,dateOfBirth_month,Enter a month as a number, eg for January put 01",
+	            "required,dateOfBirth_year,Enter the year you were born",
+	            "digits_only,dateOfBirth_year,Enter a year as a number"
 	        ]
 	    });
 	});
@@ -98,7 +98,7 @@
                    <h2>Get help</h2>
                    <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
                    <h3>Helpline 0345 608 4321</h3>
-                   <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+                   <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
                    <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
 
@@ -159,7 +159,7 @@
                         <li>
                             <label for="fullName">Full name</label>
                             <input type="text" id="fullName" name="fullName" value="" autocomplete="off"/>
-
+						</li>
                         <li>
                             <label for="otherNames">Other surname or maiden name<em>(optional)</em></label>
                             <input type="text" id="otherNames" name="otherNames" value="" maxlength="35"
@@ -221,8 +221,7 @@
                             <fieldset class="question-group">
                                 <legend>Date of birth</legend>
 
-                                <p class="helper above" id="dateOfBirth_defaultDateContextualHelp">For example, 21 10
-                                    1974</p>
+                                <p class="helper above" id="dateOfBirth_defaultDateContextualHelp">For example, 21 10 1974</p>
 
                                 <!-- datePlaceholder -->
 
@@ -254,11 +253,7 @@
                             <fieldset class="question-group">
                                 <legend>Have you lived with a partner at any time since your claim date?</legend>
                                     <div class="prompt nested-prompt partner-linked">
-                                        <p>By partner we mean:</p>
-                                        <ul>
-                                            <li>a person you are married to or live with as if you are married.</li>
-                                            <li>a civil partner or a person you live with as if you are civil partners.</li>
-                                        </ul>
+                                        <p>This means a civil partner, someone you're married to or anyone you live with as if they were your civil partner or spouse.</p> 
                                     </div>
 
                                     <ul class="radio partner-group" id="partner">
@@ -387,7 +382,7 @@
 
                                 </legend>
 
-                                <p class="helper above"> Your claim date is 11 July 2012</p>
+                                <p class="helper above"> Your claim date is 11 October 2015</p>
 
 
                                 <ul class="radio " id="separated_fromPartner">
