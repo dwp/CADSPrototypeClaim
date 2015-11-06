@@ -46,11 +46,11 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,address.lineOne,Enter the first line of your address",
-	            "required,address.lineTwo,Enter the second line of your address",
-	            "required,postcode,Enter your postcode",
-	            "required,contactYou,Select whether you have an email or not",
-	            "digits_only,howWeContactYou,Enter a valid phone number only using digits and spaces"
+	            "required,address.lineOne,Please enter the first line of your address",
+	            "required,address.lineTwo,Please enter the second line of your address",
+	            "required,postcode,Please enter your postcode",
+	            "required,contactYou,Do you want an email when we have received this application? This field is required",
+	            "digits_only,howWeContactYou,Contact telephone number - enter numbers only"
 
 	        ]
 	    });
@@ -168,7 +168,7 @@
 
                             <input type="checkbox" id="contactYouByTextphone" name="contactYouByTextphone" value="true">
 
-                            <label for="contactYouByTextphone">This is a textphone for people with hearing difficulties.</label>
+                            <label for="contactYouByTextphone">This is a textphone for people with hearing difficulties</label>
 
                         </li>
 
@@ -246,6 +246,8 @@
                                 <li>
                                     <label for="confirmYourEmail"> Confirm your email address </label>
                                     <input type="text" id="confirmYourEmail" name="confirmYourEmail" />
+
+                                    <p class="helper above">You'll be sent an email when your application's received.</p>
                                 </li>
                             </ul>
                         </li>
@@ -259,7 +261,9 @@
 
                         <li class="extra-detail open-detail2">
                     	<ul class="extra-group">
-            <li>  <p class="helper above">If you don't have an email address you won't get confirmation when we receive your application, or be able to save your application if you need to.
+            <li>  <p class="helper above">If you don't have an email address you won't get confirmation your application
+                is received and won't be able to save your application for later if you need to.
+
             </p></li>
 	                        </li>
                     	</ul>
