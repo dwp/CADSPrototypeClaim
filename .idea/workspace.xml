@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CYA/cya.html" afterPath="$PROJECT_DIR$/CYA/cya.html" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +29,12 @@
       <file leaf-file-name="cya.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CYA/cya.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6315789" vertical-offset="0" max-vertical-offset="22875">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.0601504" vertical-offset="705" max-vertical-offset="22890">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
               <folding>
-                <marker date="1446633450000" expanded="true" signature="1549:2164" placeholder="..." />
-                <marker date="1446633450000" expanded="true" signature="2418:2493" placeholder="..." />
-                <marker date="1446633450000" expanded="true" signature="4999:5060" placeholder="..." />
+                <marker date="1446806517000" expanded="true" signature="1516:2128" placeholder="..." />
+                <marker date="1446806517000" expanded="true" signature="2386:2461" placeholder="..." />
+                <marker date="1446806517000" expanded="true" signature="5018:5079" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -53,6 +53,13 @@
       <map>
         <entry key="$PROJECT_DIR$" value="URSept-Ian" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/CYA/cya.html" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -126,6 +133,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -857,12 +865,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CYA/cya.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789" vertical-offset="0" max-vertical-offset="22875">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state vertical-scroll-proportion="-1.0601504" vertical-offset="705" max-vertical-offset="22890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <marker date="1446633450000" expanded="true" signature="1549:2164" placeholder="..." />
-            <marker date="1446633450000" expanded="true" signature="2418:2493" placeholder="..." />
-            <marker date="1446633450000" expanded="true" signature="4999:5060" placeholder="..." />
+            <marker date="1446806517000" expanded="true" signature="1516:2128" placeholder="..." />
+            <marker date="1446806517000" expanded="true" signature="2386:2461" placeholder="..." />
+            <marker date="1446806517000" expanded="true" signature="5018:5079" placeholder="..." />
           </folding>
         </state>
       </provider>
