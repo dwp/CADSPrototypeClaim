@@ -2,67 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/accordian-arrow-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/accordian-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/apple-touch-icon-114x114-f1d7ccdc7b86d923386b373a9ba5e3db.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/apple-touch-icon-144x144-4e306e01c31e237722b82b7aa7130082.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/apple-touch-icon-57x57-37527434942ed8407b091aae5feff3f3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/apple-touch-icon-72x72-2ddbe540853e3ba0d30fbad2a95eab3c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/arrow-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/calendar-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/crown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/date.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/external-link-24x24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/external-link-black-12x12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/external-link-black-24x24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/external-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/favicon-447e4ac1ab790342660eacfe3dcce264.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/gov-crest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/gov.uk_logotype-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/govuk-crest-inverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-calendar-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-file-download-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-file-download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-important-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-important.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-information-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-information.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-locator-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-locator.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-pointer-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-pointer-black-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-pointer-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-pointer-indexed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-pointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-search-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/icon-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/ie-icon-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/ie-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/mobile-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/nav-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/nav-complete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/nav-default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/nav-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/ogl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/ogl2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/opengraph-image-4e469785ca4cc8f8dd18d0627bc43d19.png.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/player-icon-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/player-icon-pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/player-icon-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/player-icon-rewind.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/player-icon-volume.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/print-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/progress-tick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/reference-only.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/reference-watermark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/response-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/response-trio-xl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/response-trio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/tick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/img/white-tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/accordian-arrow-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/accordian-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/apple-touch-icon-114x114-f1d7ccdc7b86d923386b373a9ba5e3db.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/apple-touch-icon-144x144-4e306e01c31e237722b82b7aa7130082.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/apple-touch-icon-57x57-37527434942ed8407b091aae5feff3f3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/apple-touch-icon-72x72-2ddbe540853e3ba0d30fbad2a95eab3c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/arrow-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/calendar-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/crown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/date.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/external-link-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/external-link-black-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/external-link-black-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/external-link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/favicon-447e4ac1ab790342660eacfe3dcce264.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/gov-crest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/gov.uk_logotype-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/govuk-crest-inverse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-calendar-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-file-download-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-file-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-important-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-important.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-information-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-locator-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-locator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-pointer-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-pointer-black-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-pointer-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-pointer-indexed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-pointer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-search-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/icon-search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/ie-icon-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/ie-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/mobile-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/nav-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/nav-complete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/nav-default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/nav-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/ogl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/ogl2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/opengraph-image-4e469785ca4cc8f8dd18d0627bc43d19.png.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/player-icon-forward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/player-icon-pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/player-icon-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/player-icon-rewind.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/player-icon-volume.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/print-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/progress-tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/reference-only.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/reference-watermark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/response-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/response-trio-xl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/response-trio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URSept/img/white-tick.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -178,7 +178,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="URNovember" />
+              <option name="myItemId" value="URSept" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URSept" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,6 +226,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/URSept" />
       <recent name="$PROJECT_DIR$/URSept/template" />
       <recent name="$PROJECT_DIR$/URSept/saveAndReturn" />
     </key>
@@ -399,7 +418,11 @@
       <created>1446633491699</created>
       <updated>1446633491699</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added img folder - Ian">
+      <created>1447078818412</created>
+      <updated>1447078818412</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -416,6 +439,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -427,7 +451,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -452,7 +475,8 @@
     <MESSAGE value="Test - ian" />
     <MESSAGE value="Save stuff - Hopefully working now" />
     <MESSAGE value="cya - ian" />
-    <option name="LAST_COMMIT_MESSAGE" value="cya - ian" />
+    <MESSAGE value="added img folder - Ian" />
+    <option name="LAST_COMMIT_MESSAGE" value="added img folder - Ian" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
