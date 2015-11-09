@@ -28,13 +28,13 @@
       <file leaf-file-name="cya.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CYA/cya.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33895704">
-              <caret line="543" column="92" selection-start-line="543" selection-start-column="92" selection-end-line="543" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.6595092">
+              <caret line="630" column="26" selection-start-line="630" selection-start-column="26" selection-end-line="630" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1446810400000" expanded="true" signature="923:1510" placeholder="..." />
-                <marker date="1446810400000" expanded="true" signature="1717:1792" placeholder="..." />
-                <marker date="1446810400000" expanded="true" signature="3306:3367" placeholder="..." />
+                <marker date="1447060105000" expanded="true" signature="923:1510" placeholder="..." />
+                <marker date="1447060105000" expanded="true" signature="1717:1792" placeholder="..." />
+                <marker date="1447060105000" expanded="true" signature="3306:3367" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -498,7 +498,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446810016477</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CYA">
+      <created>1446810429015</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1446810429015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -916,13 +922,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CYA/cya.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33895704">
-          <caret line="543" column="92" selection-start-line="543" selection-start-column="92" selection-end-line="543" selection-end-column="92" />
+        <state vertical-scroll-proportion="0.6595092">
+          <caret line="630" column="26" selection-start-line="630" selection-start-column="26" selection-end-line="630" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1446810400000" expanded="true" signature="923:1510" placeholder="..." />
-            <marker date="1446810400000" expanded="true" signature="1717:1792" placeholder="..." />
-            <marker date="1446810400000" expanded="true" signature="3306:3367" placeholder="..." />
+            <marker date="1447060105000" expanded="true" signature="923:1510" placeholder="..." />
+            <marker date="1447060105000" expanded="true" signature="1717:1792" placeholder="..." />
+            <marker date="1447060105000" expanded="true" signature="3306:3367" placeholder="..." />
           </folding>
         </state>
       </provider>
