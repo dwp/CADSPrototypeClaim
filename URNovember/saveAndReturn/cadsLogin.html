@@ -88,46 +88,89 @@
           </nav> !-->
 
         <article>
-            <form action="../about/aboutCareOLD.html" name="myForm" method="POST" id="form_demo">
-                <div id="validation" class="validation-summary"></div>
+
             <h1>Continue your Carer's Allowance application</h1>
                     <section class="prompt e-prompt">
-                                    <p><b>To complete your application, you'll need:</b></p>
-                                    <ul>
-                                        <li>
-                                            <p id="act" name="act">bank details</p>
-                                        </li>
-                                        <li>
-                                            <p id="work" name="work">your employment history and income for up to the last 9 months</p>
-                                        </li>
-                                        <li>
-                                            <p id="dpDetails" name="dpDetails">the National Insurance number or Disability Living Allowance reference of the person you care for</p>
-                                        </li>
-                                    </ul>
+                                    <p><b>Enter the following information:</b></p>
                         </section>
                 <fieldset class="form-elements">
                     <ul>
                     <div>
-                        <ul>
                             <li>
-                                <label>Enter your reference number</label>
-                                <p class="helper above">You were given this when you saved your application.</p>
-                                <input type="text" maxlength="14" id="refNum" autocomplete="off" name="refNum"/>
+                                <label>Your National Insurance Number</label>
+                                <input type="text" id="national_InsuranceNumber" name="nationalInsuranceNumber" value="" maxlength="9"
+                                       autocomplete="off"/>
                             </li>
-                        </ul>
+
                     </div>
+
+                        <div>
+                            <ul>
+                                <li>
+                                    <label>Your first name</label>
+                                    <input type="text" maxlength="40" id="refNum" autocomplete="off" name="refNum"/>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li>
+                                    <label>Your last name</label>
+                                    <input type="text" maxlength="40" id="refNum" autocomplete="off" name="refNum"/>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul class="inline year" id="dateOfBirth">
+                                <li>
+                                    <label><b>Day</b></label>
+
+                                    <input type="tel" id="dateOfBirth_day" name="dateOfBirth_day"
+                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                                           autocomplete="off">
+
+                                </li>
+
+                                <li class="month">
+                                    <label><b>Month</b></label>
+
+                                    <input type="tel" id="dateOfBirth_month"
+                                           name="dateOfBirth_month"
+                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                                           autocomplete="off">
+
+                                </li>
+
+                                <li>
+                                    <label><b>Year</b></label>
+
+                                    <input type="tel" id="dateOfBirth_year"
+                                           name="dateOfBirth_year"
+                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                                           autocomplete="off">
+
+                                </li>
+
+                            </ul>
+                        </div>
                 </ul>
 
                 <nav>
                     <ul>
-                        <li><input type="submit" class="button" value="Go" id="enter" name="enter"/></li>
+                        <li><a href="../about/aboutCare5.html" class="button" value="Resume">Resume</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="../index.html" class="back-nav">Start a new application</a></li>
                     </ul>
                 </nav>
             </fieldset>
             </form>
         </article>
 
-        <aside class="left-col">
+        <!--<aside class="left-col">
 
             <section id="help">
                        <h2>Get help</h2>
@@ -139,7 +182,7 @@
 
             </section>
 
-        </aside>
+        </aside> -->
 
     </div>
 </main>

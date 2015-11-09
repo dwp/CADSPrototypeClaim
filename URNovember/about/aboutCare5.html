@@ -87,7 +87,7 @@
 </div>
 <h1>About the care you provide</h1>
 
-<form action="../education/educationTutor.html" method="POST">
+<form action="../../CYA/cya.html" method="POST">
 
 
 <div class="form-wrap">
@@ -98,9 +98,10 @@
     information as possible as it will help us process your claim and prevent any unnecessary delays.</p>
 
     <p>We may contact you for additional information.</p></div> -->
-<p>Give details of any periods you were unable to care for 35 hours a week - you could be paid for this time. Start with the most recent if you've had more than one.</p>
+<p>Give details of any periods you were unable to care for 35 hours a week - you could be paid for this time.</p>
 <ul>
 
+<!--
 <li>
 
     <label for="whereWereYou">Where were you at this time?</label>
@@ -280,10 +281,10 @@
                       name="whereWasDp" maxLength="60"></textarea> -->
 
            <!-- <p class="helper right">60 characters left</p> -->
-        </li>
+      <!--  </li>
     </ul>
 
-</li>
+</li> -->
 
 <li class="date-time  ">
 
@@ -425,7 +426,7 @@
 <li class="date-time  ">
 
 
-    <ul>
+ <!--   <ul>
         <li>
 
             <fieldset class="question-group">
@@ -438,7 +439,7 @@
 
                 <!-- datePlaceholder -->
 
-                <ul class="inline year" id="2bc2815841896f8afd8444a4ccb7aced">
+          <!--      <ul class="inline year" id="2bc2815841896f8afd8444a4ccb7aced">
                     <li>
                         <label>Day</label>
 
@@ -463,79 +464,92 @@
                     </li>
                 </ul>
             </fieldset>
-        </li>
+        </li> -->
 
         <li>
 
-            <p class="sub">Time break ended<em> (optional)</em></p>
-            <ul class="inline year">
-                <li>
-                    <input type="tel" id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b"
-                           pattern="[0-9 \-]{1,24}" title="Must be numbers only" value="" maxLength="2"
-                           autocomplete="off">
-                <li><label>:</label></li>
-                <li>
 
-                    <input type="tel" id="f83979350bc918a8b8dcd627af23f1b4" name="e8b17a8a70d4300e0af81abc3583290b"
-                           pattern="[0-9 \-]{1,24}" title="Must be numbers only" value="" maxlength="2"
-                           autocomplete="off>">
-                   <!-- <select id="69a044fc1e55845436d6942ada84d4dc" name="29709f858efeb0e1f23f3f4ae64dc48e">
+            <fieldset class="nested-fieldset">
+
+                <label>Has this break ended?</label>
+
+                <ul class="radio " id="breakYesNo">
+
+                    <li>
+
+                        <label for="breakYes" class="show-detail" >
+                            <input type="radio" id="breakYes"
+                                   name="breakYesNo" onmousedown=""
+                                   value="yes"/>
+                            <span>Yes</span></label>
+                    </li>
+
+                    <li>
+
+                        <label for="breakNo" class="remove-detail" onmousedown="">
+                            <input type="radio" id="breakNo"
+                                   name="breakYesNo" onmousedown=""
+                                   value="no"/>
+                            <span>No</span></label>
+                    </li>
 
 
-                        <option value="">Hour</option>
+            </ul>
 
-                        <option value="0">00</option>
+                <ul>
 
-                        <option value="1">01</option>
+                    <li id="dateBreakEnd" class="other-detail open-detail">
+                        <fieldset class="question-group">
+                            <label>When did it end</label>
+                            <ul class="extra-group inline year"> </li>
 
-                        <option value="2">02</option>
+                                <li>
+                                    <label>Day</label>
+                                    <input type="tel" id="dateOfArrival_day" name="dateOfArrival"v
+                                           value="" maxlength="2"/>
+                                </li>
 
-                        <option value="3">03</option>
+                                <li>
+                                    <label>Month</label>
+                                    <input type="tel" id="dateOfArrival_month" name="dateOfArrival_month"
+                                           value="" maxlength="2"/>
+                                </li>
 
-                        <option value="4">04</option>
+                                <li>
+                                    <label>Year</label>
+                                    <input type="tel" id="dateOfArrival_year" name="dateOfArrival_year"
+                                           value="" maxlength="4"/>
+                                </li>
 
-                        <option value="5">05</option>
 
-                        <option value="6">06</option>
 
-                        <option value="7">07</option>
 
-                        <option value="8">08</option>
 
-                        <option value="9">09</option>
 
-                        <option value="10">10</option>
 
-                        <option value="11">11</option>
 
-                        <option value="12">12</option>
 
-                        <option value="13">13</option>
 
-                        <option value="14">14</option>
 
-                        <option value="15">15</option>
 
-                        <option value="16">16</option>
 
-                        <option value="17">17</option>
 
-                        <option value="18">18</option>
 
-                        <option value="19">19</option>
 
-                        <option value="20">20</option>
 
-                        <option value="21">21</option>
 
-                        <option value="22">22</option>
 
-                        <option value="23">23</option>
 
-                    </select> -->
-                </li>
 
-                <li>
+
+
+
+
+                </ul>
+            </fieldset>
+
+
+
 
                     <!--<select id="ec5403adfeb2ed6820f33ab5f2c64375" name="8cc7de1ede0ed9193bcc15167bca8288">
 
@@ -552,8 +566,7 @@
 
                     </select>
                 </li> -->
-            </ul>
-        </li>
+
     </ul>
 </li>
 
@@ -594,11 +607,11 @@
     <ul>
 
         <li><input type="submit" value="Next" class="button" /></li>
-        <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
-        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+        <li><a href="../saveAndReturn/savePageEmail.html" id="saveExit" name="saveExit">Save for later</a></li>
         <li><a href="javascript:history.back()">Back</a></li>
     </ul>
 </nav>
+</div>
 
 </form>
 
@@ -635,19 +648,5 @@
 <!-- -->
 <script src="../js/custom.js"></script>
 
-<!-- <script type="text/javascript">
-
-    $('#pauseProgress').click(function() {
-        if($(this).val() == "Pause") {
-            $(this).val("Resume");
-                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
-                } else {
-                    ($(this).val() == "Resume")
-                    $(this).val("Pause");
-                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
-                }
-        });
-</script>
--->
 </body>
 </html>

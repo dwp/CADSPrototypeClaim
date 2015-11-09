@@ -1686,6 +1686,10 @@ div.fr a:after {
     content: none;
     }
 
+#saveExit:after {
+    content: none;
+    }
+
 a[href='javascript:history.back()']:after {
     content: none!important;
     }
