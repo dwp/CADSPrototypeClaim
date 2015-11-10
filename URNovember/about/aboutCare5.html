@@ -87,7 +87,7 @@
 </div>
 <h1>The care you give</h1>
 
-<form action="../CYA/cya.html" method="POST">
+<form id="form" action="../CYA/cya.html" method="POST">
 
 
 <div class="form-wrap">
@@ -626,7 +626,7 @@
         </ul>
     </fieldset>
 </li>
-<li class="other-detail open-detail2">
+<li class="other-detail">
 
     <fieldset class="question-group">
 
@@ -636,8 +636,8 @@
 
             <li>
 
-                <label for="anotherYes" onmousedown="">
-                    <input type="radio" id="AnotherYes"
+                <label for="anotherYes" onmousedown="" onclick="document.getElementById('form').action='#'">
+                    <input type="radio" id="anotherYes"
                            name="another" onmousedown=""
                            value="yes"/>
                     <span>Yes</span></label>
