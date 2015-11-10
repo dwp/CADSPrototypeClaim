@@ -282,6 +282,14 @@ function expandInput(el) {
 
 } // expandInput()
 
+
+
+<script type="text/javascript">
+function updateSpan {
+document.getElementById('textoutput').innerHTML=document.getElementById('textinput').value;
+}
+</script>
+
 // call the function
 expandInput($('input[type="text"]'));
 */

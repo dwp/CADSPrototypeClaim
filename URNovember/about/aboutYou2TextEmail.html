@@ -34,7 +34,11 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
     <script src="../js/jquery.rsv.js" type="text/javascript"></script>
-
+    <script type="text/javascript">
+function updateSpan () {
+document.getElementById('textoutput').innerHTML=document.getElementById('textinput').value;
+}
+</script>
 
     <script type="text/javascript">
 
@@ -241,23 +245,16 @@
                             <ul class="extra-group">
                                 <li>
                                     <label for="contactYou_yes"> Your email address </label>
-                                    <input type="text" id="contactByEmail" name="contactByEmail" />
+                                    <input type="text" id="textinput" name="contactByEmail" onkeyup="updateSpan();return false;" />
                                 </li>
                                 <li>
-                                    <label for="confirmYourEmail"> Confirm your email address </label>
-                                    <input type="text" id="confirmYourEmail" name="confirmYourEmail" />
+                                    <label for="textinput"> An email will be sent to:</label>
+                                    <span type="text" id="textoutput" name="confirmYourEmail"> </span>
 
-                                    <p class="helper above">You'll be sent an email when your application's received.</p>
+                                 <!--   <p class="helper above">You'll be sent an email when your application's received.</p> -->
                                 </li>
                             </ul>
                         </li>
-
-
-
-
-
-
-
 
                         <li class="extra-detail open-detail2">
                     	<ul class="extra-group">
@@ -270,6 +267,12 @@
                     </li>
                     </ul>
                 </fieldset>
+
+
+
+
+
+
 
                 <nav class="form-steps">
                     <ul>
