@@ -85,20 +85,19 @@
 <div class="section-progress">
     Section 5 of 10
 </div>
-<h1>About the care you provide</h1>
+<h1>The care you give</h1>
 
 <form action="../CYA/cya.html" method="POST">
 
 
 <div class="form-wrap">
 <fieldset class="form-elements">
-<legend>Times you've not been able to care for 35 hours a week since 26 November 2014</legend>
 
 <!--<div class="prompt helper-prompt"><p>We understand if you don't have exact details for each break but please add as much
     information as possible as it will help us process your claim and prevent any unnecessary delays.</p>
 
     <p>We may contact you for additional information.</p></div> -->
-<p>Give details of any periods you were unable to care for 35 hours a week - you could be paid for this time.</p>
+<p>Give details of any times you couldn't care for 35 hours a week - you could still be paid for this time.</p>
 <ul>
 
 <!--
@@ -294,7 +293,7 @@
 
             <fieldset class="question-group">
 
-                <legend>Date break started</legend>
+                <legend>Date started</legend>
 
                 <p class="helper above" id="b609f180c2ed183f4f5cc805f9571a59_defaultDateContextualHelp">For example, 30
                     9 2014</p>
@@ -333,7 +332,7 @@
         <li>
 
 
-            <p class="sub">Time break started<em> (optional)</em></p>
+            <p class="sub">Time started<em> (optional)</em></p>
             <ul class="inline year">
                 <li>
 
@@ -471,7 +470,7 @@
 
             <fieldset class="nested-fieldset">
 
-                <label>Has this break ended?</label>
+                <label>Has this ended?</label>
 
                 <ul class="radio " id="breakYesNo">
 
@@ -492,15 +491,15 @@
                                    value="no"/>
                             <span>No</span></label>
                     </li>
-
-
-            </ul>
-
+                </ul>
+            </fieldset>
+        </li>
+        </li>
+            <fieldset class="nested-fieldset">
                 <ul>
-
                     <li id="dateBreakEnd" class="other-detail open-detail">
                         <fieldset class="question-group">
-                            <label>When did it end</label>
+                            <label>Date ended</label>
                             <ul class="extra-group inline year"> </li>
 
                                 <li>
@@ -574,14 +573,14 @@
 
     <fieldset class="question-group">
 
-        <legend>Did you or the person you care for get any medical treatment or professional care during this time?
+        <legend>Were you or the person you care for in hospital during this time?
         </legend>
 
         <ul class="radio " id="987bfde46cce3506b2f4eae79be57b9ecc8bb158a8689f30e43180e29787e8d8">
 
             <li>
 
-                <label for="987bfde46cce3506b2f4eae79be57b9e88c848fcc5b6987f53fd99e8aad55b22" onmousedown="">
+                <label for="987bfde46cce3506b2f4eae79be57b9e88c848fcc5b6987f53fd99e8aad55b22" onmousedown="" class="remove-detail2">
                     <input type="radio" id="987bfde46cce3506b2f4eae79be57b9e88c848fcc5b6987f53fd99e8aad55b22"
                            name="987bfde46cce3506b2f4eae79be57b9ecc8bb158a8689f30e43180e29787e8d8" onmousedown=""
                            value="yes"/>
@@ -590,9 +589,65 @@
 
             <li>
 
-                <label for="987bfde46cce3506b2f4eae79be57b9ea92ccdd45dc710e125bd9cb25094eab9" onmousedown="">
+                <label for="987bfde46cce3506b2f4eae79be57b9ea92ccdd45dc710e125bd9cb25094eab9" onmousedown="" class="show-detail2">
                     <input type="radio" id="987bfde46cce3506b2f4eae79be57b9ea92ccdd45dc710e125bd9cb25094eab9"
                            name="987bfde46cce3506b2f4eae79be57b9ecc8bb158a8689f30e43180e29787e8d8" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+        </ul>
+    </fieldset>
+</li>
+<li class="other-detail open-detail2">
+
+    <fieldset class="question-group">
+
+        <legend>Were you or the person you care for looked after by a medical professional during this time?
+        </legend>
+        <ul class="radio " id="987bfde46cce3506b2f4eae79be57b9ecc8bb158a8689f30e43180e29787e8f8">
+
+            <li>
+
+                <label for="987bfde46cce3506b2f4eae79be57b9e88c848fcc5b6987f53fd99e8aad55c22" onmousedown="">
+                    <input type="radio" id="987bfde46cce3506b2f4eae79be57b9e88c848fcc5b6987f53fd99e8aad55c22"
+                           name="987bfde46cce3506b2f4eae79be57b9ecc8bb158a8689f30e43180e29787e8f8" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="987bfde46cce3506b2f4eae79be57b9ea92ccdd45dc710e125bd9cb25094eac9" onmousedown="">
+                    <input type="radio" id="987bfde46cce3506b2f4eae79be57b9ea92ccdd45dc710e125bd9cb25094eac9"
+                           name="987bfde46cce3506b2f4eae79be57b9ecc8bb158a8689f30e43180e29787e8f8" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+        </ul>
+    </fieldset>
+</li>
+<li class="other-detail open-detail2">
+
+    <fieldset class="question-group">
+
+        <legend>Were there any other times you couldn't care for 35 hours a week?
+        </legend>
+        <ul class="radio " id="another">
+
+            <li>
+
+                <label for="anotherYes" onmousedown="">
+                    <input type="radio" id="AnotherYes"
+                           name="another" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="anotherNo" onmousedown="">
+                    <input type="radio" id="anotherNo"
+                           name="another" onmousedown=""
                            value="no"/>
                     <span>No</span></label>
             </li>
