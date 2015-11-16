@@ -52,7 +52,6 @@ document.getElementById('textoutput').innerHTML=document.getElementById('textinp
 	        rules: [
 	            "required,address.lineOne,Please enter the first line of your address",
 	            "required,address.lineTwo,Please enter the second line of your address",
-	            "required,postcode,Please enter your postcode",
 	            "required,contactYou,Do you want an email when we have received this application? This field is required",
 	            "digits_only,howWeContactYou,Contact telephone number - enter numbers only"
 
@@ -103,7 +102,7 @@ document.getElementById('textoutput').innerHTML=document.getElementById('textinp
                 <h3>Helpline 0345 608 4321</h3>
                 <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
-                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+                <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
 
             </section>
 
@@ -115,7 +114,7 @@ document.getElementById('textoutput').innerHTML=document.getElementById('textinp
             </nav>
 
             <div class="section-progress">
-                Section 2 of 9
+                Section 2 of 7
             </div>
             <h1>About you - the carer</h1>
 
@@ -248,8 +247,14 @@ document.getElementById('textoutput').innerHTML=document.getElementById('textinp
                                     <input type="text" id="textinput" name="contactByEmail" onkeyup="updateSpan();return false;" />
                                 </li>
                                 <li>
-                                    <label for="textinput"> An email will be sent to:</label>
-                                    <span type="text" id="textoutput" name="confirmYourEmail"> </span>
+                                    <label for="textinput"> Confirm your email address</label>
+                                    <input type="text" id="textinput" name="contactByEmailConfirm" onkeyup="updateSpan();return false;" />
+
+
+
+
+
+                                   <!-- <span type="text" id="textoutput" name="confirmYourEmail"> </span> -->
 
                                  <!--   <p class="helper above">You'll be sent an email when your application's received.</p> -->
                                 </li>
@@ -278,9 +283,10 @@ document.getElementById('textoutput').innerHTML=document.getElementById('textinp
                     <ul>
 
                         <li><input type="submit" value="Next" class="button" /></li>
-                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
+
                        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
                         <li><a href="javascript:history.back()">Back</a></li>
+                     <!--   <li><a href="#" id="saveExit" name="saveExit" >Save for later</a></li> -->
                     </ul>
                 </nav>
 

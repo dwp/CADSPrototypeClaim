@@ -45,8 +45,7 @@
 	      displayType: "display-html",
 	      errorFieldClass: "error-focus",
 	        rules: [
-	            "required,title,Please enter your title",
-	            "required,fullName,Please enter your full name",
+
 	            "required,dateOfBirth_day,Please enter your date of birth: day",
 	            "digits_only,dateOfBirth_day,The date field may only contain digits",
 	            "required,dateOfBirth_month,Please enter your date of birth: month",
@@ -99,7 +98,7 @@
                    <h3>Helpline 0345 608 4321</h3>
                    <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
 
-                   <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+                   <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
 
                </section>
 
@@ -112,7 +111,7 @@
                 <a id="backButton" href="javascript:history.back()">Back</a>
             </nav>
 
-            <div class="section-progress">Section 2 of 9</div>
+            <div class="section-progress">Section 2 of 7</div>
 
 
             <h1>About you - the carer</h1>
@@ -128,41 +127,22 @@
                     <ul>
                         <li>
                             <label for="title">Title</label>
-                            <select id="title" name="title">
-
-                                <option value="">Please select</option>
-
-                                <option value="Mr">Mr</option>
-
-                                <option value="Mrs">Mrs</option>
-
-                                <option value="Miss">Miss</option>
-
-                                <option value="Ms">Ms</option>
-
-                                <option value="Dr">Dr</option>
-
-                                <option value="Rev">Rev</option>
-
-                                <option value="Sir">Sir</option>
-
-                                <option value="Lord">Lord</option>
-
-                                <option value="Lady">Lady</option>
-
-                                <option value="Dame">Dame</option>
+                            <input type="text" id="title" name="title" value="" autocomplete="off"/>
 
                             </select>
                         </li>
 
                         <li>
-                            <label for="fullName">Full name</label>
-                            <input type="text" id="fullName" name="fullName" value="" autocomplete="off"/>
+                            <label for="name">First name</label>
+                            <input type="text" id="name" name="firstName" value="" autocomplete="off"/>
 
                         <li>
-                            <label for="otherNames">Other surname or maiden name<em>(optional)</em></label>
-                            <input type="text" id="otherNames" name="otherNames" value="" maxlength="35"
-                                   autocomplete="off">
+                        <label for="name">Middle name</label>
+                        <input type="text" id="name" name="midName" value="" autocomplete="off"/>
+
+                        <li>
+                        <label for="name">Last name</label>
+                        <input type="text" id="name" name="lastName" value="" autocomplete="off"/>
                         </li>
 
 
@@ -280,49 +260,28 @@
                         <li id="partnerDetailsWrap" class="other-detail open-detail">
                         <ul class="extra-group">
 
-                        <li><label for="title">Title</label>
+                            <li>
+                                <label for="title">Title</label>
+                                <input type="text" id="title" name="title" value="" autocomplete="off"/>
 
-                            <select id="partner_title" name="partner_title">
+                                </select>
+                            </li>
 
+                            <li>
+                                <label for="name">First name</label>
+                                <input type="text" id="name" name="firstName" value="" autocomplete="off"/>
 
-                                <option value="">Please select</option>
+                            <li>
+                                <label for="name">Middle name</label>
+                                <input type="text" id="name" name="midName" value="" autocomplete="off"/>
 
-                                <option value="Mr">Mr</option>
-
-                                <option value="Mrs">Mrs</option>
-
-                                <option value="Miss">Miss</option>
-
-                                <option value="Ms">Ms</option>
-
-                                <option value="Dr">Dr</option>
-
-                                <option value="Rev">Rev</option>
-
-                                <option value="Sir">Sir</option>
-
-                                <option value="Lord">Lord</option>
-
-                                <option value="Lady">Lady</option>
-
-                                <option value="Dame">Dame</option>
-
+                            <li>
+                                <label for="name">Last name</label>
+                                <input type="text" id="name" name="lastName" value="" autocomplete="off"/>
+                            </li>
                             </select></li>
 
-                        <li><label for="partner_fullName">Full name</label>
 
-                            <input type="text" id="partner_fullName" name="partner_fullName" value="" autocomplete="off">
-
-                        </li>
-
-
-                        <li>
-
-                            <label for="partner_otherNames">Other surname or maiden name<em> (optional)</em></label>
-
-                            <input type="text" id="partner_otherNames" name="partner_otherNames" value="" maxLength="35" autocomplete="off">
-
-                        </li>
 
                             <li>
                                 <label for="nationalInsuranceNumber"><em> National Insurance Number </em></label>
@@ -386,7 +345,7 @@
 
                                 </legend>
 
-                                <p class="helper above"> Your claim date is 11 July 2012</p>
+                                <p class="helper above"> Your claim date is 11 July 2015</p>
 
 
                                 <ul class="radio " id="separated_fromPartner">
@@ -452,9 +411,10 @@
                     <ul>
                      
                         <li><input type="submit" value="Next" class="button" /></li>
-                        <li><a href="#" id="saveExit" name="saveExit" class="button">Save and exit</a></li>
+
                        <!-- <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
                         <li><a href="javascript:history.back()">Back</a></li>
+                    <!--    <li><a href="#" id="saveExit" name="saveExit" >Save for later</a></li> -->
                     </ul>
                 </nav>
 

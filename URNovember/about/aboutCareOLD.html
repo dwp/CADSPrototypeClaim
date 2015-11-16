@@ -46,7 +46,7 @@
 	      errorFieldClass: "error-focus",
 	        rules: [
 	            "required,relationship,Confirm your relationship to the person you care for.",
-	            "required,title,Choose your title",
+
 	            "required,firstName,Enter your first name",
 	            "required,dateOfBirth_day,Enter your date of birth",
 	            "digits_only,dateOfBirth_day,Enter a date as a number",
@@ -117,11 +117,11 @@
 
 
 <div class="section-progress">
-    Section 4 of 9
+    Section 3 of 7
 </div>
 <h1>About the person you care for</h1>
 
-<form action="aboutCare4TA.html" method="POST" id="form_demo">
+<form action="aboutCare3.html" method="POST" id="form_demo">
     <div id="validation" class="validation-summary"></div>
 
 
@@ -134,7 +134,7 @@
 
 <ul>
 
-<li id="" class="extra-detail">
+<!-- <li id="" class="extra-detail">
 
     <ul>
 
@@ -184,8 +184,9 @@
 			        });
 				</script>
             </ul>
-        </li>
-
+        </li> -->
+                        <li><label for="title">Title</label>
+                            <input type="text" id="title" name="title" value="" autocomplete="off"/></li>
                         <li>
                             <label for="name">First name</label>
                             <input type="text" id="name" name="firstName" value="" autocomplete="off"/>
@@ -331,7 +332,6 @@
     </ul>
 </li>
 
-<li>
     <fieldset class="question-group">
         <legend> Do they live at the same address as you?</legend>
     <ul class="radio " id="sameAddress">
@@ -357,7 +357,6 @@
             </li>
     </ul>
     </fieldset>
-</li>
 
 <li id="dpAddress" class="other-detail open-detail">
     <ul class="extra-group">
@@ -419,9 +418,10 @@
     <ul>
 
         <li><input type="submit" value="Next" class="button" /></li>
-        <li><a href="#" id="saveExit" name="saveExit" class="button">Save for later</a></li>
-       <!--  <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
         <li><a href="javascript:history.back()">Back</a></li>
+        <li><a href="#" id="saveExit" name="saveExit" >Save for later</a></li>
+       <!--  <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+
     </ul>
 </nav>
 </div>
