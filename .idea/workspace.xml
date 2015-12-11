@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/consent/consent3.html" afterPath="$PROJECT_DIR$/URNovember/consent/consent3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/js/custom.js" afterPath="$PROJECT_DIR$/URNovember/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" />
     </list>
@@ -30,8 +28,8 @@
       <file leaf-file-name="yourIncome02SelfEmployed.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7138643">
-              <caret line="216" column="51" selection-start-line="216" selection-start-column="51" selection-end-line="216" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="313" column="88" selection-start-line="313" selection-start-column="84" selection-end-line="313" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -633,7 +631,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449763088396</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="self employed redesign FTW">
+      <created>1449842851065</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1449842851065</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +722,8 @@
     <MESSAGE value="Save -savePageEmailAgain" />
     <MESSAGE value="Stuff" />
     <MESSAGE value="new bic and email template for save" />
-    <option name="LAST_COMMIT_MESSAGE" value="new bic and email template for save" />
+    <MESSAGE value="self employed redesign FTW" />
+    <option name="LAST_COMMIT_MESSAGE" value="self employed redesign FTW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1094,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7138643">
-          <caret line="216" column="51" selection-start-line="216" selection-start-column="51" selection-end-line="216" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="313" column="88" selection-start-line="313" selection-start-column="84" selection-end-line="313" selection-end-column="88" />
           <folding />
         </state>
       </provider>
