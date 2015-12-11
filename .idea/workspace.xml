@@ -28,8 +28,8 @@
       <file leaf-file-name="yourIncome02SelfEmployed.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="313" column="88" selection-start-line="313" selection-start-column="84" selection-end-line="313" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.5852535">
+              <caret line="283" column="0" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -637,7 +637,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449842851065</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="self employed redesign FTW">
+      <created>1449842980854</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1449842980854</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1099,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="313" column="88" selection-start-line="313" selection-start-column="84" selection-end-line="313" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.5852535">
+          <caret line="283" column="0" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
           <folding />
         </state>
       </provider>
