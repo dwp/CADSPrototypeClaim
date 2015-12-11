@@ -132,7 +132,53 @@ $('.helper-more').click(function(){
 	  $('.remove-detail5 span, .remove-detail5 input').click(function(){
 	    $( ".open-detail5" ).hide();
 	  });
-	  
+
+	  // show - hide - remove
+           $(".open-detail6").css("display", "none");
+           $('.show-detail6 span, .show-detail6 input').click(function(){
+           	$( ".open-detail6" ).show();
+           	$( ".open-detail5" ).hide();
+           	$(this).toggleClass("active-detail")
+           });
+
+      	  $('.remove-detail6 span, .remove-detail6 input').click(function(){
+      	    $( ".open-detail6" ).hide();
+      	  });
+
+      	  // show - hide - remove
+               $(".open-detail7").css("display", "none");
+               $('.show-detail7 span, .show-detail7 input').click(function(){
+               	$( ".open-detail7" ).show();
+               	$( ".open-detail6" ).hide();
+               	$(this).toggleClass("active-detail")
+               });
+
+          	  $('.remove-detail7 span, .remove-detail7 input').click(function(){
+          	    $( ".open-detail7" ).hide();
+          	  });
+	  // show - hide - remove
+                     $(".open-detail8").css("display", "none");
+                     $('.show-detail8 span, .show-detail8 input').click(function(){
+                     	$( ".open-detail8" ).show();
+                     	$( ".open-detail7" ).hide();
+                     	$(this).toggleClass("active-detail")
+                     });
+
+                	  $('.remove-detail8 span, .remove-detail8 input').click(function(){
+                	    $( ".open-detail8" ).hide();
+                	  });
+
+                	  // show - hide - remove
+                                     $(".open-detail9").css("display", "none");
+                                     $('.show-detail9 span, .show-detail9 input').click(function(){
+                                     	$( ".open-detail9" ).show();
+                                     	$( ".open-detail8" ).hide();
+                                     	$(this).toggleClass("active-detail")
+                                     });
+
+                                	  $('.remove-detail9 span, .remove-detail9 input').click(function(){
+                                	    $( ".open-detail9" ).hide();
+                                	  });
 	  	
 // Help & Feedback container
      $('.helper-mobile a').click(function(){
