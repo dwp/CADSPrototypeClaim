@@ -232,9 +232,6 @@
 			</li>
 		</ul>
 
-
-
-
 					</li>
 				</ul>
 
@@ -258,26 +255,50 @@
                                 <input type="tel" id="startYear" name="startYear" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4" autocomplete="off">
                             </li>
 
-                            <label>When did you start getting paid?</label>
-                            <p class="helper above">This is the date money was first received by your business, whether paid directly to you or into a business account.</p>
-                            <ul class="inline year" id="payment">
-                                <li>
-                                    <label>Day</label>
-                                    <input type="tel" id="paymentDay" name="paymentDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                </li>
-                                <li class="month">
-                                    <label>Month</label>
-                                    <input type="tel" id="paymentMonth" name="paymentMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                </li>
-                                <li>
-                                    <label>Year</label>
-                                    <input type="tel" id="paymentYear" name="paymentYear" pattern="[0-9 \-]{1,20}" titel="Must be numbers obly" value="" maxlength="4" autocomplete="off">
 
-                                </li>
-                            </ul>
-		</li>
-		</fieldset>
-</ul>
+
+                            <label>Have you received any money into the business</label>
+                            <p class="helper above">Whether paid directly to you or into a business account.</p>
+                                <ul class="radio" id="payment">
+
+                                    <li>
+                                        <label for="paymentYes" class="show-detail10" onmousedown="">
+                                            <input type="radio" id="paymentYes"
+                                                   name="payment" onmousedown=""
+                                                   value="Yes" />
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="paymentNo" class="remove-detail10" onmousedown="">
+                                            <input type="radio" id="paymentNo"
+                                                   name="payment" onmousedown=""
+                                                   value="No" />
+                                            <span>No</span>
+                                    </li>
+                                </ul>
+
+                            <li class="extra-group open-detail10">
+                                     <label><b>Date money first received into the business</b></label>
+                                         <ul class="inline year" id="paymentDate">
+
+                                         <li>
+                                            <label>Day</label>
+                                             <input type="tel" id="paymentDay" name="paymentDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                         </li>
+                                            <li class="month">
+                                                <label>Month</label>
+                                                 <input type="tel" id="paymentMonth" name="paymentMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                            </li>
+                                             <li>
+                                             <label>Year</label>
+                                             <input type="tel" id="paymentYear" name="paymentYear" pattern="[0-9 \-]{1,20}" titel="Must be numbers obly" value="" maxlength="4" autocomplete="off">
+
+                                         </li>
+                                          </ul>
+		                    </li>
+
+
     </fieldset>
 </li>
 
