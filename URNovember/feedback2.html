@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="css/main.css">
+
+    <link href="css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+
+               <aside class="left-col">
+
+                   <section id="help">
+                       <h2>Organ donation</h2>
+                       <p>If you needed an organ transplant would you have one? If so please help others.</p>
+                       <p><a href='https://www.organdonation.nhs.uk/register-to-donate/?campaign=2349&utm_source=change_ca&utm_medium=referral&utm_content=web&utm_campaign=partner'>Join the NHS Organ Donor Register</a></p>
+
+                   </section>
+
+               </aside>
+<article>
+
+
+    <h1>Thank you for using the Carer's Allowance service</h1>
+
+
+    <form action="http://www.gov.uk" method="POST" id="feedback">
+        <div class="form-wrap">
+            <fieldset class="form-elements">
+                <legend>How satisfied were you with the service today?</legend>
+                <ul class="radio radio-stack" id="rating">
+                  <li>
+                    <label for="rating_vSatisfied" class="" onmousedown="">
+                      <input type="radio" id="rating_vSatisfied" name="rating" onmousedown="" value="Very satisfied" required/>
+                      <span>Very satisfied</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label for="rating_Satisfied" class="" onmousedown="">
+                      <input type="radio" id="rating_Satisfied" name="rating" onmousedown="" value="Very satisfied" required/>
+                      <span>Satisfied</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label for="rating_Neither" class="" onmousedown="">
+                      <input type="radio" id="rating_Neither" name="rating" onmousedown="" value="Very satisfied" required/>
+                      <span>Neither satisfied nor dissatisfied</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label for="rating_Dissatisfied" class="" onmousedown="">
+                      <input type="radio" id="rating_Dissatisfied" name="rating" onmousedown="" value="Very satisfied" required/>
+                      <span>Dissatisfied</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label for="rating_vDissatisfied" class="" onmousedown="">
+                      <input type="radio" id="rating_vDissatisfied" name="rating" onmousedown="" value="Very satisfied" required/>
+                      <span>Very dissatisfied</span>
+                    </label>
+                  </li>
+                </ul>
+                <legend class="legend-hidden">Your work</legend>
+                  <ul>
+                    <li>
+                      <fieldset class="question-group">
+                        <legend>
+                          Did you have any difficulty using the service?
+                        </legend>
+                        <ul class="radio " id="difficuty">
+                          <li>
+                            <label for="difficultyYes" onmousedown="" class="show-detail remove-detail2">
+                                <input type="radio" id="difficultyYes" name="difficulty" onmousedown="" value="Yes"/>
+                                <span>Yes</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="difficultyNo" onmousedown="" class="remove-detail show-detail2">
+                                <input type="radio" id="difficultyNo" name="difficulty" onmousedown="" value="No"/>
+                                <span>No</span></label>
+                          </li>
+								        </ul>
+                        <ul class="extra-group">
+                          <li class="open-detail">
+                            <fieldset class="question-group">
+                              <legend>
+                                What went wrong?
+                              </legend>
+							                 <p class="helper above">Include as much detail as you want, including where you had the problem.</p>
+                               <textarea></textarea>
+                             </fieldset>
+                           </li>
+                         </ul>
+                        <ul class="extra-group">
+                          <li class="open-detail2">
+                            <fieldset class="question-group">
+                              <legend>
+                                Leave any comments or feedback you have
+                              </legend>
+                              <textarea></textarea>
+                            </fieldset>
+                          </li>
+                        </ul>
+                      </fieldset>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <nav class="form-steps">
+                <ul>
+                    <li><a href="../payDetails/payDetailsCombined2.html" class="button"> Next </a></li>
+                <!--     <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
+                    <li><a href="javascript:history.back()" id="backButton">Back</a></li>
+                </ul>
+            </nav>
+        </div>
+    </form>
+</article>
+
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright </a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/custom.js"></script>
+<!-- <script>
+	$('#paidEmployment input[type="radio"]').click(function() {
+    var g1 = $("#workIncomeYes").is(":checked");
+    var g2 = $("#otherIncomeYes").is(":checked");
+	var g3 = $("#incomeOverYes").is(":checked");
+    var addr = "";
+    if (g1) {
+        addr = "yourIncome2.html";
+    } else {
+        if (g2) addr = "yourIncome3.html";
+		if (g3) addr = "yourIncome5.html";
+    }
+    $("#paidEmployment a").attr('href', addr);
+});
+</script>
+-->
+
+<!--
+<script>
+ $(document).ready(function() {
+    $("#saveProgress").click(function() {
+        alert("Your progress has been saved for 3 hours");
+    });
+ });
+</script>
+-->
+</body>
+</html>
