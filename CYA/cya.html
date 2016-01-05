@@ -595,7 +595,7 @@ href="/assets/stylesheets/fonts-ie8.css?2.29"]},
 <div class="accordion accordion-open">
     <h2 class="heading-medium accordion-title" accordion-track="open-employments"
         onmousedown="if($(this).attr('accordion-track') === 'open-employments'){ trackEvent(&#x27;/preview&#x27;,&#x27;close-employments&#x27;); $(this).attr('accordion-track', 'close-employments'); } else { trackEvent(&#x27;/preview&#x27;,&#x27;open-employments&#x27;); $(this).attr('accordion-track', 'open-employments'); }">
-        Employment and Self Employment</h2>
+        Your income</h2>
 
     <div class="accordion-content">
         <table class="review">
@@ -647,9 +647,66 @@ href="/assets/stylesheets/fonts-ie8.css?2.29"]},
                     <b>Have you been self employed at any time since 25 October 2015?</b>
                 </td>
                 <td id="self_employment_been_self_employed_value" class="review-value">
-                    No
+                    <li>Started more than a year ago</li>
+                    <li>Started (date started)</li>
+                    <li>Ended (date ended)</li>
+                    <li>You must send a copy of your most recent accounts to the Carer's Allowance Unit.</li>
+                    <li>Trading year (date trading year started)</li>
+                    <li>Trading year unknown</li>
+
                 </td>
                 <td id="self_employment_been_self_employed_linkContainer" class="review-action hide-print">
+                    <a class="" id="about_you_abroad_link"
+                       href="/preview/redirect/about_you_abroad?hash=anyTrips_questionLabel">
+                        Change
+                        <span class="visuallyhidden">Have you been away from England, Scotland or Wales for more than 52 weeks in the 3 years before your claim date? (optional)</span>
+                    </a>
+                </td>
+            </tr>
+
+            <tr class="review-change">
+                <td id="other_money_anyPaymentsSinceClaimDate_label" class="review-label">
+                    <b>Fostering Allowance</b>
+                </td>
+                <td id="other_money_anyPaymentsSinceClaimDate_value" class="review-value">
+                    Paid by <b>(type of organisation)</b>
+                </td>
+                <td id="other_money_anyPaymentsSinceClaimDate_linkContainer" class="review-action hide-print">
+                    <a class="" id="about_you_abroad_link"
+                       href="/preview/redirect/about_you_abroad?hash=anyTrips_questionLabel">
+                        Change
+                        <span class="visuallyhidden">Have you been away from England, Scotland or Wales for more than 52 weeks in the 3 years before your claim date? (optional)</span>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr class="review-change">
+                <td id="other_money_statutoryPay_label" class="review-label">
+                    <b>Have you had any Statutory Sick Pay since your claim date?</b>
+                </td>
+                <td id="other_money_statutoryPay_value" class="review-value">
+                    No
+                </td>
+                <td id="other_money_statutoryPay_linkContainer" class="review-action hide-print">
+                    <a class="" id="about_you_abroad_link"
+                       href="/preview/redirect/about_you_abroad?hash=anyTrips_questionLabel">
+                        Change
+                        <span class="visuallyhidden">Have you been away from England, Scotland or Wales for more than 52 weeks in the 3 years before your claim date? (optional)</span>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr class="review-change">
+                <td id="other_money_otherStatutoryPay_label" class="review-label">
+                    <b>Have you had any Statutory Maternity Pay, Statutory Paternity Pay or Statutory Adoption Pay since
+                        your claim date?</b>
+                </td>
+                <td id="other_money_otherStatutoryPay_value" class="review-value">
+                    No
+                </td>
+                <td id="other_money_otherStatutoryPay_linkContainer" class="review-action hide-print">
                     <a class="" id="about_you_abroad_link"
                        href="/preview/redirect/about_you_abroad?hash=anyTrips_questionLabel">
                         Change
@@ -664,7 +721,7 @@ href="/assets/stylesheets/fonts-ie8.css?2.29"]},
 </div>
 
 
-<div class="accordion accordion-open">
+<!-- <div class="accordion accordion-open">
     <h2 class="heading-medium accordion-title" accordion-track="open-other-payments"
         onmousedown="if($(this).attr('accordion-track') === 'open-other-payments'){ trackEvent(&#x27;/preview&#x27;,&#x27;close-other-payments&#x27;); $(this).attr('accordion-track', 'close-other-payments'); } else { trackEvent(&#x27;/preview&#x27;,&#x27;open-other-payments&#x27;); $(this).attr('accordion-track', 'open-other-payments'); }">
         Other payments</h2>
@@ -728,7 +785,7 @@ href="/assets/stylesheets/fonts-ie8.css?2.29"]},
 
         </table>
     </div>
-</div>
+</div> -->
 
 
 <div class="accordion accordion-open">
