@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
+    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="income">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CYA/cya.html" afterPath="$PROJECT_DIR$/CYA/cya.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,15 +55,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cya.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cya.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CYA/cya.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667">
-              <caret line="671" column="57" selection-start-line="671" selection-start-column="57" selection-end-line="671" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.7351852">
+              <caret line="682" column="62" selection-start-line="682" selection-start-column="62" selection-end-line="682" selection-end-column="62" />
               <folding>
-                <marker date="1452003434000" expanded="true" signature="923:1510" placeholder="..." />
-                <marker date="1452003434000" expanded="true" signature="1717:1792" placeholder="..." />
-                <marker date="1452003434000" expanded="true" signature="3306:3367" placeholder="..." />
+                <marker date="1452008080000" expanded="true" signature="923:1510" placeholder="..." />
+                <marker date="1452008080000" expanded="true" signature="1717:1792" placeholder="..." />
+                <marker date="1452008080000" expanded="true" signature="3306:3367" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -90,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yourIncome03FosteringAllowance.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="yourIncome03FosteringAllowance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31563422">
+            <state vertical-scroll-proportion="-83.291664">
               <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
               <folding />
             </state>
@@ -173,8 +172,8 @@
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03CaringForSomeone.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03SickPay.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome04OtherIncome.html" />
-        <option value="$PROJECT_DIR$/CYA/cya.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html" />
+        <option value="$PROJECT_DIR$/CYA/cya.html" />
       </list>
     </option>
   </component>
@@ -409,18 +408,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/eligibility/e4.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/eligibility/e5.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/employment/self-employment.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/employment/self-employmentTA.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/feedback.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/income2/yourIncome01Previous.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/income2/yourIncome02FinishDate.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/income2/yourIncome03StatPay.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/income2/yourIncome04OtherIncome.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/income2/yourIncome05End.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/thankYou.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/error-CircsReciptServiceDown.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDown.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDownNoneSave.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -428,8 +418,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/feedback2.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -836,7 +824,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451994930727</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="income">
+      <created>1452003575895</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1452003575895</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -851,7 +845,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1520548" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1520548" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -926,7 +920,8 @@
     <MESSAGE value="changes to feedback pages" />
     <MESSAGE value="error-pages added and tweaks to employment" />
     <MESSAGE value="income redesign pushed, several new pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="income redesign pushed, several new pages" />
+    <MESSAGE value="income" />
+    <option name="LAST_COMMIT_MESSAGE" value="income" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1296,23 +1291,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CYA/cya.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667">
-          <caret line="671" column="57" selection-start-line="671" selection-start-column="57" selection-end-line="671" selection-end-column="57" />
-          <folding>
-            <marker date="1452003434000" expanded="true" signature="923:1510" placeholder="..." />
-            <marker date="1452003434000" expanded="true" signature="1717:1792" placeholder="..." />
-            <marker date="1452003434000" expanded="true" signature="3306:3367" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-83.291664">
+          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html">
+    <entry file="file://$PROJECT_DIR$/CYA/cya.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31563422">
-          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.7351852">
+          <caret line="682" column="62" selection-start-line="682" selection-start-column="62" selection-end-line="682" selection-end-column="62" />
+          <folding>
+            <marker date="1452008080000" expanded="true" signature="923:1510" placeholder="..." />
+            <marker date="1452008080000" expanded="true" signature="1717:1792" placeholder="..." />
+            <marker date="1452008080000" expanded="true" signature="3306:3367" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
