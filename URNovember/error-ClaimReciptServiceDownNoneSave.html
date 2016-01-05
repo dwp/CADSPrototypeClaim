@@ -85,42 +85,27 @@
         <!-- <nav class="back-nav">
                   <a id="backButton" href="javascript:history.back()">Back</a>
           </nav> !-->
-
-        <article>
-            <h1>Application hasn't been sent</h1>
-            <fieldset class="form-elements">
-                <!--  <legend>This application hasn't been sent</legend> -->
-                <ul class="prompt e-prompt">
-                    <p>(insert text to explain they should retry to send change or resubmit claim)</p>
-
-                    <!-- <p>Please start a new application.</p> -->
-
-                </ul>
-
-                </section>
-
-
-
-
-
-
-
-
-
-
-                <ul>
-                    <li><input type="submit" class="button" value="Try again" id="back-button" name="enter"/></li>
-                </ul>
-
-                <ul>
-                    <nav class="back-nav">
-                        <a id="backButton" href="javascript:history.back()">Start a new application</a>
-                    </nav>
-                    </nav>
-                </ul>
-            </fieldset>
-            </form>
-        </article>
+			<article>
+            <h1>There's a problem</h1>
+			<form action="http://www.gov.uk" method="POST" id="feedback">
+				<div class="form-wrap">
+					<fieldset class="form-elements">
+						<section>
+						<!--  <legend>This application hasn't been sent</legend> -->
+                            <p>Your application hasn't been sent.<p>
+							<p>Try to <a href="#">send your application again</a>.</p>
+							<p>If this is the second time you've seen this message then there may be a temporary problem with the service. You would be better off coming back later and making another application. Sorry for the inconvenience. </p>
+						</section>
+						<ul>
+							<li><input type="submit" class="button" value="Send your application again" id="back-button" name="enter"/></li>
+						</ul>
+                        <nav class="back-nav">
+                            <a id="backButton" href="javascript:history.back()">Go to GOV.UK</a>
+                        </nav>
+					</fieldset>
+				</div>
+			</form>
+			</article>
 
     </div>
 </main>
