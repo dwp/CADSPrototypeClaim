@@ -85,7 +85,7 @@
 <div class="section-progress">
     Section 7 of 9
 </div>
-<h1>Your income - Statutory pay</h1>
+<h1>Your income - Fostering Allowance</h1>
 
 <form action="/other-money/about-other-money" method="POST">
 
@@ -96,26 +96,46 @@
 <div class="form-wrap">
 <fieldset class="form-elements" data-journey="carers-allowance:page:other-money">
 
-    <legend class="nestedLabel">Which are you paid?</legend>
+    <legend class="nestedLabel">What type of organisation pays you for Fostering Allowance?</legend>
 
-    <ul class="radio radio-stack" id="paymentFrequency">
+    <ul class="radio radio-stack" id="fosteringOrg">
+
 
         <li>
 
-            <label for="paymentFrequency_Every_four_weeks" onmousedown="" class="remove-detail">
-                <input type="radio" id="paymentFrequency_Every_four_weeks" name="paymentFrequency" onmousedown="" value="Every four weeks">
-                <span>Maternity or paternity pay</span></label>
+            <label for="fosteringOrgLA" onmousedown="" class="remove-detail">
+                <input type="radio" id="fosteringOrgLA" name="fosteringOrg" onmousedown="" value="Local Authority">
+                <span>Local Authority</span></label>
         </li>
 
         <li>
 
-            <label for="paymentFrequency_Every_thirteen_weeks" onmousedown="" class="remove-detail">
-                <input type="radio" id="paymentFrequency_Every_thirteen_weeks" name="paymentFrequency" onmousedown="" value="Every thirteen weeks">
-                <span>Adoption pay</span></label>
+            <label for="fosteringOrgFA" onmousedown="" class="remove-detail">
+                <input type="radio" id="fosteringOrgFA" name="fosteringOrg" onmousedown="" value="Fostering Agency">
+                <span>Fostering Agency</span></label>
         </li>
 
+        <li>
 
-    </ul>
+            <label for="fosteringOrgOther" onmousedown="" class="show-detail">
+                <input type="radio" id="fosteringOrgOther" name="fosteringOrg" onmousedown="" value="Other">
+                <span>Other</span></label>
+        </li>
+</ul>
+    <ul>
+    <li id="fosteringOrgOther" class="other-detail open-detail">
+            <ul class="extra-group">
+                <li>
+                    <label for="fosteringOrgOther">Who paid you Fostering Allowance</label>
+                    <input type="text" id="fosteringOrgOther" name="fosteringOrgOther" maxlength=""/>
+                </li>
+            </ul>
+        </li>
+</ul>
+
+
+
+
 
     <legend class="legend-hidden">Your work</legend>
     <ul>
@@ -126,19 +146,19 @@
                 </legend>
                 <ul class="radio " id="statStill">
                     <li>
-                        <label for="statStillYes" onmousedown="" class="remove-detail">
+                        <label for="statStillYes" onmousedown="" class="remove-detail2">
                             <input type="radio" id="statStillYes" name="statStill" onmousedown="" value="Yes"/>
                             <span>Yes</span>
                         </label>
                     </li>
                     <li>
-                        <label for="statStillNo" onmousedown="" class="show-detail">
+                        <label for="statStillNo" onmousedown="" class="show-detail2">
                             <input type="radio" id="statStillNo" name="statStill" onmousedown="" value="No"/>
                             <span>No</span></label>
                     </li>
                 </ul>
                 <ul class="extra-group">
-                    <li class="open-detail">
+                    <li class="open-detail2">
                         <fieldset class="question-group">
                             <legend>
                             When were you last paid it?
@@ -215,51 +235,51 @@
         </li>
 
 
-        <legend class="nestedLabel">How often are you paid?</legend>
+    <legend class="nestedLabel">How often are you paid?</legend>
 
-        <ul class="radio radio-stack" id="paymentFrequency">
+    <ul class="radio radio-stack" id="paymentFrequency">
 
 
-            <li>
+        <li>
 
-                <label for="paymentFrequency_Every_week" onmousedown="" class="remove-detail2">
-                    <input type="radio" id="paymentFrequency_Every_week" name="paymentFrequency" onmousedown="" value="Every week">
-                    <span>Weekly</span></label>
-            </li>
+            <label for="paymentFrequency_Every_week" onmousedown="" class="remove-detail3">
+                <input type="radio" id="paymentFrequency_Every_week" name="paymentFrequency" onmousedown="" value="Every week">
+                <span>Weekly</span></label>
+        </li>
 
-            <li>
+        <li>
 
-                <label for="paymentFrequency_Every_four_weeks" onmousedown="" class="remove-detail2">
-                    <input type="radio" id="paymentFrequency_Every_four_weeks" name="paymentFrequency" onmousedown="" value="Every four weeks">
-                    <span>Fortnightly</span></label>
-            </li>
+            <label for="paymentFrequency_Every_four_weeks" onmousedown="" class="remove-detail3">
+                <input type="radio" id="paymentFrequency_Every_four_weeks" name="paymentFrequency" onmousedown="" value="Every four weeks">
+                <span>Fortnightly</span></label>
+        </li>
 
-            <li>
+        <li>
 
-                <label for="paymentFrequency_Every_thirteen_weeks" onmousedown="" class="remove-detail2">
-                    <input type="radio" id="paymentFrequency_Every_thirteen_weeks" name="paymentFrequency" onmousedown="" value="Every thirteen weeks">
-                    <span>Four-weekly</span></label>
-            </li>
+            <label for="paymentFrequency_Every_thirteen_weeks" onmousedown="" class="remove-detail3">
+                <input type="radio" id="paymentFrequency_Every_thirteen_weeks" name="paymentFrequency" onmousedown="" value="Every thirteen weeks">
+                <span>Four-weekly</span></label>
+        </li>
 
-            <li>
+        <li>
 
-                <label for="paymentFrequency_Monthly" onmousedown="" class="remove-detail2">
-                    <input type="radio" id="paymentFrequency_Monthly" name="paymentFrequency" onmousedown="" value="Every month">
-                    <span>Monthly</span></label>
-            </li>
+            <label for="paymentFrequency_Monthly" onmousedown="" class="remove-detail3">
+                <input type="radio" id="paymentFrequency_Monthly" name="paymentFrequency" onmousedown="" value="Every month">
+                <span>Monthly</span></label>
+        </li>
 
-            <li>
+        <li>
 
-                <label for="paymentFrequency_Other" onmousedown="" class="show-detail2">
-                    <input type="radio" id="paymentFrequency_Other" name="paymentFrequency" onmousedown="" value="Other">
-                    <span>Other</span></label>
-            </li>
+            <label for="paymentFrequency_Other" onmousedown="" class="show-detail3">
+                <input type="radio" id="paymentFrequency_Other" name="paymentFrequency" onmousedown="" value="Other">
+                <span>Other</span></label>
+        </li>
 
-        </ul>
+    </ul>
 
-	</li>
+        </li>
 
-        <li id="payment_other" class="other-detail open-detail2">
+        <li id="payment_other" class="other-detail open-detail3">
             <ul class="extra-group">
                 <li>
                     <label for="paymentOther">How often are you paid?</label>
