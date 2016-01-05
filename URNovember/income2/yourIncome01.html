@@ -100,101 +100,120 @@
 
         <div class="form-wrap">
             <fieldset class="form-elements">
-                <legend class="legend-hidden">Your job</legend>
+                        <legend class="legend-hidden">Your job</legend>
 
-                <ul>
-					<li>
-                        <fieldset class="question-group">
+                        <ul>
+                            <li>
+                                <fieldset class="question-group">
 
-                            <legend>
+                                    <legend>
 
-                                Do you have a job?
+                                        Have you been in employment since DD/MM/YYYY?
 
-                            </legend>
+                                    </legend>
 
-                            <ul class="radio"
-                                id="job">
+                                    <ul class="radio"
+                                        id="employment">
 
-                                <li>
-                                    <label for="jobYes"
-                                           onmousedown="" class="remove-detail">
-                                        <input type="radio"
-                                               id="jobYes"
-                                               name="job"
-                                               onmousedown="" value="Yes"/>
-                                        <span>Yes</span></label>
-                                </li>
+                                        <li>
+                                            <label for="employmentYes"
+                                                   onmousedown="" class="remove-detail">
+                                                <input type="radio"
+                                                       id="employmentYes"
+                                                       name="employment"
+                                                       onmousedown="" value="Yes"/>
+                                                <span>Yes</span></label>
+                                        </li>
 
-                                <li>
+                                        <li>
 
-                                    <label for="jobNo"
-                                           onmousedown="" class="show-detail">
-                                        <input type="radio"
-                                               id="jobNo"
-                                               name="job"
-                                               onmousedown="" value="No"/>
-                                        <span>No</span></label>
-                                </li>
+                                            <label for="employmentNo"
+                                                   onmousedown="" class="show-detail">
+                                                <input type="radio"
+                                                       id="employmentNo"
+                                                       name="employment"
+                                                       onmousedown="" value="No"/>
+                                                <span>No</span></label>
+                                        </li>
 
 
-                            </ul>
+                                    </ul>
 
-                        </fieldset>
-					<ul class="extra-group">
-					<li class="open-detail extra-group">
-                       <fieldset class="question-group">
+                                </fieldset>
 
-                            <legend>
+                                <fieldset class="form-elements">
+                                    <legend class="legend-hidden">Your job</legend>
 
-                                Have you had a job at any time since December 2014 (6 months before your claim date)?
+                                    <ul>
+                                        <li>
+                                            <fieldset class="question-group">
 
-                            </legend>
-							<p class="helper above"></p>
+                                                <legend>
 
-                            <ul class="radio"
-                                id="prevJob">
+                                                    Have you been in self-employment since DD/MM/YYYY?
 
-                                <li>
-                                    <label for="prevJobYes"
-                                           onmousedown="" class="">
-                                        <input type="radio"
-                                               id="prevJobYes"
-                                               name="prevJob"
-                                               onmousedown="" value="Yes"/>
-                                        <span>Yes</span></label>
-                                </li>
+                                                </legend>
 
-                                <li>
-                                    <label for="prevJobNo"
-                                           onmousedown="">
-                                        <input type="radio"
-                                               id="prevJobNo"
-                                               name="prevJob"
-                                               onmousedown="" value="No"/>
-                                        <span>No</span></label>
-                                </li>
+                                                <ul class="radio"
+                                                    id="selfEmployment">
 
-                            </ul>
+                                                    <li>
+                                                        <label for="selfEmploymentYes"
+                                                               onmousedown="" class="remove-detail">
+                                                            <input type="radio"
+                                                                   id="selfEmploymentYes"
+                                                                   name="selfEmployment"
+                                                                   onmousedown="" value="Yes"/>
+                                                            <span>Yes</span></label>
+                                                    </li>
 
-                        </fieldset>
-					</li>
-					</ul>
-					</li>
+                                                    <li>
+
+                                                        <label for="selfEmploymentNo"
+                                                               onmousedown="" class="show-detail">
+                                                            <input type="radio"
+                                                                   id="selfEmploymentNo"
+                                                                   name="selfEmployment"
+                                                                   onmousedown="" value="No"/>
+                                                            <span>No</span></label>
+                                                    </li>
+
+
+                                                </ul>
+
+                                            </fieldset>
 
                     <li>
 					<fieldset class="question-group">
-                                <legend>What other income have you had since December 2014?</legend>
-								<p class="helper above">Choose any that apply to you.</p>
+                                <legend>What other income have you had since DD/MM/YYYY?</legend>
+								<p class="helper above">Choose <b>all</b> that apply to you.</p>
                                 <ul class="radio radio-stack declare" id="contactYou">
 
+                                    <li id="paternityCheck">
+                                        <label for="paternity" onmousedown="">
+                                            <input type="checkbox" id="paternity" name="qualBenefits"
+                                                   onmousedown="" value="paternity"/>
+                                            <span>Statutory sick, paternity, maternity or adoption pay</span></label>
 
-
-                                    <li id="sickCheck">
+                                 <!--   <li id="sickCheck">
                                         <label for="sick" onmousedown="">
                                             <input type="checkbox" id="sick"
                                                            name="qualBenefits" onmousedown=""
                                                            value="Personal Independence Payment" />
-                                            <span>Statutory sick pay</span></label>
+                                            <span>Statutory paternity, maternity or adoption pay</span></label>
+                                    </li> -->
+
+
+                                    </li>
+
+                                    <li id="fosteringCheck">
+                                        <label for="fosteringAllowance"
+                                               onmousedown="">
+                                            <input type="checkbox"
+                                                   id="fosteringAllowance"
+                                                   name="qualBenefits"
+                                                   value="fosteringAllowance"/>
+                                            <span>Fostering Allowance</span></label>
                                     </li>
 
 									<li id="fosteringCheck">
@@ -204,15 +223,8 @@
                                                            id="fostering"
                                                            name="qualBenefits"
                                                            value="fostering"/>
-                                                    <span>Payment for fostering or caring for someone, eg from a local authority</span></label>
+                                                    <span>Direct payment for caring for someone</span></label>
                                             </li>
-
-                                    <li id="paternityCheck">
-                                        <label for="paternity" onmousedown="">
-                                            <input type="checkbox" id="paternity" name="qualBenefits"
-                                                           onmousedown="" value="paternity"/>
-                                            <span>Paternity or maternity pay</span></label>
-                                    </li>
 
 									<li id="otherCheck">
                                                 <label for="other"
@@ -221,7 +233,7 @@
                                                            id="other"
                                                            name="qualBenefits" onmousedown=""
                                                            value="other" />
-                                                    <span>Private income, eg from renting property</span></label>
+                                                    <span>Any other income, eg rental income</span></label>
                                     </li>
 
                                     <li id="noneCheck">

@@ -85,7 +85,7 @@
 <div class="section-progress">
     Section 7 of 9
 </div>
-<h1>Your income - sick pay</h1>
+<h1>Your income - Statutory pay</h1>
 
 <form action="/other-money/about-other-money" method="POST">
 
@@ -96,11 +96,109 @@
 <div class="form-wrap">
 <fieldset class="form-elements" data-journey="carers-allowance:page:other-money">
 
+    <legend class="nestedLabel">Which are you paid?</legend>
+
+    <ul class="radio radio-stack" id="paymentFrequency">
+
+
+        <li>
+
+            <label for="paymentFrequency_Every_week" onmousedown="" class="remove-detail">
+                <input type="radio" id="paymentFrequency_Every_week" name="paymentFrequency" onmousedown="" value="Every week">
+                <span>Sick pay</span></label>
+        </li>
+
+        <li>
+
+            <label for="paymentFrequency_Every_four_weeks" onmousedown="" class="remove-detail">
+                <input type="radio" id="paymentFrequency_Every_four_weeks" name="paymentFrequency" onmousedown="" value="Every four weeks">
+                <span>Maternity or paternity pay</span></label>
+        </li>
+
+        <li>
+
+            <label for="paymentFrequency_Every_thirteen_weeks" onmousedown="" class="remove-detail">
+                <input type="radio" id="paymentFrequency_Every_thirteen_weeks" name="paymentFrequency" onmousedown="" value="Every thirteen weeks">
+                <span>Adoption pay</span></label>
+        </li>
+
+
+    </ul>
+
+    <legend class="legend-hidden">Your work</legend>
+    <ul>
+        <li>
+            <fieldset class="question-group">
+                <legend>
+                    Are you still being paid this?
+                </legend>
+                <ul class="radio " id="statStill">
+                    <li>
+                        <label for="statStillYes" onmousedown="" class="show-detail2 remove-detail">
+                            <input type="radio" id="statStillYes" name="statStill" onmousedown="" value="Yes"/>
+                            <span>Yes</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="statStillNo" onmousedown="" class="remove-detail2 show-detail">
+                            <input type="radio" id="statStillNo" name="statStill" onmousedown="" value="No"/>
+                            <span>No</span></label>
+                    </li>
+                </ul>
+                <ul class="extra-group">
+                    <li class="open-detail">
+                        <fieldset class="question-group">
+                            <legend>
+                            When were you last paid it?
+                            </legend>
+                            <ul class="inline year" id="19a81f7b419306099f23dbb17d587ded">
+                                <li>
+                                    <label>Day</label>
+
+
+                                    <input type="tel" id="80e68e2d4e9cfe4b4ea074ca128bee2c365872a61aeb8b32d01334ced8d64039"
+                                           name="52036d2b638aee99849db70b8cdae783365872a61aeb8b32d01334ced8d64039"
+                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                                           autocomplete="off">
+
+
+                                </li>
+
+                                <li class="month">
+                                    <label>Month</label>
+
+
+                                    <input type="tel" id="bb1e07b358d15ef1eda01cd7e3b686e4bfbeabee0e05e761661eab1e2c795ea2"
+                                           name="0bb3814f26f7e0f126e72c4874830b96bfbeabee0e05e761661eab1e2c795ea2"
+                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                                           autocomplete="off">
+
+
+                                </li>
+
+                                <li>
+                                    <label>Year</label>
+
+
+                                    <input type="tel" id="1833eb0278f6561b91c80226085ef96c969f2f2d64600127b6d893ec2d400ebf"
+                                           name="a216f9759f5d0186afb7c82b16be010c969f2f2d64600127b6d893ec2d400ebf"
+                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                                           autocomplete="off">
+
+
+                                </li>
+                            </ul>
+
+                        </fieldset>
+                    </li>
+                </ul>
+
+
 <ul>
 	<!-- whoPaid -->
 	<li>
 		<label for="whoPaid">
-			Who paid you?
+			Who paid you this?
 		</label>
 		<input type="text" id="whoPaid" name="whoPaid" value="" maxLength="60" autocomplete="off">
 	</li>
@@ -112,7 +210,7 @@
     <label for="b5deeee3d092adf366333baf6d717e9d2eab011144c2c45444e3858c5bc2cc9d">
 
 
-        How much did you get?
+        How much were you paid?
 
 
     </label>
@@ -122,69 +220,55 @@
            pattern="^\£?[0-9]{1,12}(\.[0-9]{1,2})?$" title="currency.invalid" value="" maxLength="60"
            autocomplete="off">
 
-
-    <select id="b5deeee3d092adf366333baf6d717e9df38e16ee8972097e21453b5505259b4ffcdc476f7c6960c6f7f8d712b72c83c1"
-            name="b5deeee3d092adf366333baf6d717e9df8cc366d4acbcd944ccff328197c45f1fcdc476f7c6960c6f7f8d712b72c83c1"
-            class="selectWithOther" style="display: inline">
+        </li>
 
 
-        <option value="">Please select</option>
+        <legend class="nestedLabel">How often are you paid?</legend>
 
-        <option value="Weekly">a week</option>
+        <ul class="radio radio-stack" id="paymentFrequency">
 
-        <option value="Fortnightly">every 2 weeks</option>
 
-        <option value="Four-Weekly">every 4 weeks</option>
+            <li>
 
-        <option value="Monthly">monthly</option>
+                <label for="paymentFrequency_Every_week" onmousedown="" class="remove-detail">
+                    <input type="radio" id="paymentFrequency_Every_week" name="paymentFrequency" onmousedown="" value="Every week">
+                    <span>Weekly</span></label>
+            </li>
 
-        <option value="Other">other</option>
+            <li>
 
-    </select>
+                <label for="paymentFrequency_Every_four_weeks" onmousedown="" class="remove-detail">
+                    <input type="radio" id="paymentFrequency_Every_four_weeks" name="paymentFrequency" onmousedown="" value="Every four weeks">
+                    <span>Fortnightly</span></label>
+            </li>
+
+            <li>
+
+                <label for="paymentFrequency_Every_thirteen_weeks" onmousedown="" class="remove-detail">
+                    <input type="radio" id="paymentFrequency_Every_thirteen_weeks" name="paymentFrequency" onmousedown="" value="Every thirteen weeks">
+                    <span>Four-weekly</span></label>
+            </li>
+
+            <li>
+
+                <label for="paymentFrequency_Monthly" onmousedown="" class="remove-detail">
+                    <input type="radio" id="paymentFrequency_Monthly" name="paymentFrequency" onmousedown="" value="Every month">
+                    <span>Monthly</span></label>
+            </li>
+
+            <li>
+
+                <label for="paymentFrequency_Other" onmousedown="" class="show-detail">
+                    <input type="radio" id="paymentFrequency_Other" name="paymentFrequency" onmousedown="" value="Other">
+                    <span>Other</span></label>
+            </li>
+
+        </ul>
 
 	</li>
 
 	<!-- datePlaceholder -->
-    <li>
-		<fieldset class="question-group">
-            <legend>
-                Date of first payment
-            </legend>
-            <ul class="inline year" id="startDate">
-                <li>
-                    <label>Day</label>
-					<input type="tel" id="startDay" name="startDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
-                </li>
-                <li class="month">
-                    <label>Month</label>
-					<input type="tel" id="startMonth" name="startMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
-				</li>
-                <li>
-                    <label>Year</label>
-					<input type="tel" id="startYear" name="startYear" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4" autocomplete="off">
-                </li>
-			</ul>
-		</fieldset>
-	</li>
-	<!-- datePlaceholder -->
-    <li>
-		<fieldset class="question-group">
-            <legend>
-                Date of last payment
-            </legend>
-            <ul class="inline year" id="finishDate">
-                <li>
-                    <label>Day</label>
-					<input type="tel" id="finishDay" name="finishDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
-                </li>
-                <li class="month">
-                    <label>Month</label>
-					<input type="tel" id="finishMonth" name="finishMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
-				</li>
-                <li>
-                    <label>Year</label>
-					<input type="tel" id="finishYear" name="finishYear" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4" autocomplete="off">
-                </li>
+
 			</ul>
 		</fieldset>
 	</li>
