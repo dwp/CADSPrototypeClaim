@@ -156,7 +156,8 @@
                                 <legend>Have you always lived in England, Scotland or Wales?</legend>
                                 <ul class="radio" id="residence">
                                     <li>
-                                        <label for="residence_yes" class="remove-detail2 remove-detail3 remove-detail4 remove-detail6">
+                                        <label for="residence_yes" class="remove-detail2 remove-detail3 remove-detail4
+                                        remove-detail6 clear-detail2 clear-detail3 clear-detail4 clear-detail6">
                                             <input type="radio" id="residence_yes" name="residence"
                                                    onmousedown="" value="Yes"/>
                                             <span>Yes</span></label>
@@ -198,6 +199,7 @@
                         <li id="dateOfArrival" class="other-detail open-detail3">
                             <fieldset class="question-group">
                                 <label>When did you arrive in England, Scotland or Wales?</label>
+                                <p class="helper above"></p>
                                 <ul class="radio radio-stack" id="dateOfArrival">
                                     <li>
                                         <label for="dateOfArrival_LessThanTwoYears" class="show-detail4">
@@ -267,7 +269,7 @@
                                     <ul class="radio" id="anyTrips">
                                         <li>
 
-                                            <label for="anyTrips_yes" class="show-detail7">
+                                            <label for="anyTrips_yes" class="show-detail8">
                                                 <input type="radio" id="anyTrips_yes" name="anyTrips" onmousedown=""
                                                        value="yes"/>
                                                 <span>Yes</span></label>
@@ -275,7 +277,7 @@
 
                                         <li>
 
-                                            <label for="anyTrips_no" class="remove-detail7">
+                                            <label for="anyTrips_no" class="remove-detail8">
                                                 <input type="radio" id="anyTrips_no" name="anyTrips" onmousedown=""
                                                        value="no"/>
                                                 <span>No</span></label>
@@ -345,6 +347,10 @@
 <!-- -->
 <script src="../js/custom.js"></script>
 
+$('.remove-detail').click(function() {
+$('textarea').val('').empty();
+});
+
 <script type="text/javascript">
 
     $('#pauseProgress').click(function() {
@@ -357,6 +363,8 @@
                         alert("Your session has been resumed. You have 90 minutes to complete your claim");
                 }
         });
+
+
 </script>
 
 </body>
