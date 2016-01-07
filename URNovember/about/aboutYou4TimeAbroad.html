@@ -156,7 +156,7 @@
                                 <legend>Have you always lived in England, Scotland or Wales?</legend>
                                 <ul class="radio" id="residence">
                                     <li>
-                                        <label for="residence_yes" class="remove-detail2 remove-detail3">
+                                        <label for="residence_yes" class="remove-detail2 remove-detail3 remove-detail4 remove-detail6">
                                             <input type="radio" id="residence_yes" name="residence"
                                                    onmousedown="" value="Yes"/>
                                             <span>Yes</span></label>
@@ -176,7 +176,7 @@
                     <ul>
                         <li id="currentResidence" class="other-detail open-detail2">
                             <fieldset class="nested-fieldset">
-                                <legend class="nestedLabel">Do you live in England, Scotland or Wales now?</legend>
+                                <label class="nestedLabel">Do you live in England, Scotland or Wales now?</label>
                                 <ul class="extra-group radio">
                                     <li>
                                         <label for="currentResidence_yes" class="show-detail3">
@@ -197,54 +197,39 @@
 
                         <li id="dateOfArrival" class="other-detail open-detail3">
                             <fieldset class="question-group">
-                                <legend>When did you arrive?</legend>
-                                <ul class="extra-group inline year">
+                                <label>When did you arrive in England, Scotland or Wales?</label>
+                                <ul class="radio radio-stack" id="dateOfArrival">
                                     <li>
-                                        <label>Day</label>
-                                        <input type="tel" id="dateOfArrival_day" name="dateOfArrival"v
-                                               value="" maxlength="2"/>
+                                        <label for="dateOfArrival_LessThanTwoYears" class="show-detail4">
+                                            <input type="radio" id="dateOfArrival_LessThanTwoYears" name="dateOfArrival"
+                                                   onmousedown="" value="LessThanTwoYears" required/>
+                                            <span>Less than two years ago</span>
+                                        </label>
                                     </li>
 
                                     <li>
-                                        <label>Month</label>
-                                        <input type="tel" id="dateOfArrival_month" name="dateOfArrival_month"
-                                               value="" maxlength="2"/>
-                                    </li>
-
-                                    <li>
-                                        <label>Year</label>
-                                        <input type="tel" id="dateOfArrival_year" name="dateOfArrival_year"
-                                               value="" maxlength="4"/>
+                                        <label for="dateOfArrival_MoreThanTwoYears" class="remove-detail4 remove-detail6">
+                                            <input type="radio" id="dateOfArrival_MoreThanTwoYears" name="dateOfArrival"
+                                                   onmousedown="" value="MoreThanTwoYears"/>
+                                            <span>More than two years ago</span>
+                                        </label>
                                     </li>
                                 </ul>
 
                                 <ul>
-                                    <li id="countryCameFrom" class="open-detail3">
-                                        <ul class="extra-group">
-                                            <li>
-                                                <label>Which country did you come from?
-                                                    <input type="text" id="countryCameFromDetail" name="countryCameFromDetail"
-                                                           maxlength="" value=""/>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-
-                                <ul>
-                                    <li id="planToReturn" class="other-detail open-detail2">
+                                    <li id="planToReturn" class="other-detail open-detail4">
                                         <fieldset class="question-group">
-                                            <legend>Do you plan to go back to that country?</legend>
+                                            <label>Do you plan to go back to that country?</label>
                                             <ul class="radio">
                                                 <li>
-                                                    <label for="planToReturn_yes" class="show-detail4">
+                                                    <label for="planToReturn_yes" class="show-detail6">
                                                         <input type="radio" id="planToReturn_yes" name="planToReturn"
                                                                onmousedown="" value="Yes"/>
                                                         <span>Yes</span></label>
                                                 </li>
 
                                                 <li>
-                                                    <label for="planToReturn_no" class="remove-detail4">
+                                                    <label for="planToReturn_no" class="remove-detail6">
                                                         <input type="radio" id="planToReturn_no" name="planToReturn"
                                                                onmousedown="" value="No"/>
                                                         <span>No</span></label>
@@ -255,7 +240,7 @@
                                 </ul>
 
                                 <ul>
-                                    <li id="plannedToReturn" class="other-detail open-detail4">
+                                    <li id="plannedToReturn" class="other-detail open-detail6">
                                         <ul class="extra-group">
                                             <li>
                                                 <label>When do you plan to go back?</label>
@@ -282,7 +267,7 @@
                                     <ul class="radio" id="anyTrips">
                                         <li>
 
-                                            <label for="anyTrips_yes" class="show-detail5">
+                                            <label for="anyTrips_yes" class="show-detail7">
                                                 <input type="radio" id="anyTrips_yes" name="anyTrips" onmousedown=""
                                                        value="yes"/>
                                                 <span>Yes</span></label>
@@ -290,7 +275,7 @@
 
                                         <li>
 
-                                            <label for="anyTrips_no" class="remove-detail5">
+                                            <label for="anyTrips_no" class="remove-detail7">
                                                 <input type="radio" id="anyTrips_no" name="anyTrips" onmousedown=""
                                                        value="no"/>
                                                 <span>No</span></label>
@@ -299,7 +284,7 @@
                                 </fieldset>
                             </li>
 
-                            <li id="tripDetailsWrapper" class="other-detail open-detail5">
+                            <li id="tripDetailsWrapper" class="other-detail open-detail8">
                                 <ul class="extra-group">
                                     <li>
                                         <label for="tripDetails">
