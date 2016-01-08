@@ -68,7 +68,13 @@ $('.helper-more').click(function(){
      $('.yes-button span, .yes-button input').click(function(){
      	$( "#answerNoMessageWrap" ).hide();
      });
+     
+     
+//show-hide-clear
 
+    $('.clear-contents').click(function() {
+        $('#contents').val('').empty();
+    });
 
     
 	// show - hide - remove
