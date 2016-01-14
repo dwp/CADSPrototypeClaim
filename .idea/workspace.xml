@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="tweak to error">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/about/BICpause.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Mike.xml" />
+    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/BICpause.html" afterPath="$PROJECT_DIR$/URNovember/about/BICpause.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare5.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.3333333">
-              <caret line="304" column="143" selection-start-line="304" selection-start-column="143" selection-end-line="304" selection-end-column="143" />
+              <caret line="304" column="96" selection-start-line="304" selection-start-column="96" selection-end-line="304" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="aboutCare5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6680162">
-              <caret line="668" column="9" selection-start-line="668" selection-start-column="9" selection-end-line="668" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.36842105">
+              <caret line="667" column="80" selection-start-line="667" selection-start-column="80" selection-end-line="667" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="BICpause.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/about/BICpause.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.208333">
-              <caret line="104" column="139" selection-start-line="104" selection-start-column="139" selection-end-line="104" selection-end-column="139" />
+            <state vertical-scroll-proportion="-8.083333">
+              <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -112,7 +112,6 @@
         <option value="$PROJECT_DIR$/URNovember/saveAndReturn/applicationLost-US341.html" />
         <option value="$PROJECT_DIR$/URNovember/feedback.html" />
         <option value="$PROJECT_DIR$/URNovember/saveAndReturn/confirmationEmailSaveApplication.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
         <option value="$PROJECT_DIR$/URNovember/employment/employment2.html" />
         <option value="$PROJECT_DIR$/URNovember/template/SelfEmpyNew.html" />
         <option value="$PROJECT_DIR$/URNovember/consent/consent3.html" />
@@ -131,8 +130,9 @@
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03SickPay.html" />
         <option value="$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDown.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
         <option value="$PROJECT_DIR$/URNovember/about/BICpause.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
       </list>
     </option>
   </component>
@@ -801,7 +801,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452509493257</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="BIC save for later page">
+      <created>1452772114020</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1452772114020</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -896,7 +902,8 @@
     <MESSAGE value="Income tweaks" />
     <MESSAGE value="Time abroad prototype" />
     <MESSAGE value="tweak to error" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweak to error" />
+    <MESSAGE value="BIC save for later page" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIC save for later page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1257,8 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/BICpause.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.208333">
-          <caret line="104" column="139" selection-start-line="104" selection-start-column="139" selection-end-line="104" selection-end-column="139" />
+        <state vertical-scroll-proportion="-8.083333">
+          <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
           <folding />
         </state>
       </provider>
@@ -1266,15 +1273,15 @@
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333">
-          <caret line="304" column="143" selection-start-line="304" selection-start-column="143" selection-end-line="304" selection-end-column="143" />
+          <caret line="304" column="96" selection-start-line="304" selection-start-column="96" selection-end-line="304" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6680162">
-          <caret line="668" column="9" selection-start-line="668" selection-start-column="9" selection-end-line="668" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.36842105">
+          <caret line="667" column="80" selection-start-line="667" selection-start-column="80" selection-end-line="667" selection-end-column="80" />
           <folding />
         </state>
       </provider>
