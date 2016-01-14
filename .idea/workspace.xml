@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/BICpause.html" afterPath="$PROJECT_DIR$/URNovember/about/BICpause.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare5.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -37,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutCare5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutCare5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36842105">
+            <state vertical-scroll-proportion="-7.5833335">
               <caret line="667" column="80" selection-start-line="667" selection-start-column="80" selection-end-line="667" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BICpause.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BICpause.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/about/BICpause.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.083333">
-              <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.14360313">
+              <caret line="97" column="115" selection-start-line="97" selection-start-column="115" selection-end-line="97" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -130,9 +128,9 @@
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03SickPay.html" />
         <option value="$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDown.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/BICpause.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/BICpause.html" />
       </list>
     </option>
   </component>
@@ -351,7 +349,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/js/custom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern Guard.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -807,7 +805,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452772114020</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="BIC save for later page">
+      <created>1452776645866</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1452776645866</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -822,7 +826,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2032967" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2032967" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1262,10 +1266,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/BICpause.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.083333">
-          <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
+        <state vertical-scroll-proportion="-7.5833335">
+          <caret line="667" column="80" selection-start-line="667" selection-start-column="80" selection-end-line="667" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1278,10 +1282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/about/BICpause.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36842105">
-          <caret line="667" column="80" selection-start-line="667" selection-start-column="80" selection-end-line="667" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.14360313">
+          <caret line="97" column="115" selection-start-line="97" selection-start-column="115" selection-end-line="97" selection-end-column="115" />
           <folding />
         </state>
       </provider>
