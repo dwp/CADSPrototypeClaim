@@ -360,8 +360,16 @@
                 }
         });
     $('.remove-detail8').click(function() {
-$('#tripDetails').val('');
-});
+        $('#tripDetails').val('');
+    });
+    $('.remove-detail3').click(function() {
+        $('#dateOfArrival_LessThanTwoYears').prop('checked', false);
+        $('#dateOfArrival_MoreThanTwoYears').prop('checked', false);
+    });
+    $('.show-detail3').click(function() {
+        $('#dateOfArrival_LessThanTwoYears').prop('checked', false);
+        $('#dateOfArrival_MoreThanTwoYears').prop('checked', false);
+    });
 
 
 </script>
