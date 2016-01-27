@@ -162,102 +162,7 @@
                                     </li>
                                 </ul>
 
-
-                <!--    <ul>
-
-                        <li>
-                            <fieldset class="question-group">
-
-                                <legend>Have you or the person you look after been in respite since 11 June 2015?
-                                </legend>
-
-                                <ul class="radio " id="breaksInCareRespite">
-
-                                    <li>
-
-                                        <label for="breaksInCareRespite_yes" onmousedown="">
-                                            <input type="radio" id="breaksInCareRespite_yes"
-                                                   name="breaksInCareRespite" onmousedown=""
-                                                   value="yes"/>
-                                            <span>Yes</span></label>
-                                    </li>
-
-                                    <li>
-
-                                        <label for="breaksInCareRespite_no" onmousedown="">
-                                            <input type="radio" id="breaksInCareRespite_no"
-                                                   name="breaksInCareRespite" onmousedown=""
-                                                   value="no"/>
-                                            <span>No</span></label>
-                                    </li>
-                                </ul>
-                            </fieldset>
-                        </li>
-                    </ul>
-
-                    <ul>
-
-                        <li>
-                            <fieldset class="question-group">
-
-                                <legend>Have you or the person you look after been on holiday since 11 June 2015?
-                                </legend>
-
-                                <ul class="radio " id="breaksInCareHoliday">
-
-                                    <li>
-
-                                        <label for="breaksInCareHoliday_yes" onmousedown="">
-                                            <input type="radio" id="breaksInCareHoliday_yes"
-                                                   name="breaksInCareHoliday" onmousedown=""
-                                                   value="yes"/>
-                                            <span>Yes</span></label>
-                                    </li>
-
-                                    <li>
-
-                                        <label for="breaksInCareHoliday_no" onmousedown="">
-                                            <input type="radio" id="breaksInCareHoliday_no"
-                                                   name="breaksInCareHoliday" onmousedown=""
-                                                   value="no"/>
-                                            <span>No</span></label>
-                                    </li>
-                                </ul> -->
-
-                               <ul>
-
-                                    <li>
-                                        <fieldset class="question-group">
-
-                                            <legend>Have there been any periods you've not been able to care for this person since 11 June 2015?
-                                            </legend>
-
-                                            <p class="helper above">This means times you couldn't care for at least 35 hours a week, eg if they went on holiday without you.</p>
-                                            <ul class="radio " id="breaksInCareOther">
-
-                                                <li>
-
-                                                    <label for="breaksInCareOther_yes" onmousedown="">
-                                                        <input type="radio" id="breaksInCareOther_yes"
-                                                               name="breaksInCareOther" onmousedown=""
-                                                               value="yes"/>
-                                                        <span>Yes</span></label>
-                                                </li>
-
-                                                <li>
-
-                                                    <label for="breaksInCareOther_no" onmousedown="">
-                                                        <input type="radio" id="breaksInCareOther_no"
-                                                               name="breaksInCareOther" onmousedown=""
-                                                               value="no"/>
-                                                        <span>No</span></label>
-                                                </li>
-                                            </ul>
-                                        </fieldset>
-                                    </li>
-                                </ul>
-
-                                <ul>
+<!--                                <ul>
 
                                     <li>
                                         <fieldset class="question-group">
@@ -289,8 +194,108 @@
                                         </fieldset>
                                     </li>
                                 </ul>
-                            </fieldset>
-                        </li>
+                               <ul>
+
+                                    <li>
+                                        <fieldset class="question-group">
+
+                                            <legend>Have there been any periods you've not been able to care for this person since 11 June 2015?
+                                            </legend>
+
+                                            <p class="helper above">This means times you couldn't care for at least 35 hours a week, eg if they went on holiday without you.</p>
+                                            <ul class="radio " id="breaksInCareOther">
+
+                                                <li>
+
+                                                    <label for="breaksInCareOther_yes" onmousedown="">
+                                                        <input type="radio" id="breaksInCareOther_yes"
+                                                               name="breaksInCareOther" onmousedown=""
+                                                               value="yes"/>
+                                                        <span>Yes</span></label>
+                                                </li>
+
+                                                <li>
+
+                                                    <label for="breaksInCareOther_no" onmousedown="">
+                                                        <input type="radio" id="breaksInCareOther_no"
+                                                               name="breaksInCareOther" onmousedown=""
+                                                               value="no"/>
+                                                        <span>No</span></label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
+                                </ul> -->
+
+                                <ul>
+
+                                    <li>
+                                        <fieldset class="question-group">
+                                            <legend>Have you or the person you look after been in hospital care since 11 June 2015?</legend>
+                                            <ul class="radio" id="residence">
+                                                <li>
+                                                    <label for="residence_yes" class="show-detail2 remove-detail3">
+                                                        <input type="radio" id="residence_yes" name="residence"
+                                                               onmousedown="" value="Yes"/>
+                                                        <span>Yes</span></label>
+                                                </li>
+
+                                                <li>
+                                                    <label for="residence_no" class="show-detail3 remove-detail2">
+                                                        <input type="radio" id="residence_no" name="residence"
+                                                               onmousedown="" value="No"/>
+                                                        <span>No</span></label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li id="currentResidence" class="other-detail open-detail2">
+                                        <fieldset class="nested-fieldset">
+                                            <label class="nestedLabel">Apart from times in hospital have there been any periods you've not been able to care for this person since 11 June 2015?</label>
+                                            <p class="helper above">This is for periods you've not been able care for 35 hours a week eg the person you are looking after is in respite.</p>
+                                            <ul class="extra-group radio">
+                                                <li>
+                                                    <label for="currentResidence_yes" class="">
+                                                        <input type="radio" id="currentResidence_yes" name="currentResidence" onmousedown=""
+                                                               value="Yes"/>
+                                                        <span>Yes</span></label>
+                                                </li>
+
+                                                <li>
+                                                    <label for="currentResidence_no" class="">
+                                                        <input type="radio" id="currentResidence_no" name="currentResidence" onmousedown=""
+                                                               value="No"/>
+                                                        <span>No</span></label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
+                                    <ul>
+                                        <li id="currentResidence" class="other-detail open-detail3">
+                                            <fieldset class="nested-fieldset">
+                                                <label class="nestedLabel">Have there been any periods you've not been able to care for this person since 11 June 2015?</label>
+                                                <p class="helper above">This is for periods you've not been able care for 35 hours a week eg the person you are looking after is in respite.</p>
+                                                <ul class="extra-group radio">
+                                                    <li>
+                                                        <label for="currentResidence_yes" class="">
+                                                            <input type="radio" id="currentResidence_yes" name="currentResidence" onmousedown=""
+                                                                   value="Yes"/>
+                                                            <span>Yes</span></label>
+                                                    </li>
+
+                                                    <li>
+                                                        <label for="currentResidence_no" class="">
+                                                            <input type="radio" id="currentResidence_no" name="currentResidence" onmousedown=""
+                                                                   value="No"/>
+                                                            <span>No</span></label>
+                                                    </li>
+                                                </ul>
+                                            </fieldset>
+                                        </li>
+
                     </ul>
                 </fieldset>
 
