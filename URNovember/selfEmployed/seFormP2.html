@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+    
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+            <nav>
+                <a class="visuallyhidden" href="#help">Help</a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <article class="no-col">
+            <h1>About self employment continued</h1> 
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+            <form action="seFormP3.html" method="POST">
+                <div class="validation-summary" id="validation"></div>
+                    <fieldset class="form-elements">
+                        <ul>
+                            <li> 
+                                <fieldset class="question-group">
+                                    <legend>Do you run this business from home?</legend>
+                                        <ul class="radio" for="runFromHome">
+                                            <li>
+                                                <label for="runFromHome_yes" class="remove-detail">
+                                                    <input type="radio" name="runFromHome" id="runFromHome_yes"
+                                                    value="yes" onmousedown=""/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+                                                                                        
+                                            <li>
+                                                <label for="runFromHome_no" class="show-detail">
+                                                    <input type="radio" name="runFromHome" id="runFromHome_no"
+                                                    value="no" onmousedown=""/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>
+                                
+                                <ul class="extra-group">
+                                    <li class="other-detail open-detail">
+                                        <p class="sub">Address</p>
+                                        <ul class="address-stack">
+
+                                <li>
+                                    <label for="address_lineOne">address_lineOne</label>
+
+                                    <input type="text" id="address_lineOne" name="address.lineOne" value=""
+                                           maxLength="35" autocomplete="off"/>
+
+                                </li>
+
+                                <li><label for="address_lineTwo">address_lineTwo</label>
+
+                                    <input type="text" id="address_lineTwo" name="address.lineTwo" value=""
+                                           maxLength="35" autocomplete="off"/>
+
+                                </li>
+
+                                <li><label for="address_lineThree">address_lineThree<em>(optional)</em></label>
+
+                                    <input type="text" id="address_lineThree" name="address.lineThree" value=""
+                                           maxLength="35" autocomplete="off"/>
+                                </li>
+                            </ul>
+                                                                                                                           
+                            </li>
+                       
+                        <li class="other-detail open-detail short-field">
+                            <label for="postcode">Postcode</label>
+
+                            <input type="text" id="postcode" name="postcode" value="" class="postcode"
+                                   autocomplete="off" maxLength="60"/>
+                        </li>                        
+                    </ul>
+                    
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Did you get any refunds of VAT between DD/MM/YYYY and DD/MM/YYYY</legend>
+                                <ul class="radio" for="vatRefund">
+                                    <li>
+                                        <label for="vatRefund_yes" class="show-detail2">
+                                            <input type="radio" name="vatRefund" id="vatRefund_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="vatRefund_no" class="remove-detail2">
+                                            <input type="radio" name="vatRefund" id="vatRefund_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li>
+                    
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail2 short-field">
+                            <label for="howMuch">How much did you get?</label>
+                            <input type="text" id="howMuch" name="howMuch" autocomplete="off"/>
+                        </li>
+                    </ul>
+                    
+                    <li>
+                        <fieldset class="question-group">
+                            <legend>List your business expenses from DD/MM/YYYY to DD/MM/YYYY</legend>
+                            <p class="helper above">We need to know about any money paid out via expenses
+                                    for this business between DD/MM/YYYY and DD/MM/YYYY</p>
+                                    
+                                <ul class="short-table">
+                                    <table id="expensesTable">
+                                        <tbody>
+                                            <tr>
+                                                <th>Item</th>
+                                                <th>Total spent</th>
+                                                <th>Amount for personal use</th>                                                                                        
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                            </tr>                                        
+                                        </tbody>                                                  
+                                    </table>                                                 
+                                </ul>                                                                                                              
+                        </fieldset>
+                    </li>
+                    
+                    <div class="amendTable">                                                                                           
+                        <a id="newRow">Add new row</a> 
+                        <!--/ <a id="removeRow">Remove row</a>-->
+                    </div>
+                    
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Do you take any goods from the business,for your own use, which you do not pay for?</legend>
+                                <ul class="radio" for="takeGoods">
+                                    <li>
+                                        <label for="takeGoods_yes" class="show-detail3">
+                                            <input type="radio" name="takeGoods" id="takeGoods_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="takeGoods_no" class="remove-detail3">
+                                            <input type="radio" name="takeGoods" id="takeGoods_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li>                                    
+                                    
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail3 short-field">
+                            <label for="howMuch">How much do you think the goods are worth?</label>
+                            <input type="text" id="worth" name="worth" autocomplete="off"/>
+                        </li>
+                    </ul>
+                    
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Do you or your partner get Marriage Allowance?</legend>
+                                <ul class="radio" for="marriageAllowance">
+                                    <li>
+                                        <label for="marriageAllowance_yes" class="show-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="marriageAllowance_no" class="remove-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li>                                    
+                                    
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail4 short-field">
+                            <label for="howMuch">If you claimed Marriage Allowance, what is your tax code?</label>
+                            <input type="text" id="marriageAllowance_you" name="marriageAllowance" autocomplete="off"/>
+                        </li>
+                        
+                        <li class="other-detail open-detail4 short-field">
+                            <label for="howMuch">If your partner claimed Marriage Allowance, what is their tax code?</label>
+                            <input type="text" id="marriageAllowance_partner" name="marriageAllowance" autocomplete="off"/>
+                        </li>
+                    </ul>
+                    
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Do you pay money towards a pension?</legend>
+                                <ul class="radio" for="payPension">
+                                    <li>
+                                        <label for="payPension_yes" class="show-detail5">
+                                            <input type="radio" name="payPension" id="payPension_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="payPension_no" class="remove-detail5">
+                                            <input type="radio" name="payPension" id="payPension_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li>                                    
+                                    
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail5 short-field">
+                            <label for="howMuchPay">How much do you pay?</label>
+                            <input type="text" id="howMuchPay" name="howMuchPay" autocomplete="off"/>
+                        </li>
+                        
+                        <li class="other-detail open-detail5">
+                            <label for="howOften">How often is it paid?</label>
+                            <input type="text" id="howOften" name="howOften" autocomplete="off"/>
+                        </li>
+                    </ul>                                                              
+                </ul>
+        </fieldset>            
+        <nav class="form-steps">
+            <ul>
+                <li><input type="submit" value="Next" class="button"/></li>                    
+            </ul>
+        </nav>        
+    </form>                                                                                
+</article>
+<!--
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+
+            </section>
+
+        </aside>-->
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+       $("#newRow").click(function() {
+        $("tr:last").after("<tr><td><input type='text'/></td><td><input type='text'/></td><td><input type='text'/></td></tr>");
+       });
+    //    $("#removeRow").click(function() {                                     
+    //     $("tr:last").remove();
+    //    }); 
+    });
+</script>
+
+</html>

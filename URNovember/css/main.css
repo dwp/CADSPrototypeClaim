@@ -534,6 +534,7 @@ header div {
         /* Form check */ }
         .carers-allowance .form-elements ul li.extra-detail {
           padding: 0;
+          margin-top: 15px;
           margin-bottom: -.8em; }
         .carers-allowance .form-elements ul li.other-detail {
           margin: 0;
@@ -1660,12 +1661,17 @@ a:after {
     margin-left: 4px;
 }
 
+#newRow {
+    content: none!important;
+}
+
+
 div.fr a:after {
-    content:none;
+    content: none;
 }
 
 #next:after {
-    content: none;
+    content: none!important;
     }
 
 /* hack for check your answers */
@@ -1725,4 +1731,22 @@ input[type="text"] {
 
 .input-reduced {
     height: 1em;
+    }
+    
+    /*Table styles */
+    
+    td input[type="text"] {
+        width: 170px !important;
+    }      
+    
+    .no-col {
+        float: left!important;
+    }
+    
+    #newRow, #removeRow {
+        cursor: pointer!important;
+    }
+    
+    #newRow:after, #removeRow:after {
+        content: none;
     }

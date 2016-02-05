@@ -131,7 +131,7 @@ $('.helper-more').click(function(){
      $(".open-detail5").css("display", "none");
      $('.show-detail5 span, .show-detail5 input').click(function(){
      	$( ".open-detail5" ).show();
-     	$( ".open-detail4" ).hide();
+     	$( ".open-detail6" ).hide();
      	$(this).toggleClass("active-detail")
      });
 
@@ -143,7 +143,7 @@ $('.helper-more').click(function(){
            $(".open-detail6").css("display", "none");
            $('.show-detail6 span, .show-detail6 input').click(function(){
            	$( ".open-detail6" ).show();
-           	$( ".open-detail5" ).hide();
+           	$( ".open-detail7" ).hide();
            	$(this).toggleClass("active-detail")
            });
 
@@ -161,12 +161,12 @@ $('.helper-more').click(function(){
 
           	  $('.remove-detail7 span, .remove-detail7 input').click(function(){
           	    $( ".open-detail7" ).hide();
-          	  });
+          	  }); 
 	       // show - hide - remove
                    $(".open-detail8").css("display", "none");
                      $('.show-detail8 span, .show-detail8 input').click(function(){
                      	$( ".open-detail8" ).show();
-                     	$( ".open-detail7" ).hide();
+                     	$( ".open-detail9" ).hide();
                      	$(this).toggleClass("active-detail")
                      });
 
