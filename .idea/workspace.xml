@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/thankYou.html" afterPath="$PROJECT_DIR$/URNovember/thankYou.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -51,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutYou4TimeAbroad.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutYou4TimeAbroad.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6944444">
+            <state vertical-scroll-proportion="-7.352941">
               <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="86" selection-end-column="18" />
               <folding />
             </state>
@@ -96,18 +90,18 @@
       <file leaf-file-name="empadditionalInfo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.5">
+            <state vertical-scroll-proportion="-125.625">
               <caret line="245" column="98" selection-start-line="245" selection-start-column="98" selection-end-line="245" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thankYou.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thankYou.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6084656">
+              <caret line="80" column="76" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -191,9 +185,9 @@
         <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
-        <option value="$PROJECT_DIR$/URNovember/thankYou.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
+        <option value="$PROJECT_DIR$/URNovember/thankYou.html" />
       </list>
     </option>
   </component>
@@ -897,7 +891,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455024775260</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="research">
+      <created>1455025862276</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1455025862276</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -968,7 +968,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cya - ian" />
     <MESSAGE value="added img folder - Ian" />
     <MESSAGE value="BIC prototype" />
     <MESSAGE value="CYA" />
@@ -993,7 +992,8 @@
     <MESSAGE value="breaks" />
     <MESSAGE value="self emp journey for research - Starts from index page" />
     <MESSAGE value="time abroad and research linking" />
-    <option name="LAST_COMMIT_MESSAGE" value="time abroad and research linking" />
+    <MESSAGE value="research" />
+    <option name="LAST_COMMIT_MESSAGE" value="research" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1359,26 +1359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5">
-          <caret line="245" column="98" selection-start-line="245" selection-start-column="98" selection-end-line="245" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
           <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1395,8 +1379,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6944444">
+        <state vertical-scroll-proportion="-7.352941">
           <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="86" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-125.625">
+          <caret line="245" column="98" selection-start-line="245" selection-start-column="98" selection-end-line="245" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6084656">
+          <caret line="80" column="76" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
           <folding />
         </state>
       </provider>
