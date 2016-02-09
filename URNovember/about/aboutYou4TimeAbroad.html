@@ -79,25 +79,7 @@
 
     <div class="carers-allowance clearfix">
 
-        <section class="helper-mobile">
-            <a class="help">Get help</a>
-        </section>
-
-        <aside class="left-col">
-
-            <section id="help">
-                <h2>Get help</h2>
-                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
-                <h3>Helpline 0345 608 4321</h3>
-                <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
-
-                <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
-
-            </section>
-
-        </aside>
-
-        <article>
+        <article class="no-col">
 
             <!--javascript for back button-->
             <nav class="back-nav">
@@ -105,11 +87,13 @@
             </nav>
 
             <div class="section-progress">
-                Section 2 of 7
+                Section 2 of 4
             </div>
 
             <h1> About you - the carer </h1>
-            <form action="../selgEmployed/seFormP1" method="post" id="form_demo">
+
+            <form action="../selfEmployed/seFormP1.html" method="post" id="form_demo">
+
                 <div id="validation" class="validation-summary"></div>
 
                 <fieldset class="form-elements">
@@ -196,14 +180,14 @@
                             </fieldset>
                         </li>
 
-                        <li id="dateOfArrival" class="other-detail open-detail3">
+                        <li for="dateOfArrival" class="other-detail open-detail3">
                             <fieldset class="question-group">
                                 <label>When did you arrive in England, Scotland or Wales?</label>
                                 <p class="helper above"></p>
-                                <ul class="radio radio-stack" id="dateOfArrival">
+                                <ul class="radio radio-stack" id="dateOfArrival_2">
                                     <li>
                                         <label for="dateOfArrival_LessThanTwoYears" class="show-detail4">
-                                            <input type="radio" id="dateOfArrival_LessThanTwoYears" name="dateOfArrival"
+                                            <input type="radio" id="dateOfArrival_LessThanTwoYears" name="dateOfArrival_2"
                                                    onmousedown="" value="LessThanTwoYears" required/>
                                             <span>Less than three years ago</span>
                                         </label>
@@ -211,7 +195,7 @@
 
                                     <li>
                                         <label for="dateOfArrival_MoreThanTwoYears" class="remove-detail4 remove-detail6">
-                                            <input type="radio" id="dateOfArrival_MoreThanTwoYears" name="dateOfArrival"
+                                            <input type="radio" id="dateOfArrival_MoreThanTwoYears" name="dateOfArrival_2"
                                                    onmousedown="" value="MoreThanTwoYears"/>
                                             <span>More than three years ago</span>
                                         </label>
@@ -306,8 +290,7 @@
                 <nav class="form-steps">
                     <ul>
 
-                        <li><button class="button" onclick="window.location='../selfEmployed/seFormP1.html'">Next</button>
-                            <a href="" id="saveExit" class="button" name="saveExit">Save for later</a></li>
+                        <li><input type="submit" value="Next" class="button" /> <button a href="../saveAndReturn/savePage.html" id="saveExit" class="button" name="saveExit">Save for later</a></button></li>
 
                         </li>
                     </ul>

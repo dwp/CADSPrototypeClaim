@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5Other.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare5.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CYA/cya.html" afterPath="$PROJECT_DIR$/CYA/cya.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/index.html" afterPath="$PROJECT_DIR$/URNovember/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
@@ -48,18 +43,18 @@
       <file leaf-file-name="aboutYou1i.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1i.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.25">
-              <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutYou4TimeAbroad.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aboutYou4TimeAbroad.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.117647">
-              <caret line="308" column="100" selection-start-line="308" selection-start-column="100" selection-end-line="308" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.44444445">
+              <caret line="186" column="52" selection-start-line="186" selection-start-column="52" selection-end-line="186" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -68,8 +63,8 @@
       <file leaf-file-name="seFormP1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7058825">
-              <caret line="365" column="76" selection-start-line="365" selection-start-column="76" selection-end-line="365" selection-end-column="150" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#ul#0;n#li#0;n#ul#2;n#fieldset#0;n#li#3;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -80,18 +75,28 @@
       <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.117647">
-              <caret line="269" column="144" selection-start-line="269" selection-start-column="144" selection-end-line="269" selection-end-column="144" />
+            <state vertical-scroll-proportion="-5.2941175">
+              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seFormP3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667">
-              <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+            <state vertical-scroll-proportion="-8.625">
+              <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empadditionalInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.625">
+              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -157,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/URNovember/template/Blank.html" />
-        <option value="$PROJECT_DIR$/URNovember/saveAndReturn/savePageEmail.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou6.html" />
         <option value="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" />
         <option value="$PROJECT_DIR$/URNovember/eligibility/e5.html" />
@@ -202,12 +205,14 @@
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
         <option value="$PROJECT_DIR$/CYA/cya.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
         <option value="$PROJECT_DIR$/URNovember/index.html" />
+        <option value="$PROJECT_DIR$/URNovember/css/main.css" />
+        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
       </list>
     </option>
   </component>
@@ -333,6 +338,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URNovember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="additionalInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URNovember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -364,8 +405,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/URNovember/about" />
       <recent name="$PROJECT_DIR$/URNovember/additionalInfo" />
+      <recent name="$PROJECT_DIR$/URNovember/about" />
       <recent name="$PROJECT_DIR$/URNovember/income2" />
       <recent name="$PROJECT_DIR$/URNovember" />
       <recent name="$PROJECT_DIR$/URNovember/" />
@@ -388,8 +429,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/about/aboutYou1i.html</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/js/custom.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -397,9 +438,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -884,7 +922,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453900514791</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="self emp journey for research - Starts from index page">
+      <created>1455016325269</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1455016325270</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -955,7 +999,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test - ian" />
     <MESSAGE value="Save stuff - Hopefully working now" />
     <MESSAGE value="cya - ian" />
     <MESSAGE value="added img folder - Ian" />
@@ -980,7 +1023,8 @@
     <MESSAGE value="BIC save for later page" />
     <MESSAGE value="income stuff" />
     <MESSAGE value="breaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="breaks" />
+    <MESSAGE value="self emp journey for research - Starts from index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="self emp journey for research - Starts from index page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -991,20 +1035,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/URNovember/saveAndReturn/savePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9817767">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.451025">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6862745">
@@ -1328,13 +1358,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7058825">
-          <caret line="365" column="76" selection-start-line="365" selection-start-column="76" selection-end-line="365" selection-end-column="150" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#ul#0;n#li#0;n#ul#2;n#fieldset#0;n#li#3;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.92021275">
+          <caret line="1753" column="25" selection-start-line="1753" selection-start-column="25" selection-end-line="1753" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,30 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5294118">
           <caret line="139" column="77" selection-start-line="139" selection-start-column="77" selection-end-line="139" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1i.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25">
-          <caret line="415" column="0" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.117647">
-          <caret line="308" column="100" selection-start-line="308" selection-start-column="100" selection-end-line="308" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.117647">
-          <caret line="269" column="144" selection-start-line="269" selection-start-column="144" selection-end-line="269" selection-end-column="144" />
           <folding />
         </state>
       </provider>
@@ -1378,10 +1382,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.625">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+        <state vertical-scroll-proportion="-8.625">
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2941175">
+          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#ul#0;n#li#0;n#ul#2;n#fieldset#0;n#li#3;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1i.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="186" column="52" selection-start-line="186" selection-start-column="52" selection-end-line="186" selection-end-column="52" />
           <folding />
         </state>
       </provider>
