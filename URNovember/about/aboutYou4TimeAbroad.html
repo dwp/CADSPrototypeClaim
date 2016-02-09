@@ -109,7 +109,7 @@
             </div>
 
             <h1> About you - the carer </h1>
-            <form action="aboutYou5a.html" method="post" id="form_demo">
+            <form action="../selgEmployed/seFormP1" method="post" id="form_demo">
                 <div id="validation" class="validation-summary"></div>
 
                 <fieldset class="form-elements">
@@ -205,7 +205,7 @@
                                         <label for="dateOfArrival_LessThanTwoYears" class="show-detail4">
                                             <input type="radio" id="dateOfArrival_LessThanTwoYears" name="dateOfArrival"
                                                    onmousedown="" value="LessThanTwoYears" required/>
-                                            <span>Less than two years ago</span>
+                                            <span>Less than three years ago</span>
                                         </label>
                                     </li>
 
@@ -213,7 +213,7 @@
                                         <label for="dateOfArrival_MoreThanTwoYears" class="remove-detail4 remove-detail6">
                                             <input type="radio" id="dateOfArrival_MoreThanTwoYears" name="dateOfArrival"
                                                    onmousedown="" value="MoreThanTwoYears"/>
-                                            <span>More than two years ago</span>
+                                            <span>More than three years ago</span>
                                         </label>
                                     </li>
                                 </ul>
@@ -306,9 +306,10 @@
                 <nav class="form-steps">
                     <ul>
 
-                        <li><input type="submit" value="Next" class="button" /></li>
-                        <li><a href="javascript:history.back()">Back</a></li>
-                        <li><a href="" id="saveExit" name="saveExit">Save for later</a></li>
+                        <li><button class="button" onclick="window.location='../selfEmployed/seFormP1.html'">Next</button>
+                            <a href="" id="saveExit" class="button" name="saveExit">Save for later</a></li>
+
+                        </li>
                     </ul>
                 </nav>
 

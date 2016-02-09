@@ -67,7 +67,7 @@
             <nav class="back-nav">
                 <a id="backButton" href="javascript:history.back()">Back</a>
             </nav>            
-            <form action="seFormP2.html" method="post" id="form-demo">
+            <form action="../thankYou.html" method="post" id="form-demo">
                 <div class="validation-summary" id="validation"></div>
                     <fieldset class="form-elements">
                         <ul>             
@@ -283,8 +283,51 @@
                             </li>
                         </ul>
                     </li>
-                          
-                    </ul>                    
+
+                        <ul class="extra-group">
+                            <li class="other-detail open-detail3 short-field">
+                                <label for="howMuch">How much do you think the goods are worth?</label>
+                                <input type="text" id="worth" name="worth" autocomplete="off"/>
+                            </li>
+                        </ul>
+                        </ul>
+
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Do you or your partner get Marriage Allowance?</legend>
+                                <ul class="radio" for="marriageAllowance">
+                                    <li>
+                                        <label for="marriageAllowance_yes" class="show-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_yes"
+                                                   value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="marriageAllowance_no" class="remove-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_no"
+                                                   value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+
+                        <ul class="extra-group">
+                            <li class="other-detail open-detail4 short-field">
+                                <label for="howMuch">If you claimed Marriage Allowance, what is your tax code?</label>
+                                <input type="text" id="marriageAllowance_you" name="marriageAllowance" autocomplete="off"/>
+                            </li>
+
+                            <li class="other-detail open-detail4 short-field">
+                                <label for="howMuch">If your partner claimed Marriage Allowance, what is their tax code?</label>
+                                <input type="text" id="marriageAllowance_partner" name="marriageAllowance" autocomplete="off"/>
+                            </li>
+                        </ul>
+
+
 </li>
 </ul>                                                                                                                                             
     
@@ -294,7 +337,7 @@
 </fieldset>                                                       
             <nav class="form-steps">
                 <ul>
-                    <li><input type="submit" value="Next" class="button"/></li>
+                    <li><input type="submit" value="Next" class="button"/><a href="" id="saveExit" class="button" name="saveExit">Save for later</a></li>
                 </ul>
             </nav>              
             </form>                                                                                         

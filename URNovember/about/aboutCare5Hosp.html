@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+    <aside class="left-col">
+
+        <section id="help">
+            <h2>Get help</h2>
+            <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+            <h3>Helpline 0345 608 4321</h3>
+            <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
+
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
+
+        </section>
+
+</aside>
+
+<article>
+
+<nav class="back-nav">
+    <a id="backButton" href="javascript:history.back()">Back</a>
+</nav>
+
+
+<div class="section-progress">
+    Section 4 of 7
+</div>
+<h1>The care you give - Times in hospital</h1>
+
+<form id="form" action="../education/educationTutor.html" method="POST">
+
+
+<div class="form-wrap">
+<fieldset class="form-elements">
+
+<!--<div class="prompt helper-prompt"><p>We understand if you don't have exact details for each break but please add as much
+    information as possible as it will help us process your claim and prevent any unnecessary delays.</p>
+
+    <p>We may contact you for additional information.</p></div> -->
+<p>You mentioned that you or the person you care for have been in hospital. You could still be paid Carer’s Allowance for this time.</p>
+<ul>
+
+
+<li>
+
+    <label for="whereWereYou">Who was in hospital?</label>
+
+
+    <ul class="radio radio-stack" id="whereWereYou">
+
+        <li>
+
+            <label for="You" class="show-detail2 remove-detail3 show-detail4" onmousedown="">
+                <input type="radio" id="You"
+                       name="WhoHosp" onmousedown=""
+                       value="You" required/>
+                <span>You</span></label>
+        </li>
+
+        <li>
+
+            <label for="ThePersonYouCareFor" class="show-detail3 remove-detail2 show-detail4" onmousedown="">
+                <input type="radio" id="ThePersonYouCareFor" name="WhoHosp"
+                       onmousedown="" value="Single"/>
+                <span>The person you care for</span></label>
+        </li>
+        </ul>
+
+<li class="date-time">
+
+        <li>
+
+            <fieldset class="nested-fieldset open-detail2">
+                <label class="nestedLabel"> When did you go into hospital (the ‘admittance date’)</label>
+                <p class="helper above" id="b609f180c2ed183f4f5cc805f9571a59_defaultDateContextualHelp">For example, 30
+                    9 2014</p>
+                <ul class="inline year" id="b609f180c2ed183f4f5cc805f9571a59">
+                    <li>
+                        <label>Day</label>
+                        <input type="tel" id="e240acbdb08da0547b86a1efa4441549" name="92e83830fc5b21732853f25a0dc09e82"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+                    <li class="month">
+                        <label>Month</label>
+
+                        <input type="tel" id="1d767c77885aab7058c079201d87ec1f" name="b001747fb7d3625c5ed0ee12c54636f0"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li>
+                        <label>Year</label>
+
+                        <input type="tel" id="702ca5e4203632c16095cfc02dc23ca7" name="31231db21da35522f95c890b1dd234b1"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                               autocomplete="off">
+                    </li>
+                </ul>
+            </fieldset>
+        </li>
+        <li>
+
+            <fieldset class="nested-fieldset question-group open-detail3">
+
+                <label>When did they go into hospital (the ‘admittance date’)</label>
+
+                <p class="helper above" id="b609f180c2ed183f4f5cc805f9571a59_defaultDateContextualHelp">For example, 30
+                    9 2014</p>
+
+
+
+                <ul class="inline year" id="b609f180c2ed183f4f5cc805f9571a59">
+                    <li>
+                        <label>Day</label>
+
+                        <input type="tel" id="e240acbdb08da0547b86a1efa4441549" name="92e83830fc5b21732853f25a0dc09e82"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li class="month">
+                        <label>Month</label>
+
+                        <input type="tel" id="1d767c77885aab7058c079201d87ec1f" name="b001747fb7d3625c5ed0ee12c54636f0"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li>
+                        <label>Year</label>
+
+                        <input type="tel" id="702ca5e4203632c16095cfc02dc23ca7" name="31231db21da35522f95c890b1dd234b1"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                               autocomplete="off">
+                    </li>
+                </ul>
+            </fieldset>
+        </li>
+<li>
+        <label class="nestedLabel open-detail4">Time started</label>
+
+        <ul class="radio radio-stack open-detail4" id="TimeStarted">
+
+            <li class="short-field">
+                <label for="TimeStarted"></label>
+                <input type="text" id="name" name="TimeStarted" value="" autocomplete="off" maxlength="4"/>
+            </li>
+
+        </ul>
+</li>
+                <li>
+
+                    </input>
+
+
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+
+<ul>
+<li class="date-time  ">
+
+        <li>
+
+
+            <fieldset class="nested-fieldset">
+
+                <label>Has this hospital stay ended?
+                </label>
+
+                <ul class="radio " id="breakYesNo">
+
+                    <li>
+
+                        <label for="breakYes" class="show-detail5" >
+                            <input type="radio" id="breakYes"
+                                   name="breakYesNo" onmousedown=""
+                                   value="yes"/>
+                            <span>Yes</span></label>
+                    </li>
+
+                    <li>
+
+                        <label for="breakNo" class="remove-detail5" onmousedown="">
+                            <input type="radio" id="breakNo"
+                                   name="breakYesNo" onmousedown=""
+                                   value="no"/>
+                            <span>No</span></label>
+                    </li>
+                </ul>
+            </fieldset>
+        </li>
+        </li>
+            <fieldset class="nested-fieldset">
+                <li>
+                    <li id="dateBreakEnd" class="open-detail5">
+                        <fieldset class="question-group">
+                            <label>When were you discharged?/When were they discharged?
+                            </label>
+                            <ul class="extra-group inline year"> </li>
+
+                                <li>
+                                    <label>Day</label>
+                                    <input type="tel" id="dateOfArrival_day" name="dateOfArrival"v
+                                           value="" maxlength="2"/>
+                                </li>
+
+                                <li>
+                                    <label>Month</label>
+                                    <input type="tel" id="dateOfArrival_month" name="dateOfArrival_month"
+                                           value="" maxlength="2"/>
+                                </li>
+
+                                <li>
+                                    <label>Year</label>
+                                    <input type="tel" id="dateOfArrival_year" name="dateOfArrival_year"
+                                           value="" maxlength="4"/>
+                                </li>
+
+                <label class="nestedLabel">Time ended</label>
+
+                <ul class="radio radio-stack open-detail5" id="TimeEnded">
+                    <li class="short-field">
+                        <label for="TimeEnded"></label>
+                        <input type="text" id="name" name="TimeEnded" value="" autocomplete="off" maxlength="4"/>
+                    </li>
+
+                </ul>
+
+
+
+                    </li>
+                </fieldset>
+
+            </ul>
+        </li>
+    </ul>
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+
+        <li><input type="submit" value="Next" class="button" /></li>
+
+        <li><a href="javascript:history.back()">Back</a></li>
+
+         <!-- <li><a href="../saveAndReturn/savePageEmail.html" id="saveExit" class ="" name="saveExit">Save for later</a></li> -->
+    </ul>
+</nav>
+</div>
+
+</form>
+
+</article>
+
+</div>
+
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <ul>  <p>If you need to contact the Carer's Allowance Unit you can call on 0345 608 4321</p>
+            <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p> </ul>
+
+           <ul> <p>Made in Preston by Department for Work &amp; Pensions</p></ul>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2">Open Government
+                Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm">&copy;
+                Crown Copyright</a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="../js/custom.js"></script>
+
+</body>
+</html>
