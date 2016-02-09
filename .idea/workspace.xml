@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -76,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seFormP3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6388889">
-              <caret line="177" column="88" selection-start-line="177" selection-start-column="88" selection-end-line="177" selection-end-column="88" />
+            <state vertical-scroll-proportion="-8.823529">
+              <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#li#4;n#ul#1;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -88,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empadditionalInfo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="empadditionalInfo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-147.5">
-              <caret line="245" column="98" selection-start-line="245" selection-start-column="98" selection-end-line="245" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.44973546">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,13 +183,13 @@
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html" />
         <option value="$PROJECT_DIR$/URNovember/index.html" />
         <option value="$PROJECT_DIR$/URNovember/css/main.css" />
-        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
         <option value="$PROJECT_DIR$/URNovember/thankYou.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
+        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
       </list>
     </option>
   </component>
@@ -910,7 +911,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455028006122</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="research">
+      <created>1455028307767</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1455028307767</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1390,14 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-147.5">
-          <caret line="245" column="98" selection-start-line="245" selection-start-column="98" selection-end-line="245" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="37.625">
@@ -1408,11 +1407,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6388889">
-          <caret line="177" column="88" selection-start-line="177" selection-start-column="88" selection-end-line="177" selection-end-column="88" />
+        <state vertical-scroll-proportion="-8.823529">
+          <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#li#4;n#ul#1;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44973546">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
