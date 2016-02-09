@@ -1750,3 +1750,7 @@ input[type="text"] {
     #newRow:after, #removeRow:after {
         content: none;
     }
+    
+    .nextSave li input, li button {
+        padding: 50px;
+    }
