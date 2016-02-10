@@ -72,95 +72,18 @@
                 <div class="validation-summary" id="validation"></div>
                     <fieldset class="form-elements">
                         <ul>
-                            <li> 
+                            <li>
+
+
                                 <fieldset class="question-group">
-                                    <legend>Do you run this business from home?</legend>
-                                        <ul class="radio" for="runFromHome">
-                                            <li>
-                                                <label for="runFromHome_yes" class="remove-detail">
-                                                    <input type="radio" name="runFromHome" id="runFromHome_yes"
-                                                    value="yes" onmousedown=""/>
-                                                    <span>Yes</span>
-                                                </label>
-                                            </li>
-                                                                                        
-                                            <li>
-                                                <label for="runFromHome_no" class="show-detail">
-                                                    <input type="radio" name="runFromHome" id="runFromHome_no"
-                                                    value="no" onmousedown=""/>
-                                                    <span>No</span>
-                                                </label>
-                                            </li>
-                                        </ul>
+                                    <legend>How much total income, before tax or other deductions, did the business have between 6 April 2014 and 5 April 2015?</legend>
+                                    <p class="helper above">For example, £320.50</p>
+                                    <input type="text" style="width: 130px;" name="totalIncome" id="totalIncome" autocomplete="off"/>
+
                                 </fieldset>
                             </li>
-                                
-                                <ul class="extra-group">
-                                    <li class="other-detail open-detail">
-                                        <p class="sub">Address</p>
-                                        <ul class="address-stack">
 
-                                <li>
-                                    <label for="address_lineOne">address_lineOne</label>
 
-                                    <input type="text" id="address_lineOne" name="address.lineOne" value=""
-                                           maxLength="35" autocomplete="off"/>
-
-                                </li>
-
-                                <li><label for="address_lineTwo">address_lineTwo</label>
-
-                                    <input type="text" id="address_lineTwo" name="address.lineTwo" value=""
-                                           maxLength="35" autocomplete="off"/>
-
-                                </li>
-
-                                <li><label for="address_lineThree">address_lineThree<em>(optional)</em></label>
-
-                                    <input type="text" id="address_lineThree" name="address.lineThree" value=""
-                                           maxLength="35" autocomplete="off"/>
-                                </li>
-                            </ul>
-                                                                                                                           
-                            </li>
-                       
-                        <li class="other-detail open-detail short-field">
-                            <label for="postcode">Postcode</label>
-
-                            <input type="text" id="postcode" name="postcode" value="" class="postcode"
-                                   autocomplete="off" maxLength="60"/>
-                        </li>                        
-                    </ul>
-                    
-                    <li> 
-                        <fieldset class="question-group">
-                            <legend>Did you get any refunds of VAT between 6 April 2014 and 5 April 2015?</legend>
-                                <ul class="radio" for="vatRefund">
-                                    <li>
-                                        <label for="vatRefund_yes" class="show-detail2">
-                                            <input type="radio" name="vatRefund" id="vatRefund_yes"
-                                            value="yes" onmousedown=""/>
-                                            <span>Yes</span>
-                                        </label>
-                                    </li>
-                                                                                
-                                    <li>
-                                        <label for="vatRefund_no" class="remove-detail2">
-                                            <input type="radio" name="vatRefund" id="vatRefund_no"
-                                            value="no" onmousedown=""/>
-                                            <span>No</span>
-                                        </label>
-                                    </li>
-                                </ul>
-                        </fieldset>
-                    </li>
-                    
-                    <ul class="extra-group">
-                        <li class="other-detail open-detail2 short-field">
-                            <label for="howMuch">How much did you get?</label>
-                            <input type="text" id="howMuch" name="howMuch" autocomplete="off"/>
-                        </li>
-                    </ul>
                     
                     <li>
                         <fieldset class="question-group">
@@ -235,7 +158,36 @@
 
                             </ul>
                         </ul>
+                        <ul>
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>Did you get any refunds of VAT between 6 April 2014 and 5 April 2015?</legend>
+                                    <ul class="radio" for="vatRefund">
+                                        <li>
+                                            <label for="vatRefund_yes" class="show-detail2">
+                                                <input type="radio" name="vatRefund" id="vatRefund_yes"
+                                                       value="yes" onmousedown=""/>
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
 
+                                        <li>
+                                            <label for="vatRefund_no" class="remove-detail2">
+                                                <input type="radio" name="vatRefund" id="vatRefund_no"
+                                                       value="no" onmousedown=""/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+
+                            <ul class="extra-group">
+                                <li class="other-detail open-detail2 short-field">
+                                    <label for="howMuch">How much did you get?</label>
+                                    <input type="text" id="howMuch" name="howMuch" autocomplete="off"/>
+                                </li>
+                            </ul>
                     <ul>
                     <li> 
                         <fieldset class="question-group">

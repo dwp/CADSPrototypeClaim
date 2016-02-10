@@ -114,19 +114,191 @@
                                                             </li>
                                                         </ul>
                                             </li>
+
+                                        </ul>
+                            <ul><li>
+                                <fieldset class="question-group">
+                                    <legend>Did you start this work more than a year ago?</legend>
+                                    <p class="helper above">This is a year ago from today.</p>
+                                    <ul class="radio" id="whenStarted">
+                                        <li>
+                                            <label for="whenStarted_yes" class="show-detail3 remove-detail7">
+                                                <input type="radio" name="whenStarted" id="whenStarted_yes"
+                                                       value="yes" onmousedown=""/>
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
+
+                                        <li>
+                                            <label for="whenStarted_no" class="show-detail7 remove-detail3">
+                                                <input type="radio" name="whenStarted" id="whenStarted_no"
+                                                       value="no" onmousedown=""/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="extra-group">
+                                        <li class="other-detail open-detail7" id="open-detail7">
+                                            <label for="SEstart">When did you start this work?</label>
+                                            <p class="helper above">For example, 31 04 2015 </p>
+                                            <ul class="inline year" id="startDate2">
+                                                <li>
+                                                    <label for="day_2started">Day</label>
+                                                    <input type="tel" id="day_2started" name="2day_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off"/>
+                                                </li>
+
+                                                <li class="month">
+                                                    <label for="month_2started">Month</label>
+                                                    <input type="tel" id="month_2started" name="2month_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off"/>
+                                                </li>
+
+                                                <li>
+                                                    <label for="year_2started">Year</label>
+                                                    <input type="tel" id="year_2started" name="2year_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off"/>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="extra-group">
+                                        <li class="other-detail open-detail3">
+                                            <label>Do you have accounts?</label>
+                                            <ul class="radio" for="haveAccounts">
+                                                <li>
+                                                    <label for="haveAccounts_yes" class="show-detail4 remove-detail5">
+                                                        <input type="radio" name="haveAccounts" id="haveAccounts_yes"
+                                                               value="yes" onmousedown=""/>
+                                                        <span>Yes</span>
+                                                    </label>
+                                                </li>
+
+                                                <li>
+                                                    <label for="haveAccounts_no" class="show-detail5 remove-detail4">
+                                                        <input type="radio" name="haveAccounts" id="haveAccounts_no"
+                                                               value="no" onmousedown=""/>
+                                                        <span>No</span>
+                                                    </label>
+                                                </li>
+
+                                                <ul class="extra-detail">
+                                                    <li class="other-detail open-detail4" style="margin-top: 15px;">
+                                                        <p>You must send a copy of your most recent accounts to
+                                                            the Carer's Allowance unit
+                                                        </p>
+                                                    </li>
+                                                </ul>
+
+                                                <ul class="extra-detail">
+                                                    <li class="other-detail open-detail5" style="margin-top: 15px;">
+                                                        <label for="tradingYear">Do you know your trading year?</label>
+                                                        <ul class="radio" id="tradingYear">
+                                                            <li>
+                                                                <label for="tradingYear_yes" class="show-detail6">
+                                                                    <input type="radio" name="tradingYear" id="tradingYear_yes" value="Yes"
+                                                                           onmousedown=""/>
+                                                                    <span>Yes</span>
+                                                                </label>
+                                                            </li>
+
+                                                            <li>
+                                                                <label for="tradingYear_no" class="remove-detail6">
+                                                                    <input type="radio" name="tradingYear" id="tradingYear_no" value="No"
+                                                                           onmousedown=""/>
+                                                                    <span>No</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+
+                                                        <ul class="extra-detail" style="margin-top: 15px;">
+                                                            <li class="other-detail open-detail6">
+                                                                <label for="startSE">When did you start this work?</label>
+                                                                <p class="helper above">For example, 31 04 2015 </p>
+                                                                <ul class="inline year" id="startDate">
+                                                                    <li>
+                                                                        <label for="endDay_2">Day</label>
+                                                                        <input type="tel" id="endDay_2" name="endDay_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                                                    </li>
+
+                                                                    <li class="endMonth_2">
+                                                                        <label for="month_2">Month</label>
+                                                                        <input type="tel" id="endMonth_2" name="endMonth_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                                                    </li>
+
+                                                                    <li>
+                                                                        <label for="endYear_2">Year</label>
+                                                                        <input type="tel" id="endYear_2" name="endYear_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    </ul>
+                                                </ul>
+                                            </li>
                                         </ul>
 
-                                <li>
+                                <ul>
+                                    <li>
+                                        <fieldset class="question-group">
+                                            <legend>Do you run this business from home?</legend>
+                                            <ul class="radio" for="runFromHome">
+                                                <li>
+                                                    <label for="runFromHome_yes" class="remove-detail8">
+                                                        <input type="radio" name="runFromHome" id="runFromHome_yes"
+                                                               value="yes" onmousedown=""/>
+                                                        <span>Yes</span>
+                                                    </label>
+                                                </li>
 
+                                                <li>
+                                                    <label for="runFromHome_no" class="show-detail8">
+                                                        <input type="radio" name="runFromHome" id="runFromHome_no"
+                                                               value="no" onmousedown=""/>
+                                                        <span>No</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
 
-                                    <fieldset class="question-group">
-                                        <legend>How much total income, before tax or other deductions, did the business have between 6 April 2014 and 5 April 2015?</legend>
-                                        <p class="helper above">For example, £320.50</p>
-                                            <input type="text" style="width: 130px;" name="totalIncome" id="totalIncome" autocomplete="off"/>
-                                                
-                                    </fieldset>
-                                </li>
-                                
+                                    <ul class="extra-group">
+                                        <li class="other-detail open-detail8">
+                                            <p class="sub">Address</p>
+                                            <ul class="address-stack">
+
+                                                <li>
+                                                    <label for="address_lineOne">address_lineOne</label>
+
+                                                    <input type="text" id="address_lineOne" name="address.lineOne" value=""
+                                                           maxLength="35" autocomplete="off"/>
+
+                                                </li>
+
+                                                <li><label for="address_lineTwo">address_lineTwo</label>
+
+                                                    <input type="text" id="address_lineTwo" name="address.lineTwo" value=""
+                                                           maxLength="35" autocomplete="off"/>
+
+                                                </li>
+
+                                                <li><label for="address_lineThree">address_lineThree<em>(optional)</em></label>
+
+                                                    <input type="text" id="address_lineThree" name="address.lineThree" value=""
+                                                           maxLength="35" autocomplete="off"/>
+                                                </li>
+
+                                </ul>
+                                        </li>
+
+                                        <li class="other-detail open-detail8 short-field">
+                                            <label for="postcode">Postcode</label>
+
+                                            <input type="text" id="postcode" name="postcode" value="" class="postcode"
+                                                   autocomplete="off" maxLength="60"/>
+                                        </li>
+                                    </ul>
+
                                 <li>
                                     <fieldset class="question-group">
                                         <legend>Do you have any business partners?</legend>
@@ -155,123 +327,7 @@
                                     </li>
                                 </ul>       
                                                 
-                                <li>
-                                    <fieldset class="question-group">
-                                        <legend>Did you start this work more than a year ago?</legend>
-                                            <p class="helper above">This is a year ago from today.</p>
-                                            <ul class="radio" id="whenStarted">
-                                                <li>
-                                                    <label for="whenStarted_yes" class="show-detail3 remove-detail7">
-                                                        <input type="radio" name="whenStarted" id="whenStarted_yes"
-                                                            value="yes" onmousedown=""/>
-                                                        <span>Yes</span>
-                                                    </label>
-                                                </li>
-                                                
-                                                <li>
-                                                    <label for="whenStarted_no" class="show-detail7 remove-detail3">
-                                                        <input type="radio" name="whenStarted" id="whenStarted_no"
-                                                            value="no" onmousedown=""/>
-                                                        <span>No</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
-                                            
-                                            <ul class="extra-group">                                                                                                                                                
-                                                    <li class="other-detail open-detail7" id="open-detail7">                                                                                            
-                                                        <label for="SEstart">When did you start this work?</label>
-                                                            <p class="helper above">For example, 31 04 2015 </p>
-                                                                <ul class="inline year" id="startDate2">
-                                                                    <li>   
-                                                                        <label for="day_2started">Day</label>
-                                                                        <input type="tel" id="day_2started" name="2day_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off"/>
-                                                                    </li>
 
-                                                                    <li class="month">
-                                                                        <label for="month_2started">Month</label>
-                                                                        <input type="tel" id="month_2started" name="2month_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off"/>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <label for="year_2started">Year</label>
-                                                                        <input type="tel" id="year_2started" name="2year_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off"/>
-                                                                    </li>
-                                                                </ul>                                                                                                                                                                                                   
-                                                    </li>
-                                                </ul>
-                                
-                                <ul class="extra-group">
-                                    <li class="other-detail open-detail3">
-                                        <label>Do you have accounts?</label>
-                                        <ul class="radio" for="haveAccounts">
-                                            <li>
-                                                <label for="haveAccounts_yes" class="show-detail4 remove-detail5"> 
-                                                    <input type="radio" name="haveAccounts" id="haveAccounts_yes"
-                                                        value="yes" onmousedown=""/>
-                                                    <span>Yes</span>
-                                                </label>
-                                            </li>
-                                            
-                                            <li>
-                                                <label for="haveAccounts_no" class="show-detail5 remove-detail4"> 
-                                                    <input type="radio" name="haveAccounts" id="haveAccounts_no"
-                                                        value="no" onmousedown=""/>
-                                                    <span>No</span>
-                                                </label>
-                                            </li>                                                                                                                                                                 
-                                
-                                <ul class="extra-detail">
-                                    <li class="other-detail open-detail4" style="margin-top: 15px;">
-                                        <p>You must send a copy of your most recent accounts to
-                                            the Carer's Allowance unit
-                                        </p>                                       
-                                    </li>
-                                </ul> 
-                                
-                                <ul class="extra-detail">
-                                    <li class="other-detail open-detail5" style="margin-top: 15px;">
-                                        <label for="tradingYear">Do you know your trading year?</label>
-                                                <ul class="radio" id="tradingYear">
-                                                    <li>
-                                                        <label for="tradingYear_yes" class="show-detail6">   
-                                                            <input type="radio" name="tradingYear" id="tradingYear_yes" value="Yes"
-                                                                onmousedown=""/>
-                                                                <span>Yes</span>
-                                                        </label>
-                                                    </li> 
-                                                    
-                                                    <li>
-                                                        <label for="tradingYear_no" class="remove-detail6">   
-                                                            <input type="radio" name="tradingYear" id="tradingYear_no" value="No"
-                                                                onmousedown=""/>
-                                                                <span>No</span>
-                                                        </label>
-                                                    </li> 
-                                                </ul>
-                                                
-                                                <ul class="extra-detail" style="margin-top: 15px;">                                                                                                                                                
-                                                    <li class="other-detail open-detail6">                                                                                            
-                                                        <label for="startSE">When did you start this work?</label>
-                                                            <p class="helper above">For example, 31 04 2015 </p>
-                                                                <ul class="inline year" id="startDate">
-                                                                    <li>   
-                                                                        <label for="endDay_2">Day</label>
-                                                                        <input type="tel" id="endDay_2" name="endDay_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
-
-                                                                    <li class="endMonth_2">
-                                                                        <label for="month_2">Month</label>
-                                                                        <input type="tel" id="endMonth_2" name="endMonth_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <label for="endYear_2">Year</label>
-                                                                        <input type="tel" id="endYear_2" name="endYear_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
-                                                                    </li>
-                                                                 </ul>
-                                                    </li>
-                                                </ul>                                                   
-                                            </li>
                                         </ul>
                                                                                                          
                                         </ul>
@@ -280,91 +336,7 @@
                             </li>
                             
                                                 
-                                                <li>
-                                                    <fieldset class="question-group">
-                                                        <legend>Have you had any start up allowances, grants or other payments between 6 April 2014 and 5 April 2015</legend>
-                                                            <ul class="radio" id="anyPayments">
-                                                                <li>
-                                                                    <label for="anyPayments_yes" class="show-detail8">
-                                                                        <input type="radio" name="anyPayments" id="anyPayments_yes"
-                                                                        value="yes" onmousedown=""/>
-                                                                        <span>Yes</span>
-                                                                    </label>
-                                                                </li>                                                                                                                                
-                                                                
-                                                                <li>
-                                                                    <label for="anyPayments_no" class="remove-detail8">
-                                                                        <input type="radio" name="anyPayments" id="anyPayments_no"
-                                                                        value="no" onmousedown=""/>
-                                                                        <span>No</span>
-                                                                    </label>
-                                                                </li>
-                                                            </ul>
-                                                    </fieldset>
-                                                </li>
-                                                
-                                                <ul class="extra-group">
-                                                    <li class="other-detail open-detail8">
-                                                        <label for="whatPayment">What did you get?</label>
-                                                        <input type="text" id="whatPayment" name="whatPayment" autocomplete="off"/>
-                                                    </li>                                                                                                       
-                                                    
-                                                    <li class="other-detail open-detail8">
-                                                        <label for="whatPayment">Who paid it?</label>
-                                                        <input type="text" id="whatPayment" name="whatPayment" autocomplete="off"/>
-                                                    </li>                                              
-                                                
-                                                <li class="other-detail open-detail8">
-                                                    <fieldset class="question-group">
-                                                        <legend>When did it start?</legend>
-                                                        <p class="helper above">For example, 31 04 2015 </p>
-                                                                <ul class="inline year" id="dateStart">
-                                                                    <li>   
-                                                                        <label for="day_2start">Day</label>
-                                                                        <input type="tel" id="day_2start" name="day_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
 
-                                                                    <li class="month">
-                                                                        <label for="month_2">Month</label>
-                                                                        <input type="tel" id="month_2start" name="month_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <label for="year_2">Year</label>
-                                                                        <input type="tel" id="year_2start" name="year_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
-                                                                    </li>
-                                                                </ul>
-                                                    </fieldset>
-                                                </li>
-                                                
-                                                    <li class="other-detail open-detail8">
-                                                        <fieldset class="question-group">
-                                                          <legend>When did it end?</legend>
-                                                           <p class="helper above">For example, 31 04 2015 </p>
-                                                                <ul class="inline year" id="dateStart">
-                                                                    <li>   
-                                                                        <label for="day_2start">Day</label>
-                                                                        <input type="tel" id="day_2start" name="day_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
-
-                                                                    <li class="month">
-                                                                        <label for="month_2">Month</label>
-                                                                        <input type="tel" id="month_2start" name="month_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <label for="year_2">Year</label>
-                                                                        <input type="tel" id="year_2start" name="year_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
-                                                                    </li>
-                                                                </ul>
-                                                        </fieldset>
-                                                    </li>
-                                                                
-                                                                <li class="other-detail open-detail8 short-field">
-                                                        <label for="whatPayment">How much did you get each week?</label>
-                                                        <input type="text" id="whatPayment" name="whatPayment" autocomplete="off"/>
-                                                    </li>                                                                                                                                                                                       
-                                                </ul>                                                                                                                                                
                         </ul>
                     </fieldset>                                                       
             <nav class="form-steps">
