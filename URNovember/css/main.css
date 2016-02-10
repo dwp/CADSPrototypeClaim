@@ -1461,9 +1461,7 @@ header div {
 /* Footer */
 footer {
   background: #dee0e2; }
-  @media screen and (max-width: 700px) {
-    footer {
-      display: none; } }
+  @media screen and (max-width: 700px) { }
   footer .container {
     margin: 0 auto;
     max-width: 960px;
