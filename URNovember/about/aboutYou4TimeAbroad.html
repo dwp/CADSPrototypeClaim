@@ -90,7 +90,7 @@
                 Section 2 of 4
             </div>
 
-            <h1>About your Nationality and where you live </h1>
+            <h1>About your nationality and where you live </h1>
 
             <form action="../selfEmployed/seFormP1.html" method="post" id="form_demo">
 
@@ -161,8 +161,8 @@
                     <ul>
                         <li id="currentResidence" class="other-detail open-detail2">
                             <fieldset class="nested-fieldset">
-                                <label class="nestedLabel">Do you live in England, Scotland or Wales now?</label>
                                 <ul class="extra-group radio">
+                                <label class="nestedLabel">Do you live in England, Scotland or Wales now?</label>
                                     <li>
                                         <label for="currentResidence_yes" class="show-detail3">
                                             <input type="radio" id="currentResidence_yes" name="currentResidence" onmousedown=""
@@ -182,9 +182,9 @@
 
                         <li id="dateOfArrival" class="other-detail open-detail3">
                             <fieldset class="question-group">
+                                <ul class="radio radio-stack extra-group" id="dateOfArrival">
                                 <label>When did you arrive in England, Scotland or Wales?</label>
                                 <p class="helper above"></p>
-                                <ul class="radio radio-stack" id="dateOfArrival">
                                     <li>
                                         <label for="dateOfArrival_LessThanTwoYears" class="show-detail4">
                                             <input type="radio" id="dateOfArrival_LessThanTwoYears" name="dateOfArrival"
@@ -203,10 +203,40 @@
                                 </ul>
 
                                 <ul>
+                                    <li id="dateArrived" class="other-detail open-detail4">
+                                        <fieldset class="question group">
+                                            <ul class="inline year extra-group">
+                                            <label>When did you arrive in England, Scotland and Wales?</label>
+                                                <li>
+                                                    <label>Day</label>
+                                                    <input type="tel" id="dateArrival_day" name="dateArrival.day"
+                                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                           maxlength="2" autocomplete="off">
+                                                </li>
+
+                                                <li class="month">
+                                                    <label>Month</label>
+                                                    <input type="tel" id="dateArrival_month" name="dateArrival.month"
+                                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                           maxlength="2" autocomplete="off">
+                                                </li>
+
+                                                <li>
+                                                    <label>Year</label>
+                                                    <input type="tel" id="dateArrival_year" name="dateArrival.year"
+                                                           pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                           maxlength="4" autocomplete="off">
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
+                                </ul>
+
+                                <ul>
                                     <li id="planToReturn" class="other-detail open-detail4">
                                         <fieldset class="question-group">
-                                            <label>Do you plan to go back to that country?</label>
-                                            <ul class="radio">
+                                            <ul class="radio extra-group">
+                                            <label>Do you plan to permanently leave England, Scotland or Wales?</label>
                                                 <li>
                                                     <label for="planToReturn_yes" class="show-detail6">
                                                         <input type="radio" id="planToReturn_yes" name="planToReturn"
@@ -229,7 +259,7 @@
                                     <li id="plannedToReturn" class="other-detail open-detail6">
                                         <ul class="extra-group">
                                             <li>
-                                                <label>When do you plan to go back?</label>
+                                                <label>When do you plan to leave?</label>
                                                 <input type="text" id="plannedToReturn_yes" name="plannedToReturn_yes"
                                                        onmousedown=""/>
                                             </li>
