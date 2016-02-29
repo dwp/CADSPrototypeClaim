@@ -74,7 +74,7 @@
                         <ul>             
                     <li> 
                         <fieldset class="question-group">
-                            <legend>Do you pay towards care costs for the person you care for whilst you are at work?
+                            <legend>Do you pay towards care costs for the person you care for while you're at work?
                             </legend>
                                 <ul class="radio" for="careCosts">
                                     <li>
@@ -103,7 +103,7 @@
                         </li>
                         
                         <li class="other-detail open-detail3">
-                            <label for="howOftenCostsCare">How often do you pay it?</label>
+                            <label for="howOftenCostsCare">How often?</label>
                             <input type="text" id="howOftenCareCosts" name="howOftenCareCosts" autocomplete="off"/>
                         </li>
                         
@@ -131,12 +131,12 @@
                         </ul>                                                                                      
                         
                         <li class="other-detail open-detail3">
-                            <label for="childName">Name of the person you pay</label>
+                            <label for="childName">The minder's name</label>
                             <input type="text" id="childName" name="childName" autocomplete="off"/>
                         </li>     
                         
                         <li class="other-detail open-detail3">
-                            <p class="sub">Address of the person you pay</p>
+                            <p class="sub">The minder's address</p>
                             <ul class="address-stack">
 
                                 <li>
@@ -175,8 +175,7 @@
 
                     <li> 
                         <fieldset class="question-group">
-                            <legend>Do you have to pay money towards child minding costs for someone to look after
-                                your child whilst you are at work?
+                            <legend>Do you pay someone to look after your child while you're at work?
                             </legend>
                             <ul class="radio" for="costs">
                                 <li>
@@ -211,7 +210,7 @@
                         
                     
                         <li class="other-detail open-detail">
-                            <label for="related">Are you related to the person you pay?</label>                        
+                            <label for="related">Are you related to your childminder?</label>                        
                                                 
                         <ul class="radio" for="related">
                             <li>
@@ -232,12 +231,12 @@
                         </ul>                                                                                      
                         
                         <li class="other-detail open-detail">
-                            <label for="childName">Name of the child</label>
+                            <label for="childName">Name of your child</label>
                             <input type="text" id="childName" name="childName" autocomplete="off"/>                        
                         </li>   
                         
                         <li class="other-detail open-detail">                                                                                            
-                            <label for="childDOB">Date of birth of the child</label>
+                            <label for="childDOB">Child's date of birth</label>
                                 <p class="helper above">For example, 31 04 2015 </p>
                                     <ul class="inline year" style="margin-top: -15px; " id="dateStopped">
                                         <li>   
@@ -256,7 +255,7 @@
                                         </li>
                                     </ul>
                         </li>                                                                   
-                        
+                        <!--
                         <li class="other-detail open-detail">
                             <label for="childBen">Do you or your partner get Child Benefit for the child?</label>                                                                        
                         <ul class="radio" for="childBenefit">
@@ -284,27 +283,33 @@
                             </li>
                         </ul>
                     </li>
-
+                    -->
 
                         </ul>
 
                         <li>
                             <fieldset class="question-group">
                                 <legend>Do you or your partner get Marriage Allowance?</legend>
-                                <ul class="radio" for="marriageAllowance">
+                                <ul class="radio radio-stack" for="marriageAllowance">
                                     <li>
-                                        <label for="marriageAllowance_yes" class="show-detail4">
+                                        <label for="marriageAllowance_yes" class="show-detail4 remove-detail5">
                                             <input type="radio" name="marriageAllowance" id="marriageAllowance_yes"
                                                    value="yes" onmousedown=""/>
-                                            <span>Yes</span>
+                                            <span>Yes, you do</span>
                                         </label>
                                     </li>
-
+                                    <li>
+                                        <label for="marriageAllowance_yes" class="show-detail5 remove-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_yes"
+                                                   value="yes" onmousedown=""/>
+                                            <span>Yes, your partner does</span>
+                                        </label>
+                                    </li>
                                     <li>
                                         <label for="marriageAllowance_no" class="remove-detail4">
                                             <input type="radio" name="marriageAllowance" id="marriageAllowance_no"
                                                    value="no" onmousedown=""/>
-                                            <span>No</span>
+                                            <span>No, neither of us claims Marriage Allowance</span>
                                         </label>
                                     </li>
                                 </ul>
@@ -312,12 +317,12 @@
                         </li>
                         <ul class="extra-group">
                             <li class="other-detail open-detail4 short-field">
-                                <label for="howMuch">If you claimed Marriage Allowance, what is your tax code?</label>
+                                <label for="howMuch">What's your tax code?</label>
                                 <input type="text" id="marriageAllowance_you" name="marriageAllowance" autocomplete="off"/>
                             </li>
 
-                            <li class="other-detail open-detail4 short-field">
-                                <label for="howMuch">If your partner claimed Marriage Allowance, what is their tax code?</label>
+                            <li class="other-detail open-detail5 short-field">
+                                <label for="howMuch">What's your partner's tax code?</label>
                                 <input type="text" id="marriageAllowance_partner" name="marriageAllowance" autocomplete="off"/>
                             </li>
                             </ul>
@@ -327,7 +332,7 @@
 
                             <ul>
                                 <fieldset class="question-group">
-                                    <legend>Have you had any start up allowances, grants or other payments between 6 April 2014 and 5 April 2015</legend>
+                                    <legend>Have you had any start up allowances or grants between 6 April 2014 and 5 April 2015</legend>
                                     <ul class="radio" id="anyPayments">
                                         <li>
                                             <label for="anyPayments_yes" class="show-detail8">
