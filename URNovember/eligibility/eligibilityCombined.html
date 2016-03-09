@@ -170,36 +170,59 @@
                     </li>
                 </ul>
 
-                <ul>
-                    <li>
-
                 <fieldset class="form-elements form-eligibility">
-                    <legend>Do you live in England, Scotland or Wales?</legend>
+                            <ul>
+                                <li class="radio radio-stack">
+                                    <fieldset class="question-group">
+                                        <legend>Which country do you live in?</legend>
+                                        <ul class="radio radio-stack"
+                                            id="countryLive">
+                                            <li class="hide-all">
+                                                <label for="countryLiveESW" class=" remove-detail3 remove-detail5 show-detail6"
+                                                       onmousedown="">
+                                                    <input type="radio"
+                                                           id="countryLiveESW"
+                                                           name="countryLive" onmousedown=""
+                                                           value="EnglandScotlandWales" required/>
+                                                    <span>England, Scotland or Wales</span></label>
+                                            </li>
+                                            <li class="hide-all">
 
-                    <p>Families of HM Forces should answer "Yes" no matter where they live</p>
+                                                <label for="countryLiveNI" class="remove-detail6 remove-detail3 show-detail5"
+                                                       onmousedown="">
+                                                    <input type="radio"
+                                                           id="countryLiveNI"
+                                                           name="countryLive" onmousedown=""
+                                                           value="Northern Ireland"/>
+                                                    <span>Northern Ireland</span></label>
+                                            </li>
+                                            <li class="hide-all">
+                                                <label for="countryLiveAnother" class=" show-detail3 remove-detail5 remove-detail6"
+                                                       onmousedown="">
+                                                    <input type="radio"
+                                                           id="countryLiveAnother"
+                                                           name="countryLive" onmousedown=""
+                                                           value="Another Country"/>
+                                                    <span>Another country</span></label>
+                                            </li>
 
-                    <ul class="radio" id="resident_answer">
+                                        </ul>
 
-                        <li class="yes-button">
-                            <label for="resident_answer_yes" class="remove-detail3">
-                                <input type="radio" id="resident_answer_yes" name="resident_answer" value="yes">
-                                <span>Yes</span></label>
-                        </li>
+                                        <div id="countryLiveESW" onmousedown="" class="prompt breaks-prompt eligibility-prompt other-detail open-detail6">
+                                            <p>You need to use the service for people living in <a href="www.google.com">England, Scotland or Wales.</a> </p>
 
-                        <li class="no-button">
-                            <label for="resident_answer_no" class="show-detail3">
-                                <input type="radio" id="resident_answer_no" name="resident_answer" value="no">
-                                <span>No</span></label>
-                        </li>
+                                        </div>
 
-                    </ul>
+                                        <div id="countryLiveNI" class="prompt breaks-prompt eligibility-prompt other-detail open-detail5">
+                                            <p>You need to use the <a href="https://nidirect.gov.uk/carersallowance">Northern Ireland service</a></p>
 
-                    <div id="noToResident" class="prompt breaks-prompt eligibility-prompt other-detail open-detail3">
-                        <p>You can normally only get Carer's Allowance if you live in England, Scotland or Wales.
-                            You might get it if you live in the EEA (European Economic Area) or Switzerland, but you
-                            must apply to find out. </p>
-                        <p>If you live in Northern Ireland go to <a href="https://www.nidirect.gov.uk/carersallowance">NI Carer's Allowance</a></p>
-                    </div>
+                                        </div>
+
+                                        <div id="countryLiveAnother" class="prompt breaks-prompt eligibility-prompt other-detail open-detail3">
+                                         <p>You can normally only get Carer's Allowance if you live in England, Scotland or Wales.
+                                             You might get it if you live in the EEA (European Economic Area) or Switzerland, but you
+                                            must apply to find out. </p>
+                                        </div>
 
 
                 </fieldset>
