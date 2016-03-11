@@ -85,7 +85,7 @@
     Section 6 of 9
 </div>
 <h1>Your income - Self-employment</h1>
-<form action="/self-employment/about-self-employment" method="POST" id="paidEmployment">
+<form action="../payDetails/payDetailsCombined.html" method="POST" id="paidEmployment">
 
 
 <input type="hidden" name="csrfToken"
@@ -163,9 +163,10 @@
 				<ul class="extra-group">
 					<li class="open-detail2 extra-group">
         <label for="accounts">
-            Do you have accounts?
+            Do you have accounts for your business?
         </label>
-        <ul class="radio " id="accounts">
+                        <p class="helper above">This means records of costs, sales and expenses of your self-employment.</p>
+                        <ul class="radio " id="accounts">
             <li>
                 <label for="accountsYes" class="show-detail7 remove-detail4 remove-detail9" onmousedown="">
                     <input type="radio" id="accountsYes"
@@ -311,7 +312,7 @@
 
 <nav class="form-steps">
     <ul>
-        <li><a href="yourIncome01Previous.html" class="button"> Next </a></li>
+        <li><a href="../payDetails/payDetailsCombined.html" class="button"> Next </a></li>
         <!-- <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
         <li><a href="javascript:history.back()" id="backButton">Back</a></li>
     </ul>
@@ -358,8 +359,8 @@
     var g2 = $("#accountsYes").is(":checked");
 
     var addr = "";
-        if (g1) addr = "yourIncome01PreviousNull.html";
-		if (g2) addr = "yourIncome01PreviousNull.html";
+        if (g1) addr = "../payDetails/payDetailsCombined.html";
+		if (g2) addr = "../payDetails/payDetailsCombined.html";
     $("#paidEmployment a").attr('href', addr);
 });
 </script>
