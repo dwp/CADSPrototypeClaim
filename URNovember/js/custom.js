@@ -345,13 +345,6 @@ function expandInput(el) {
 
       });
 
-      //remove help guide
-      $(document).ready(function() {
-         $("aside").remove();
-         //move content left
-         $("article").css("float" , "left");
-      });
-
     }
 
   }); // .on('keyup')
@@ -370,3 +363,9 @@ document.getElementById('textoutput').innerHTML=document.getElementById('textinp
 expandInput($('input[type="text"]'));
 */
 
+//remove help guide
+      $(document).ready(function() {
+         $("aside").remove();
+         //move content left
+         $("article").css("float" , "left");
+      });

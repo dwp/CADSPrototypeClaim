@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/eligibility/e5wrongCountry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/emailSelfEmpLess12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP1Less12Months.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP3Less12Months.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare2.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare3.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/js/custom.js" afterPath="$PROJECT_DIR$/URNovember/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html" afterPath="$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/education/educationTutor.html" afterPath="$PROJECT_DIR$/URNovember/education/educationTutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" afterPath="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/index.html" afterPath="$PROJECT_DIR$/URNovember/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/thankYou.html" afterPath="$PROJECT_DIR$/URNovember/thankYou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/css/main.css" afterPath="$PROJECT_DIR$/URNovember/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome01.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,16 +92,26 @@
         <entry file="file://$PROJECT_DIR$/URNovember/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+              <caret line="370" column="9" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error-ClaimServiceDown.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/URNovember/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.95555556">
+              <caret line="1761" column="5" selection-start-line="1761" selection-start-column="5" selection-end-line="1761" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error-ClaimServiceDown.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24116744">
+            <state vertical-scroll-proportion="-3.0784314">
               <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -193,7 +183,6 @@
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome04OtherIncome.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
         <option value="$PROJECT_DIR$/CYA/cya.html" />
-        <option value="$PROJECT_DIR$/URNovember/css/main.css" />
         <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
@@ -219,8 +208,9 @@
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP1Less12Months.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html" />
-        <option value="$PROJECT_DIR$/URNovember/js/custom.js" />
         <option value="$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html" />
+        <option value="$PROJECT_DIR$/URNovember/js/custom.js" />
+        <option value="$PROJECT_DIR$/URNovember/css/main.css" />
       </list>
     </option>
   </component>
@@ -437,6 +427,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URNovember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -755,12 +763,6 @@
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
     </task>
-    <task id="LOCAL-00004" summary="Test - ian">
-      <created>1441634501934</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1441634501934</updated>
-    </task>
     <task id="LOCAL-00005" summary="Save stuff - Hopefully working now">
       <created>1445853265980</created>
       <option name="number" value="00005" />
@@ -1049,12 +1051,18 @@
       <option name="project" value="LOCAL" />
       <updated>1457521591574</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Prototype - Research 16th March journey&#10;&#10;Service down message&#10;&#10;Remove help JS">
+      <created>1457701513221</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1457701513221</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1070,7 +1078,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1120,7 +1128,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CYA" />
     <MESSAGE value="UR mess ups - fixed" />
     <MESSAGE value="Research 17th journey" />
     <MESSAGE value="Research 17th journey again" />
@@ -1145,7 +1152,8 @@
     <MESSAGE value="research" />
     <MESSAGE value="time abroad" />
     <MESSAGE value="eligibility&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="eligibility&#10;" />
+    <MESSAGE value="Prototype - Research 16th March journey&#10;&#10;Service down message&#10;&#10;Remove help JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype - Research 16th March journey&#10;&#10;Service down message&#10;&#10;Remove help JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1272,13 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.75">
           <caret line="757" column="17" selection-start-line="757" selection-start-column="17" selection-end-line="757" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92021275">
-          <caret line="1753" column="25" selection-start-line="1753" selection-start-column="25" selection-end-line="1753" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1522,14 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/saveAndReturn/loginFailed3times.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1540,11 +1533,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24116744">
+        <state vertical-scroll-proportion="-3.0784314">
           <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="370" column="9" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95555556">
+          <caret line="1761" column="5" selection-start-line="1761" selection-start-column="5" selection-end-line="1761" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

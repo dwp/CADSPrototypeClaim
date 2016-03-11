@@ -1752,3 +1752,11 @@ input[type="text"] {
     .nextSave li input, li button {
         padding: 50px;
     }
+
+    aside {
+    display: none;
+    }
+
+    article {
+    float: left;
+    }
