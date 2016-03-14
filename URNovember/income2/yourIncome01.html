@@ -93,7 +93,7 @@
     <h1>Your income</h1>
 
 
-    <form action="/employment/employment" method="POST" id="paidEmployment">
+    <form action="../income2/yourIncome02SelfEmployed.html" method="POST" id="paidEmployment">
 
         <input type="hidden" name="csrfToken"
                value="5040a07ab3c7b34061b2b69b3832997b0fb22c7d-1415035573134-44f661c90c2507fe6ba3387a"/>
@@ -108,7 +108,7 @@
 
                                     <legend>
 
-                                        Have you been in employment since DD/MM/YYYY?
+                                        Have you been in employment since 16 October 2015?
 
                                     </legend>
 
@@ -150,7 +150,7 @@
 
                                                 <legend>
 
-                                                    Have you been in self-employment since DD/MM/YYYY?
+                                                    Have you been in self-employment since 9 March 2016?
 
                                                 </legend>
 
@@ -185,7 +185,7 @@
 
                     <li>
 					<fieldset class="question-group">
-                                <legend>What other income have you had since DD/MM/YYYY?</legend>
+                                <legend>What other income have you had since 16 March 2016?</legend>
 								<p class="helper above">Choose <b>all</b> that apply to you.</p>
                                 <ul class="radio radio-stack declare" id="contactYou">
 
@@ -257,9 +257,8 @@
 
             <nav class="form-steps">
                 <ul>
-                    <li><a href="yourIncome03StatPay.html" class="button"> Next </a></li>
-                   <!-- <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
-                    <li><a href="javascript:history.back()" id="backButton">Back</a></li>
+                    <li><input type="submit" value="Next" class="button"  /> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+
                 </ul>
             </nav>
         </div>
@@ -297,7 +296,7 @@
 <!--/ footer -->
 <!-- -->
 <script src="../js/custom.js"></script>
-<script>
+ <script>
 	$('#paidEmployment input[type="radio"]').click(function() {
     var g1 = $("#jobNo").is(":checked");
 	var g2 = $("#prevJobNo").is(":checked");

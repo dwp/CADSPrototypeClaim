@@ -85,7 +85,7 @@
 <h1>Declaration</h1>
 
 
-<form action="/consent-and-declaration/declaration" method="POST">
+<form action="../thankYou.html" method="POST">
 
 <input type="hidden" name="csrfToken"
        value="e2280315b5e36adc417ca8ca03130bc61f589067-1415045172353-44f661c90c2507fe6ba3387a"/>
@@ -183,9 +183,8 @@
 
     <nav class="form-steps">
         <ul>
-            <li><a href="../thankYou.html" class="button">I agree - send my application</a></li>
-            <li><a href="javascript:history.back()">Back</a></li>
-            <li><a href="#" id="saveExit" name="saveExit" >Save for later</a></li>
+            <li><input type="submit" value="I agree - send my application" class="button"  /> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+
             <!--     <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
 
         </ul>
