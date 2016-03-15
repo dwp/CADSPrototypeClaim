@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="Self-employed journey">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CADSPrototypeClaim" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/template/Blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare2.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareOLD.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareOLD.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutPartner.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutPartner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou2TextEmail.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou2TextEmail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/claimdate/c1.html" afterPath="$PROJECT_DIR$/URNovember/claimdate/c1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/consent/consent3.html" afterPath="$PROJECT_DIR$/URNovember/consent/consent3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/CYA/cya.html" afterPath="$PROJECT_DIR$/URNovember/CYA/cya.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/consent/disclaimer_screen4.html" afterPath="$PROJECT_DIR$/URNovember/consent/disclaimer_screen4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html" afterPath="$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/eligibility/e5.html" afterPath="$PROJECT_DIR$/URNovember/eligibility/e5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/education/educationTutor.html" afterPath="$PROJECT_DIR$/URNovember/education/educationTutor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" afterPath="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html" afterPath="$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/claimdate/thirdParty.html" afterPath="$PROJECT_DIR$/URNovember/claimdate/thirdParty.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome01.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome02Employed.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome02Employed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" afterPath="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,106 +51,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="thankYou.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
+      <file leaf-file-name="aboutCare2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.3323124">
+              <caret line="96" column="64" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cadsLoginselfemployed.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html">
+      <file leaf-file-name="aboutYou1i.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1i.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="117" selection-start-line="93" selection-start-column="117" selection-end-line="93" selection-end-column="117" />
+            <state vertical-scroll-proportion="-10.166667">
+              <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emailSelfEmpLess12.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/emailSelfEmpLess12.html">
+      <file leaf-file-name="aboutYou2TextEmail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou2TextEmail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+            <state vertical-scroll-proportion="-10.166667">
+              <caret line="120" column="64" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="64" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seFormP2Less12Months.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="245" column="71" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seFormP3Less12Months.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP3Less12Months.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="334" column="147" selection-start-line="334" selection-start-column="147" selection-end-line="334" selection-end-column="147" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutCareNewBICPattern.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.410891">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#li#0;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seFormP1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="342" column="75" selection-start-line="342" selection-start-column="75" selection-end-line="342" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="227" column="72" selection-start-line="227" selection-start-column="72" selection-end-line="227" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seFormP3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="366" column="76" selection-start-line="366" selection-start-column="76" selection-end-line="366" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seFormP1Less12Months.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP1Less12Months.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="342" column="75" selection-start-line="342" selection-start-column="75" selection-end-line="342" selection-end-column="75" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#li#0;n#ul#1;n#ul#1;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -159,11 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/URNovember/employment/employment2.html" />
-        <option value="$PROJECT_DIR$/URNovember/template/SelfEmpyNew.html" />
-        <option value="$PROJECT_DIR$/URNovember/error-CircsReciptServiceDown.html" />
-        <option value="$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDownNoneSave.html" />
-        <option value="$PROJECT_DIR$/URNovember/feedback2.html" />
         <option value="$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDown.html" />
         <option value="$PROJECT_DIR$/URNovember/about/BICpause.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03MatPay.html" />
@@ -174,42 +121,47 @@
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome04OtherIncome.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
         <option value="$PROJECT_DIR$/CYA/cya.html" />
-        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5Other.html" />
         <option value="$PROJECT_DIR$/URNovember/eligibility/e5wrongcountry.html" />
         <option value="$PROJECT_DIR$/URNovember/index.html" />
-        <option value="$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html" />
         <option value="$PROJECT_DIR$/URNovember/emailSelfEmp.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html" />
         <option value="$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html" />
         <option value="$PROJECT_DIR$/URNovember/js/custom.js" />
         <option value="$PROJECT_DIR$/URNovember/css/main.css" />
-        <option value="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" />
-        <option value="$PROJECT_DIR$/URNovember/eligibility/e5.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutCare2.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutPartner.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare3.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutCareOLD.html" />
-        <option value="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
-        <option value="$PROJECT_DIR$/URNovember/education/educationTutor.html" />
-        <option value="$PROJECT_DIR$/URNovember/income2/yourIncome01.html" />
-        <option value="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" />
-        <option value="$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html" />
-        <option value="$PROJECT_DIR$/URNovember/CYA/cya.html" />
-        <option value="$PROJECT_DIR$/URNovember/consent/consent3.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/emailSelfEmpLess12.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP1Less12Months.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP3Less12Months.html" />
         <option value="$PROJECT_DIR$/URNovember/thankYou.html" />
+        <option value="$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html" />
+        <option value="$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html" />
+        <option value="$PROJECT_DIR$/URNovember/eligibility/e5.html" />
+        <option value="$PROJECT_DIR$/URNovember/consent/disclaimer_screen4.html" />
+        <option value="$PROJECT_DIR$/URNovember/CYA/cya.html" />
+        <option value="$PROJECT_DIR$/URNovember/consent/consent3.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html" />
+        <option value="$PROJECT_DIR$/URNovember/claimdate/thirdParty.html" />
+        <option value="$PROJECT_DIR$/URNovember/claimdate/c1.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutPartner.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutCareOLD.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
+        <option value="$PROJECT_DIR$/URNovember/education/educationTutor.html" />
+        <option value="$PROJECT_DIR$/URNovember/income2/yourIncome01.html" />
+        <option value="$PROJECT_DIR$/URNovember/income2/yourIncome02Employed.html" />
+        <option value="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" />
+        <option value="$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
+        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutCare2.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
+        <option value="$PROJECT_DIR$/URNovember/about/aboutYou2TextEmail.html" />
       </list>
     </option>
   </component>
@@ -224,9 +176,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="750" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -252,7 +203,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -515,17 +465,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="claimdate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URNovember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="additionalInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URNovember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
@@ -1005,8 +992,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="750" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1021,7 +1008,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24394184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1108,48 +1095,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03FosteringAllowance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8431373">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome04OtherIncome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3794163">
-          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03SickPay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54070663">
-          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03StatPay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5299539">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome03CaringForSomeone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67895544">
-          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-189.79167">
-          <caret line="456" column="0" selection-start-line="456" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URJuly/about/aboutCare4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1192,13 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1217,13 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022123894">
           <caret line="77" column="80" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.359882">
-          <caret line="216" column="89" selection-start-line="216" selection-start-column="89" selection-end-line="216" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -1276,13 +1207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60324484">
-          <caret line="213" column="50" selection-start-line="213" selection-start-column="50" selection-end-line="213" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1290,101 +1214,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/eligibility/e5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.166667">
-          <caret line="102" column="114" selection-start-line="102" selection-start-column="114" selection-end-line="102" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8431373">
-          <caret line="324" column="0" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.75">
           <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCareOLD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1372547">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.254902">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/consent/consent3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/CYA/cya.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6696165">
-          <caret line="811" column="0" selection-start-line="811" selection-start-column="0" selection-end-line="811" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.562212">
-          <caret line="314" column="43" selection-start-line="314" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6543779">
-          <caret line="259" column="64" selection-start-line="259" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/education/educationTutor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42035398">
-          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutPartner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3539823">
-          <caret line="453" column="37" selection-start-line="453" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0840708">
-          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.359882">
-          <caret line="165" column="92" selection-start-line="165" selection-start-column="86" selection-end-line="165" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -1396,33 +1229,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="117" selection-start-line="93" selection-start-column="117" selection-end-line="93" selection-end-column="117" />
+          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/eligibility/e1updateTA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="342" column="75" selection-start-line="342" selection-start-column="75" selection-end-line="342" selection-end-column="75" />
+        <state vertical-scroll-proportion="-16.458334">
+          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/eligibility/eligibilityCombined.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.583334">
+          <caret line="260" column="72" selection-start-line="260" selection-start-column="72" selection-end-line="260" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/eligibility/e5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.583333">
+          <caret line="147" column="72" selection-start-line="147" selection-start-column="72" selection-end-line="147" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/consent/disclaimer_screen4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.833333">
+          <caret line="120" column="72" selection-start-line="120" selection-start-column="72" selection-end-line="120" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="227" column="72" selection-start-line="227" selection-start-column="72" selection-end-line="227" selection-end-column="72" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/CYA/cya.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.958333">
+          <caret line="856" column="72" selection-start-line="856" selection-start-column="72" selection-end-line="856" selection-end-column="72" />
+          <folding>
+            <marker date="1458034943000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458034943000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458034943000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/consent/consent3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.583334">
+          <caret line="211" column="72" selection-start-line="211" selection-start-column="72" selection-end-line="211" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7083335">
+          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/cadsLoginLess12Months.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.583333">
+          <caret line="205" column="72" selection-start-line="205" selection-start-column="72" selection-end-line="205" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP1Less12Months.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="10.416667">
           <caret line="342" column="75" selection-start-line="342" selection-start-column="75" selection-end-line="342" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#input#0;n#li#0;n#ul#1;n#ul#1;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1432,50 +1325,171 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="17.291666">
           <caret line="245" column="71" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="366" column="76" selection-start-line="366" selection-start-column="76" selection-end-line="366" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP3Less12Months.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="29.791666">
           <caret line="334" column="147" selection-start-line="334" selection-start-column="147" selection-end-line="334" selection-end-column="147" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1i.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/cadsLoginselfemployed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4041298">
-          <caret line="393" column="73" selection-start-line="393" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5147059">
+          <caret line="203" column="68" selection-start-line="203" selection-start-column="68" selection-end-line="203" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/claimdate/thirdParty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="100" column="65" selection-start-line="100" selection-start-column="65" selection-end-line="100" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/claimdate/c1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou4TimeAbroad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutPartner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.083334">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCareOLD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.083334">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.410891">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#li#0;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/education/educationTutor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02Employed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.166667">
+          <caret line="222" column="213" selection-start-line="222" selection-start-column="213" selection-end-line="222" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1i.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.166667">
+          <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou2TextEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.166667">
+          <caret line="120" column="64" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323124">
+          <caret line="96" column="64" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
