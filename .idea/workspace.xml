@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="Added helpline, section number and amended journey">
+    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/consent/consent3declaration.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/thankYou.html" afterPath="$PROJECT_DIR$/URNovember/thankYou.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -40,21 +40,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.117647">
-              <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.25345623">
+              <caret line="123" column="98" selection-start-line="123" selection-start-column="98" selection-end-line="123" selection-end-column="98" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#ul#0;n#fieldset#0;n#li#2;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seFormP2Less12Months.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.607843">
+              <caret line="96" column="143" selection-start-line="96" selection-start-column="143" selection-end-line="96" selection-end-column="143" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP2Less12Months.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html">
+      <file leaf-file-name="empadditionalInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51766515">
-              <caret line="96" column="143" selection-start-line="96" selection-start-column="143" selection-end-line="96" selection-end-column="143" />
+            <state vertical-scroll-proportion="-4.254902">
+              <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consent3declaration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/consent/consent3declaration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.166667">
+              <caret line="185" column="87" selection-start-line="185" selection-start-column="87" selection-end-line="185" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -90,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/URNovember/error-ClaimReciptServiceDown.html" />
         <option value="$PROJECT_DIR$/URNovember/about/BICpause.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03MatPay.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome03CaringForSomeone.html" />
@@ -133,14 +154,15 @@
         <option value="$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
-        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare2.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou2TextEmail.html" />
         <option value="$PROJECT_DIR$/URNovember/thankYou.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" />
+        <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
+        <option value="$PROJECT_DIR$/URNovember/consent/consent3declaration.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
       </list>
     </option>
   </component>
@@ -596,6 +618,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CADSPrototypeClaim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CYA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -612,11 +648,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/URNovember/consent" />
       <recent name="$PROJECT_DIR$/URNovember" />
       <recent name="$PROJECT_DIR$/URNovember/selfEmployedLess12Months" />
       <recent name="$PROJECT_DIR$/URNovember/selfEmployed" />
       <recent name="$PROJECT_DIR$/URNovember/eligibility" />
-      <recent name="$PROJECT_DIR$/URNovember/additionalInfo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/URNovember/selfEmployedLess12Months" />
@@ -784,12 +820,6 @@
       <created>1439839748467</created>
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added img folder - Ian">
-      <created>1447082010339</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1447082010339</updated>
     </task>
     <task id="LOCAL-00009" summary="BIC prototype">
       <created>1447162100021</created>
@@ -1079,7 +1109,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458038288613</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Changed self-employment table gather">
+      <created>1458041038159</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1458041038159</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1150,7 +1186,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Save -savePageEmailAgain" />
     <MESSAGE value="Stuff" />
     <MESSAGE value="new bic and email template for save" />
     <MESSAGE value="self employed redesign FTW" />
@@ -1175,7 +1210,8 @@
     <MESSAGE value="CSS change" />
     <MESSAGE value="Self-employed journey" />
     <MESSAGE value="Added helpline, section number and amended journey" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added helpline, section number and amended journey" />
+    <MESSAGE value="Changed self-employment table gather" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed self-employment table gather" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,13 +1222,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/URJuly/about/aboutCare2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.916667">
-          <caret line="148" column="99" selection-start-line="148" selection-start-column="99" selection-end-line="148" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URJuly/about/aboutYou1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.541667">
@@ -1513,14 +1542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.166667">
-          <caret line="222" column="213" selection-start-line="222" selection-start-column="213" selection-end-line="222" selection-end-column="213" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutCare2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1545,14 +1566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="43" column="135" selection-start-line="43" selection-start-column="135" selection-end-line="43" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/thankYou.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.166667">
@@ -1571,19 +1584,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
+    <entry file="file://$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.117647">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+        <state vertical-scroll-proportion="-4.254902">
+          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/consent/consent3declaration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.166667">
+          <caret line="185" column="87" selection-start-line="185" selection-start-column="87" selection-end-line="185" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74654377">
+          <caret line="71" column="74" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#header#0;n#main#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployedLess12Months/seFormP2Less12Months.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51766515">
+        <state vertical-scroll-proportion="-6.607843">
           <caret line="96" column="143" selection-start-line="96" selection-start-column="143" selection-end-line="96" selection-end-column="143" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25345623">
+          <caret line="123" column="98" selection-start-line="123" selection-start-column="98" selection-end-line="123" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#ul#0;n#fieldset#0;n#li#2;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
