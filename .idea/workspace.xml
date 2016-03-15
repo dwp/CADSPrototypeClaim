@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/consent/consent3declaration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/emailSelfEmpMore12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -821,12 +817,6 @@
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
     </task>
-    <task id="LOCAL-00009" summary="BIC prototype">
-      <created>1447162100021</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1447162100021</updated>
-    </task>
     <task id="LOCAL-00010" summary="CYA">
       <created>1447167392445</created>
       <option name="number" value="00010" />
@@ -1115,7 +1105,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458041038159</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Changed self-employment table gather">
+      <created>1458044034043</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1458044034043</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
