@@ -94,7 +94,7 @@
                             </li>
                             <li>
                                 <fieldset class="question-group">
-                                    <legend>How much income, before tax or other deductions, has your business had since you started self-employment to 13 March 2016</legend>
+                                    <legend>How much income, before tax or other deductions, has your business had since you started self-employment to 13 March 2016?</legend>
                                     <input type="text" style="width: 130px;" name="totalIncome" id="totalIncome" autocomplete="off"/>
 
                                 </fieldset>
@@ -112,25 +112,24 @@
                                             <tr>
                                                 <th>Item</th>
                                                 <th>Total spent</th>
-                                                <th>Cost of any you used yourself</th>                      
                                             </tr>
                                             
                                             <tr>
                                                 <td><input type="text"></td>
                                                 <td><input type="text"></td>
-                                                <td><input type="text"></td>
+                                        <!--        <td><input type="text"></td> -->
                                             </tr>
                                             
                                             <tr>
                                                 <td><input type="text"></td>
                                                 <td><input type="text"></td>
-                                                <td><input type="text"></td>
+                                        <!--        <td><input type="text"></td> -->
                                             </tr>
                                             
                                             <tr>
                                                 <td><input type="text"></td>
                                                 <td><input type="text"></td>
-                                                <td><input type="text"></td>
+                                        <!--        <td><input type="text"></td> -->
                                             </tr>                                        
                                         </tbody>                                                  
                                     </table>                                                 
@@ -139,41 +138,65 @@
                     </li>
                     
                     <div class="amendTable">                                                                                           
-                        <a id="newRow">Add new row</a> 
+                        <a id="newRow">Add a new business cost</a>
                         <!--/ <a id="removeRow">Remove row</a>-->
                     </div>
-                    
-                    <li> 
-                        <fieldset class="question-group">
-                            <legend>Do you take anything from the business for your own use without paying for it?</legend>
-                            <p class="helper above">For example, if you use the business van or eat your own produce.</p>
-                                <ul class="radio" for="takeGoods">
-                                    <li>
-                                        <label for="takeGoods_yes" class="show-detail3">
-                                            <input type="radio" name="takeGoods" id="takeGoods_yes"
-                                            value="yes" onmousedown=""/>
-                                            <span>Yes</span>
-                                        </label>
-                                    </li>
-                                                                                
-                                    <li>
-                                        <label for="takeGoods_no" class="remove-detail3">
-                                            <input type="radio" name="takeGoods" id="takeGoods_no"
-                                            value="no" onmousedown=""/>
-                                            <span>No</span>
-                                        </label>
-                                    </li>
-                                </ul>
-                        </fieldset>
-                    </li>
-                            <ul class="extra-group">
-                                <li class="other-detail open-detail3 short-field">
-                                    <label for="takeGoodsAmount">What do you think the goods were worth?</label>
-                                    <input type="text" id="takeGoodsAmount" name="takeGoodsAmount" autocomplete="off"/>
-                                </li>
 
-                            </ul>
-                        </ul>
+                            <li>
+                                <div class="validation-summary" id="validation"></div>
+                                <fieldset class="form-elements">
+                                    <ul>
+                                        <li>
+                                            <fieldset class="question-group">
+                                                <legend>Do you take anything from the business for your own use without paying for it?</legend>
+                                                <p class="helper above">For example, if you use the business van or eat your own produce.</p>
+                                                <ul class="radio" for="takeGoods">
+                                                    <li>
+                                                        <label for="takeGoods_yes" class="show-detail3">
+                                                            <input type="radio" name="takeGoods" id="takeGoods_yes"
+                                                                   value="yes" onmousedown=""/>
+                                                            <span>Yes</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label for="takeGoods_no" class="remove-detail3">
+                                                            <input type="radio" name="takeGoods" id="takeGoods_no"
+                                                                   value="no" onmousedown=""/>
+                                                            <span>No</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            <fieldset class="question group">
+                                                <ul class="short-table open-detail3">
+                                                    <table id="goodsTakeTable">
+                                                        <tbody>
+                                                        <tr>
+                                                            <th>Item</th>
+                                                            <th>Total used for yourself (£)</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><input type="text"></td>
+                                                            <td><input type="text"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><input type="text"></td>
+                                                            <td><input type="text"></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </ul>
+                                            </fieldset>
+                                        </li>
+                                        <div class="amendTableGoods open-detail3">
+                                            <a id="newRow">Add a new item</a>
+                                            <!--/ <a id="removeRow">Remove row</a>-->
+                                        </div>
+                                    </ul>
+                                </fieldset>
+                            </li>
                        <!-- <ul>
                             <li>
                                 <fieldset class="question-group">
