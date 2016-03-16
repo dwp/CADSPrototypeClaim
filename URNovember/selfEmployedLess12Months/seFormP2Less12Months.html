@@ -108,10 +108,10 @@
                             <p class="helper above">This means all costs of running the business, including transport, equipment, electricity and the costs of buying any goods or services.</p>
                              <ul class="short-table">
                                     <table id="expensesTable">
-                                        <tbody>
+                                        <tbody id="firstTable">
                                             <tr>
                                                 <th>Item</th>
-                                                <th>Total spent</th>
+                                                <th>Total spent (£)</th>
                                             </tr>
                                             
                                             <tr>
@@ -137,8 +137,8 @@
                         </fieldset>
                     </li>
                     
-                    <div class="amendTable">                                                                                           
-                        <a id="newRow">Add a new business cost</a>
+                    <div class="amendTable">
+                        <a id="newRow" input type="button" class="button" style="background-color:gray"/>Add a new business cost</a>
                         <!--/ <a id="removeRow">Remove row</a>-->
                     </div>
 
@@ -172,7 +172,7 @@
                                             <fieldset class="question group">
                                                 <ul class="short-table open-detail3">
                                                     <table id="goodsTakeTable">
-                                                        <tbody>
+                                                        <tbody id="secondTable">
                                                         <tr>
                                                             <th>Item</th>
                                                             <th>Total used for yourself (£)</th>
@@ -191,7 +191,7 @@
                                             </fieldset>
                                         </li>
                                         <div class="amendTableGoods open-detail3">
-                                            <a id="newRow">Add a new item</a>
+                                            <a id="anotherNewRow" input type="button" class="button" style="background-color:gray"/>Add a new item</a>
                                             <!--/ <a id="removeRow">Remove row</a>-->
                                         </div>
                                     </ul>
@@ -325,7 +325,10 @@
 <script type="text/javascript">
     $(document).ready(function() {
        $("#newRow").click(function() {
-        $("tr:last").after("<tr><td><input type='text'/></td><td><input type='text'/></td><td><input type='text'/></td></tr>");
+        $("#firstTable tr:last").after("<tr><td><input type='text'/></td><td><input type='text'/></td></tr>");
+       });
+       $("#anotherNewRow").click(function() {
+        $("#secondTable tr:last").after("<tr><td><input type='text'/></td><td><input type='text'/></td></tr>");
        });
     //    $("#removeRow").click(function() {                                     
     //     $("tr:last").remove();
