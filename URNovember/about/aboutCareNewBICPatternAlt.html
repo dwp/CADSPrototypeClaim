@@ -231,18 +231,18 @@
 
                                     <li>
                                         <fieldset class="question-group">
-                                            <legend>Since 16 October 2015, have you or the person you look after had to stay in hospital?
+                                            <legend>Since 16 October 2015, have you or the person you look after had to stay in hospital or respite?
                                             </legend>
                                             <ul class="radio" id="residence">
                                                 <li>
-                                                    <label for="residence_yes" class="show-detail2 remove-detail3">
+                                                    <label for="residence_yes" class="show-detail2 remove-detail3 show-detail4">
                                                         <input type="radio" id="residence_yes" name="residence"
                                                                onmousedown="" value="Yes"/>
                                                         <span>Yes</span></label>
                                                 </li>
 
                                                 <li>
-                                                    <label for="residence_no" class="show-detail3 remove-detail2">
+                                                    <label for="residence_no" class="show-detail3 remove-detail2 show-detail4">
                                                         <input type="radio" id="residence_no" name="residence"
                                                                onmousedown="" value="No"/>
                                                         <span>No</span></label>
@@ -253,13 +253,33 @@
                                 </ul>
 
                                 <ul>
-                                    <li id="HospOrRespite" class="other-detail open-detail2">
-                                        <fieldset class="nested-fieldset"
+                                    <li id="HospOrRespite" class="other-detail open-detail4">
+                                        <fieldset class="nested-fieldset">
+                                            <label class="nestedLabel">Who was in respite or hospital?</label>
+                                            <p class="helper above">You can tell us about more times you or the person you look after have been in hospital or respite later.</p>
+                                            <ul class="extra-group radio radio-stack">
+                                                <li>
+                                                    <label for="You" class="">
+                                                        <input type="radio" id="You" name="HospOrRespite" onmousedown=""
+                                                               value="You"/>
+                                                        <Span>You</Span></label>
+                                                </li>
+
+                                                <li>
+                                                    <label for="PersonLookingAfter" class="">
+                                                        <input type="radio" id="PersonLookingAfter" name="HospOrRespite" onmousedown=""
+                                                               Value="PersonLookingAfter"/>
+                                                        <Span>The person you are looking after</Span></label>
+                                                </li>
+
+
+                                            </ul>
+                                        </fieldset>
                                     </li>
                                     <li id="Hosp" class="other-detail open-detail2">
                                         <fieldset class="nested-fieldset">
-                                            <label class="nestedLabel">Apart from times in hospital, since DD/MM/YYYY have there been any weeks you've not been able to give 35 hours of care?</label>
-                                            <p class="helper above">This includes any times you or the person you look after have been in a care home or repsite.</p>
+                                            <label class="nestedLabel">Apart from times in hospital and respite, since DD/MM/YYYY have there been any weeks you've not been able to give 35 hours of care?</label>
+                                            <p class="helper above"></p>
                                             <ul class="extra-group radio radio-stack">
                                                 <li>
                                                     <label for="HospYes" class="">
@@ -288,14 +308,14 @@
                                                         <label for="NoneHospYes" class="">
                                                             <input type="radio" id="NoneHospYes" name="NoneHosp" onmousedown=""
                                                                    value="Yes"/>
-                                                            <span>There have been a week you've not been able to care 35 hours</span></label>
+                                                            <span>There have been weeks I've not cared 35 hours</span></label>
                                                     </li>
 
                                                     <li>
                                                         <label for="NoneHospNo" class="">
                                                             <input type="radio" id="NoneHospNo" name="NoneHosp" onmousedown=""
                                                                    value="No"/>
-                                                            <span>You have cared for 35 hours every week</span></label>
+                                                            <span>I have cared for 35 hours every week</span></label>
                                                     </li>
                                                 </ul>
                                             </fieldset>
