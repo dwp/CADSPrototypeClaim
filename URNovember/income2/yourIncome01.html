@@ -257,7 +257,7 @@
 
             <nav class="form-steps">
                 <ul>
-                    <li><input type="submit" value="Next" class="button"  /> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+                    <li><a href='#' class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
 
                 </ul>
             </nav>
@@ -300,16 +300,14 @@
 <script src="../js/custom.js"></script>
  <script>
 	$('#paidEmployment input[type="radio"]').click(function() {
-    var g1 = $("#jobNo").is(":checked");
-	var g2 = $("#prevJobNo").is(":checked");
-    var g3 = $("#other").is(":checked");
-	var g4 = $("#prevJobYes").is(":checked");
+    var g1 = $("#selfEmploymentYes").is(":checked");
+	  var g2 = $("#employmentYes").is(":checked");
     var addr = "yourIncome02SelfEmployed.html";
-	if (g4) {
-		addr = "yourIncome02Past.html";
+	if (g1) {
+		addr = "../selfEmployed/subcontractor.html";
 		}
-    if (g1 && g2) {
-		addr = "yourIncome03StatPay.html";
+    if (g2) {
+		addr = "yourIncomeEmployed.html";
 		}
     $("#paidEmployment a").attr('href', addr);
 });

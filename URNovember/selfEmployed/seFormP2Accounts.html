@@ -63,37 +63,48 @@
     <div class="carers-allowance clearfix">
 
         <article class="no-col">
-            <div class="section-progress">Page 2 of 4</div>
-            <h1>Your earnings from self-employment</h1>
             <nav class="back-nav">
                 <a id="backButton" href="javascript:history.back()">Back</a>
             </nav>
-            <form action="seFormP3.html" method="POST" id='form-demo'>
+            <div class="section-progress">Page 1 of 4</div>
+            <h1>About self-employment</h1>
+            <form action="seFormP2.html" method="post" id="form-demo">
                 <div class="validation-summary" id="validation"></div>
                     <fieldset class="form-elements">
                         <ul>
-                            <li>
-
-
+                            <li> 
                                 <fieldset class="question-group">
-                                    <legend>How much income, before tax or other deductions, did your business have between 6 April 2014 and 5 April 2015?</legend>
-                                    <input type="text" style="width: 130px;" name="totalIncome" id="totalIncome" autocomplete="off"/>
-
+                                            <label>Do you have accounts for your business?</label>
+                                            <p class="helper above">This means records of costs, sales and expenses of your self-employment.</p>
+                                        <ul class="radio" id="stillWorking">
+                                            <li>
+                                                <label for="stillWorking_yes" class="remove-detail">                                                
+                                                    <input type="radio" name="stillWorking" value="Yes" id="stillWorking_yes" onmousedown=""/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+                                            
+                                            <li>
+                                                <label for="stillWorking_no" class="show-detail">
+                                                    <input type="radio" name="stillWorking" value="No" id="stillWorking_no" onmousedown=""/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
                                 </fieldset>
                             </li>
-
                         </ul>
-                    </fieldset>        
+                    </fieldset>                                                      
             <nav class="form-steps">
                 <ul>
-                    <li><a href='seFormP2alt' class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+                    <li><a href='seFormP3' class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
 
                 </ul>
-            </nav>        
-    </form>                                                                                
-</article>
-<!--
-        <aside class="left-col">
+            </nav>             
+            </form>                                                                                         
+        </article>
+
+        <!--<aside class="left-col">
 
             <section id="help">
                 <h2>Get help</h2>
@@ -143,15 +154,13 @@
 <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="../js/custom.js"></script>
 <script>
-$("input").keyup(function(){
+    $('#form-demo input[type="radio"]').click(function() {
+    var g1 = $("#stillWorking_yes").is(":checked");
+    var g2 = $("#stillWorking_no").is(":checked");
+
     var addr = "seFormP2alt";
-    input1 = parseInt($('#totalIncome').val(), 10) || 0;
-    if (input1 > 4000) {
-        addr = "seFormP2Accounts.html";
-    }
-    else {
-        addr = "../additionalInfo/empadditionalInfo.html";
-    }
+        if (g1) addr = "seFormP3.html";
+        if (g2) addr = "seFormP2Ownership.html";
     $("#form-demo a").attr('href', addr);
 });
 </script>
