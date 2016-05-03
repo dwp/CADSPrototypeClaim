@@ -40,8 +40,8 @@
       <file leaf-file-name="seFormP1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.582505">
-              <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.612326">
+              <caret line="406" column="32" selection-start-line="406" selection-start-column="32" selection-end-line="406" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -789,12 +789,6 @@
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
     </task>
-    <task id="LOCAL-00017" summary="Stuff">
-      <created>1448898364799</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1448898364799</updated>
-    </task>
     <task id="LOCAL-00018" summary="new bic and email template for save">
       <created>1448965612205</created>
       <option name="number" value="00018" />
@@ -1083,7 +1077,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462277517713</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Self emp - seFormP1alt changes">
+      <created>1462277930126</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1462277930126</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1154,7 +1154,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes to feedback pages" />
     <MESSAGE value="error-pages added and tweaks to employment" />
     <MESSAGE value="income redesign pushed, several new pages" />
     <MESSAGE value="income" />
@@ -1179,7 +1178,8 @@
     <MESSAGE value="breaks tinkering" />
     <MESSAGE value="Self emp" />
     <MESSAGE value="Self emp - Added alt pages to journey" />
-    <option name="LAST_COMMIT_MESSAGE" value="Self emp - Added alt pages to journey" />
+    <MESSAGE value="Self emp - seFormP1alt changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Self emp - seFormP1alt changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1558,8 +1558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.582505">
-          <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.612326">
+          <caret line="406" column="32" selection-start-line="406" selection-start-column="32" selection-end-line="406" selection-end-column="32" />
           <folding />
         </state>
       </provider>
