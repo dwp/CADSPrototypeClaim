@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="Self emp">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Costsalt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2alt.html" />
+    <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="seFormP1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.083333">
-              <caret line="408" column="24" selection-start-line="408" selection-start-column="24" selection-end-line="408" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.582505">
+              <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP2Costsalt.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seFormP2Costsalt.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Costsalt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.666004">
-              <caret line="219" column="44" selection-start-line="219" selection-start-column="44" selection-end-line="219" selection-end-column="44" />
+            <state vertical-scroll-proportion="-7.0833335">
+              <caret line="208" column="65" selection-start-line="208" selection-start-column="65" selection-end-line="208" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -125,7 +124,6 @@
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome02Employed.html" />
         <option value="$PROJECT_DIR$/URNovember/income2/yourIncome02SelfEmployed.html" />
         <option value="$PROJECT_DIR$/URNovember/payDetails/payDetailsCombined.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP3.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare2.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutYou1i.html" />
@@ -149,6 +147,7 @@
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2alt.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Costsalt.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
       </list>
     </option>
   </component>
@@ -790,12 +789,6 @@
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
     </task>
-    <task id="LOCAL-00016" summary="Save -savePageEmailAgain">
-      <created>1448018658489</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1448018658489</updated>
-    </task>
     <task id="LOCAL-00017" summary="Stuff">
       <created>1448898364799</created>
       <option name="number" value="00017" />
@@ -1084,7 +1077,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462274836203</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Self emp - Added alt pages to journey">
+      <created>1462277517713</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1462277517713</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1155,7 +1154,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="custom JS added show detail and slight tweak to self employment route" />
     <MESSAGE value="changes to feedback pages" />
     <MESSAGE value="error-pages added and tweaks to employment" />
     <MESSAGE value="income redesign pushed, several new pages" />
@@ -1180,7 +1178,8 @@
     <MESSAGE value="self employment journey" />
     <MESSAGE value="breaks tinkering" />
     <MESSAGE value="Self emp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Self emp" />
+    <MESSAGE value="Self emp - Added alt pages to journey" />
+    <option name="LAST_COMMIT_MESSAGE" value="Self emp - Added alt pages to journey" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1541,14 +1540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.083333">
-          <caret line="408" column="24" selection-start-line="408" selection-start-column="24" selection-end-line="408" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2alt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0980392">
@@ -1559,8 +1550,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Costsalt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.666004">
-          <caret line="219" column="44" selection-start-line="219" selection-start-column="44" selection-end-line="219" selection-end-column="44" />
+        <state vertical-scroll-proportion="-7.0833335">
+          <caret line="208" column="65" selection-start-line="208" selection-start-column="65" selection-end-line="208" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.582505">
+          <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
           <folding />
         </state>
       </provider>
