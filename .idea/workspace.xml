@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5Respite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCare5Hosp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" afterPath="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/eligibility/e5wrongCountry.html" afterPath="$PROJECT_DIR$/URNovember/eligibility/e5wrongCountry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/index.html" afterPath="$PROJECT_DIR$/URNovember/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Ownership.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Ownership.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -49,11 +46,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5273109">
-              <caret line="149" column="32" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="32" />
+            <state vertical-scroll-proportion="-33.125">
+              <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seFormP2Accounts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Accounts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.67196816">
+              <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seFormP2Costs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Costs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URNovember/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.958333">
+              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,12 +116,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/URNovember/income2/yourIncome04OtherIncome.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5.html" />
         <option value="$PROJECT_DIR$/CYA/cya.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5Other.html" />
         <option value="$PROJECT_DIR$/URNovember/eligibility/e5wrongcountry.html" />
-        <option value="$PROJECT_DIR$/URNovember/index.html" />
         <option value="$PROJECT_DIR$/URNovember/emailSelfEmp.html" />
         <option value="$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html" />
         <option value="$PROJECT_DIR$/URNovember/js/custom.js" />
@@ -140,6 +165,8 @@
         <option value="$PROJECT_DIR$/URNovember/eligibility/e5wrongCountry.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
+        <option value="$PROJECT_DIR$/URNovember/index.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Ownership.html" />
       </list>
     </option>
   </component>
@@ -789,12 +816,6 @@
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
     </task>
-    <task id="LOCAL-00014" summary="Research 17th journey again">
-      <created>1447690983560</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1447690983560</updated>
-    </task>
     <task id="LOCAL-00015" summary="Research 17th journey again">
       <created>1447758087988</created>
       <option name="number" value="00015" />
@@ -1083,7 +1104,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458565286834</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Self emp">
+      <created>1462267764539</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1462267764540</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1099,6 +1126,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15653495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1109,7 +1137,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1154,7 +1181,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="self employed redesign FTW" />
     <MESSAGE value="custom JS added show detail and slight tweak to self employment route" />
     <MESSAGE value="changes to feedback pages" />
     <MESSAGE value="error-pages added and tweaks to employment" />
@@ -1179,7 +1205,8 @@
     <MESSAGE value="Changed self-employment table gather" />
     <MESSAGE value="self employment journey" />
     <MESSAGE value="breaks tinkering" />
-    <option name="LAST_COMMIT_MESSAGE" value="breaks tinkering" />
+    <MESSAGE value="Self emp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Self emp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1190,34 +1217,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/URNovember/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.359882">
-          <caret line="139" column="56" selection-start-line="139" selection-start-column="56" selection-end-line="139" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/error-ClaimServiceDown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0784314">
-          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95555556">
-          <caret line="1761" column="5" selection-start-line="1761" selection-start-column="5" selection-end-line="1761" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URNovember/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95726496">
-          <caret line="370" column="9" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/about/aboutYou1test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1548,10 +1547,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.958333">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5273109">
-          <caret line="149" column="32" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="32" />
+        <state vertical-scroll-proportion="-33.125">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Costs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Ownership.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33193278">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Accounts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67196816">
+          <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
           <folding />
         </state>
       </provider>
