@@ -134,7 +134,8 @@
 
                             <fieldset class="question-group">
 
-                                <legend>Do you spend 35 hours or more each week caring for this person?</legend>
+                                <legend>Do you spend 35 hours or more each week caring for John Smith?</legend>
+                                <p class="helper above">This could include personal care you provide.</p>
 
                                 <ul class="radio "
                                     id="timeCaring">
@@ -231,73 +232,79 @@
 
                                     <li>
                                         <fieldset class="question-group">
-                                            <legend>Since 16 October 2015, have you or the person you look after had to stay in hospital?
+                                            <legend>Since 16 October 2015, have there been any weeks you or John Smith have been in?
                                             </legend>
-                                            <ul class="radio" id="residence">
-                                                <li>
-                                                    <label for="residence_yes" class="show-detail2 remove-detail3">
-                                                        <input type="radio" id="residence_yes" name="residence"
-                                                               onmousedown="" value="Yes"/>
-                                                        <span>Yes</span></label>
+                                            <p class="helper above">Choose <b>all</b> that apply</p>
+                                            <ul class="radio radio-stack declare" id="notCared">
+
+                                                <li id="hospitalCheck">
+                                                    <label for="hospital" onmousedown="">
+                                                        <input type="checkbox" id="hospital"
+                                                               name="Breaks" onmousedown=""
+                                                               Value="Hospital" />
+                                                        <span>Hospital</span>
+                                                    </label>
                                                 </li>
 
-                                                <li>
-                                                    <label for="residence_no" class="show-detail3 remove-detail2">
-                                                        <input type="radio" id="residence_no" name="residence"
-                                                               onmousedown="" value="No"/>
-                                                        <span>No</span></label>
+                                                <li id="respiteCheck">
+                                                    <label for="respite" onmousedown="">
+                                                        <input type="checkbox" id="respite"
+                                                               name="Breaks" onmousedown=""
+                                                               Value="Respite" />
+                                                        <span>Respite or care home</span>
+                                                    </label>
                                                 </li>
+
+                                                <li id="noneCheck">
+                                                    <label for="none" onmousedown="">
+                                                        <input type="checkbox" id="none"
+                                                               name="Breaks" onmousedown=""
+                                                               Value="None" />
+                                                        <span>None</span>
+                                                    </label>
+                                                </li>
+
                                             </ul>
                                         </fieldset>
                                     </li>
                                 </ul>
 
                                 <ul>
-                                    <li id="HospOrRespite" class="other-detail open-detail2">
-                                        <fieldset class="nested-fieldset"
-                                    </li>
-                                    <li id="Hosp" class="other-detail open-detail2">
-                                        <fieldset class="nested-fieldset">
-                                            <label class="nestedLabel">Apart from times in hospital, since DD/MM/YYYY have there been any weeks you've not been able to give 35 hours of care?</label>
-                                            <p class="helper above">This includes any times you or the person you look after have been in a care home or repsite.</p>
-                                            <ul class="extra-group radio radio-stack">
+
+                                    <li>
+
+                                        <fieldset class="question-group">
+
+                                            <legend>Has there been any weeks you've not cared for John Smith for 35 hours a week?</legend>
+                                            <p class="helper above">This includes times on holiday.</p>
+
+                                            <ul class="radio "
+                                                id="otherCare">
+
                                                 <li>
-                                                    <label for="HospYes" class="">
-                                                        <input type="radio" id="HospYes" name="Hosp" onmousedown=""
-                                                               value="Yes"/>
-                                                        <span>There have been weeks I've not cared 35 hours</span></label>
+
+                                                    <label for="otherCare_Yes"
+                                                           onmousedown="">
+                                                        <input type="radio"
+                                                               id="otherCare_Yes"
+                                                               name="otherCare"
+                                                               onmousedown="" value="yes"/>
+                                                        <span>Yes</span></label>
                                                 </li>
 
                                                 <li>
-                                                    <label for="HospNo" class="">
-                                                        <input type="radio" id="HospNo" name="Hosp" onmousedown=""
-                                                               value="No"/>
-                                                        <span>I have cared for 35 hours every week</span></label>
+
+                                                    <label for="otherCare_No"
+                                                           onmousedown="">
+                                                        <input type="radio"
+                                                               id="otherCare_No"
+                                                               name="otherCare"
+                                                               onmousedown="" value="no"/>
+                                                        <span>No</span></label>
                                                 </li>
                                             </ul>
-                                        </fieldset>
-                                    </li>
-                                    <ul>
-                                        <li id="NoneHosp" class="other-detail open-detail3">
-                                            <fieldset class="nested-fieldset">
-                                                <label class="nestedLabel">Since DD/MM/YYYY have there been any weeks you've not been able to give 35 hours of care?
-                                                </label>
-                                                <p class="helper above"></p>
-                                                <ul class="extra-group radio radio-stack">
-                                                    <li>
-                                                        <label for="NoneHospYes" class="">
-                                                            <input type="radio" id="NoneHospYes" name="NoneHosp" onmousedown=""
-                                                                   value="Yes"/>
-                                                            <span>There have been a week you've not been able to care 35 hours</span></label>
-                                                    </li>
 
-                                                    <li>
-                                                        <label for="NoneHospNo" class="">
-                                                            <input type="radio" id="NoneHospNo" name="NoneHosp" onmousedown=""
-                                                                   value="No"/>
-                                                            <span>You have cared for 35 hours every week</span></label>
-                                                    </li>
-                                                </ul>
+
                                             </fieldset>
                                         </li>
 
