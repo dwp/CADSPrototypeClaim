@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" media="screen" href="../css/main.css">
     
-
+   
     <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
 
     <!--[if gte IE 9]><!-->
@@ -86,7 +86,7 @@
                     </fieldset>        
             <nav class="form-steps">
                 <ul>
-                    <li><a href='seFormP2alt' id="continue" class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+                    <li><a href="#" id="continue" class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
 
                 </ul>
             </nav>        
@@ -139,14 +139,14 @@
 </footer>
 <!--/ footer -->
 <!-- -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="../js/custom.js"></script>
-<!--<script>
+<script>
 $("input").keyup(function(){
     var addr = "seFormP2alt";
     input1 = parseInt($('#totalIncome').val(), 10) || 0;
-    if (input1 > 4000) {
+    if (input1 > 4000) {        
         addr = "seFormP2Accounts.html";
     }
     else {
@@ -154,14 +154,7 @@ $("input").keyup(function(){
     }
     $("#form-demo a").attr('href', addr);
 });
-</script>-->
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        if($("#totalIncome").val() > 4000)
-            $("#continue").attr("href" , "seFormP2Accounts.html");
-        }        
-    });
 </script>
+
 </body>
 </html>
