@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05fd574b-d5d4-4834-8993-b396d7075f4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/consent/consent3.html" afterPath="$PROJECT_DIR$/URNovember/consent/consent3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" afterPath="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" afterPath="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CADSPrototypeClaim.iws" />
@@ -27,24 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seFormP2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.098039">
-              <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#fieldset#0;n#li#0;n#ul#0;n#fieldset#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#li#0;n#ul#0;n#nav#0;n#form#0;n#article#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="subcontractor.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4333996">
-              <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.38767394">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,7 +157,6 @@
         <option value="$PROJECT_DIR$/URNovember/about/aboutCareNewBICPattern.html" />
         <option value="$PROJECT_DIR$/URNovember/about/aboutCare5Respite.html" />
         <option value="$PROJECT_DIR$/URNovember/eligibility/e5wrongCountry.html" />
-        <option value="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" />
         <option value="$PROJECT_DIR$/URNovember/index.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2Ownership.html" />
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP2.html" />
@@ -181,6 +165,7 @@
         <option value="$PROJECT_DIR$/URNovember/selfEmployed/seFormP1.html" />
         <option value="$PROJECT_DIR$/URNovember/consent/consent3.html" />
         <option value="$PROJECT_DIR$/URNovember/additionalInfo/empadditionalInfo.html" />
+        <option value="$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html" />
       </list>
     </option>
   </component>
@@ -820,12 +805,6 @@
       <option name="number" value="Default" />
       <updated>1439839748467</updated>
     </task>
-    <task id="LOCAL-00019" summary="new bic and email template for save">
-      <created>1449763088396</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1449763088396</updated>
-    </task>
     <task id="LOCAL-00020" summary="self employed redesign FTW">
       <created>1449842851065</created>
       <option name="number" value="00020" />
@@ -1114,7 +1093,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462278102392</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Self emp - seFormP1alt changes">
+      <created>1462286463202</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1462286463202</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1592,8 +1577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URNovember/selfEmployed/subcontractor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4333996">
-          <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.38767394">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
