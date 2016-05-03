@@ -86,7 +86,7 @@
                     </fieldset>        
             <nav class="form-steps">
                 <ul>
-                    <li><a href='seFormP2alt' class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+                    <li><a href='seFormP2alt' id="continue" class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
 
                 </ul>
             </nav>        
@@ -142,7 +142,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="../js/custom.js"></script>
-<script>
+<!--<script>
 $("input").keyup(function(){
     var addr = "seFormP2alt";
     input1 = parseInt($('#totalIncome').val(), 10) || 0;
@@ -154,6 +154,14 @@ $("input").keyup(function(){
     }
     $("#form-demo a").attr('href', addr);
 });
+</script>-->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        if($("#totalIncome").val() > 4000)
+            $("#continue").attr("href" , "seFormP2Accounts.html");
+        }        
+    });
 </script>
 </body>
 </html>
