@@ -1703,6 +1703,10 @@ ul#paddingDetail li {
     left: 5px;
     }
 
+td a:after {
+  content: none!important;
+}
+
 .extra-group-detail {
     border-left: 10px solid #dee0e2;
     }
@@ -1760,3 +1764,13 @@ input[type="text"] {
     article {
     float: left;
     }
+   
+   .careTable td, tr {
+     border-right: 0.5px solid #28a197;    
+     padding: 7px;
+   }  
+   
+   .careTable tr:hover :not(first-child) {
+     background-color: #e8e8e8;
+   }
+    

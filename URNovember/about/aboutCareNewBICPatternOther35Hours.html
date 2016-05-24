@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <section class="helper-mobile">
+            <a class="help">Get help</a>
+        </section>
+
+
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+            </section>
+
+        </aside>
+
+
+        <article>
+
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+
+
+            <div class="section-progress">
+                Section 7 of 10
+            </div>
+            <h1>The care you give - Times you've not cared for 35 hours a week</h1>            
+
+            <form action="aboutCareNewBICPatternAddCare.html" method="POST" id="form_demo">
+                <div id="validation" class="validation-summary"></div>
+                <p class="intro-info">You told us there was a time you weren't able to care for the person you are 
+                claiming Carer's Allowance for 35 hours a week. We need details about this time.</p>
+                <fieldset class="form-elements">                                      
+                    <ul>
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Date started</legend>
+                                <p class="helper above">For example, 30 9 2014</p>
+                                <ul class="inline year" id="careEnd">
+                                        <li>
+                                            <label>Day</label>
+                                            <input type="tel" id="careEnd_day" name="careEnd.day"
+                                                pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                maxlength="2" autocomplete="off">
+                                        </li>
+
+                                        <li class="month">
+                                            <label>Month</label>
+                                            <input type="tel" id="careEnd_month" name="careEnd.month"
+                                                pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                maxlength="2" autocomplete="off">
+                                        </li>
+
+                                        <li>
+                                            <label>Year</label>
+                                            <input type="tel" id="careEnd_year" name="careEnd.year"
+                                                pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                maxlength="4" autocomplete="off">
+                                        </li>
+                                    </ul>
+                                        <ul>
+                                            <li for="careEnd" class="short-field">
+                                                <label>Time started</label>
+                                                <input type="text" id="careEndTime" name="careEndTime"/>
+                                            </li>
+                                        </ul>   
+                                </fieldset>
+                            </li>
+                            
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>Have you started to provide care again?</legend>
+                                    <ul class="radio" for="startedCaring">
+                                        <li>
+                                            <label for="startedCaring_yes" class="show-detail">
+                                                <input type="radio" id="startedCaring_yes" name="startedCaring"
+                                                        value="Yes"/>
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
+                                        
+                                        <li>
+                                            <label for="startedCaring_no" class="remove-detail">
+                                                <input type="radio" id="startedCaring_no" name="startedCaring"
+                                                        value="No"/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+                            
+                            <ul class="extra-group open-detail" id="startedCaringAgain">
+                                <li>         
+                                    <fieldset class="question-group">
+                                        <legend>When did caring start again?</legend>                                      
+                                        <ul class="inline year" id="careStart">
+                                                <li>
+                                                    <label>Day</label>
+                                                    <input type="tel" id="careStart_day" name="careStart.day"
+                                                        pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                        maxlength="2" autocomplete="off">
+                                                </li>
+
+                                                <li class="month">
+                                                    <label>Month</label>
+                                                    <input type="tel" id="careStart_month" name="careStart.month"
+                                                        pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                        maxlength="2" autocomplete="off">
+                                                </li>
+
+                                                <li>
+                                                    <label>Year</label>
+                                                    <input type="tel" id="careStart_year" name="careStart.year"
+                                                        pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                                        maxlength="4" autocomplete="off">
+                                                </li>
+                                        </ul>
+                                        <ul>
+                                            <li for="careStart" class="short-field">
+                                                <label>Time caring started again</label>
+                                                <input type="text" id="careStartime" name="careStartTime"/>
+                                            </li>
+                                        </ul>   
+                                    </fieldset>
+                                </li>               
+                                
+                                <li>
+                                    <fieldset class="question-group">
+                                        <legend>Where were you during this time?</legend>
+                                        <p class="helper above">During this time, I was:</p>
+                                        <ul class="radio radio-stack" for="iWas">
+                                        <li>
+                                            <label for="iWas_onHoliday" class="remove-detail2">
+                                                <input type="radio" id="iWas_onHoliday" name="iWas"
+                                                        value="on holiday"/>
+                                                <span>on holiday</span>
+                                            </label>
+                                        </li>
+                                        
+                                        <li>
+                                            <label for="iWas_atHome" class="remove-detail2">
+                                                <input type="radio" id="iWas_atHome" name="iWas"
+                                                        value="at home"/>
+                                                <span>at home</span>
+                                            </label>
+                                        </li>
+                                        
+                                        <li>
+                                            <label for="iWas_somewhereElse" class="show-detail2">
+                                                <input type="radio" id="iWas_somewhereElse" name="iWas"
+                                                        value="somewhere else"/>
+                                                <span>somewhere else</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+                            
+                            <li class="other-detail open-detail2">                                                            
+                                <input type="text" id="somewhereElse_start" name="DPother" maxlength=""/>
+                            </li>   
+                                        
+                            <li>
+                                    <fieldset class="question-group">
+                                        <legend>Where was the person you care for during this time?</legend>
+                                        <p class="helper above">During this time, they were:</p>
+                                        <ul class="radio radio-stack" for="dpWas">
+                                        <li>
+                                            <label for="dpWas_onHoliday" class="remove-detail3">
+                                                <input type="radio" id="dpWas_onHoliday" name="dpWas"
+                                                        value="on holiday"/>
+                                                <span>on holiday</span>
+                                            </label>
+                                        </li>
+                                        
+                                        <li>
+                                            <label for="dpWas_atHome" class="remove-detail3">
+                                                <input type="radio" id="dpWas_atHome" name="dpWas"
+                                                        value="at home"/>
+                                                <span>at home</span>
+                                            </label>
+                                        </li>
+                                        
+                                        <li>
+                                            <label for="dpWas_somewhereElse" class="show-detail3">
+                                                <input type="radio" id="dpWas_somewhereElse" name="dpWas"
+                                                        value="somewhere else"/>
+                                                <span>somewhere else</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+                            
+                            <li class="other-detail open-detail3">                                                            
+                                <input type="text" id="whereWasDp" name="whereWasDp"/>
+                            </li>                                                                                                                            
+                </fieldset>
+            </ul>
+
+
+                <nav class="form-steps">
+                    <ul>
+                        <li><input type="submit" value="Next" class="button"  /></li>
+
+                    </ul>
+                </nav>
+
+            </form>
+        </article>
+
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Helpline - 0345 608 4321</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink">&copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../js/custom.js"></script>
+</body>
+</html>

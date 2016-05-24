@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<title>Prototype</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" media="screen" href="../css/main.css">
+
+<link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+<!--[if gte IE 9]><!-->
+<link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="../js/respond.min.js"></script>
+<![endif]-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">GOV.UK</a>
+
+<section>
+    <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+</section>
+
+</div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+<section class="helper-mobile">
+    <a class="help">Get help</a>
+</section>
+
+
+<aside class="left-col">
+
+    <section id="help">
+        <h2>Get help</h2>
+        <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+        <h3>Helpline 0345 608 4321</h3>
+        <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+        <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+    </section>
+
+</aside>
+
+
+<article>
+
+    <nav class="back-nav">
+        <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav>
+
+
+    <div class="section-progress">
+        Section 7 of 10
+    </div>
+    <h1>The care you give - Times in hosptial</h1>            
+
+    <form action="aboutCareNewBICPatternAddCare.html" method="POST" id="form_demo">
+        <div id="validation" class="validation-summary"></div>                  
+
+        <p class="intro-info">You told us that you or the person you care for have been in
+            hospital. You could still be paid Carer's Allowance for this time.</p>
+            
+    <fieldset class="form-elements">        
+        <ul>
+            <li>
+                <fieldset class="question-group">
+                    <legend>Who was in hospital?</legend>                                
+                    <ul class="radio radio-stack " id="whoInHosp">
+                        <li>
+                            <label for="youInHosp" class="remove-detail4 show-detail">
+                                <input type="radio"
+                                    id="youInHosp"
+                                    name="whoInHosp"
+                                    onmousedown="" value="You"/>
+                                <span>You</span>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="dpInHosp" class="remove-detail show-detail4">
+                                <input type="radio"
+                                       id="dpInHosp"
+                                       name="whoInHosp"/>
+                                <span>John Smith</span>
+                            </label>
+                        </li>
+                    </ul>   
+                </fieldset>
+            </li>                                 
+
+        <ul class="extra-group open-detail" id="youInHosp">
+            <li>
+                <fieldset class="question-group">
+                    <legend>When were you admitted?</legend>
+                        <p class="helper above">For example, 30 9 2014</p>
+                        <ul class="inline year" id="admittedHosp">
+                            <li>
+                                <label>Day</label>
+                                    <input type="tel" id="dateInHosp_day" name="dateInHosp.day"
+                                        pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                        maxlength="2" autocomplete="off">
+                            </li>
+
+                            <li class="month">
+                                <label>Month</label>
+                                    <input type="tel" id="dateInHosp_month" name="dateInHosp.month"
+                                        pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                        maxlength="2" autocomplete="off">
+                                </li>
+
+                                <li>
+                                    <label>Year</label>
+                                    <input type="tel" id="dateInHosp_year" name="dateinHosp.year"
+                                        pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                        maxlength="4" autocomplete="off">
+                                </li>
+                            </ul>
+                                <ul>
+                                    <li for="admittedTime" class="short-field">
+                                        <label>Time started</label>
+                                        <input type="text" id="admittedTime" name="admittedTime"/>
+                                    </li>
+                                </ul>                                                    
+                            </fieldset>
+                        </li>                                
+        <ul>
+            <li>
+                <fieldset class="question-group">
+                    <legend>Has the hospital stay ended?</legend>
+                        <ul class="radio " id="stayEnded">
+                            <li>
+                                <label for="stayEnded_Yes" class="show-detail2">
+                                    <input type="radio"
+                                    id="stayEnded_Yes"
+                                    name="stayEnded"
+                                    onmousedown="" value="yes"/>
+                                    <span>Yes</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="stayEnded_No" class="remove-detail2">
+                                    <input type="radio"
+                                        id="stayEnded_No"
+                                        name="stayEnded"
+                                        onmousedown="" value="no"/>
+                                    <span>No</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </li> 
+            </ul>                                  
+                            
+            <ul class="extra-group open-detail2" for="dischargedHosp">        
+                <li>
+                    <fieldset class="question-group">
+                        <legend>When were you discharged?</legend>
+                        <p class="helper above">For example, 30 9 2014</p>
+                         <ul class="inline year" id="dischargedHosp">
+                            <li>
+                                <label>Day</label>
+                                <input type="tel" id="dischargedHosp_day" name="dischargedHosp.day"
+                                    pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                    maxlength="2" autocomplete="off"/>
+                            </li>
+
+                            <li class="month">
+                                <label>Month</label>
+                                <input type="tel" id="dischargedHosp_month" name="dischargedHosp.month"
+                                    pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                    maxlength="2" autocomplete="off">
+                            </li>
+
+                            <li>
+                                <label>Year</label>
+                                <input type="tel" id="dischargedHosp_year" name="dischargedHosp.year"
+                                    pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                    maxlength="4" autocomplete="off">
+                            </li>
+                            </ul>
+                            
+                            <ul>
+                                <li for="dischargedTime" class="short-field">
+                                    <label>Time ended</label>
+                                    <input type="text" id="dischargedTime" name="dischargedTime"/>
+                                </li>
+                            </ul>                                                    
+                        </fieldset>
+                    </li>                                                
+                    
+                    <li>
+                        <fieldset class="question-group">
+                            <legend>Where was John Smith during this break?</legend>                                
+
+                        <ul class="radio radio-stack " id="whereWasDP">
+                            <li>
+
+                                <label for="whereWasDP_inHospital" class="remove-detail6">
+                                    <input type="radio"
+                                            id="whereWasDP_inHospital"
+                                            name="whereWasDP"
+                                            onmousedown="" value="In hospital"/>
+                                    <span>In hospital</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="whereWasDP_inRespite" class="remove-detail3">
+                                    <input type="radio"
+                                            id="whereWasDP_inRespite"
+                                            name="whereWasDP"
+                                            onmousedown="" value="In respite care"/>
+                                    <span>In respite care</span>
+                                </label>
+                                </li>
+                                
+                                <li>
+                                <label for="whereWasDP_somewhere" class="show-detail3">
+                                    <input type="radio"
+                                            id="whereWasDP_somewhere"
+                                            name="whereWasDP"
+                                            onmousedown="" value="Somewhere else"/>
+                                    <span>Somewhere else</span>
+                                </label>
+                                </li>
+                            </ul>                         
+                        </fieldset>
+                    </li>        
+                                                                                           
+                    <li class="other-detail open-detail3">                            
+                        <input type="text" id="DPother" name="DPother" maxlength=""/>
+                    </li>                
+                </ul>                               
+        </ul>
+        <ul class="extra-group open-detail4" id="dpInHosp">
+                <li>
+                    <fieldset class="question-group">
+                        <legend>When were they admitted?</legend>
+                            <p class="helper above">For example, 30 9 2014</p>
+                            <ul class="inline year" id="dpAdmittedHosp">
+                            <li>
+                                    <label>Day</label>
+                                        <input type="tel" id="dateInHospDp_day" name="dateInHospDp.day"
+                                            pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                            maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li class="month">
+                                        <label>Month</label>
+                                        <input type="tel" id="dateInHospDp_month" name="dateInHospDp.month"
+                                            pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                            maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label>Year</label>
+                                        <input type="tel" id="dateInHospDp_year" name="dateinHospDp.year"
+                                            pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                            maxlength="4" autocomplete="off">
+                                    </li>
+                                </ul>
+                                    <ul>
+                                        <li for="admittedTimeDp" class="short-field">
+                                            <label>Time started</label>
+                                            <input type="text" id="admittedTimeDp" name="admittedTimeDp"/>
+                                        </li>
+                                    </ul>                                                    
+                                </fieldset>
+                            </li>                                
+        <ul>
+            <li>
+                <fieldset class="question-group">
+                    <legend>Has this hospital stay ended?</legend>
+                        <ul class="radio " id="stayEndedDp">
+                            <li>
+                                <label for="stayEndedDp_Yes" class="show-detail5">
+                                    <input type="radio"
+                                    id="stayEndedDp_Yes"
+                                    name="stayEnded"
+                                    onmousedown="" value="yes"/>
+                                    <span>Yes</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="stayEndedDp_No" class="remove-detail5">
+                                    <input type="radio"
+                                        id="stayEndedDp_No"
+                                        name="stayEnded"
+                                        onmousedown="" value="no"/>
+                                    <span>No</span>
+                                </label>
+                            </li>
+                                    </ul>
+                        </fieldset>
+                    </li>                                
+                            
+                        <ul class="extra-group open-detail5" for="dischargedHosp_dp">        
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>When were they discharged?</legend>
+                                    <p class="helper above">For example, 30 9 2014</p>
+                                <ul class="inline year" id="dischargedHosp_dp">
+                                    <li>
+                                        <label>Day</label>
+                                        <input type="tel" id="dischargedHospDp_day" name="dischargedHospDp.day"
+                                            pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                            maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li class="month">
+                                        <label>Month</label>
+                                        <input type="tel" id="dischargedHospDp_month" name="dischargedHospDp.month"
+                                            pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                            maxlength="2" autocomplete="off">
+                                    </li>
+
+                                    <li>
+                                        <label>Year</label>
+                                        <input type="tel" id="dischargedHospDp_year" name="dischargedHospDp.year"
+                                            pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
+                                            maxlength="4" autocomplete="off">
+                                    </li>
+                                </ul>
+                                    <ul>
+                                        <li for="dischargedTimeDp" class="short-field">
+                                            <label>Time ended</label>
+                                            <input type="text" id="dischargedTimeDp" name="dischargedTimeDp"/>
+                                        </li>
+                                    </ul>                                                    
+                                </fieldset>
+                            </li>                                                
+                    <li>
+                        <fieldset class="question-group">
+                            <legend>During this time in hospital were you caring for John Smith for 35 hours a week?</legend>   
+                            <p class="helper above">This could include personal care you provide</p>                             
+                    <ul class="radio " id="stillCaring35">
+                        <li>
+                            <label for="stillCaring35_yes">
+                                <input type="radio"
+                                        id="stillCaring35_yes"
+                                        name="stillCaring35"
+                                        onmousedown="" value="Yes"/>
+                                <span>Yes</span>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="stillCaring35_no">
+                                <input type="radio"
+                                        id="stillCaring35_no"
+                                        name="stillCaring35"
+                                        onmousedown="" value="No"/>
+                                <span>No</span>
+                            </label>
+                        </li>
+                    </ul>    
+                </fieldset>
+            </li>
+    </ul>
+</fieldset>
+
+
+        <nav class="form-steps">
+            <ul>
+                <li><input type="submit" value="Next" class="button"  />
+
+            </ul>
+        </nav>
+
+    </form>
+</article>
+
+
+</div>
+</main>
+
+<footer>
+<div class="container clearfix">
+
+<div>
+    <nav class="language">
+
+
+        <a id="privacy" target="privacyLink"
+            href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                >Privacy</a>
+    </nav>
+    <p>Helpline - 0345 608 4321</p>
+    <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+    <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+    <p class="ogl">All content is available under the <a
+            href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+            >Open Government Licence v2.0</a>, except where otherwise stated</p>
+</div>
+
+<div class="fr">
+    <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+        target="crownLink">&copy; Crown Copyright</a>
+</div>
+</div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../js/custom.js"></script>
+</body>
+</html>
