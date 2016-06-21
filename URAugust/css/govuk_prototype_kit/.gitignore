@@ -1,7 +1,0 @@
-.sass-cache
-.DS_Store
-.start.pid
-public
-govuk_modules
-node_modules/*
-*.sublime-*

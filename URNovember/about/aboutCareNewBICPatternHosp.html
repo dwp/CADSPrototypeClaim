@@ -29,7 +29,7 @@
 <script src="../js/respond.min.js"></script>
 <![endif]-->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="../js/jquery.rsv.js" type="text/javascript"></script>
 
@@ -124,7 +124,7 @@
                         </li>
                     </ul>   
                 </fieldset>
-            </li>                                 
+            </li>           
 
         <ul class="extra-group open-detail" id="youInHosp">
             <li>
@@ -153,12 +153,12 @@
                                         maxlength="4" autocomplete="off">
                                 </li>
                             </ul>
-                                <ul>
+                                <!--<ul>
                                     <li for="admittedTime" class="short-field">
                                         <label>Time admitted</label>
                                         <input type="text" id="admittedTime" name="admittedTime"/>
                                     </li>
-                                </ul>                                                    
+                                </ul>                                                    -->
                             </fieldset>
                         </li>                                
         <ul>
@@ -218,12 +218,12 @@
                             </li>
                             </ul>
                             
-                            <ul>
+                            <!--<ul>
                                 <li for="dischargedTime" class="short-field">
                                     <label>Time discharged</label>
                                     <input type="text" id="dischargedTime" name="dischargedTime"/>
                                 </li>
-                            </ul>                                                    
+                            </ul>                                                    -->
                         </fieldset>
                     </li>                                                
                     
@@ -271,10 +271,38 @@
                     </li>                
                 </ul>                               
         </ul>
-        <ul class="extra-group open-detail4" id="dpInHosp">
+        <ul class="extra-group open-detail4">
+        <li>
+                        <fieldset class="question-group">
+                            <legend>During this time in hospital were you caring for John Smith for 35 hours a week?</legend>   
+                            <p class="helper above">This means any time you look after them personally and includes things like cooking meals or helping them with their shopping</p>                        
+                    <ul class="radio " id="stillCaring35">
+                        <li>
+                            <label for="stillCaring35_yes" class="remove-detail5">
+                                <input type="radio"
+                                        id="stillCaring35_yes"
+                                        name="stillCaring35"
+                                        onmousedown="" value="Yes"/>
+                                <span>Yes</span>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="stillCaring35_no" class="show-detail5">
+                                <input type="radio"
+                                        id="stillCaring35_no"
+                                        name="stillCaring35"
+                                        onmousedown="" value="No"/>
+                                <span>No</span>
+                            </label>
+                        </li>
+                    </ul>    
+                </fieldset>
+            </li>
+        <ul class="extra-group open-detail5" id="dpInHosp">
                 <li>
                     <fieldset class="question-group">
-                        <legend>When were they admitted?</legend>
+                        <legend>When was John Smith admitted?</legend>
                             <p class="helper above">For example, 30 9 2014</p>
                             <ul class="inline year" id="dpAdmittedHosp">
                             <li>
@@ -298,12 +326,12 @@
                                             maxlength="4" autocomplete="off">
                                     </li>
                                 </ul>
-                                    <ul>
+                                    <!--<ul>
                                         <li for="admittedTimeDp" class="short-field">
                                             <label>Time admitted</label>
                                             <input type="text" id="admittedTimeDp" name="admittedTimeDp"/>
                                         </li>
-                                    </ul>                                                    
+                                    </ul>                                                    -->
                                 </fieldset>
                             </li>                                
         <ul>
@@ -312,7 +340,7 @@
                     <legend>Has this hospital stay ended?</legend>
                         <ul class="radio " id="stayEndedDp">
                             <li>
-                                <label for="stayEndedDp_Yes" class="show-detail5">
+                                <label for="stayEndedDp_Yes" class="show-detail6">
                                     <input type="radio"
                                     id="stayEndedDp_Yes"
                                     name="stayEnded"
@@ -322,7 +350,7 @@
                             </li>
 
                             <li>
-                                <label for="stayEndedDp_No" class="remove-detail5">
+                                <label for="stayEndedDp_No" class="remove-detail6">
                                     <input type="radio"
                                         id="stayEndedDp_No"
                                         name="stayEnded"
@@ -334,10 +362,10 @@
                         </fieldset>
                     </li>                                
                             
-                        <ul class="extra-group open-detail5" for="dischargedHosp_dp">        
+                        <ul class="extra-group open-detail6" for="dischargedHosp_dp">        
                             <li>
                                 <fieldset class="question-group">
-                                    <legend>When were they discharged?</legend>
+                                    <legend>When was John Smith discharged?</legend>
                                     <p class="helper above">For example, 30 9 2014</p>
                                 <ul class="inline year" id="dischargedHosp_dp">
                                     <li>
@@ -360,42 +388,10 @@
                                             pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
                                             maxlength="4" autocomplete="off">
                                     </li>
-                                </ul>
-                                    <ul>
-                                        <li for="dischargedTimeDp" class="short-field">
-                                            <label>Time discharged</label>
-                                            <input type="text" id="dischargedTimeDp" name="dischargedTimeDp"/>
-                                        </li>
-                                    </ul>                                                    
+                                </ul>                                                                                 
                                 </fieldset>
-                            </li>                                                
-                    <li>
-                        <fieldset class="question-group">
-                            <legend>During this time in hospital were you caring for John Smith for 35 hours a week?</legend>   
-                            <p class="helper above">This could include personal care you provide</p>                             
-                    <ul class="radio " id="stillCaring35">
-                        <li>
-                            <label for="stillCaring35_yes">
-                                <input type="radio"
-                                        id="stillCaring35_yes"
-                                        name="stillCaring35"
-                                        onmousedown="" value="Yes"/>
-                                <span>Yes</span>
-                            </label>
-                        </li>
-
-                        <li>
-                            <label for="stillCaring35_no">
-                                <input type="radio"
-                                        id="stillCaring35_no"
-                                        name="stillCaring35"
-                                        onmousedown="" value="No"/>
-                                <span>No</span>
-                            </label>
-                        </li>
-                    </ul>    
-                </fieldset>
-            </li>
+                            </li>    
+                        </ul>                                                                
     </ul>
 </fieldset>
 
@@ -442,7 +438,7 @@
 </footer>
 <!--/ footer -->
 <!-- -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="../js/custom.js"></script>
 </body>
 </html>

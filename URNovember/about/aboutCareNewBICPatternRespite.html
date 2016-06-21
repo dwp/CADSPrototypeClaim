@@ -158,12 +158,12 @@
                                                 maxlength="4" autocomplete="off">
                                         </li>
                                     </ul>
-                                        <ul>
+                                        <!--<ul>
                                             <li for="admittedTime" class="short-field">
                                                 <label>Time admitted</label>
                                                 <input type="text" id="admittedTime" name="admittedTime"/>
                                             </li>
-                                        </ul>                                                    
+                                        </ul>                                                    -->
                                     </fieldset>
                                 </li>                                
                             
@@ -221,12 +221,12 @@
                                                 maxlength="4" autocomplete="off">
                                         </li>
                                     </ul>
-                                        <ul>
+                                        <!--<ul>
                                             <li for="dischargedTime" class="short-field">
                                                 <label>Time discharged</label>
                                                 <input type="text" id="dischargedTime" name="dischargedTime"/>
                                             </li>
-                                        </ul>                                                    
+                                        </ul>                                                    -->
                                     </fieldset>
                                 </li>        
                                 <li>
@@ -257,7 +257,7 @@
                 </li>              
                         <li>
                             <fieldset class="question-group">
-                                <legend>Where was the person you care for during this break?</legend>                                
+                                <legend>Where was John Smith during this break?</legend>                                
 
                             <ul class="radio radio-stack " id="whereWasDP">
                                 <li>
@@ -293,16 +293,45 @@
                                 </ul>     
                             </fieldset>
                         </li>                    
-                <li class="other-detail open-detail3">                            
+                <li class="other-detail open-detail3">  
+                    <label>Tell us where</label>                          
                         <input type="text" id="DPother" name="DPother" maxlength=""/>
                     </li>                
                 </ul>                               
-            </ul>          
+            </ul>   
+            <ul class="extra-group open-detail4">  
+            <li>
+            <fieldset class="question-group">
+                <legend>During this time in respite or care home were you caring for 35 hours a week?</legend>
+                <p class="helper above">This means any time you look after them personally and includes things like cooking meals or helping them with their shopping</p>                               
+                    <ul class="radio " id="stillCaring35">
+                        <li>
+                            <label for="stillCaring35_yes" class="remove-detail5">
+                                <input type="radio"
+                                        id="stillCaring35_yes"
+                                        name="stillCaring35"
+                                        onmousedown="" value="Yes"/>
+                                <span>Yes</span>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="stillCaring35_no" class="show-detail5">
+                                <input type="radio"
+                                        id="stillCaring35_no"
+                                        name="stillCaring35"
+                                        onmousedown="" value="No"/>
+                                <span>No</span>
+                            </label>
+                        </li>
+                    </ul>                            
+                    </fieldset>                
+                </li>     
                 
-            <ul class="extra-group open-detail4" id="dpInResp">
+            <ul class="extra-group open-detail5" id="dpInResp">
                 <li>
                     <fieldset class="question-group">
-                        <legend>When were they admitted?</legend>
+                        <legend>When was John Smith admitted?</legend>
                             <p class="helper above">For example, 30 9 2014</p>
                             <ul class="inline year" id="dpAdmittedResp">
                             <li>
@@ -326,21 +355,21 @@
                                             maxlength="4" autocomplete="off">
                                     </li>
                                 </ul>
-                                    <ul>
+                                    <!--<ul>
                                         <li for="admittedTimeDp" class="short-field">
                                             <label>Time admitted</label>
                                             <input type="text" id="admittedTimeDp" name="admittedTimeDp"/>
                                         </li>
-                                    </ul>                                                    
+                                    </ul>                                                    -->
                                 </fieldset>
                             </li>                                
         <ul>
             <li>
                 <fieldset class="question-group">
-                    <legend>Have they been discharged?</legend>
+                    <legend>Has John Smith been discharged?</legend>
                         <ul class="radio " id="stayEndedDp">
                             <li>
-                                <label for="stayEndedDp_Yes" class="show-detail5">
+                                <label for="stayEndedDp_Yes" class="show-detail6">
                                     <input type="radio"
                                     id="stayEndedDp_Yes"
                                     name="stayEnded"
@@ -362,7 +391,7 @@
                         </fieldset>
                     </li>                                
                             
-                        <ul class="extra-group open-detail5" for="dischargedHosp_dp">        
+                        <ul class="extra-group open-detail6" for="dischargedHosp_dp">        
                             <li>
                                 <fieldset class="question-group">
                                     <legend>Date discharged</legend>
@@ -388,18 +417,12 @@
                                             pattern="[0-9 \-]{1,20}" title="Must be numbers only" value=""
                                             maxlength="4" autocomplete="off">
                                     </li>
-                                </ul>
-                                    <ul>
-                                        <li for="dischargedTimeDp" class="short-field">
-                                            <label>Time discharged</label>
-                                            <input type="text" id="dischargedTimeDp" name="dischargedTimeDp"/>
-                                        </li>
-                                    </ul>                                                    
+                                </ul>                                                   
                                 </fieldset>
                             </li>                                                                                                                                                                               
                     <li>
                         <fieldset class="question-group">
-                            <legend>Did you or the person being looked after receive care from a medical professional during this time?</legend>                               
+                            <legend>Did you or John Smith receive care from a medical professional during this time?</legend>                               
                     <ul class="radio " id="receivedCare35">
                         <li>
                             <label for="receivedCare_yes">
@@ -424,35 +447,10 @@
                     </fieldset>                
                 </li>        
                         </ul>
-        </ul>
-         <li>
-            <fieldset class="question-group">
-                <legend>During this time in respite or care home were you caring for 35 hours a week?</legend>                               
-                    <ul class="radio " id="stillCaring35">
-                        <li>
-                            <label for="stillCaring35_yes">
-                                <input type="radio"
-                                        id="stillCaring35_yes"
-                                        name="stillCaring35"
-                                        onmousedown="" value="Yes"/>
-                                <span>Yes</span>
-                            </label>
-                        </li>
-
-                        <li>
-                            <label for="stillCaring35_no">
-                                <input type="radio"
-                                        id="stillCaring35_no"
-                                        name="stillCaring35"
-                                        onmousedown="" value="No"/>
-                                <span>No</span>
-                            </label>
-                        </li>
-                    </ul>                            
-                    </fieldset>                
-                </li>  
-            </ul>       
         
+    </ul>
+            </ul>
+            </ul> 
 </fieldset>
     </ul>
 </ul>
