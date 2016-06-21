@@ -1765,12 +1765,12 @@ input[type="text"] {
     float: left;
     }
    
-   .careTable td, tr {
-     border-right: 0.5px solid #28a197;    
-     padding: 7px;
+   .careTable td, tr{
+     border: 0.5px solid #28a197;    
+     padding: 5px 4px;
    }  
    
-   .careTable tr:hover :not(first-child) {
+   .careTable tr:hover :not(th) {
      background-color: #e8e8e8;
    }
     
