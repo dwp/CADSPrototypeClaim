@@ -10,12 +10,14 @@
 <!--[if gt IE 9]><!-->
 <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-type" content="text/h tml; charset=UTF-8"/>
 
     <title>Prototype</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
 
     <link rel="stylesheet" media="screen" href="css/main.css">
 
@@ -54,44 +56,99 @@
 
 
     <div class="carers-allowance clearfix">
-    <article>  
+    
+    <!-- This is the start of your question content -->
+
+    <article>
+
+    <!-- This is an example of top of page navigation -->
+
         <nav class="back-nav">      
             <a href="javascript.history:back()" id="backButton">Back</a>
         </nav>
+    <!-- This is an example of section numbering -->
 
     <div class="section-progress">
             Section 1 of 2
         </div>
         <h1>The care you provide</h1>
-        <form>                          
+        <form>                        
+
+    <!-- This is the first form element on the page --> 
+
             <fieldset class="form-elements">       
                 <legend>This page is an example of the form layout</legend>                 
                 <ul>
+
+    <!-- This is an example of a standard label and input question -->
                     <li>
-                        <label>Question with input box</label>
+                        <label for="question">Question with input box</label>
                         <p class="helper above">Some contextual help</p>
-                            <input type="text"/>                                        
+                            <input id="question" type="text"/>                                        
                     </li>
+
+    <!-- This is an example of a radio-group question set -->
 
                     <li>
                         <fieldset class="question-group">
-                            <legend>This is the question</legend>
+                            <legend>Do you have a job?</legend>
                             <ul class="radio">
                                 <li>
-                                    <label> 
-                                        <input name="radioExample" type="radio">
-                                        <span>Radio text</span>
+                                    <label for="radioExample1" class="show-detail"> 
+                                        <input id="radioExample1" name="radioExample" type="radio">
+                                        <span>Yes</span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label>
-                                        <input name="radioExample" type="radio">
-                                        <span>Radio text</span>
+                                    <label for="radioExample2" class="remove-detail">
+                                        <input id="radioExample2" name="radioExample" type="radio">
+                                        <span>No</span>
                                     </label>
                                 </li>
                             </ul>
                         </fieldset>
-                    </li>                    
+                    </li>          
+                
+    <!-- This is an example of a radio-group with a foldout --> 
+
+                    <ul class="extra-group">
+                        <li class="open-detail other-detail">
+                        <fieldset class="question-group">
+                            <legend>Are you employed or self employed?</legend>
+                            <ul class="radio">
+                                <li>
+                                    <label for="employed" class="show-detail2"> 
+                                        <input id="employed" name="foldoutExample" type="radio">
+                                        <span>Employed</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="selfEmployed" class="show-detail2">
+                                        <input id="selfEmployed" name="foldoutExample" type="radio">
+                                        <span>Self employed</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </li>     
+
+    <!-- this is an example of a nested radio-group -->
+
+                        <ul class="extra-group">
+                            <li class="open-detail2 other-detail">
+                                <label for="typeOfWork">Tell us your job</label> 
+                                <input type="text" id="typeOfWork"/>
+                            </li>
+                                <ul class="extra-group">
+                                    <li class="open-detail2 other-detail">
+                                        <label for="typeOfWork">Tell us your job</label> 
+                                        <input type="text" id="typeOfWork"/>
+                                    </li>
+                                </ul>
+                        </ul>
+                    </ul>
+
+    <!-- This is an example of a date gather question -->
 
                     <li>
                         <fieldset class="question-group">
@@ -111,16 +168,20 @@
                                     </li>
                                 </ul>
                         </fieldset>
-                    </li>                                                        
-                </ul>
+                    </li>                                                                        
+                </ul>            
             </fieldset>
+
+    <!-- This is an example of bottom page navigation -->
+
             <nav class="form-steps">
                 <ul>
                     <li><a class="button" href="../URNovember/about/aboutYou1i.html" value="Next">Next</a></li>
                     <li><a href="javascript.history:back()" id="backButton">Back</a></li>
                 </ul>
             </nav>
-        </form>                                 
+        </form>   
+    <!-- This is the end of your question content -->
         </article>
     </div>
 </main>
@@ -149,11 +210,5 @@
     </div>
 </footer>
 <!--/ footer -->
-<!-- -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="../js/custom.js"></script>
-
-
 </body>
 </html>
