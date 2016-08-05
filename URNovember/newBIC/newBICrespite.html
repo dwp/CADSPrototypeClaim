@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+            <nav>
+                <a style="display: none;" href="#help">Help</a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+
+   <!--javascript for back button-->
+  <!-- <nav class="back-nav">
+            <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav> !-->
+
+        <article>
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+
+
+            <div class="section-progress">
+                Section 7 of 11
+            </div>
+            <h1>About the care you provide - times in respite or a care home</h1>
+            <form action="aboutCare5TA.html" method="POST" id="form_demo">                
+                <fieldset class="form-elements">
+                    <legend class="legend-hidden"></legend>                        
+                    <div class="nested-prompt">
+                        <p>You told us that you or {DPFirstname Lastname} have been in respite or a care home. You could still be paid Carer's Allowance for this time</p>
+                    </div>
+                    <ul>                                               
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Who was in respite or a care home?</legend>
+                                    <ul class="radio radio-stack" id="whoInResp">
+                                        <li>
+                                            <label for="whoInResp_you" class="show-detail remove-detail4 remove-detail5">
+                                                <input type="radio" id="whoInResp_you" name="whoInResp" value="You"/>
+                                                <span>You</span>
+                                            </label>
+                                        </li>
+                                        
+                                        <li> 
+                                            <label for="whoInResp_dp" class="show-detail4 remove-detail remove-detail2 remove-detail3">
+                                                <input type="radio" id="whoInResp_dp" name="whoInResp" value="DPFirstname LastName"/>
+                                                <span>{DPFirstname Lastname}</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                            </fieldset>
+                        </li>
+
+                        <ul class="extra-group">
+                            <li class="open-detail other-detail">
+                                <label for="whenAdmitted_you">When were you admitted?</label>
+                                <p class="helper above">For example, {34 days prior to today}</p>
+                                <ul class="inline year" id="day">
+                                    <li>
+                                        <label for="admitted_day">Day</label>
+                                        <input class="" type="number"/>                                         
+                                    </li>
+
+                                    <li>
+                                        <label for="admitted_month">Month</label>
+                                        <input class="" type="number"/>                                         
+                                    </li>
+
+                                    <li>
+                                        <label for="admitted_year">Year</label>
+                                        <input class="" type="number"/>                                         
+                                    </li>
+                                </ul>
+                            </li>
+                                                    
+                            <li class="open-detail other-detail"> 
+                                <fieldset class="question-group">
+                                    <legend>Has the respite or care home stay ended?</legend>
+                                        <ul class="radio" id="RespEnded">
+                                            <li>
+                                                <label for="RespEnded_yes" class="show-detail2 remove-detail3">
+                                                    <input type="radio" id="RespEnded_yes" name="RespEnded" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="RespEnded_no" class="remove-detail2 show-detail3">
+                                                    <input type="radio" id="RespEnded_no" name="RespEnded" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>                                               
+                                        
+                        <ul class="extra-group">
+                            <li class="open-detail2 other-detail">
+                                <fieldset class="question-group">
+                                    <legend>When did the stay end?</legend>
+                                    <p class="helper above">For example, {34 days prior to today}</p>
+                                    <ul class="inline year" id="day">
+                                        <li>
+                                            <label for="discharge_day">Day</label>
+                                            <input class="" type="number"/>                                         
+                                        </li>
+
+                                        <li>
+                                            <label for="discharged_month">Month</label>
+                                            <input class="" type="number"/>                                         
+                                        </li>
+
+                                        <li>
+                                            <label for="discharged_year">Year</label>
+                                            <input class="" type="number"/>                                         
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>                        
+                        
+                        <li class="open-detail2 other-detail">
+                                <fieldset class="question-group">
+                                    <legend>Did you receive care from  a medical professional during this time?</legend>
+                                        <ul class="radio" for="receviedCare">
+                                            <li>
+                                                <label for="receivedCare_yes">
+                                                    <input type="radio" id="receivedCare_yes" name="receivedCare" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="receivedCare_no">
+                                                    <input type="radio" id="receivedCare_no" name="receivedCare" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>
+                        </ul>
+                        <ul class="extra-group">
+                        <li class="open-detail3 other-detail">
+                                <fieldset class="question-group">
+                                    <legend>Did you receive care from a medical professional during this time?</legend>
+                                        <ul class="radio" for="recevingCare">
+                                            <li>
+                                                <label for="receivingCare_yes">
+                                                    <input type="radio" id="receivingCare_yes" name="receivingCare" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="receivingCare_no">
+                                                    <input type="radio" id="receivingCare_no" name="receivingCare" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>
+                        </ul>
+                    </ul>
+                
+                    <ul class="extra-group">
+                        <li class="open-detail4 other-detail">
+                            <label for="whenDpAdmitted_you">When was {DPFirstname lastname} admitted?</label>
+                                <p class="helper above">For example, {34 days prior to today}</p>
+                                <ul class="inline year" >
+                                    <li>
+                                        <label for="dpAdmitted_day">Day</label>
+                                        <input class="" type="number"/>                                         
+                                    </li>
+
+                                    <li>
+                                        <label for="dpAdmitted_month">Month</label>
+                                        <input class="" type="number"/>                                         
+                                    </li>
+
+                                    <li>
+                                        <label for="dpAdmitted_year">Year</label>
+                                        <input class="" type="number"/>                                         
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="open-detail4 other-detail"> 
+                                <fieldset class="question-group">
+                                    <legend>Has the respite or care home stay ended?</legend>
+                                        <ul class="radio" id="dpRespEnded">
+                                            <li>
+                                                <label for="dpRespEnded_yes" class="show-detail5 remove-detail6">
+                                                    <input type="radio" id="dpRespEnded_yes" name="dpRespEnded" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="dpRespEnded_no" class="remove-detail5 show-detail6">
+                                                    <input type="radio" id="dpRespEnded_no" name="dpRespEnded" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>  
+                            </li>
+                                                                                                                                                                               
+                        <ul class="extra-group">
+                            <li class="open-detail5 other-detail">
+                                <fieldset class="question-group">
+                                    <legend>When was {DPFirstname lastname} discharged?</legend>
+                                    <p class="helper above">For example, {34 days prior to today}</p>
+                                    <ul class="inline year" id="day">
+                                        <li>
+                                            <label for="dpDischarge_day">Day</label>
+                                            <input class="" type="number"/>                                         
+                                        </li>
+
+                                        <li>
+                                            <label for="dpDischarged_month">Month</label>
+                                            <input class="" type="number"/>                                         
+                                        </li>
+
+                                        <li>
+                                            <label for="dpDischarged_year">Year</label>
+                                            <input class="" type="number"/>                                         
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>                        
+
+                        <li class="open-detail5 other-detail">
+                                <fieldset class="question-group">
+                                    <legend>Did {DPFirstname lastname} receive care from a medical professional during this time?</legend>
+                                        <ul class="radio" for="dpReceviedCare">
+                                            <li>
+                                                <label for="dpReceivedCare_yes">
+                                                    <input type="radio" id="dpReceivedCare_yes" name="dpReceivedCare" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="dpReceivedCare_no">
+                                                    <input type="radio" id="dpReceivedCare_no" name="dpReceivedCare" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>
+                        </ul>
+
+                        <ul class="extra-group"  style="margin-bottom: 15px;">
+                            <li class="open-detail6 other-detail">
+                                <fieldset class="question-group">
+                                    <legend>Did {DPFirstname lastname} receive care from a medical professional during this time?</legend>
+                                        <ul class="radio" for="dpReceviedCare2">
+                                            <li>
+                                                <label for="dpReceivedCare2_yes">
+                                                    <input type="radio" id="dpReceivedCare2_yes" name="dpReceivedCare2" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="dpReceivedCare2_no">
+                                                    <input type="radio" id="dpReceivedCare2_no" name="dpReceivedCare2" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>                        
+                        </ul>
+
+                                                    
+                            <li class="open-detail4 other-detail" style="margin-top: 10px;">
+                                <fieldset class="question-group">
+                                    <legend>During this time in respite or care home were you still providing care for {DPFirstname lastname} for 35 hours a week? </legend>
+                                    <p class="helper above">This means any time that you look after them personally and includes things like cooking meals or helping them with their shopping.</p>
+                                        <ul class="radio" for="providingCare">
+                                            <li>
+                                                <label for="providingCare_yes">
+                                                    <input type="radio" id="providingCare_yes" name="providingCare" value="yes"/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="providingCare_no">
+                                                    <input type="radio" id="providingCare_no" name="providingCare" value="no"/>
+                                                    <span>No</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                </fieldset>
+                            </li>
+
+                    </ul>
+                </ul>
+            </fieldset>
+
+                <nav class="form-steps">
+                    <ul>
+                        <li><a href="newBICstopped.html" class="button" role="button" value="button">Next</a></li>
+                        <li><a id="backButton" href="javascript.history:back()">Back</a></li>
+                    </ul>
+                </nav>
+        </article>
+    </div> 
+</main>
+
+<footer>    
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

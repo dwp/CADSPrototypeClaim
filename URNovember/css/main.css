@@ -1737,8 +1737,8 @@ input[type="text"] {
     
     /*Table styles */
     
-    td input[type="text"] {
-        width: 170px !important;
+    td input {
+        width: 300px !important;
     }      
     
     .no-col {
@@ -1763,14 +1763,32 @@ input[type="text"] {
 
     article {
     float: left;
+    }   
+
+    table {
+      width: 100%;
     }
-   
+
    .careTable td, tr{
-     border: 0.5px solid #28a197;    
-     padding: 5px 4px;
+    line-height: 2.5em;              
+    padding: 3px 4px;
+    text-align: left;    
+    border-bottom: 1px solid #bfc1c3;    
    }  
+   
    
    .careTable tr:hover :not(th) {
      background-color: #e8e8e8;
    }
-    
+
+  input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    display: none;
+  } 
+
+   .carers-allowance p.help-text {
+    margin: 15px 0px;
+  }
+
+  label#timeStopped {
+    margin-top: -15px!important;
+  }

@@ -1,0 +1,83 @@
+header {
+	div {
+		padding: 10px 1.9em 7px 1.9em;
+		margin: 0 auto;
+		max-width: 960px;
+		@media screen and (max-width: 700px) {
+			padding-left: .9em;
+			padding-right: .5em;
+		}
+		
+		.crown {
+			text-rendering: optimizeLegibility;
+			font-size: 30px;
+			color: #fff;
+			font-weight: bold;
+			line-height: 1em;
+			text-decoration: none;
+			float: left;
+			padding: 4px 0 1px 41px;
+			border-bottom: 1px solid transparent;
+			position: relative;
+			img {
+				height: 31px;
+				width: 35px;
+				position: absolute;
+				top: 2px;
+				left: 0;
+				border: 0;
+				margin-right: 1px;
+			}
+			&:hover {
+				border-bottom: 1px solid #fff;
+			}
+		}
+		
+		section {
+			float: right;
+			padding: 0;
+			width: 68%;
+			@media screen and (max-width: 700px) {
+				width: auto;
+				float: none;
+				padding: .2em 0 .6em 0;
+				clear: both;
+			}
+			h1 {
+				color: #fff;
+				font-size: 24px;
+				line-height: 1em;
+				top: 6px;
+				position: relative;
+				
+				@media screen and (max-width: 700px) {
+					font-size: 20px;
+				}
+
+				span {
+					width: auto;
+					margin-left: .3em;
+					letter-spacing: 0.14em;
+					font-weight: 700;
+					font-size: 16px;
+					text-transform: uppercase;
+					padding: 5px 6px 3px 6px;
+					position: relative;
+					@media screen and (max-width: 700px) {
+						font-size: 14px;
+					}
+				}
+				&.beta {
+					span {
+						background: #f47738;
+					}
+				}
+			}
+		
+		}
+	}
+}
+
+
+
+

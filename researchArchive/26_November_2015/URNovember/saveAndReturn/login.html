@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+	function myOnComplete(){}
+
+	$(document).ready(function() {
+	    $("#form_demo").RSV({
+	      onCompleteHandler: myOnComplete,
+	      displayType: "display-html",
+	      errorFieldClass: "error-focus",
+	        rules: [
+
+	        ]
+	    });
+	});
+	</script>
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+            <nav>
+                <a class="help" href="#help"></a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+
+        <!--javascript for back button-->
+        <!-- <nav class="back-nav">
+                  <a id="backButton" href="javascript:history.back()">Back</a>
+          </nav> !-->
+
+        <article>
+            <form action="../about/aboutCare4SR.html" name="myForm" method="POST" id="form_demo">
+                <div id="validation" class="validation-summary"></div>
+                <fieldset class="form-elements">
+                    <h1>Resume a Carer's Allowance application</h1>
+                    <p class="intro-info">Enter your details to resume your application.</p>
+					<section>
+                            <ul>
+                            <li>
+
+
+                            <li> <label for="name">First name</label>
+                                <input type="text" id="name" name="firstName" value="" autocomplete="off"/></li>
+
+                            <li><label for="name">Last name</label>
+                                <input type="text" id="name" name="lastName" value="" autocomplete="off"/></li>
+
+                            <li><label for="national_InsuranceNumber">National Insurance Number</label>
+                                <p class="helper above">For example, VO 12 34 56 A</p>
+                                <input type="text" id="national_InsuranceNumber" name="nationalInsuranceNumber" value="" maxlength="13"
+                                       autocomplete="off"/></li>
+
+
+
+                              <li><label><b>Date of birth</b></label></li>
+                                <ul class="inline year" id="dateOfBirth">
+
+
+
+                                    <li>
+                                        <label>Day</label>
+
+                                        <input type="tel" id="dateOfBirth_day" name="dateOfBirth_day"
+                                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                                               autocomplete="off">
+
+                                    </li>
+
+                                    <li class="month">
+                                        <label>Month</label>
+
+                                        <input type="tel" id="dateOfBirth_month"
+                                               name="dateOfBirth_month"
+                                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                                               autocomplete="off">
+
+                                    </li>
+
+                                    <li>
+                                        <label>Year</label>
+
+                                        <input type="tel" id="dateOfBirth_year"
+                                               name="dateOfBirth_year"
+                                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                                               autocomplete="off">
+                            </li>
+                            </ul>
+                   </section>
+
+                    <nav>
+                        <ul>
+                            <li><input type="submit" class="button" value="Resume application" id="back-button" name="enter"/></li>
+                        </ul>
+						
+                        <nav class="back-nav">
+                            <a id="backButton" href="javascript:history.back()">Go to GOV.UK</a>
+                        </nav>
+                    </nav>
+                </fieldset>
+            </form>
+        </article>
+
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+
+            </section>
+
+        </aside>
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="../js/custom.js"></script>
+
+</body>
+</html>

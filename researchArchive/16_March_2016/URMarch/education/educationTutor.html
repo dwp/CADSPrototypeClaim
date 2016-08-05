@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+
+	function myOnComplete(){}
+
+	$(document).ready(function() {
+	    $("#form_demo").RSV({
+	      onCompleteHandler: myOnComplete,
+	      displayType: "display-html",
+	      errorFieldClass: "error-focus",
+	        rules: [
+	            "required,education,Confirm if you've been in education since your claim date."
+	        ]
+	    });
+	});
+	</script>
+
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+
+
+           <aside class="left-col">
+
+               <section id="help">
+                   <h2>Get help</h2>
+                   <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                   <h3>Helpline 0345 608 4321</h3>
+                   <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
+
+                   <p>Calls cost up to 9p a minute from landlines, calls from mobile may cost more.</p>
+
+               </section>
+
+           </aside>
+
+<article>
+
+<nav class="back-nav">
+    <a id="backButton" href="javascript:history.back()">Back</a>
+</nav>
+
+
+<div class="section-progress">
+    Section 8 of 10
+</div>
+<h1>Education</h1>
+
+
+<form action="../income2/yourIncome01.html" method="#" id="form_demo">
+    <div id="validation" class="validation-summary"></div>
+
+<fieldset class="form-elements" data-journey="carers-allowance:page:education">
+
+<ul>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Have you been on a course of education since your claim date?
+
+
+        </legend>
+
+
+        <p class="helper above">Select 'yes' if you're on holiday or on temporary leave from a
+            course.</p>
+
+
+        <ul class="radio " id="haveYouBeenInEducation">
+
+
+            <li>
+
+                <label for="haveYouBeenInEducation_yes" class="show-detail">
+                    <input type="radio"
+                           id="haveYouBeenInEducation_yes"
+                           name="education" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="haveYouBeenInEducation_no" class="remove-detail">
+                    <input type="radio"
+                           id="haveYouBeenInEducation_no"
+                           name="education" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="educationWrap" class="other-detail open-detail">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <label for="537c0496748b193d75ce47479ef3df60">
+
+
+                Course title
+
+            </label>
+
+
+            <input type="text" id="537c0496748b193d75ce47479ef3df60" name="537c0496748b193d75ce47479ef3df60" value=""
+                   maxLength="50" autocomplete="off">
+
+        </li>
+
+
+        <li>
+
+
+            <label for="2540789c5136e68df823f3703c7aca63114e7430a0412473d7edc21510173f5e">
+
+
+                Name of school, college or university
+
+
+            </label>
+
+
+            <input type="text" id="2540789c5136e68df823f3703c7aca63114e7430a0412473d7edc21510173f5e"
+                   name="2540789c5136e68df823f3703c7aca63114e7430a0412473d7edc21510173f5e" value="" maxLength="60"
+                   autocomplete="off">
+
+
+        </li>
+
+        <li>
+            <label for="7f847f06616db76f2dde2772b52e24d0d4d8f7dfae4f8c2d2001fcacf397eb48">Name of main teacher or
+                tutor</label>
+
+            <input type="text" id="7f847f06616db76f2dde2772b52e24d0d4d8f7dfae4f8c2d2001fcacf397eb48"
+                   name="7f847f06616db76f2dde2772b52e24d0d4d8f7dfae4f8c2d2001fcacf397eb48" value="" maxLength="60"
+                   autocomplete="off">
+        </li>
+
+        <li>
+
+            <label for="6f5e6c58ee418cd4312424270dd3fe0d5787545d686bc4ae6b6e5b8c3aeaf147">Tutor contact number <em>(optional)</em></label>
+
+            <p class="helper above">Please include if you know the number for your tutor</p>
+
+
+            <input type="tel" id="6f5e6c58ee418cd4312424270dd3fe0d5787545d686bc4ae6b6e5b8c3aeaf147"
+                   name="6f5e6c58ee418cd4312424270dd3fe0d5787545d686bc4ae6b6e5b8c3aeaf147" pattern="[0-9 \-]{1,20}"
+                   title="Must be numbers only" value="" autocomplete="off" maxLength="60">
+
+        </li>
+
+        <li>
+
+            <fieldset class="question-group">
+
+                <legend>When did you start the course?</legend>
+
+                <p class="helper above" id="c332ad4e9fc19623c2a3a7ac3252aea7_defaultDateContextualHelp">For example, 27
+                    9 2013</p>
+
+
+                <!-- datePlaceholder -->
+
+                <ul class="inline year" id="c332ad4e9fc19623c2a3a7ac3252aea7">
+                    <li>
+                        <label>Day</label>
+
+                        <input type="tel" id="9122c1f9775ef73abd5211cd7ef88079" name="20696c5e54492bfcedd1d7bb5a6d3d10"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li class="month">
+                        <label>Month</label>
+
+                        <input type="tel" id="40b39cd4a944af3d089b2cd7ab472ae5" name="7d90ef269ca7cfef0c5be953cdd8f7d2"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li>
+                        <label>Year</label>
+
+                        <input type="tel" id="ed9563c332bd11e3d89df2851850c97b" name="034c3f54b85cf6c97bf452c993900753"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                               autocomplete="off">
+                    </li>
+                </ul>
+
+            </fieldset>
+
+        </li>
+
+        <li>
+
+            <fieldset class="question-group">
+                <legend>When did the course end or when will you finish?</legend>
+
+                <p class="helper above" id="0ba320753d30c62f980c2b86aac8ce0d_defaultDateContextualHelp">For example, 27
+                    6 2014</p>
+
+
+                <!-- datePlaceholder -->
+
+                <ul class="inline year" id="0ba320753d30c62f980c2b86aac8ce0d">
+                    <li>
+                        <label>Day</label>
+                        <input type="tel" id="8983ea86b67f7fc25b10a9bb7cee7dc0b9cb6b325d3260ff4fa83ce022eb55c5"
+                               name="cf4cfad13492b50ee94f9a20f52caa14b9cb6b325d3260ff4fa83ce022eb55c5"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li class="month">
+                        <label>Month</label>
+
+                        <input type="tel" id="8983ea86b67f7fc25b10a9bb7cee7dc0ecaf99eb8bd1d3ea26c7ced5718adeee"
+                               name="cf4cfad13492b50ee94f9a20f52caa14ecaf99eb8bd1d3ea26c7ced5718adeee"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2"
+                               autocomplete="off">
+                    </li>
+
+                    <li>
+                        <label>Year</label>
+
+                        <input type="tel" id="8983ea86b67f7fc25b10a9bb7cee7dc0e751214861bb151d4c283bb3e690f692"
+                               name="cf4cfad13492b50ee94f9a20f52caa14e751214861bb151d4c283bb3e690f692"
+                               pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4"
+                               autocomplete="off">
+                    </li>
+                </ul>
+            </fieldset>
+        </li>
+
+
+    </ul>
+</li>
+
+</ul>
+</fieldset>
+
+    <nav class="form-steps">
+        <ul>
+
+            <li><input type="submit" value="Next" class="button"  /> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+
+
+        </ul>
+    </nav>
+
+</form>
+
+</article>
+
+           </div>
+
+        </main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <p>Helpline - 0345 608 4321</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2">Open Government
+                Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm">&copy;
+                Crown Copyright</a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="../js/custom.js"></script>
+<!--
+<script type="text/javascript">
+
+    $('#pauseProgress').click(function() {
+        if($(this).val() == "Pause") {
+            $(this).val("Resume");
+                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
+                } else {
+                    ($(this).val() == "Resume")
+                    $(this).val("Pause");
+                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
+                }
+        });
+</script>
+-->
+</body>
+</html>

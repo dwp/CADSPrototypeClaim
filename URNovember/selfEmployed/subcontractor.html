@@ -20,15 +20,6 @@
     <link rel="stylesheet" media="screen" href="../css/main.css">
 
     <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
-
-    <!--[if gte IE 9]><!-->
-    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
-    <!--<![endif]-->
-
-
-    <!--[if (lt IE 9) & (!IEMobile)]>
-    <script src="../js/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -95,39 +86,135 @@
 <fieldset class="form-elements" data-journey="carers-allowance:page:self-employment">
 
 <ul>
-    <fieldset class="question-group">
-              <li>
-                  <label>Are you a sub-contractor (or were you, if you've now finished this work)?</label>
-                  <p class='helper-above'>Sub-contractors are quite common in the construction industry and some service industries.</p>
-                  <ul class="radio" id="work">
-                      <li>
+    <li>
+    <fieldset class="question-group">              
+        <legend>Are you a sub-contractor (or were you, if you've now finished this work)?</legend>
+            <p class='helper below'>Sub-contractors are quite common in the construction industry and some service industries.</p>
+            <ul class="radio" id="work">
+                <li>
+                    <label for="workYes" class="show-detail">
+                        <input type="radio" id="workYes" name="work" onmousedown="" value="Yes"/>
+                        <span>Yes</span>
+                    </label>
+                </li>
+                <li>
+                    <label for="workNo" onmousedown="" class="remove-detail remove-detail2">
+                        <input type="radio" id="workNo" name="work" onmousedown="" value="No"/>
+                        <span>No</span>
+                    </label>
 
-                          <label for="workYes" onmousedown="" class="">
-                              <input type="radio" id="workYes" name="work" onmousedown="" value="Yes"/>
-                              <span>Yes</span>
-                          </label>
-                      </li>
-                      <li>
-                          <label for="workNo" onmousedown="" class="">
-                              <input type="radio" id="workNo" name="work" onmousedown="" value="No"/>
-                              <span>No</span>
-                          </label>
+                </li>
+                <li>
+                    <label for="workDunno" onmousedown="" class="remove-detail remove-detail2">
+                        <input type="radio" id="workDunno" name="work" onmousedown="" value="No"/>
+                        <span>Don't know</span>
+                    </label>
 
-                      </li>
-                      <li>
-                          <label for="workDunno" onmousedown="" class="">
-                              <input type="radio" id="workDunno" name="work" onmousedown="" value="No"/>
-                              <span>Don't know</span>
-                          </label>
-
-                      </li>
-                </ul>
-        </li>
-    </fieldset>
+                </li>
+            </ul>
+    </fieldset>        
+    </li>
 </ul> 
 
+<ul class="extra-group open-detail">
+    <li>
+        <fieldset class="question-group">
+            <legend>Have you been a sub-contractor for more than a year?</legend>
+                <ul class="radio" for="over1Year">
+                    <li>
+                        <label for="over1Year_yes" class="show-detail2 remove-detail3">
+                            <input type="radio" id="over1Year_yes" name="over1Year" value="yes"/>
+                            <span>Yes</span>
+                        </label>
+                    </li>
 
+                    <li>
+                        <label for="over1Year_no" class="remove-detail2 show-detail3">
+                            <input type="radio" id="over1Year_no" name="over1Year" value="no"/>
+                            <span>No</span>
+                        </label>
+                    </li>
+                </ul>
+        </fieldset>        
+    </li>
+
+<ul class="extra-group">
+    <li class="open-detail2 other-detail">
+        <fieldset class="question-group">
+            <legend>Do you complete end of year tax assessments?</legend>
+                <ul class="radio" for="selfAssess">
+                    <li>
+                        <label for="selfAssess_yes">
+                            <input type="radio" id="selfAssess_yes" name="selfAssess" value="yes"/>
+                            <span>Yes</span>
+                        </label>
+                    </li>
+
+                    <li>
+                        <label for="selfAssess_no">
+                            <input type="radio" id="selfAssess_no" name="selfAssess" value="no"/>
+                            <span>No</span>
+                        </label>
+                    </li>
+                </ul>
+        </fieldset>        
+    </li>
+</ul>
+
+<ul class="extra-group">
+    <li class="open-detail3 other-detail">
+            <fieldset class="question-group">              
+        <legend>Will you need to complete a self-assessment tax return? </legend>            
+            <ul class="radio" id="selfAssess1">
+                <li>
+                    <label for="selfAssess1_yes" class="remove-detail4">
+                        <input type="radio" id="selfAssess1_yes" name="selfAssess1" onmousedown="" value="Yes"/>
+                        <span>Yes</span>
+                    </label>
+                </li>
+                <li>
+                    <label for="selfAssess1_no" onmousedown="" class="remove-detail4">
+                        <input type="radio" id="selfAssess1_no" name="selfAssess1" onmousedown="" value="No"/>
+                        <span>No</span>
+                    </label>
+
+                </li>
+                <li>
+                    <label for="selfAssess1_dk" onmousedown="" class="show-detail4">
+                        <input type="radio" id="selfAssess1_dk" name="selfAssess1" onmousedown="" value="No"/>
+                        <span>Don't know</span>
+                    </label>
+                </li>
+            </ul>
+    </fieldset> 
+    </li>
+
+    <ul class="extra-group">
+        <li class="open-detail4 other-detail">
+            <fieldset class="question-group">              
+                <legend>Do you have tax and National Insurance taken out of your pay?</legend>            
+                <ul class="radio" id="takeNI">
+                    <li>
+                        <label for="takeNI_yes" class="">
+                            <input type="radio" id="takeNI_yes" name="takeNI" onmousedown="" value="Yes"/>
+                            <span>Yes</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="takeNI_no" onmousedown="" class="">
+                            <input type="radio" id="takeNI_no" name="takeNI" onmousedown="" value="No"/>
+                            <span>No</span>
+                        </label>
+                    </li>            
+                </ul>
+            </fieldset>
+        </li> 
+    </ul>
+</ul>
+</ul>
 </fieldset>
+
+
 
             <nav class="form-steps">
                 <ul>
@@ -140,14 +227,11 @@
 </form>
 
 </article>
-
-
 </div>
 </main>
 
 <footer>
     <div class="container clearfix">
-
         <div>
             <nav class="language">
                 <a id="privacy" target="privacyLink"
@@ -168,28 +252,25 @@
 </footer>
 <!--/ footer -->
 <!-- -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="../js/custom.js"></script>
-<script>
-	$('#paidEmployment input[type="radio"]').click(function() {
-    var g1 = $("#workYes").is(":checked");
-    var g2 = $("#workNo").is(":checked");
 
-    var addr = "seFormP1.html";
-    if (g1) addr = "../income2/yourIncome02Employed.html";
-		if (g2) addr = "seFormP1.html";
+<script>
+
+//assign function to all radio inputs in form    
+	$('#paidEmployment input[type="radio"]').click(function() {
+
+//create variable to select 3 ID's
+    var g1 = $("#workNo , #workDunno, #selfAssess_yes , #selfAssess1_yes , #takeNI_no").is(":checked");    
+
+//create variable for new URL
+    var addr = "../income2/yourIncome02Employed.html";
+
+// IF radio = selected change the URL    
+    if (g1) addr = "seFormP1.html";    		
     $("#paidEmployment a").attr('href', addr);
 });
 </script>
-<!--
-<script>
- $(document).ready(function() {
-    $("#saveProgress").click(function() {
-        alert("Your progress has been saved for 3 hours");
-    });
- });
-</script>
--->
 </body>
 </html>

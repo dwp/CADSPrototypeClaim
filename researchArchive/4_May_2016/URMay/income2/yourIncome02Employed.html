@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+
+
+               <aside class="left-col">
+
+                   <section id="help">
+                       <h2>Get help</h2>
+                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                       <h3>Helpline 0345 608 4321</h3>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                       <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+                   </section>
+
+               </aside>
+
+<article>
+
+<nav class="back-nav">
+    <a id="backButton" href="javascript:history.back()">Back</a>
+</nav>
+
+<div class="section-progress">
+    Section 9 of 10
+</div>
+<h1>Your income - work</h1>
+<form action="/self-employment/about-self-employment" method="POST" id="paidEmployment">
+	<div class="form-wrap">
+	<fieldset class="form-elements" data-journey="carers-allowance:page:self-employment">
+	<ul>
+		<fieldset class="question-group">
+		<li>
+			<label for="employer">Who do you work for?</label>
+			<p class="helper above">The Carer's Allowance Unit might contact your employer.</p>
+			<input type="text" id="employer" name="employer" value="" maxLength="60" autocomplete="off">
+		</li>
+		<li>
+			<p class="sub">Address</p>
+			<ul class="address-stack">
+				<li>
+					<label for="addressOne">address_lineOne</label>
+					<input type="text" id="addressOne" name="addressOne" value="" maxLength="35" autocomplete="off">
+				</li>
+				<li>
+					<label for="addressTwo">address_lineTwo</label>
+					<input type="text" id="addressTwo" name="addressTwo" value="" maxLength="35" autocomplete="off">
+				</li>
+				<li>
+					<label for="addressThree">address_lineThree</label>
+					<input type="text" id="addressThree" name="addressThree" value="" maxLength="35" autocomplete="off">
+				</li>
+			</ul>
+		</li>
+		<li>
+			<label for="postcode">
+				Postcode
+			</label>
+			<input type="text" id="postcode" name="postcode" value="" class="postcode" autocomplete="off" maxLength="60">
+		</li>
+				<li>
+			<label for="phone">Phone number</label>
+			<input type="tel" id="phone" name="phone" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" autocomplete="off" maxLength="60">
+		</li>
+		</fieldset>
+		<!-- earningsThreshold -->
+		<fieldset class="question-group">
+		<li>
+			<label for="accounts">
+				Do you earn more than £110 before tax and any other deductions?
+			</label>
+			<ul class="radio " id="total">
+				<li>
+					<label for="totalYes" class="" onmousedown="">
+					<input type="radio" id="totalYes" name="total" onmousedown="" value="yes"/>
+					<span>Yes</span></label>
+				</li>
+				<li>
+					<label for="totalNo" class="" onmousedown="">
+					<input type="radio" id="totalNo" name="total" onmousedown="" value="no"/>
+					<span>No</span></label>
+				</li>
+			</ul>
+		</li>
+		</fieldset>
+		<!-- startDate -->
+		<fieldset class="question-group">
+			<li>
+                <legend>
+					Did you start this job before April 2015 (a month before your claim date)?
+                </legend>
+                <ul class="radio " id="job">
+					<li>
+						<label for="jobYes" onmousedown="" class="remove-detail">
+							<input type="radio" id="jobYes" name="job" onmousedown="" value="Yes"/>
+							<span>Yes</span>
+						</label>
+					</li>
+                    <li>
+						<label for="jobNo" onmousedown="" class="show-detail">
+							<input type="radio" id="jobNo" name="job" onmousedown="" value="No"/>
+							<span>No</span>
+						</label>
+                    </li>
+				</ul>
+				<!-- openDetail -->
+				<ul class="extra-group">
+					<li class="open-detail extra-group">
+							<legend>
+								When did you start working here?
+							</legend>
+							<!-- datePlaceholder -->
+							<ul class="inline year" id="8b78c4b09e37ffb7f8ec14b8952301d85c26f0d56218738b0e33f4e7f1bec217">
+								<li>
+									<label>Day</label>
+									<input type="tel" id="startDay" name="startDay" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+								</li>
+								<li class="month">
+									<label>Month</label>
+									<input type="tel" id="startMonth" name="startMonth" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+								</li>
+								<li>
+								<label>Year</label>
+									<input type="tel" id="startYear" name="startYear" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+								</li>
+							</ul>
+						
+					</li>
+				</ul>
+		</li>
+		</fieldset>
+		</ul>
+		<nav class="form-steps">
+			<ul>
+				<li><a href="yourIncome02EmployedIncome.html" class="button"> Next </a></li>
+             <!--    <li><input type="button" value="Save progress" id="saveProgress" onclick="changeLabel()" class="button"/></li> -->
+				<li><a href="javascript:history.back()" id="backButton">Back</a></li>
+			</ul>
+		</nav>
+	</fieldset>
+	</div>
+</form>
+
+</article>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+			<p>Helpline - 0345 608 4321</p>
+			<p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+			<p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink">Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+<script>
+	$('#paidEmployment input[type="radio"]').click(function() {
+    var g1 = $("#totalNo").is(":checked");
+    var g2 = $("#totalYes").is(":checked");
+
+    var addr = "";
+    if (g2) {
+        addr = "yourIncome02EmployedIncome.html";
+    } else {
+        addr = "yourIncome01Previous.html";
+    }
+	if (g1) addr = "yourIncome01PreviousNull.html";
+    $("#paidEmployment a").attr('href', addr);
+});
+</script>
+<!--
+<script>
+ $(document).ready(function() {
+    $("#saveProgress").click(function() {
+        alert("Your progress has been saved for 3 hours");
+    });
+ });
+</script>
+-->
+</body>
+</html>

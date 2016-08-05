@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+    
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+            <nav>
+                <a class="visuallyhidden" href="#help">Help</a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <article class="no-col">
+            <div class="section-progress">Section 3 of 4</div>
+            <h1>About self-employment continued</h1>
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>            
+            <form action="../additionalInfo/empadditionalInfo.html" method="post" id="form-demo">
+                <div class="validation-summary" id="validation"></div>
+                    <fieldset class="form-elements">
+                        <ul>             
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Do you pay towards care costs for the person you care for while you're at work?
+                            </legend>
+                                <ul class="radio" for="careCosts">
+                                    <li>
+                                        <label for="careCosts_yes" class="show-detail3">
+                                            <input type="radio" name="careCosts" id="careCosts_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="careCosts_no" class="remove-detail3">
+                                            <input type="radio" name="careCosts" id="careCosts_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li> 
+
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail3 short-field">
+                            <label for="howMuchCostsCare">How much do you pay?</label>
+                            <input type="text" id="howMuchCareCosts" name="howMuchCareCosts" autocomplete="off"/>
+                        </li>
+                        
+                        <li class="other-detail open-detail3">
+                            <label for="howOftenCostsCare">How often?</label>
+                            <input type="text" id="howOftenCareCosts" name="howOftenCareCosts" autocomplete="off"/>
+                        </li>
+                        
+                    
+                        <li class="other-detail open-detail3">
+                            <label for="relatedCare">Are you related to the person you pay?</label>                        
+                        
+                        
+                        <ul class="radio" for="related">
+                            <li>
+                                <label for="relatedCareCosts_yes">
+                                    <input type="radio" id="relatedCareCosts_yes" name="relatedCareCosts" value="yes"
+                                    onmousedown=""/>
+                                    <span>Yes</span>
+                                </label>
+                            </li>
+                                                
+                            <li>
+                                <label for="relatedCareCosts_no">
+                                    <input type="radio" id="relatedCareCosts_no" name="relatedCareCosts" value="no"
+                                    onmousedown=""/>
+                                    <span>No</span>
+                                </label>
+                            </li>                        
+                        </ul>                                                                                      
+                        
+                        <li class="other-detail open-detail3">
+                            <label for="childName">The minder's name</label>
+                            <input type="text" id="childName" name="childName" autocomplete="off"/>
+                        </li>     
+                        
+                        <li class="other-detail open-detail3">
+                            <p class="sub">The minder's address</p>
+                            <ul class="address-stack">
+
+                                <li>
+                                    <label for="address_lineOne">address_lineOne</label>
+
+                                    <input type="text" id="address_lineOne" name="address.lineOne" value=""
+                                        maxLength="35" autocomplete="off"/>
+
+                                </li>
+
+                                <li>
+                                    <label for="address_lineTwo">address_lineTwo</label>
+
+                                    <input type="text" id="address_lineTwo" name="address.lineTwo" value=""
+                                        maxLength="35" autocomplete="off"/>
+
+                                </li>
+
+                                <li>
+                                    <label for="address_lineThree">address_lineThree<em>(optional)</em></label>
+                                    
+                                    <input type="text" id="address_lineThree" name="address.lineThree" value=""
+                                        maxLength="35" autocomplete="off"/>
+                                </li>
+                            </ul>                                                                                
+                        </li>
+
+                    <li class="other-detail open-detail3 short-field">
+                        <label for="postcode">Postcode</label>
+                        <input type="text" id="postcode" name="postcode" value="" class="postcode"
+                            autocomplete="off" maxLength="60"/>
+                    </li>                                                                          
+                                                
+                        </li>                       
+                    </ul>                        
+
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Do you pay someone to look after your child while you're at work?
+                            </legend>
+                            <ul class="radio" for="costs">
+                                <li>
+                                    <label for="costs_yes" class="show-detail">
+                                        <input type="radio" name="costs" id="costs_yes"
+                                        value="yes" onmousedown=""/>
+                                        <span>Yes</span>
+                                    </label>
+                                </li>
+                                                                            
+                                <li>
+                                    <label for="costs_no" class="remove-detail">
+                                        <input type="radio" name="costs" id="costs_no"
+                                        value="no" onmousedown=""/>
+                                        <span>No</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </li> 
+
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail short-field">
+                            <label for="howMuchPay">How much do you pay?</label>
+                            <input type="text" id="howMuchCosts" name="howMuchCosts" autocomplete="off"/>
+                        </li>
+                        
+                        <li class="other-detail open-detail">
+                            <label for="howOften">How often do you pay it?</label>
+                            <input type="text" id="howOftenCosts" name="howOftenCosts" autocomplete="off"/>
+                        </li>
+                        
+                    
+                        <li class="other-detail open-detail">
+                            <label for="related">Are you related to your childminder?</label>                        
+                                                
+                        <ul class="radio" for="related">
+                            <li>
+                                <label for="related_yes">
+                                    <input type="radio" id="related_yes" name="related" value="yes"
+                                    onmousedown=""/>
+                                    <span>Yes</span>
+                                </label>
+                            </li>
+                                                
+                            <li>
+                                <label for="related_no">
+                                    <input type="radio" id="related_no" name="related" value="no"
+                                    onmousedown=""/>
+                                    <span>No</span>
+                                </label>
+                            </li>                        
+                        </ul>                                                                                      
+                        
+                        <li class="other-detail open-detail">
+                            <label for="childName">Your child's name</label>
+                            <input type="text" id="childName" name="childName" autocomplete="off"/>                        
+                        </li>   
+                        
+                        <li class="other-detail open-detail">                                                                                            
+                            <label for="childDOB">Your child's date of birth</label>
+                                <p class="helper above">For example, 31 04 2015 </p>
+                                    <ul class="inline year" style="margin-top: -15px; " id="dateStopped">
+                                        <li>   
+                                            <label for="day_2">Day</label>
+                                            <input type="tel" id="day_2" name="day_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                        </li>
+
+                                        <li class="month">
+                                            <label for="month_2">Month</label>
+                                            <input type="tel" id="month_2" name="month_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                        </li>
+
+                                        <li>
+                                            <label for="year_2">Year</label>
+                                            <input type="tel" id="year_2" name="year_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
+                                        </li>
+                                    </ul>
+                        </li>                                                                   
+                        <!--
+                        <li class="other-detail open-detail">
+                            <label for="childBen">Do you or your partner get Child Benefit for the child?</label>                                                                        
+                        <ul class="radio" for="childBenefit">
+                            <li>
+                                <label for="childBenefit_yes" class="show-detail2">
+                                    <input type="radio" id="childBenefit_yes" name="childBenefit" value="yes"
+                                    onmousedown=""/>
+                                    <span>Yes</span>
+                                </label>
+                            </li>
+                                                
+                            <li>
+                                <label for="childBenefit_no" class="remove-detail2">
+                                    <input type="radio" id="childBenefit_no" name="childBenefit" value="no"
+                                    onmousedown=""/>
+                                    <span>No</span>
+                                </label>
+                            </li>                        
+                        </ul> 
+                        
+                        <ul class="extra-detail">
+                            <li class="other-detail open-detail2">
+                                <label for="haveChildBen">Child Benefit number</label>
+                                <input type="text" id="haveChildBen" name="haveChildBen" autocomplete="off"/>
+                            </li>
+                        </ul>
+                    </li>
+                    -->
+
+                        </ul>
+
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Do you or your partner get Marriage Allowance?</legend>
+                                <ul class="radio radio-stack" for="marriageAllowance">
+                                    <li>
+                                        <label for="marriageAllowance_You" class="show-detail4 remove-detail5">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_You"
+                                                   value="yes" onmousedown=""/>
+                                            <span>Yes, you do</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="marriageAllowance_Pard" class="show-detail5 remove-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_Pard"
+                                                   value="yes" onmousedown=""/>
+                                            <span>Yes, your partner does</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="marriageAllowance_no" class="remove-detail4">
+                                            <input type="radio" name="marriageAllowance" id="marriageAllowance_no"
+                                                   value="no" onmousedown=""/>
+                                            <span>No, neither of us claims Marriage Allowance</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+                        <ul class="extra-group">
+                            <li class="other-detail open-detail4 short-field">
+                                <label for="howMuch">What's your tax code?</label>
+                                <input type="text" id="marriageAllowance_you" name="marriageAllowance" autocomplete="off"/>
+                            </li>
+
+                            <li class="other-detail open-detail5 short-field">
+                                <label for="howMuch">What's your partner's tax code?</label>
+                                <input type="text" id="marriageAllowance_partner" name="marriageAllowance" autocomplete="off"/>
+                            </li>
+                            </ul>
+                            </ul>
+
+
+
+                            <ul>
+                                <fieldset class="question-group">
+                                    <legend>Have you had any start up allowances or grants from when you started self-employment to  13 March 2016?</legend>
+                                    <ul class="radio" id="anyPayments">
+                                        <li>
+                                            <label for="anyPayments_yes" class="show-detail8">
+                                                <input type="radio" name="anyPayments" id="anyPayments_yes" value="yes" onmousedown="">
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
+
+                                        <li>
+                                            <label for="anyPayments_no" class="remove-detail8">
+                                                <input type="radio" name="anyPayments" id="anyPayments_no" value="no" onmousedown="">
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+                        </ul>
+
+
+
+
+</li>
+</ul>                                                                                                                                             
+    
+    
+    
+    </ul>
+</fieldset>                                                       
+            <nav class="form-steps">
+                <ul>
+                    <li><input type="submit" value="Next" class="button" /> </li>                </ul>
+            </nav>              
+            </form>                                                                                         
+        </article>
+
+        <!--<aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+
+            </section>
+
+        </aside>-->
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Helpline - 0345 608 4321</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+</body>
+</html>

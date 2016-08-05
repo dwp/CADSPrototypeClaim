@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+    <!--[if IE 6]>         <html class="ie ie6" lang="en"> <![endif]-->
+    <!--[if IE 7]>         <html class="ie ie7" lang="en"> <![endif]-->
+    <!--[if IE 8]>         <html class="ie ie8" lang="en"> <![endif]-->
+    <!--[if IE 9]>         <html class="ie ie9" lang="en"> <![endif]-->
+    <!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>Prototype</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+
+        <link rel="stylesheet" media="screen" href="../css/main.css">
+
+		<link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+        <!--[if gte IE 9]><!-->
+        <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+
+
+            
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+        <script src="@routes.Assets.at("javascripts/respond.min.js")"></script>
+        <![endif]-->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+
+        <script type="text/javascript">
+
+	function myOnComplete(){}
+
+	$(document).ready(function() {
+	    $("#form_demo").RSV({
+	      onCompleteHandler: myOnComplete,
+	      displayType: "display-html",
+	      errorFieldClass: "error-focus",
+	        rules: [
+	            "required,qualBenefits,Please select the benefit that the person you are caring for receives"
+	        ]
+	    });
+	});
+	</script>
+
+    </head>
+
+    <body>
+     
+        
+        
+        <a href="#main" class="visuallyhidden">Skip to main content</a>
+       
+        
+
+       <header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+
+               <aside class="left-col">
+
+                   <section id="help">
+                       <h2>Get help</h2>
+                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                       <h3>Helpline 0345 608 4321</h3>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4:30pm)</p>
+
+                       <p>Calls cost up to 9p a minute from landlines, calls from mobiles may cost more.</p>
+
+                   </section>
+
+               </aside>
+
+		        <article class="eligible">
+
+		            <h1>Can you get Carer's Allowance?</h1>
+		
+						<form action="../eligibility/eligibilityCombined.html" method="post" id="form_demo">
+                            <div id="validation" class="validation-summary"></div>
+
+							
+				            <fieldset class="form-elements form-eligibility">
+					<ul>
+                        <li class="radio radio-stack">
+                            <fieldset class="question-group">
+                                <legend>What benefit does the person you care for get?</legend>
+								<p class="helper above">Don't include any benefits they've applied for if they haven't got a decision yet.</p>
+                                <ul class="radio radio-stack" id="contactYou">
+									<li class="hide-all">
+                                        <label for="qualBenefits_PIP" onmousedown="" class="remove-detail4">
+                                            <input type="radio" id="qualBenefits_PIP"
+                                                           name="qualBenefits" onmousedown=""
+                                                           value="Personal Independence Payment" required/>
+                                            <span>Personal Independence Payment - daily living component</span></label>
+                                    </li>
+									<li class="hide-all">
+
+                                                <label for="qualBenefits_AA" class="remove-detail4"
+                                                       onmousedown="">
+                                                    <input type="radio"
+                                                           id="qualBenefits_AA"
+                                                           name="qualBenefits" onmousedown=""
+                                                           value="Attendance Allowance"/>
+                                                    <span>Attendance Allowance</span></label>
+                                            </li> 
+                                    <li class="hide-all">
+                                        <label for="qualBenefits_DLA" class="remove-detail4" onmousedown="">
+                                            <input type="radio" id="qualBenefits_DLA" name="qualBenefits"
+                                                           onmousedown="" value="DLA"/>
+                                            <span>Disability Living Allowance - middle or highest care rate</span></label>
+                                    </li>
+									<li class="hide-all remove-detail4">
+
+                                                <label for="qualBenefits_CAA"
+                                                       onmousedown="">
+                                                    <input type="radio"
+                                                           id="qualBenefits_CAA"
+                                                           name="qualBenefits" onmousedown=""
+                                                           value="Constant Attendance Allowance" />
+                                                    <span>Constant Attendance Allowance</span></label>
+
+                                            </li>
+
+                                    <li class="hide-all remove-detail4">
+                                        <label for="qualBenefits_AFIP"
+                                               onmousedown="">
+                                            <input type="radio"
+                                                   id="qualBenefits_AFIP"
+                                                   name="qualBenefits" onmousedown=""
+                                                   value="Armed Forces Independence Payment"/>
+                                            <span>Armed Forces Independence Payment</span></label>
+
+									<li class="yes-button">
+
+                                                <label for="qualBenefits_Other" class="show-detail4" onmousedown="">
+                                                    <input type="radio" id="qualBenefits_Other"
+                                                           name="qualBenefits" onmousedown="" value="Other or none"/>
+                                                    <span>None of these benefits</span></label>
+                                    </li>
+                                </ul>
+							<div id="answerYesMessageWrap" class="prompt breaks-prompt eligibility-prompt open-detail4">
+			                    <p>You'll only get Carer's Allowance if the person you care for gets one of these benefits.</p>
+			                 </div>
+                            </fieldset>
+                        </li>
+
+                        <li class="open-detail">
+                        <fieldset class="question-group">
+                            <legend>How do they receive Constant Attendance Allowance?</legend>
+                            <ul class="radio radio-stack" id="contactMethod">
+                                <li class="hide-all">
+                                    <label for="contactMethod_email" class="show-detail2 remove-detail3">
+                                        <input type="radio"
+                                               id="contactMethod_email"
+                                               name="contactMethod" onmousedown=""
+                                               value="email"/>
+                                               <span>As part of industrial injuries disablement at maximum rate or above</span>
+                                    </label>
+                                </li>
+
+                                <li class="hide-all">
+                                    <label for="contactMethod_text" class="show-detail3 remove-detail2">
+                                        <input type="radio"
+                                               id="contactMethod_text"
+                                               name="contactMethod" onmousedown=""
+                                               value="text"/>
+                                            <span>As part of war disablement pension at basic (full day) rate</span></label>
+                                </li>
+								<li class="no-button">
+                                    <label for="contactMethod_other" class="show-detail3 remove-detail2">
+                                        <input type="radio"
+                                               id="contactMethod_other"
+                                               name="contactMethod" onmousedown=""
+                                               value="other"/>
+                                            <span>Neither rate</span></label>
+                                </li>
+
+                            </ul>
+			                <div id="answerNoMessageWrap" class="prompt breaks-prompt eligibility-prompt">
+			                    <p>You're legally entitled to claim Carer's Allowance even though you don't qualify and will not get Carer's Allowance.</p>
+			                 </div>
+                        </fieldset>
+                    </li>
+                    </ul>
+                                    </fieldset>
+
+                            <nav class="form-steps">
+                                <ul>
+
+                                    <li><input type="submit" value="Next" class="button" /></li>
+                                  <!--  <li><input type="button" value="Pause" id="pauseProgress" class="button"/></li> -->
+                                    <li><a href="javascript:history.back()">Back</a></li>
+                                </ul>
+                            </nav>
+
+                        </form>
+
+                </article>
+
+           </div>
+
+        </main>
+
+        <footer>
+            <div class="container clearfix">
+
+                <div>
+                    <nav class="language">
+
+                        <a id="privacy"
+                           href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+                    </nav>
+                    <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+                    <p class="ogl">All content is available under the <a
+                            href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2">Open Government
+                        Licence v2.0</a>, except where otherwise stated</p>
+                </div>
+
+                <div class="fr">
+                    <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm">&copy;
+                        Crown Copyright</a>
+                </div>
+
+            </div>
+        </footer>
+        <!--/ footer -->
+        <!-- -->
+        <script src="../js/custom.js"></script>
+
+   <!--      <script type="text/javascript">
+
+    $('#pauseProgress').click(function() {
+        if($(this).val() == "Pause") {
+            $(this).val("Resume");
+                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
+                } else {
+                    ($(this).val() == "Resume")
+                    $(this).val("Pause");
+                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
+                }
+        });
+</script>
+-->
+
+    </body>
+</html>

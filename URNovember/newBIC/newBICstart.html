@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">     
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+            <nav>
+                <a style="display: none;" href="#help">Help</a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+
+   <!--javascript for back button-->
+  <!-- <nav class="back-nav">
+            <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav> !-->
+
+        <article>
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+
+
+            <div class="section-progress">
+                Section 7 of 11
+            </div>
+            <h1>About the care you provide</h1>
+            <form action="aboutCare5TA.html" method="POST" id="form_demo">                
+                <fieldset class="form-elements">
+                    <legend class="legend-hidden">Breaks from care</legend>
+                        <ul>                            
+                            <fieldset class="question-group">
+                                <legend>Since {claim date or care start date} have you or {DPFirstname Lastname} been in any of the following for at least a week?</legend>                                                                                                
+                                    <p class="help-text">Select all that apply</p>                                
+                                        <ul class="radio radio-stack declare" id="breaks">
+                                            <li>
+                                                <label for="break_hospital">
+                                                    <input type="checkbox" id="break_hospital" name="breaks" value="hospital"/>
+                                                    <span>Hospital</span>
+                                                </label>
+                                            </li>
+
+                                            <li>    
+                                                <label for="break_respite">
+                                                    <input type="checkbox" id="break_respite" name="breaks" value="respite or care home"/>
+                                                    <span>Respite or care home</span>
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label for="break_none">
+                                                    <input type="checkbox" id="break_none" name="breaks" value="none"/>
+                                                    <span>None</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                               </fieldset>                                           
+
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Have there been any other weeks you've not provided care for {DPFirstname Lastname} for 35 hours a week?</legend>
+                                <p class="helper above">This includes times on holiday</p>                                
+                                    <ul class="radio" id="noCare">
+                                        <li>
+                                            <label for="noCare_yes">
+                                                <input type="radio" id="noCare_yes" name="noCare" value="Yes"/>
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
+
+                                        <li>
+                                            <label for="noCare_no">
+                                                <input type="radio" id="noCare_no" name="noCare" value="No"/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                            </fieldset>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <nav class="form-steps">
+                    <ul>
+                        <li><a href="newBIChosp.html" class="button" role="button" value="button">Next</a></li>
+                        <li><a id="backButton" href="javascript.history:back()">Back</a></li>
+                    </ul>
+                </nav>
+        </article>
+    </div> 
+</main>
+
+<footer>    
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

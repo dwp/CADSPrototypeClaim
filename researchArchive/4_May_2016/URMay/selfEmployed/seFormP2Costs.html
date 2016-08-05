@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+    
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+            <nav>
+                <a class="visuallyhidden" href="#help">Help</a>
+            </nav>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <article class="no-col">
+            <div class="section-progress">Page 2 of 4</div>
+            <h1>About self-employment continued</h1>
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+            <form action="seFormP3.html" method="POST">
+                <div class="validation-summary" id="validation"></div>
+                    <fieldset class="form-elements">
+                        <ul>
+                    
+
+                    
+                    <li>
+                        <fieldset class="question-group">
+                            <legend>List your business costs from 6 April 2014 to 5 April 2015</legend>
+                            <p class="helper above">This means all costs of running the business, including transport, equipment, electricity and the costs of buying any goods or services.</p>
+                             <ul class="short-table">
+                                    <table id="expensesTable">
+                                        <tbody id="firstTable">
+                                            <tr>
+                                                <th>Item</th>
+                                                <th>Total spent (£)</th>
+                                          <!--      <th>Cost of any you used yourself</th>        -->
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                     <!--           <td><input type="text"></td> -->
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                     <!--           <td><input type="text"></td> -->
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                    <!--            <td><input type="text"></td> -->
+                                            </tr>
+                                        </tbody>                                                  
+                                    </table>                                                 
+                                </ul>                                                                                                              
+                        </fieldset>
+                    </li>
+                    
+                    <div class="amendTableExpense">
+                        <a id="newRow" input type="button" class="button" style="background-color:gray"/>Add a new business cost</a>
+                        <!--/ <a id="removeRow">Remove row</a>-->
+                    </div>
+
+                    <li>
+                        <div class="validation-summary" id="validation"></div>
+                        <fieldset class="form-elements">
+                            <ul>
+                                <li>
+                                    <fieldset class="question-group">
+                                        <legend>Do you take anything from the business for your own use without paying for it?</legend>
+                                        <p class="helper above">For example, if you use the business van or eat your own produce.</p>
+                                        <ul class="radio" for="takeGoods">
+                                            <li>
+                                                <label for="takeGoods_yes" class="show-detail3">
+                                                    <input type="radio" name="takeGoods" id="takeGoods_yes"
+                                                           value="yes" onmousedown=""/>
+                                                    <span>Yes</span>
+                                                </label>
+                                            </li>
+                                        <li>
+                                            <label for="takeGoods_no" class="remove-detail3">
+                                                <input type="radio" name="takeGoods" id="takeGoods_no"
+                                                       value="no" onmousedown=""/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                        </ul>
+                                    </fieldset>
+                                </li>
+                                <li>
+                                    <fieldset class="question group">
+                                        <ul class="short-table open-detail3">
+                                            <table id="goodsTakeTable">
+                                                <tbody id="secondTable">
+                                                <tr>
+                                                    <th>Item</th>
+                                                    <th>Total used for yourself (£)</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="text"></td>
+                                                    <td><input type="text"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="text"></td>
+                                                    <td><input type="text"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </ul>
+                                    </fieldset>
+                                </li>
+                                <div class="amendTableGoods open-detail3">
+                                    <a id="anotherNewRow" input type="button" class="button" style="background-color:gray"/>Add a new item</a>
+                                    <!--/ <a id="removeRow">Remove row</a>-->
+                                </div>
+                            </ul>
+                        </fieldset>
+                    </li>
+
+                    
+                   <!-- <li>
+                        <fieldset class="question-group">
+                            <legend>Do you take anything from the business for your own use without paying for it?</legend>
+                            <p class="helper above">For example, if you use the business van or eat your own produce.</p>
+                                <ul class="radio" for="takeGoods">
+                                    <li>
+                                        <label for="takeGoods_yes" class="show-detail3">
+                                            <input type="radio" name="takeGoods" id="takeGoods_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="takeGoods_no" class="remove-detail3">
+                                            <input type="radio" name="takeGoods" id="takeGoods_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li>
+                            <ul class="extra-group">
+                                <li class="other-detail open-detail3 short-field">
+                                    <label for="takeGoodsAmount">What do you think the goods were worth?</label>
+                                    <input type="text" id="takeGoodsAmount" name="takeGoodsAmount" autocomplete="off"/>
+                                </li>
+
+                            </ul>
+                        </ul> -->
+                        <ul>
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>Did you get a VAT refund between 6 April 2014 and 5 April 2015?</legend>
+                                    <ul class="radio" for="vatRefund">
+                                        <li>
+                                            <label for="vatRefund_yes" class="show-detail2">
+                                                <input type="radio" name="vatRefund" id="vatRefund_yes"
+                                                       value="yes" onmousedown=""/>
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
+
+                                        <li>
+                                            <label for="vatRefund_no" class="remove-detail2">
+                                                <input type="radio" name="vatRefund" id="vatRefund_no"
+                                                       value="no" onmousedown=""/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+
+                            <ul class="extra-group">
+                                <li class="other-detail open-detail2 short-field">
+                                    <label for="howMuch">How much did you get?</label>
+                                    <input type="text" id="howMuch" name="howMuch" autocomplete="off"/>
+                                </li>
+                            </ul>
+                    <ul>
+                    <li> 
+                        <fieldset class="question-group">
+                            <legend>Do you pay money towards a pension?</legend>
+                                <ul class="radio" for="payPension">
+                                    <li>
+                                        <label for="payPension_yes" class="show-detail5">
+                                            <input type="radio" name="payPension" id="payPension_yes"
+                                            value="yes" onmousedown=""/>
+                                            <span>Yes</span>
+                                        </label>
+                                    </li>
+                                                                                
+                                    <li>
+                                        <label for="payPension_no" class="remove-detail5">
+                                            <input type="radio" name="payPension" id="payPension_no"
+                                            value="no" onmousedown=""/>
+                                            <span>No</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </li>                                    
+                                    
+                    <ul class="extra-group">
+                        <li class="other-detail open-detail5 short-field">
+                            <label for="howMuchPay">How much do you pay?</label>
+                            <input type="text" id="howMuchPay" name="howMuchPay" autocomplete="off"/>
+                        </li>
+                        
+                        <li class="other-detail open-detail5">
+                            <label for="howOften">How often is it paid?</label>
+                            <input type="text" id="howOften" name="howOften" autocomplete="off"/>
+                        </li>
+                    </ul>                                                              
+                </ul>
+        </fieldset>            
+        <nav class="form-steps">
+            <ul>
+                <li><input type="submit" value="Next" class="button" /> </li>            </ul>
+        </nav>        
+    </form>                                                                                
+</article>
+<!--
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+                <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                <h3>Helpline 0345 608 4321</h3>
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+                <p>Closed public holidays.</p>
+                <p>Calls answered within 5 minutes</p>
+                <p><a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a></p>
+
+            </section>
+
+        </aside>-->
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Helpline - 0345 608 4321</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+       $("#newRow").click(function() {
+        $("#firstTable tr:last").after("<tr><td><input type='text'/></td><td><input type='text'/></td></tr>");
+       });
+       $("#anotherNewRow").click(function() {
+        $("#secondTable tr:last").after("<tr><td><input type='text'/></td><td><input type='text'/></td></tr>");
+       });
+    //    $("#removeRow").click(function() {                                     
+    //     $("tr:last").remove();
+    //    }); 
+    });
+</script>
+
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../js/jquery.rsv.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+
+	function myOnComplete(){}
+
+	$(document).ready(function() {
+	    $("#form_demo").RSV({
+	      onCompleteHandler: myOnComplete,
+	      displayType: "display-html",
+	      errorFieldClass: "error-focus",
+	        rules: [
+	            "required,nationality,Please select your nationality.",
+	            "required,residence,Please confirm if you have always lived in England Scotland or Wales.",
+	            "required,anyTrips,Please confirm if you have been away from England Scotland or Wales for more than 52 weeks in the last 3 years."
+	        ]
+	    });
+	});
+	</script>
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+    </div>
+</header>
+<!--end header-->
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+        <article class="no-col">
+
+            <!--javascript for back button-->
+            <nav class="back-nav">
+                <a id="backButton" href="javascript:history.back()">Back</a>
+            </nav>
+
+            <div class="section-progress">
+                Section 2 of 4
+            </div>
+
+            <h1>About your Nationality and where you live </h1>
+
+            <form action="../selfEmployed/seFormP1.html" method="post" id="form_demo">
+
+                <div id="validation" class="validation-summary"></div>
+
+                <fieldset class="form-elements">
+                 <!--   <legend>Nationality and where you live</legend> -->
+
+                    <ul>
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>What's your nationality?</legend>
+                                <ul class="radio radio-stack" id="nationality">
+                                    <li>
+                                        <label for="nationality_British" class="remove-detail">
+                                            <input type="radio" id="nationality_British" name="nationality"
+                                                   onmousedown="" value="British" required/>
+                                            <span>British</span>
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="nationality_Another_Nationality" class="show-detail">
+                                            <input type="radio" id="nationality_Another_Nationality" name="nationality"
+                                                   onmousedown="" value="Another nationality"/>
+                                            <span>Another nationality</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+
+                        <li id="nationality_other" class="other-detail open-detail">
+                            <ul class="extra-group">
+                                <li>
+                                    <label for="nationalityOther">Your nationality</label>
+                                    <input type="text" id="nationalityOther" name="nationalityOther" maxlength=""/>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul>
+
+                        <li>
+                            <fieldset class="question-group">
+                                <legend>Have you always lived in England, Scotland or Wales?</legend>
+                                <ul class="radio" id="residence">
+                                    <li>
+                                        <label for="residence_yes" class="remove-detail2 remove-detail3 remove-detail4
+                                        remove-detail6 clear-detail2 clear-detail3 clear-detail4 clear-detail6">
+                                            <input type="radio" id="residence_yes" name="residence"
+                                                   onmousedown="" value="Yes"/>
+                                            <span>Yes</span></label>
+                                    </li>
+
+                                    <li>
+                                        <label for="residence_no" class="show-detail2">
+                                            <input type="radio" id="residence_no" name="residence"
+                                                   onmousedown="" value="No"/>
+                                            <span>No</span></label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li id="currentResidence" class="other-detail open-detail2">
+                            <fieldset class="nested-fieldset">
+                                <label class="nestedLabel">Do you live in England, Scotland or Wales now?</label>
+                                <ul class="extra-group radio">
+                                    <li>
+                                        <label for="currentResidence_yes" class="show-detail3">
+                                            <input type="radio" id="currentResidence_yes" name="currentResidence" onmousedown=""
+                                                   value="Yes"/>
+                                            <span>Yes</span></label>
+                                    </li>
+
+                                    <li>
+                                        <label for="currentResidence_no" class="remove-detail3">
+                                            <input type="radio" id="currentResidence_no" name="currentResidence" onmousedown=""
+                                                   value="No"/>
+                                            <span>No</span></label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+
+                        <li id="dateOfArrival" class="other-detail open-detail3">
+                            <fieldset class="question-group">
+                                <label>When did you arrive in England, Scotland or Wales?</label>
+                                <p class="helper above"></p>
+                                <ul class="radio radio-stack" id="dateOfArrival">
+                                    <li>
+                                        <label for="dateOfArrival_LessThanTwoYears" class="show-detail4">
+                                            <input type="radio" id="dateOfArrival_LessThanTwoYears" name="dateOfArrival"
+                                                   onmousedown="" value="LessThanTwoYears" />
+                                            <span>Less than three years ago</span>
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="dateOfArrival_MoreThanTwoYears" class="remove-detail4 remove-detail6">
+                                            <input type="radio" id="dateOfArrival_MoreThanTwoYears" name="dateOfArrival"
+                                                   onmousedown="" value="MoreThanTwoYears"/>
+                                            <span>More than three years ago</span>
+                                        </label>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li id="planToReturn" class="other-detail open-detail4">
+                                        <fieldset class="question-group">
+                                            <label>Do you plan to go back to that country?</label>
+                                            <ul class="radio">
+                                                <li>
+                                                    <label for="planToReturn_yes" class="show-detail6">
+                                                        <input type="radio" id="planToReturn_yes" name="planToReturn"
+                                                               onmousedown="" value="Yes"/>
+                                                        <span>Yes</span></label>
+                                                </li>
+
+                                                <li>
+                                                    <label for="planToReturn_no" class="remove-detail6">
+                                                        <input type="radio" id="planToReturn_no" name="planToReturn"
+                                                               onmousedown="" value="No"/>
+                                                        <span>No</span></label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li id="plannedToReturn" class="other-detail open-detail6">
+                                        <ul class="extra-group">
+                                            <li>
+                                                <label>When do you plan to go back?</label>
+                                                <input type="text" id="plannedToReturn_yes" name="plannedToReturn_yes"
+                                                       onmousedown=""/>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </li>
+
+
+                        <ul>
+                            <li>
+                                <fieldset class="question-group">
+                                    <legend>
+                                        Have you been away from England, Scotland or Wales for more than 52 weeks in the
+                                        3 years before
+                                        your claim date?
+                                    </legend>
+                                    <p class="helper above">This could be one trip, or a number of trips adding up to 52
+                                        week.</p>
+                                    <ul class="radio" id="anyTrips">
+                                        <li>
+
+                                            <label for="anyTrips_yes" class="show-detail8">
+                                                <input type="radio" id="anyTrips_yes" name="anyTrips" onmousedown=""
+                                                       value="yes"/>
+                                                <span>Yes</span></label>
+                                        </li>
+
+                                        <li>
+
+                                            <label for="anyTrips_no" class="remove-detail8">
+                                                <input type="radio" id="anyTrips_no" name="anyTrips" onmousedown=""
+                                                       value="no"/>
+                                                <span>No</span></label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+
+                            <li id="tripDetailsWrapper" class="other-detail open-detail8">
+                                <ul class="extra-group">
+                                    <li>
+                                        <label for="tripDetails">
+
+                                            Where and when did you go away?
+
+                                        </label>
+										 <p class="helper above">List all your trips abroad in the last 3 years, including the dates you went and came back.</p>
+                                        <textarea id="tripDetails" name="tripDetails" maxLength="3000"></textarea>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </fieldset>
+
+                <nav class="form-steps">
+                    <ul>
+
+                        <li><input type="submit" value="Next" class="button" /> <button a href="../saveAndReturn/savePage.html" id="saveExit" class="button" name="saveExit">Save for later</a></button></li>
+
+                        </li>
+                    </ul>
+                </nav>
+
+            </form>
+
+        </article>
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <p>Helpline - 0345 608 4321</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2">Open Government
+                Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm">&copy;
+                Crown Copyright</a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="../js/custom.js"></script>
+
+<script type="text/javascript">
+
+    $('#pauseProgress').click(function() {
+        if($(this).val() == "Pause") {
+            $(this).val("Resume");
+                alert("Your progress has been paused for 3 hours. Do not close your window. Click ok to resume your claim");
+                } else {
+                    ($(this).val() == "Resume")
+                    $(this).val("Pause");
+                        alert("Your session has been resumed. You have 90 minutes to complete your claim");
+                }
+        });
+    $('.remove-detail8').click(function() {
+        $('#tripDetails').val('');
+    });
+    $('.remove-detail3').click(function() {
+        $('#dateOfArrival_LessThanTwoYears').prop('checked', false);
+        $('#dateOfArrival_MoreThanTwoYears').prop('checked', false);
+    });
+    $('.show-detail3').click(function() {
+        $('#dateOfArrival_LessThanTwoYears').prop('checked', false);
+        $('#dateOfArrival_MoreThanTwoYears').prop('checked', false);
+    });
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+var ViewModel=function(e,t){this.firstName=ko.observable(e),this.lastName=ko.observable(t),this.fullName=ko.computed(function(){return this.firstName()+" "+this.lastName()},this)};ko.applyBindings(new ViewModel("Planet","Earth"));

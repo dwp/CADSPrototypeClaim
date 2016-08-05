@@ -74,53 +74,65 @@
                         <ul>
                             <li> 
                                 <fieldset class="question-group">
+                                    <label for="tradingYear">Do you have a trading year?</label>
+                                    <ul class="radio" id="tradingYear">
+                                        <li>
+                                            <label for="tradingYear_yes" class="show-detail6 remove-detail7">
+                                                <input type="radio" name="tradingYear" id="tradingYear_yes" value="Yes"
+                                                        onmousedown=""/>
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
 
-                                                        <label for="tradingYear">Do you know your trading year?</label>
-                                                        <ul class="radio" id="tradingYear">
-                                                            <li>
-                                                                <label for="tradingYear_yes" class="show-detail6">
-                                                                    <input type="radio" name="tradingYear" id="tradingYear_yes" value="Yes"
-                                                                           onmousedown=""/>
-                                                                    <span>Yes</span>
-                                                                </label>
-                                                            </li>
+                                        <li>
+                                            <label for="tradingYear_no" class=" show-detail7 remove-detail6">
+                                                <input type="radio" name="tradingYear" id="tradingYear_no" value="No"
+                                                        onmousedown=""/>
+                                                <span>No</span>
+                                            </label>
+                                        </li>
 
-                                                            <li>
-                                                                <label for="tradingYear_no" class="remove-detail6">
-                                                                    <input type="radio" name="tradingYear" id="tradingYear_no" value="No"
-                                                                           onmousedown=""/>
-                                                                    <span>No</span>
-                                                                </label>
-                                                            </li>
-                                                        </ul>
+                                        <li>
+                                            <label for="tradingYear_dontKnow" class="show-detail7 remove-detail61">
+                                                <input type="radio" name="tradingYear" id="tradingYear_dontKnow" value="No"
+                                                        onmousedown=""/>
+                                                <span>Don't know</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+                        </ul>
 
-                                                        <ul class="extra-detail" style="margin-top: 15px;">
-                                                            <li class="other-detail open-detail6">
-                                                                <label for="startSE">When did your trading year start?</label>
-                                                                <p class="helper above">For example, 31 04 2015 </p>
-                                                                <ul class="inline year" id="startDate">
-                                                                    <li>
-                                                                        <label for="endDay_2">Day</label>
-                                                                        <input type="tel" id="endDay_2" name="endDay_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
+                        <ul class="extra-group" style="margin-top: 15px;">
+                            <li class="other-detail open-detail6">
+                                <label for="startSE">When did your trading year start?</label>
+                                <p class="helper above">For example, 31 04 2015 </p>
+                                <ul class="inline year" id="startDate">
+                                    <li>
+                                        <label for="endDay_2">Day</label>
+                                        <input type="tel" id="endDay_2" name="endDay_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
 
-                                                                    <li class="endMonth_2">
-                                                                        <label for="month_2">Month</label>
-                                                                        <input type="tel" id="endMonth_2" name="endMonth_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
-                                                                    </li>
+                                    <li class="endMonth_2">
+                                        <label for="month_2">Month</label>
+                                        <input type="tel" id="endMonth_2" name="endMonth_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="2" autocomplete="off">
+                                    </li>
 
-                                                                    <li>
-                                                                        <label for="endYear_2">Year</label>
-                                                                        <input type="tel" id="endYear_2" name="endYear_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    </ul>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li>
+                                        <label for="endYear_2">Year</label>
+                                        <input type="tel" id="endYear_2" name="endYear_2" pattern="[0-9 \-]{1,20}" title="Must be numbers only" value="" maxlength="4" autocomplete="off">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="extra-group" style="margin-top: 15px;">
+                            <li class="other-detail open-detail7">
+                                <label for="totalIncome">Please provide your total income from 12 May 2015 to 11 May 2016</label>
+                                <input type="number" name="totalIncome" id="totalIncome"/>
+                            </li>
+                        </ul>
 
                                 <ul>
                                     <li>

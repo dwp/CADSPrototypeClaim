@@ -77,32 +77,32 @@
                     
                     <li>
                         <fieldset class="question-group">
-                            <legend>List your business costs from 6 April 2014 to 5 April 2015</legend>
+                            <legend>List your business costs from 6 April 2015 to 5 April 2016</legend>
                             <p class="helper above">This means all costs of running the business, including transport, equipment, electricity and the costs of buying any goods or services.</p>
                              <ul class="short-table">
                                     <table id="expensesTable">
                                         <tbody id="firstTable">
                                             <tr>
                                                 <th>Item</th>
-                                                <th>Total spent (£)</th>
+                                                <th>Total costs not including personal use (£)</th>
                                           <!--      <th>Cost of any you used yourself</th>        -->
                                             </tr>
                                             
                                             <tr>
-                                                <td><input type="text"></td>
-                                                <td><input type="text"></td>
+                                                <td><input type="text" placeholder="For example, Materials"></td>
+                                                <td><input type="number" pattern="[0-9]" placeholder="For example, 300"></td>
+                                     <!--           <td><input type="text"></td> -->
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td><input type="text" placeholder="For example, Motor expenses"></td>
+                                                <td><input type="number" pattern="[0-9]" placeholder="For example, 300"></td>
                                      <!--           <td><input type="text"></td> -->
                                             </tr>
                                             
                                             <tr>
                                                 <td><input type="text"></td>
-                                                <td><input type="text"></td>
-                                     <!--           <td><input type="text"></td> -->
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td><input type="text"></td>
-                                                <td><input type="text"></td>
+                                                <td><input type="number" pattern="[0-9]"></td>
                                     <!--            <td><input type="text"></td> -->
                                             </tr>
                                         </tbody>                                                  
@@ -115,63 +115,32 @@
                         <a id="newRow" input type="button" class="button" style="background-color:gray"/>Add a new business cost</a>
                         <!--/ <a id="removeRow">Remove row</a>-->
                     </div>
-
-                    <li>
-                        <div class="validation-summary" id="validation"></div>
-                        <fieldset class="form-elements">
-                            <ul>
-                                <li>
-                                    <fieldset class="question-group">
-                                        <legend>Do you take anything from the business for your own use without paying for it?</legend>
-                                        <p class="helper above">For example, if you use the business van or eat your own produce.</p>
-                                        <ul class="radio" for="takeGoods">
-                                            <li>
-                                                <label for="takeGoods_yes" class="show-detail3">
-                                                    <input type="radio" name="takeGoods" id="takeGoods_yes"
-                                                           value="yes" onmousedown=""/>
-                                                    <span>Yes</span>
-                                                </label>
-                                            </li>
-                                        <li>
-                                            <label for="takeGoods_no" class="remove-detail3">
-                                                <input type="radio" name="takeGoods" id="takeGoods_no"
-                                                       value="no" onmousedown=""/>
-                                                <span>No</span>
-                                            </label>
-                                        </li>
-                                        </ul>
-                                    </fieldset>
-                                </li>
-                                <li>
-                                    <fieldset class="question group">
-                                        <ul class="short-table open-detail3">
-                                            <table id="goodsTakeTable">
-                                                <tbody id="secondTable">
-                                                <tr>
-                                                    <th>Item</th>
-                                                    <th>Total used for yourself (£)</th>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="text"></td>
-                                                    <td><input type="text"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="text"></td>
-                                                    <td><input type="text"></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </ul>
-                                    </fieldset>
-                                </li>
+                            <ul class="extra-group short-table">    
+                                <li class="open-detail3">                                                                                                                                          
+                                        <table id="goodsTakeTable">
+                                            <tbody id="secondTable">
+                                            <tr>
+                                                <th>Item</th>
+                                                <th>Total used for yourself (£)</th>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text"></td>
+                                                <td><input type="text"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>                                                                        
+                                    </li>
+                                 </ul>
+                                 <li>
                                 <div class="amendTableGoods open-detail3">
                                     <a id="anotherNewRow" input type="button" class="button" style="background-color:gray"/>Add a new item</a>
                                     <!--/ <a id="removeRow">Remove row</a>-->
                                 </div>
-                            </ul>
-                        </fieldset>
-                    </li>
-
+                                 </li>
                     
                    <!-- <li>
                         <fieldset class="question-group">
@@ -207,7 +176,7 @@
                         <ul>
                             <li>
                                 <fieldset class="question-group">
-                                    <legend>Did you get a VAT refund between 6 April 2014 and 5 April 2015?</legend>
+                                    <legend>Did you get a VAT refund between 6 April 2015 and 5 April 2016?</legend>
                                     <ul class="radio" for="vatRefund">
                                         <li>
                                             <label for="vatRefund_yes" class="show-detail2">

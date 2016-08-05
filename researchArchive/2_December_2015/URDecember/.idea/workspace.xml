@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8cd9719-95d4-49a9-954f-f81dabb17a74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/aboutYou1.html" afterPath="$PROJECT_DIR$/about/aboutYou1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consent/disclaimer_screen3.html" afterPath="$PROJECT_DIR$/consent/disclaimer_screen3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eligibility/e5.html" afterPath="$PROJECT_DIR$/eligibility/e5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="prototype.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="prototype" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" value="REBASE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="UserResearch250315" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/about/aboutCare4TA.html" />
+        <option value="$PROJECT_DIR$/employment/employment1.html" />
+        <option value="$PROJECT_DIR$/employment/employment2.html" />
+        <option value="$PROJECT_DIR$/employment/employment3.html" />
+        <option value="$PROJECT_DIR$/employment/employment4.html" />
+        <option value="$PROJECT_DIR$/employment/employment5.html" />
+        <option value="$PROJECT_DIR$/employment/employment6.html" />
+        <option value="$PROJECT_DIR$/employment/self-employment.html" />
+        <option value="$PROJECT_DIR$/employment/employment7.html" />
+        <option value="$PROJECT_DIR$/employment/self-employmentTA.html" />
+        <option value="$PROJECT_DIR$/income/income2.html" />
+        <option value="$PROJECT_DIR$/income/income1.html" />
+        <option value="$PROJECT_DIR$/income/income3.html" />
+        <option value="$PROJECT_DIR$/income/incomeOLD.html" />
+        <option value="$PROJECT_DIR$/payDetails/payDetails1.html" />
+        <option value="$PROJECT_DIR$/payDetails/payDetails2.html" />
+        <option value="$PROJECT_DIR$/payDetails/payDetailsCombined.html" />
+        <option value="$PROJECT_DIR$/education/educationTutor.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome01Previous.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome01PreviousNull.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02Current.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02Employed.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02EmployedIncome.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02EmployedPast.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02FinishDate.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02Past.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02Prev.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome03CarePay.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome03MatPay.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome03StatPay.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome05Partner.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome01.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome04OtherIncome.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02Expenses.html" />
+        <option value="$PROJECT_DIR$/consent/disclaimer_screen3.html" />
+        <option value="$PROJECT_DIR$/consent/disclaimer_screen2.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome05End.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02SelfEmployed.html" />
+        <option value="$PROJECT_DIR$/income2/yourIncome02SelfEmployedPast.html" />
+        <option value="$PROJECT_DIR$/about/aboutPartner.html" />
+        <option value="$PROJECT_DIR$/consent/declaration.html" />
+        <option value="$PROJECT_DIR$/consent/test.html" />
+        <option value="$PROJECT_DIR$/consent/dislaimer_screen4.html" />
+        <option value="$PROJECT_DIR$/consent/declaration_screen.html" />
+        <option value="$PROJECT_DIR$/payDetails/payDetailsCombined3.html" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/payDetails/payDetailsCombined2.html" />
+        <option value="$PROJECT_DIR$/eligibility/e5.html" />
+        <option value="$PROJECT_DIR$/about/aboutYou1.html" />
+        <option value="$PROJECT_DIR$/email.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claimPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="152" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="737" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="152" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="737" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/AssistedDigitalWalkthrough" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/payDetails" />
+      <recent name="$PROJECT_DIR$/consent" />
+      <recent name="$PROJECT_DIR$/income2" />
+      <recent name="$PROJECT_DIR$/claimdate" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8cd9719-95d4-49a9-954f-f81dabb17a74" name="Default" comment="" />
+      <created>1414754248688</created>
+      <updated>1414754248688</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Templates changed, javascript and analytics stripped. Ian">
+      <created>1415114352399</created>
+      <updated>1415114352399</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Templates changed, javascript and analytics stripped. Ian">
+      <created>1415114427265</created>
+      <updated>1415114427265</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Back button fixed for all templates. Ian T">
+      <created>1415194968953</created>
+      <updated>1415194968953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Back button fixed for all templates. Ian T">
+      <created>1415198867391</created>
+      <updated>1415198867391</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed time abroad template to textbox (as released into Lab)">
+      <created>1415276967330</created>
+      <updated>1415276967330</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed time abroad template to textbox (as released into Lab)">
+      <created>1415277212460</created>
+      <updated>1415277212460</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed time abroad template to textbox (as released into Lab)">
+      <created>1415279831355</created>
+      <updated>1415279831355</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed time abroad template to textbox (as released into Lab)">
+      <created>1415280046631</created>
+      <updated>1415280046631</updated>
+    </task>
+    <task id="LOCAL-00009" summary="page names split in to their question groups">
+      <created>1415633866801</created>
+      <updated>1415633866801</updated>
+    </task>
+    <task id="LOCAL-00010" summary="page names split in to their question groups&#10;">
+      <created>1415788501425</created>
+      <updated>1415788501425</updated>
+    </task>
+    <task id="LOCAL-00011" summary="page names split in to their question groups">
+      <created>1415791428259</created>
+      <updated>1415791428259</updated>
+    </task>
+    <task id="LOCAL-00012" summary="(pr2) added new question and text field for gathering email">
+      <created>1415879066790</created>
+      <updated>1415879066790</updated>
+    </task>
+    <task id="LOCAL-00013" summary="(pr2) added new question and text field for gathering email">
+      <created>1415879524561</created>
+      <updated>1415879524561</updated>
+    </task>
+    <task id="LOCAL-00014" summary="(pr3) added question &quot;do you know their nino&quot; to about care">
+      <created>1415890119290</created>
+      <updated>1415890119290</updated>
+    </task>
+    <task id="LOCAL-00015" summary="(pr10) added contextual help to gross pay">
+      <created>1415956876295</created>
+      <updated>1415956876295</updated>
+    </task>
+    <task id="LOCAL-00016" summary="(pr10) added contextual help to gross pay">
+      <created>1415957458724</created>
+      <updated>1415957458724</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ClaimFlow - update index page with prototype stories">
+      <created>1416223048693</created>
+      <updated>1416223048693</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated links for index page">
+      <created>1416224161967</created>
+      <updated>1416224161967</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated links for index page">
+      <created>1416225532103</created>
+      <updated>1416225532103</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added web chat link to left column on each page">
+      <created>1416231886621</created>
+      <updated>1416231886621</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added in dummy dates">
+      <created>1416234167449</created>
+      <updated>1416234167449</updated>
+    </task>
+    <task id="LOCAL-00022" summary="moved web chat link and changed &quot;start flow&quot; to &quot;start claim&quot;">
+      <created>1416235261427</created>
+      <updated>1416235261427</updated>
+    </task>
+    <task id="LOCAL-00023" summary="changed disabled person Nino box to 5 textboxes&#10;">
+      <created>1416407147296</created>
+      <updated>1416407147296</updated>
+    </task>
+    <task id="LOCAL-00024" summary="moved pages into their question groups">
+      <created>1416485619706</created>
+      <updated>1416485619706</updated>
+    </task>
+    <task id="LOCAL-00025" summary="changed question for course tel num to tutor tel num">
+      <created>1417001992561</created>
+      <updated>1417001992561</updated>
+    </task>
+    <task id="LOCAL-00026" summary="removed time to complete and customer needs (PR20)">
+      <created>1417012002338</created>
+      <updated>1417012002338</updated>
+    </task>
+    <task id="LOCAL-00027" summary="removed optional tag in about care - dp nino (PR22)">
+      <created>1417012561513</created>
+      <updated>1417012561513</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added gather mobile number question and textbox (PR18)">
+      <created>1417174505172</created>
+      <updated>1417174505172</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fixed spacing on gather mobile foldout (PR18)">
+      <created>1417434170288</created>
+      <updated>1417434170288</updated>
+    </task>
+    <task id="LOCAL-00030" summary="combined &quot;how we pay you&quot; pages (PR12)">
+      <created>1417445555244</created>
+      <updated>1417445555244</updated>
+    </task>
+    <task id="LOCAL-00031" summary="combined &quot;how we pay you&quot; pages (PR12)">
+      <created>1417445922465</created>
+      <updated>1417445922465</updated>
+    </task>
+    <task id="LOCAL-00032" summary="new index page for lab session 09/12/14">
+      <created>1417446978113</created>
+      <updated>1417446978113</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fixed styling of bank/building society details foldout. (PR12)">
+      <created>1417528986912</created>
+      <updated>1417528986912</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fixed foldout of employment2">
+      <created>1417616369616</created>
+      <updated>1417616369616</updated>
+    </task>
+    <task id="LOCAL-00035" summary="updated index for 09/12/14">
+      <created>1417694160576</created>
+      <updated>1417694160576</updated>
+    </task>
+    <task id="LOCAL-00036" summary="various amendments prototype. All links checked and validated, dummy name provided in consent, &quot;p&quot; tag removed from &quot;have you separated&quot; question.">
+      <created>1418041212318</created>
+      <updated>1418041212318</updated>
+    </task>
+    <task id="LOCAL-00037" summary="various amendments prototype. All links checked and validated, dummy name provided in consent, &quot;p&quot; tag removed from &quot;have you separated&quot; question.">
+      <created>1418052196236</created>
+      <updated>1418052196236</updated>
+    </task>
+    <task id="LOCAL-00038" summary="thank you page added, employment flow changed">
+      <created>1418124361351</created>
+      <updated>1418124361351</updated>
+    </task>
+    <task id="LOCAL-00039" summary="thank you page added, employment flow changed">
+      <created>1418124450756</created>
+      <updated>1418124450756</updated>
+    </task>
+    <task id="LOCAL-00040" summary="thank you page added, employment flow changed">
+      <created>1418124566479</created>
+      <updated>1418124566479</updated>
+    </task>
+    <task id="LOCAL-00041" summary="removed contextual help for about Care nino and date of birth">
+      <created>1418124858834</created>
+      <updated>1418124858834</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Bullet pointed consent 1 (PR24)">
+      <created>1418728825013</created>
+      <updated>1418728825013</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Electronic version of thank you email (PR28)&#10;New email gather style (PR27)">
+      <created>1418997191794</created>
+      <updated>1418997191794</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Electronic version of thank you email (PR28)&#10;New email gather style (PR27)">
+      <created>1418997523912</created>
+      <updated>1418997523913</updated>
+    </task>
+    <task id="LOCAL-00045" summary="New email gather text (PR27)">
+      <created>1419001830416</created>
+      <updated>1419001830416</updated>
+    </task>
+    <task id="LOCAL-00046" summary="site wide changes to align prototype with lab (IT)">
+      <created>1419336972460</created>
+      <updated>1419336972460</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Added page for organ donation message (PR30) IT">
+      <created>1420458670287</created>
+      <updated>1420458670287</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Gather text and email foldouts changed (PR27) IT">
+      <created>1420543133523</created>
+      <updated>1420543133524</updated>
+    </task>
+    <task id="LOCAL-00049" summary="organ donor messgae changed (PR30) IT">
+      <created>1420546933920</created>
+      <updated>1420546933920</updated>
+    </task>
+    <task id="LOCAL-00050" summary="aligned left hand column with Lab (PR29) IT">
+      <created>1420553288152</created>
+      <updated>1420553288153</updated>
+    </task>
+    <task id="LOCAL-00051" summary="changed nino fields for single text field IT">
+      <created>1421069933441</created>
+      <updated>1421069933441</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Various changes - restyled email confirmation message, new wording on email gather, time to reply message on email amended (IT)">
+      <created>1422015085219</created>
+      <updated>1422015085219</updated>
+    </task>
+    <task id="LOCAL-00053" summary="redesigned time abroad section  (pr26) - IT">
+      <created>1422357786878</created>
+      <updated>1422357786879</updated>
+    </task>
+    <task id="LOCAL-00054" summary="redesigned time abroad section  (pr26) - IT">
+      <created>1422359682119</created>
+      <updated>1422359682120</updated>
+    </task>
+    <task id="LOCAL-00055" summary="redesigned time abroad section  (pr26) - IT">
+      <created>1422435453716</created>
+      <updated>1422435453717</updated>
+    </task>
+    <task id="LOCAL-00056" summary="redesigned time abroad section  (pr26) - IT">
+      <created>1422442982305</created>
+      <updated>1422442982306</updated>
+    </task>
+    <task id="LOCAL-00057" summary="redesigned time abroad section  (pr26) - IT">
+      <created>1422443127682</created>
+      <updated>1422443127683</updated>
+    </task>
+    <task id="LOCAL-00058" summary="redesigned time abroad section  (pr26) - IT">
+      <created>1422443341958</created>
+      <updated>1422443341958</updated>
+    </task>
+    <task id="LOCAL-00059" summary="switched employment to s/e for user research -IT">
+      <created>1422452531515</created>
+      <updated>1422452531515</updated>
+    </task>
+    <task id="LOCAL-00060" summary="switched employment to s/e for user research -IT">
+      <created>1422457442589</created>
+      <updated>1422457442590</updated>
+    </task>
+    <task id="LOCAL-00061" summary="various changes made for user research - IT">
+      <created>1424258066333</created>
+      <updated>1424258066334</updated>
+    </task>
+    <task id="LOCAL-00062" summary="various changes made for user research - IT">
+      <created>1424258921263</created>
+      <updated>1424258921263</updated>
+    </task>
+    <task id="LOCAL-00063" summary="adding validation &#10;">
+      <created>1424360145382</created>
+      <updated>1424360145382</updated>
+    </task>
+    <task id="LOCAL-00064" summary="adding new directory for AD Replica to investigate issues&#10;">
+      <created>1424360398843</created>
+      <updated>1424360398843</updated>
+    </task>
+    <task id="LOCAL-00065" summary="removed ad replica from repo&#10;">
+      <created>1424361688959</created>
+      <updated>1424361688961</updated>
+    </task>
+    <task id="LOCAL-00066" summary="added validation to claim&#10;">
+      <created>1424704070773</created>
+      <updated>1424704070773</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added validation to claim&#10;">
+      <created>1424707726307</created>
+      <updated>1424707726307</updated>
+    </task>
+    <task id="LOCAL-00068" summary="added validation to claim&#10;">
+      <created>1424707783570</created>
+      <updated>1424707783570</updated>
+    </task>
+    <task id="LOCAL-00069" summary="added validation to claim&#10;">
+      <created>1424708328788</created>
+      <updated>1424708328788</updated>
+    </task>
+    <task id="LOCAL-00070" summary="added validation to claim&#10;">
+      <created>1424708693022</created>
+      <updated>1424708693022</updated>
+    </task>
+    <task id="LOCAL-00071" summary="added validation to claim&#10;">
+      <created>1424709917017</created>
+      <updated>1424709917017</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added validation to claim&#10;">
+      <created>1424710390691</created>
+      <updated>1424710390692</updated>
+    </task>
+    <task id="LOCAL-00073" summary="added validation to claim&#10;">
+      <created>1424774476049</created>
+      <updated>1424774476050</updated>
+    </task>
+    <task id="LOCAL-00074" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424798831198</created>
+      <updated>1424798831198</updated>
+    </task>
+    <task id="LOCAL-00075" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424799215420</created>
+      <updated>1424799215420</updated>
+    </task>
+    <task id="LOCAL-00076" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424855974786</created>
+      <updated>1424855974786</updated>
+    </task>
+    <task id="LOCAL-00077" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424860146489</created>
+      <updated>1424860146490</updated>
+    </task>
+    <task id="LOCAL-00078" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424863677508</created>
+      <updated>1424863677508</updated>
+    </task>
+    <task id="LOCAL-00079" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424864073561</created>
+      <updated>1424864073561</updated>
+    </task>
+    <task id="LOCAL-00080" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424865866626</created>
+      <updated>1424865866627</updated>
+    </task>
+    <task id="LOCAL-00081" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424866823659</created>
+      <updated>1424866823660</updated>
+    </task>
+    <task id="LOCAL-00082" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1424873593321</created>
+      <updated>1424873593321</updated>
+    </task>
+    <task id="LOCAL-00083" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1425909028205</created>
+      <updated>1425909028205</updated>
+    </task>
+    <task id="LOCAL-00084" summary="site wide changes from meeting with Researcher&#10;">
+      <created>1425916997368</created>
+      <updated>1425916997368</updated>
+    </task>
+    <task id="LOCAL-00085" summary="added in new and revised pages for UR 11/03/15 - IT">
+      <created>1426020324572</created>
+      <updated>1426020324572</updated>
+    </task>
+    <task id="LOCAL-00086" summary="change helpline phone number for UR 11/03/15 - IT">
+      <created>1426024101111</created>
+      <updated>1426024101111</updated>
+    </task>
+    <task id="LOCAL-00087" summary="changed employment flow to SE - IT">
+      <created>1426069351532</created>
+      <updated>1426069351532</updated>
+    </task>
+    <task id="LOCAL-00088" summary="changed employment flow to SE - IT">
+      <created>1426072939848</created>
+      <updated>1426072939848</updated>
+    </task>
+    <task id="LOCAL-00089" summary="added js into breaks in care journey - it">
+      <created>1426074198936</created>
+      <updated>1426074198936</updated>
+    </task>
+    <task id="LOCAL-00090" summary="added js into breaks in care journey - it">
+      <created>1426084797272</created>
+      <updated>1426084797272</updated>
+    </task>
+    <task id="LOCAL-00091" summary="removed mobile telephone number, replaced with standard number, removed partner question from About You 3, removed webchat from side bar, added in time to complete to disclaimer 3, added you will need to eligibility 5 - Ian">
+      <created>1427211565353</created>
+      <updated>1427211565353</updated>
+    </task>
+    <task id="LOCAL-00092" summary="removed mobile telephone number, replaced with standard number, removed partner question from About You 3, removed webchat from side bar, added in time to complete to disclaimer 3, added you will need to eligibility 5 - Ian">
+      <created>1427219784234</created>
+      <updated>1427219784234</updated>
+    </task>
+    <task id="LOCAL-00093" summary="changes for user research 25/03/15 - Ian">
+      <created>1427273908916</created>
+      <updated>1427273908916</updated>
+    </task>
+    <task id="LOCAL-00094" summary="changes for user research 25/03/15 - Ian">
+      <created>1427275956943</created>
+      <updated>1427275956943</updated>
+    </task>
+    <task id="LOCAL-00095" summary="refresh&#10;">
+      <created>1429524289759</created>
+      <updated>1429524289759</updated>
+    </task>
+    <task id="LOCAL-00096" summary="refresh">
+      <created>1429524335920</created>
+      <updated>1429524335920</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add new gov.uk start page and gov.uk feedback page">
+      <created>1429701850158</created>
+      <updated>1429701850158</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add new gov.uk start page and gov.uk feedback page">
+      <created>1429702370826</created>
+      <updated>1429702370826</updated>
+    </task>
+    <task id="LOCAL-00099" summary="fixed validation on eligibilityCombined.html&#10;">
+      <created>1429702494847</created>
+      <updated>1429702494847</updated>
+    </task>
+    <task id="LOCAL-00100" summary="fixed Next button defect on c1.html&#10;">
+      <created>1429718050653</created>
+      <updated>1429718050653</updated>
+    </task>
+    <task id="LOCAL-00101" summary="added save progress button claim wide">
+      <created>1431514995457</created>
+      <updated>1431514995457</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Added pause and resume button + added new employment/income journey">
+      <created>1431702133884</created>
+      <updated>1431702133884</updated>
+    </task>
+    <task id="LOCAL-00103" summary="added new employment and income journey">
+      <created>1431702436704</created>
+      <updated>1431702436704</updated>
+    </task>
+    <task id="LOCAL-00104" summary="updated journey from expenses to pay details">
+      <created>1432023437611</created>
+      <updated>1432023437611</updated>
+    </task>
+    <task id="LOCAL-00105" summary="updated journey from expenses to pay details">
+      <created>1432024308333</created>
+      <updated>1432024308333</updated>
+    </task>
+    <task id="LOCAL-00106" summary="updated journey from expenses to pay details">
+      <created>1432027296473</created>
+      <updated>1432027296473</updated>
+    </task>
+    <task id="LOCAL-00107" summary="updated journey from expenses to pay details">
+      <created>1432132172171</created>
+      <updated>1432132172171</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892057" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31478772" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21245421" sideWeight="0.5005834" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3113069" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39983845" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19709209" sideWeight="0.4982497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32305434" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3979442" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892057" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31570247" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21245421" sideWeight="0.5005834" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3113069" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32305434" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39983845" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1987076" sideWeight="0.4982497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3979442" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Various changes - restyled email confirmation message, new wording on email gather, time to reply message on email amended (IT)" />
+    <MESSAGE value="redesigned time abroad section  (pr26) - IT" />
+    <MESSAGE value="switched employment to s/e for user research -IT" />
+    <MESSAGE value="various changes made for user research - IT" />
+    <MESSAGE value="adding validation &#10;" />
+    <MESSAGE value="adding new directory for AD Replica to investigate issues&#10;" />
+    <MESSAGE value="removed ad replica from repo&#10;" />
+    <MESSAGE value="added validation to claim&#10;" />
+    <MESSAGE value="site wide changes from meeting with Researcher&#10;" />
+    <MESSAGE value="added in new and revised pages for UR 11/03/15 - IT" />
+    <MESSAGE value="change helpline phone number for UR 11/03/15 - IT" />
+    <MESSAGE value="changed employment flow to SE - IT" />
+    <MESSAGE value="added js into breaks in care journey - it" />
+    <MESSAGE value="removed mobile telephone number, replaced with standard number, removed partner question from About You 3, removed webchat from side bar, added in time to complete to disclaimer 3, added you will need to eligibility 5 - Ian" />
+    <MESSAGE value="changes for user research 25/03/15 - Ian" />
+    <MESSAGE value="refresh&#10;" />
+    <MESSAGE value="refresh" />
+    <MESSAGE value="add new gov.uk start page and gov.uk feedback page" />
+    <MESSAGE value="fixed validation on eligibilityCombined.html&#10;" />
+    <MESSAGE value="fixed Next button defect on c1.html&#10;" />
+    <MESSAGE value="added save progress button claim wide" />
+    <MESSAGE value="Added pause and resume button, added new employment/income journey" />
+    <MESSAGE value="Added pause and resume button + added new employment/income journey" />
+    <MESSAGE value="added new employment and income journey" />
+    <MESSAGE value="updated journey from expenses to pay details" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated journey from expenses to pay details" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/employment/self-employmentTA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4617691" vertical-offset="4448" max-vertical-offset="5115">
+          <caret line="276" column="126" selection-start-line="276" selection-start-column="126" selection-end-line="276" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income/incomeOLD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6691176" vertical-offset="4600" max-vertical-offset="6060">
+          <caret line="337" column="118" selection-start-line="337" selection-start-column="118" selection-end-line="337" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/educationTutor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26986507" vertical-offset="375" max-vertical-offset="5625">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome01Previous.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="2355" max-vertical-offset="3300">
+          <caret line="158" column="130" selection-start-line="158" selection-start-column="130" selection-end-line="158" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome01PreviousNull.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="2385" max-vertical-offset="3330">
+          <caret line="160" column="130" selection-start-line="160" selection-start-column="130" selection-end-line="160" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02Current.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7916665" vertical-offset="3923" max-vertical-offset="5070">
+          <caret line="274" column="118" selection-start-line="274" selection-start-column="118" selection-end-line="274" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02Employed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5416666" vertical-offset="2948" max-vertical-offset="3915">
+          <caret line="199" column="126" selection-start-line="199" selection-start-column="126" selection-end-line="199" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02EmployedIncome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1666667" vertical-offset="2228" max-vertical-offset="3720">
+          <caret line="152" column="122" selection-start-line="152" selection-start-column="122" selection-end-line="152" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02FinishDate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.666667" vertical-offset="3098" max-vertical-offset="4275">
+          <caret line="222" column="118" selection-start-line="222" selection-start-column="118" selection-end-line="222" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02Prev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.772242" vertical-offset="0" max-vertical-offset="4125">
+          <caret line="212" column="118" selection-start-line="212" selection-start-column="118" selection-end-line="212" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02Past.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1850533" vertical-offset="0" max-vertical-offset="3630">
+          <caret line="179" column="118" selection-start-line="179" selection-start-column="118" selection-end-line="179" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome05Partner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9351535" vertical-offset="0" max-vertical-offset="3555">
+          <caret line="172" column="43" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome03CarePay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3890786" vertical-offset="0" max-vertical-offset="2865">
+          <caret line="140" column="130" selection-start-line="140" selection-start-column="130" selection-end-line="140" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome03MatPay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.3617747" vertical-offset="0" max-vertical-offset="3720">
+          <caret line="197" column="130" selection-start-line="197" selection-start-column="130" selection-end-line="197" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome03StatPay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.4300342" vertical-offset="0" max-vertical-offset="3780">
+          <caret line="201" column="130" selection-start-line="201" selection-start-column="130" selection-end-line="201" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02Expenses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62459546" vertical-offset="3349" max-vertical-offset="4575">
+          <caret line="249" column="23" selection-start-line="249" selection-start-column="23" selection-end-line="249" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome04OtherIncome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36084142" vertical-offset="2717" max-vertical-offset="3585">
+          <caret line="196" column="56" selection-start-line="196" selection-start-column="56" selection-end-line="196" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02EmployedPast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8333335" vertical-offset="2755" max-vertical-offset="3915">
+          <caret line="193" column="4" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome05End.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8333335" vertical-offset="1615" max-vertical-offset="2685">
+          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7083335" vertical-offset="2065" max-vertical-offset="3195">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutCare5TA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6599496" vertical-offset="6893" max-vertical-offset="8505">
+          <caret line="477" column="0" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutCare5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68010074" vertical-offset="195" max-vertical-offset="7950">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02SelfEmployed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8333335" vertical-offset="3775" max-vertical-offset="5010">
+          <caret line="261" column="15" selection-start-line="261" selection-start-column="15" selection-end-line="261" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome02SelfEmployedPast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.25" vertical-offset="3963" max-vertical-offset="4980">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/income2/yourIncome01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7305195" vertical-offset="390" max-vertical-offset="4860">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutYou2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9935064" vertical-offset="2460" max-vertical-offset="3420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutYou3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2540193" vertical-offset="3983" max-vertical-offset="4605">
+          <caret line="255" column="134" selection-start-line="255" selection-start-column="134" selection-end-line="255" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consent/consent2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0194175" vertical-offset="3540" max-vertical-offset="6015">
+          <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consent/consent1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="1905" max-vertical-offset="3120">
+          <caret line="149" column="51" selection-start-line="149" selection-start-column="51" selection-end-line="149" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.rsv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0458016" vertical-offset="3960" max-vertical-offset="11625">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payDetails/payDetails2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.0" vertical-offset="1455" max-vertical-offset="5505">
+          <caret line="303" column="126" selection-start-line="303" selection-start-column="126" selection-end-line="303" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/claimdate/c1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3398058" vertical-offset="1470" max-vertical-offset="3930">
+          <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="114" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payDetails/payDetails1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61165047" vertical-offset="2682" max-vertical-offset="4020">
+          <caret line="204" column="134" selection-start-line="204" selection-start-column="134" selection-end-line="204" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutYou2TextEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="55.625" vertical-offset="1335" max-vertical-offset="5115">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutYou4TimeAbroad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-149.375" vertical-offset="1275" max-vertical-offset="5535">
+          <caret line="324" column="130" selection-start-line="324" selection-start-column="130" selection-end-line="324" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutYou6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5485437" vertical-offset="1575" max-vertical-offset="3840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutPartner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19902913" vertical-offset="6417" max-vertical-offset="7515">
+          <caret line="436" column="8" selection-start-line="436" selection-start-column="8" selection-end-line="436" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payDetails/payDetailsCombined.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="157.375" vertical-offset="5562" max-vertical-offset="6705">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="393" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consent/disclaimer_screen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6553398" vertical-offset="1320" max-vertical-offset="2670">
+          <caret line="115" column="45" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consent/disclaimer_screen2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.70388347" vertical-offset="855" max-vertical-offset="2160">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consent/disclaimer_screen3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46601942" vertical-offset="1152" max-vertical-offset="2310">
+          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consent/consent3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="2265">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61497325" vertical-offset="2650" max-vertical-offset="3585">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="233" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eligibility/eligibilityCombined.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="405" max-vertical-offset="3795">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="52" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eligibility/e1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4577923" vertical-offset="1514" max-vertical-offset="2730">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eligibility/e5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41396105" vertical-offset="285" max-vertical-offset="2865">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payDetails/payDetailsCombined2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24350649" vertical-offset="810" max-vertical-offset="6105">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1980">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eligibility/e1update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="75" max-vertical-offset="3360">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63474023" vertical-offset="449" max-vertical-offset="1200">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#header#0;n#main#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#header#0;n#main#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/aboutYou1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048701297" vertical-offset="6945" max-vertical-offset="7950">
+          <caret line="465" column="0" selection-start-line="465" selection-start-column="0" selection-end-line="521" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>prototype</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+	      <div class="wrapper clearfix">
+	            <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+                    <img src="../img/crown.png" alt="GOV.UK">
+                    GOV.UK
+                </a>
+		  <section>
+	          <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+          </section>
+	          
+	      </div>
+	    </header>
+	    <!--end header-->
+
+
+        <main role="main" id="main">
+           
+           
+           <div class="carers-allowance clearfix">
+           
+           <section class="helper-mobile">
+				     <a class="help">Get help</a>
+			   	</section>
+
+               <aside class="left-col">
+
+                   <section id="help">
+                       <h2>Get help</h2>
+                       <p><a href="../guide/guide.html" target="_blank">Read the guide</a></p>
+                       <h3>Helpline 0345 608 4321</h3>
+                       <p>Weekdays, 8:30am to 5pm (except Fridays 4.30pm)</p>
+
+                       <p>Calls cost 9p a minute from landlines, calls from mobile may cost more.</p>
+
+                   </section>
+
+               </aside>
+
+<article>
+
+    <nav class="back-nav">
+        <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav>
+
+
+    <div class="section-progress">
+        Section 9 of 10
+    </div>
+
+
+    <h1>Your income</h1>
+
+
+    <form action="../income2/yourIncome02SelfEmployed.html" method="POST" id="paidEmployment">
+
+        <input type="hidden" name="csrfToken"
+               value="5040a07ab3c7b34061b2b69b3832997b0fb22c7d-1415035573134-44f661c90c2507fe6ba3387a"/>
+
+        <div class="form-wrap">
+            <fieldset class="form-elements">
+                        <legend class="legend-hidden">Your job</legend>
+
+                        <ul>
+                            <li>
+                                <fieldset class="question-group">
+
+                                    <legend>
+
+                                        Have you been in employment since 16 October 2015?
+
+                                    </legend>
+
+                                    <ul class="radio"
+                                        id="employment">
+
+                                        <li>
+                                            <label for="employmentYes"
+                                                   onmousedown="" class="remove-detail">
+                                                <input type="radio"
+                                                       id="employmentYes"
+                                                       name="employment"
+                                                       onmousedown="" value="Yes"/>
+                                                <span>Yes</span></label>
+                                        </li>
+
+                                        <li>
+
+                                            <label for="employmentNo"
+                                                   onmousedown="" class="show-detail">
+                                                <input type="radio"
+                                                       id="employmentNo"
+                                                       name="employment"
+                                                       onmousedown="" value="No"/>
+                                                <span>No</span></label>
+                                        </li>
+
+
+                                    </ul>
+
+                                </fieldset>
+
+                                <fieldset class="form-elements">
+                                    <legend class="legend-hidden">Your job</legend>
+
+                                    <ul>
+                                        <li>
+                                            <fieldset class="question-group">
+
+                                                <legend>
+
+                                                    Have you been in self-employment since 9 March 2016?
+
+                                                </legend>
+
+                                                <ul class="radio"
+                                                    id="selfEmployment">
+
+                                                    <li>
+                                                        <label for="selfEmploymentYes"
+                                                               onmousedown="" class="remove-detail">
+                                                            <input type="radio"
+                                                                   id="selfEmploymentYes"
+                                                                   name="selfEmployment"
+                                                                   onmousedown="" value="Yes"/>
+                                                            <span>Yes</span></label>
+                                                    </li>
+
+                                                    <li>
+
+                                                        <label for="selfEmploymentNo"
+                                                               onmousedown="" class="show-detail">
+                                                            <input type="radio"
+                                                                   id="selfEmploymentNo"
+                                                                   name="selfEmployment"
+                                                                   onmousedown="" value="No"/>
+                                                            <span>No</span></label>
+                                                    </li>
+
+
+                                                </ul>
+
+                                            </fieldset>
+
+                    <li>
+					<fieldset class="question-group">
+                                <legend>What other income have you had since 16 March 2016?</legend>
+								<p class="helper above">Choose <b>all</b> that apply to you.</p>
+                                <ul class="radio radio-stack declare" id="contactYou">
+
+
+                                    <li id="sickCheck">
+                                        <label for="sick" onmousedown="">
+                                            <input type="checkbox" id="sick"
+                                                   name="qualBenefits" onmousedown=""
+                                                   value="Personal Independence Payment" />
+                                            <span>Statutory sick pay</span></label>
+                                    </li>
+
+                                    <li id="paternityCheck">
+                                        <label for="paternity" onmousedown="">
+                                            <input type="checkbox" id="paternity" name="qualBenefits"
+                                                   onmousedown="" value="paternity"/>
+                                            <span>Statutory paternity, maternity or adoption pay</span></label>
+
+
+
+
+                                    </li>
+
+                                    <li id="fosteringCheck">
+                                        <label for="fosteringAllowance"
+                                               onmousedown="">
+                                            <input type="checkbox"
+                                                   id="fosteringAllowance"
+                                                   name="qualBenefits"
+                                                   value="fosteringAllowance"/>
+                                            <span>Fostering Allowance</span></label>
+                                    </li>
+
+									<li id="fosteringCheck">
+                                                <label for="fostering"
+                                                       onmousedown="">
+                                                    <input type="checkbox"
+                                                           id="fostering"
+                                                           name="qualBenefits"
+                                                           value="fostering"/>
+                                                    <span>Direct payment for caring for someone</span></label>
+                                            </li>
+
+									<li id="otherCheck">
+                                                <label for="other"
+                                                       onmousedown="">
+                                                    <input type="checkbox"
+                                                           id="other"
+                                                           name="qualBenefits" onmousedown=""
+                                                           value="other" />
+                                                    <span>Any other income, eg rental income</span></label>
+                                    </li>
+
+                                    <li id="noneCheck">
+                                        <label for="none"
+                                               onmousedown="">
+                                            <input type="checkbox"
+                                                   id="none"
+                                                   name="qualBenefits" onmousedown=""
+                                                   value="none"/>
+                                            <span>None</span></label>
+                                    </li>
+
+                                </ul>
+                            </fieldset>
+                        </li>
+                </ul>
+            </fieldset>
+
+            <nav class="form-steps">
+                <ul>
+                    <li><a href='#' class="button">Continue</a> <a style="margin-left: 60px;" href="../saveAndReturn/savePage.html" id="saveExit" name="saveExit" >Save for later</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </form>
+</article>
+
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter">Privacy</a>
+            </nav>
+            <p>Helpline - 0345 608 4321</p>
+            <p>Calls cost up to 9p a minute from landlines, calls from mobiles might cost more</p>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright </a>
+        </div>
+
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="../js/custom.js"></script>
+ <script>
+	$('#paidEmployment input[type="radio"]').click(function() {
+    var g1 = $("#selfEmploymentYes").is(":checked");
+	  var g2 = $("#employmentYes").is(":checked");
+    var addr = "yourIncome02SelfEmployed.html";
+	if (g1) {
+		addr = "../selfEmployed/subcontractor.html";
+		}
+    if (g2) {
+		addr = "yourIncome02Employed.html";
+		}
+    $("#paidEmployment a").attr('href', addr);
+});
+</script>
+
+<script>
+$(document).ready(function() {
+
+    $("#noneCheck").click(function() {
+        $('#contactYou li:not(#noneCheck) [type="checkbox"]').attr('checked', false);
+    });
+    $("#sickCheck, #paternityCheck, #fosteringCheck, #otherCheck").click(function() {
+        $('#noneCheck [type="checkbox"]').attr('checked', false);
+    });
+});
+</script>
+
+</body>
+</html>
