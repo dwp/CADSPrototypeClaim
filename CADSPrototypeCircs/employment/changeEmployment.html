@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+<article>
+
+<!--javascript for back button-->
+<nav class="back-nav">
+          <a id="backButton" href="javascript:history.back()">Back</a>
+  </nav>
+
+<h1>Report a change in your circumstances</h1>
+
+
+<form action="/circumstances/report-changes/employment-change" method="POST">
+
+<input type="hidden" name="csrfToken"
+       value="b7b7cfc7862ce04da30f57ce0dc194dad43a0b5f-1427964080776-1e0247b0f9bdd0b47407065d"/>
+
+<div class="form-wrap">
+<fieldset class="form-elements" data-journey="carers-allowance:report-change:employment">
+<legend>Employment changes</legend>
+
+<ul>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Are you still caring 35 hours or more each week?
+
+
+        </legend>
+
+
+        <ul class="radio " id="stillCaring_answer">
+
+
+            <li>
+
+                <label for="stillCaring_answer_yes" class="remove-detail" onmousedown="">
+                    <input type="radio" id="stillCaring_answer_yes" name="stillCaring.answer" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="stillCaring_answer_no" class="show-detail" onmousedown="">
+                    <input type="radio" id="stillCaring_answer_no" name="stillCaring.answer" onmousedown="" value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="stillCaringWrap" class="other-detail open-detail">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    What date did you stop caring 35 hours a week?
+
+
+                </legend>
+
+                <p class="helper above" id="stillCaring_date_defaultDateContextualHelp">For example, 2 3 2015</p>
+
+
+                <!-- datePlaceholder -->
+
+
+                <ul class="inline year" id="stillCaring_date">
+                    <li>
+                        <label for="stillCaring_date_day">Day</label>
+
+
+                        <input type="tel" id="stillCaring_date_day" name="stillCaring.date.day"
+                               title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li class="month">
+                        <label for="stillCaring_date_month">Month</label>
+
+
+                        <input type="tel" id="stillCaring_date_month" name="stillCaring.date.month"
+                               title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li>
+                        <label for="stillCaring_date_year">Year</label>
+
+
+                        <input type="tel" id="stillCaring_date_year" name="stillCaring.date.year"
+                               title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+
+
+                    </li>
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Has this work started yet?
+
+
+        </legend>
+
+
+        <ul class="radio " id="hasWorkStartedYet_answer">
+
+
+            <li>
+
+                <label for="hasWorkStartedYet_answer_yes" class="show-detail2 remove-detail3" onmousedown="">
+                    <input type="radio" id="hasWorkStartedYet_answer_yes" name="hasWorkStartedYet.answer" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="hasWorkStartedYet_answer_no" class="show-detail3 remove-detail2" onmousedown="">
+                    <input type="radio" id="hasWorkStartedYet_answer_no" name="hasWorkStartedYet.answer" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="hasWorkStartedYetWrap" class="other-detail open-detail2">
+<ul class="extra-group">
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            When did you start this work?
+
+
+        </legend>
+
+        <p class="helper above" id="hasWorkStartedYet_dateWhenStarted_defaultDateContextualHelp">For example, 2 3
+            2015</p>
+
+
+        <!-- datePlaceholder -->
+
+
+        <ul class="inline year" id="hasWorkStartedYet_dateWhenStarted">
+            <li>
+                <label for="hasWorkStartedYet_dateWhenStarted_day">Day</label>
+
+
+                <input type="tel" id="hasWorkStartedYet_dateWhenStarted_day"
+                       name="hasWorkStartedYet.dateWhenStarted.day" title="Must be numbers only" value="" maxLength="2"
+                       autocomplete="off">
+
+
+            </li>
+
+            <li class="month">
+                <label for="hasWorkStartedYet_dateWhenStarted_month">Month</label>
+
+
+                <input type="tel" id="hasWorkStartedYet_dateWhenStarted_month"
+                       name="hasWorkStartedYet.dateWhenStarted.month" title="Must be numbers only" value=""
+                       maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li>
+                <label for="hasWorkStartedYet_dateWhenStarted_year">Year</label>
+
+
+                <input type="tel" id="hasWorkStartedYet_dateWhenStarted_year"
+                       name="hasWorkStartedYet.dateWhenStarted.year" title="Must be numbers only" value="" maxLength="4"
+                       autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Has this work finished?
+
+
+        </legend>
+
+
+        <ul class="radio " id="hasWorkFinishedYet_answer">
+
+
+            <li>
+
+                <label for="hasWorkFinishedYet_answer_yes" class="show-detail4" onmousedown="">
+                    <input type="radio" id="hasWorkFinishedYet_answer_yes" name="hasWorkFinishedYet.answer"
+                           onmousedown="" value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="hasWorkFinishedYet_answer_no" class="remove-detail4" onmousedown="">
+                    <input type="radio" id="hasWorkFinishedYet_answer_no" name="hasWorkFinishedYet.answer"
+                           onmousedown="" value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+</ul>
+</li>
+
+
+<li id="workNotStartedYetWrap" class="other-detail open-detail3">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    When will you start this work?
+
+
+                </legend>
+
+                <p class="helper above" id="hasWorkStartedYet_dateWhenWillItStart_defaultDateContextualHelp">For
+                    example, 9 4 2015</p>
+
+
+                <!-- datePlaceholder -->
+
+
+                <ul class="inline year" id="hasWorkStartedYet_dateWhenWillItStart">
+                    <li>
+                        <label for="hasWorkStartedYet_dateWhenWillItStart_day">Day</label>
+
+
+                        <input type="tel" id="hasWorkStartedYet_dateWhenWillItStart_day"
+                               name="hasWorkStartedYet.dateWhenWillItStart.day" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li class="month">
+                        <label for="hasWorkStartedYet_dateWhenWillItStart_month">Month</label>
+
+
+                        <input type="tel" id="hasWorkStartedYet_dateWhenWillItStart_month"
+                               name="hasWorkStartedYet.dateWhenWillItStart.month" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li>
+                        <label for="hasWorkStartedYet_dateWhenWillItStart_year">Year</label>
+
+
+                        <input type="tel" id="hasWorkStartedYet_dateWhenWillItStart_year"
+                               name="hasWorkStartedYet.dateWhenWillItStart.year" title="Must be numbers only" value=""
+                               maxLength="4" autocomplete="off">
+
+
+                    </li>
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li id="hasWorkFinishedYetWrap" class="other-detail open-detail4">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    When did this work finish?
+
+
+                </legend>
+
+                <p class="helper above" id="hasWorkFinishedYet_dateWhenFinished_defaultDateContextualHelp">For example,
+                    26 3 2015</p>
+
+
+                <!-- datePlaceholder -->
+
+
+                <ul class="inline year" id="hasWorkFinishedYet_dateWhenFinished">
+                    <li>
+                        <label for="hasWorkFinishedYet_dateWhenFinished_day">Day</label>
+
+
+                        <input type="tel" id="hasWorkFinishedYet_dateWhenFinished_day"
+                               name="hasWorkFinishedYet.dateWhenFinished.day" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li class="month">
+                        <label for="hasWorkFinishedYet_dateWhenFinished_month">Month</label>
+
+
+                        <input type="tel" id="hasWorkFinishedYet_dateWhenFinished_month"
+                               name="hasWorkFinishedYet.dateWhenFinished.month" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li>
+                        <label for="hasWorkFinishedYet_dateWhenFinished_year">Year</label>
+
+
+                        <input type="tel" id="hasWorkFinishedYet_dateWhenFinished_year"
+                               name="hasWorkFinishedYet.dateWhenFinished.year" title="Must be numbers only" value=""
+                               maxLength="4" autocomplete="off">
+
+
+                    </li>
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            What type of work is this?
+
+
+        </legend>
+
+
+        <p class="helper above">Employed normally means you work for someone and they take tax out of your wages
+            including company directors. Self-employed normally means you work for yourself.</p>
+
+
+        <ul class="radio radio-stack" id="typeOfWork_answer">
+
+
+            <li>
+
+                <label for="typeOfWork_answer_employed" class="show-detail5 remove-detail6" onmousedown="">
+                    <input type="radio" id="typeOfWork_answer_employed" name="typeOfWork.answer" onmousedown=""
+                           value="employed"/>
+                    <span>Employed</span></label>
+            </li>
+
+            <li>
+
+                <label for="typeOfWork_answer_self-employed" class="show-detail6 remove-detail5" onmousedown="">
+                    <input type="radio" id="typeOfWork_answer_self-employed" name="typeOfWork.answer" onmousedown=""
+                           value="self-employed"/>
+                    <span>Self-employed</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="typeOfWorkEmployedWrap" class="other-detail open-detail5">
+<ul class="extra-group">
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>Address</legend>
+
+
+        <ul class="address-stack">
+            <li>
+
+
+                <label for="typeOfWork_employerNameAndAddress_lineOne">
+
+
+                    typeOfWork_employerNameAndAddress_lineOne
+
+
+                </label>
+
+
+                <input type="text" id="typeOfWork_employerNameAndAddress_lineOne"
+                       name="typeOfWork.employerNameAndAddress.lineOne" value="" maxLength="35" autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="typeOfWork_employerNameAndAddress_lineTwo">
+
+
+                    typeOfWork_employerNameAndAddress_lineTwo
+
+
+                </label>
+
+
+                <input type="text" id="typeOfWork_employerNameAndAddress_lineTwo"
+                       name="typeOfWork.employerNameAndAddress.lineTwo" value="" maxLength="35" autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="typeOfWork_employerNameAndAddress_lineThree">
+
+
+                    typeOfWork_employerNameAndAddress_lineThree
+
+
+                </label>
+
+
+                <input type="text" id="typeOfWork_employerNameAndAddress_lineThree"
+                       name="typeOfWork.employerNameAndAddress.lineThree" value="" maxLength="35" autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li class="open-detail5">
+
+
+    <label for="typeOfWork_employerPostcode">
+
+
+        Postcode
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="typeOfWork_employerPostcode" name="typeOfWork.employerPostcode" value="" maxLength="8"
+           class="postcode" autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <label for="typeOfWork_employerContactNumber">
+
+
+        Employer's contact number
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="typeOfWork_employerContactNumber" name="typeOfWork.employerContactNumber" value=""
+           maxLength="15" autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <label for="typeOfWork_employerPayroll">
+
+
+        Payroll or employee number
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="typeOfWork_employerPayroll" name="typeOfWork.employerPayroll" value="" maxLength="15"
+           autocomplete="off">
+
+
+</li>
+
+
+</ul>
+</li>
+
+
+<li id="typeOfWorkSelfEmployedWrap" class="other-detail open-detail6">
+<ul class="extra-group">
+
+
+<li>
+
+
+    <label for="typeOfWork_selfEmployedTypeOfWork">
+
+
+        Type of work or business
+
+
+    </label>
+
+
+    <input type="text" id="typeOfWork_selfEmployedTypeOfWork" name="typeOfWork.selfEmployedTypeOfWork" value=""
+           maxLength="35" autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Will the total income into your business be more than £110 a week?
+
+
+        </legend>
+
+
+        <ul class="radio " id="typeOfWork_selfEmployedTotalIncome">
+
+
+            <li>
+
+                <label for="typeOfWork_selfEmployedTotalIncome_yes" onmousedown="">
+                    <input type="radio" id="typeOfWork_selfEmployedTotalIncome_yes"
+                           name="typeOfWork.selfEmployedTotalIncome" onmousedown="" value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="typeOfWork_selfEmployedTotalIncome_no" onmousedown="">
+                    <input type="radio" id="typeOfWork_selfEmployedTotalIncome_no"
+                           name="typeOfWork.selfEmployedTotalIncome" onmousedown="" value="no"/>
+                    <span>No</span></label>
+            </li>
+
+            <li>
+
+                <label for="typeOfWork_selfEmployedTotalIncome_dontknow" onmousedown="">
+                    <input type="radio" id="typeOfWork_selfEmployedTotalIncome_dontknow"
+                           name="typeOfWork.selfEmployedTotalIncome" onmousedown="" value="dontknow"/>
+                    <span>Don&#x27;t know</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <label for="typeOfWork_selfEmployedMoreAboutChanges">
+
+
+        Tell us more about your changes
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+    <p class="helper above">If you did not tell us about any of your changes as soon as they happened, we need you to
+        tell us why.</p>
+
+
+    <textarea id="typeOfWork_selfEmployedMoreAboutChanges" name="typeOfWork.selfEmployedMoreAboutChanges"
+              maxLength="300"></textarea>
+
+
+</li>
+
+
+</ul>
+</li>
+</ul>
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li>
+            <a href="../declaration/dec.html" class="button">Next</a>
+        </li>
+
+        <li>
+            <a href="../index.html" class="button">Back to index</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+</form>
+
+</article>
+
+<aside class="left-col">
+
+    <section id="help">
+        <h2>Get help</h2>
+
+        <h3>Helpline 0345 608 4321</h3>
+
+        <p>Mon to Thurs: 8:30am - 5pm.</p>
+
+        <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+
+        <p>Closed public holidays.</p>
+
+        <p>Calls answered within 5 minutes
+            <a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a>
+        </p>
+
+        <h3>Report technical problem with this prototype</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Chanegs - Employment change " target="_top">Click here to report a problem</a></p>
+
+        <h3>Make a suggestion</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+
+    </section>
+
+</aside>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

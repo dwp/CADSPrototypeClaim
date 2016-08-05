@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+
+<!--javascript for back button-->
+
+<article>
+
+<nav class="back-nav">
+          <a id="backButton" href="javascript:history.back()">Back</a>
+  </nav>
+
+<h1>Report a change in your circumstances</h1>
+
+
+<form action="/circumstances/report-changes/address-change" method="POST">
+
+<input type="hidden" name="csrfToken"
+       value="515f3105310c88425a59ce6f41520c3143df36de-1427894037194-d8bfed44069af223e755b6cb"/>
+
+<div class="form-wrap">
+<fieldset class="form-elements" data-journey="carers-allowance:report-change:address">
+
+<legend>Previous address</legend>
+
+<p class="security-message">For security, we also need you to confirm your previous address.</p>
+<ul>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>Address</legend>
+
+
+        <ul class="address-stack">
+            <li>
+
+
+                <label for="previousAddress_lineOne">
+
+
+                    previousAddress_lineOne
+
+
+                </label>
+
+
+                <input type="text" id="previousAddress_lineOne" name="previousAddress.lineOne" value="" maxLength="35"
+                       autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="previousAddress_lineTwo">
+
+
+                    previousAddress_lineTwo
+
+
+                </label>
+
+
+                <input type="text" id="previousAddress_lineTwo" name="previousAddress.lineTwo" value="" maxLength="35"
+                       autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="previousAddress_lineThree">
+
+
+                    previousAddress_lineThree
+
+
+                </label>
+
+
+                <input type="text" id="previousAddress_lineThree" name="previousAddress.lineThree" value=""
+                       maxLength="35" autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <label for="previousPostcode">
+
+
+        Your previous postcode
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="previousPostcode" name="previousPostcode" value="" maxLength="8" class="postcode"
+           autocomplete="off">
+
+
+</li>
+
+</ul>
+
+</fieldset>
+
+<fieldset class="form-elements">
+<legend>Change of address</legend>
+
+<ul>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Are you still caring 35 hours or more each week?
+
+
+        </legend>
+
+
+        <ul class="radio " id="stillCaring_answer">
+
+
+            <li>
+
+                <label for="stillCaring_answer_yes" onmousedown="" class="show-detail remove-detail2">
+                    <input type="radio" id="stillCaring_answer_yes" name="stillCaring.answer" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="stillCaring_answer_no" onmousedown="" class="show-detail2 remove-detail">
+                    <input type="radio" id="stillCaring_answer_no" name="stillCaring.answer" onmousedown="" value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="stillCaringDate" class="other-detail open-detail2">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    What date did you stop caring 35 hours a week?
+
+
+                </legend>
+
+                <p class="helper above" id="stillCaring_date_defaultDateContextualHelp">For example, 1 3 2015</p>
+
+
+                <!-- datePlaceholder -->
+
+
+                <ul class="inline year" id="stillCaring_date">
+                    <li>
+                        <label for="stillCaring_date_day">Day</label>
+
+
+                        <input type="tel" id="stillCaring_date_day" name="stillCaring.date.day"
+                               title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li class="month">
+                        <label for="stillCaring_date_month">Month</label>
+
+
+                        <input type="tel" id="stillCaring_date_month" name="stillCaring.date.month"
+                               title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li>
+                        <label for="stillCaring_date_year">Year</label>
+
+
+                        <input type="tel" id="stillCaring_date_year" name="stillCaring.date.year"
+                               title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+
+
+                    </li>
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>Address</legend>
+
+
+        <ul class="address-stack">
+            <li>
+
+
+                <label for="newAddress_lineOne">
+
+
+                    newAddress_lineOne
+
+
+                </label>
+
+
+                <input type="text" id="newAddress_lineOne" name="newAddress.lineOne" value="" maxLength="35"
+                       autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="newAddress_lineTwo">
+
+
+                    newAddress_lineTwo
+
+
+                </label>
+
+
+                <input type="text" id="newAddress_lineTwo" name="newAddress.lineTwo" value="" maxLength="35"
+                       autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="newAddress_lineThree">
+
+
+                    newAddress_lineThree
+
+
+                </label>
+
+
+                <input type="text" id="newAddress_lineThree" name="newAddress.lineThree" value="" maxLength="35"
+                       autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li class="other-detail">
+
+
+    <label for="newPostcode">
+
+
+        Your new postcode
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="newPostcode" name="newPostcode" value="" maxLength="8" class="postcode" autocomplete="off">
+
+
+</li>
+
+
+<li id="stillCaringAddress" class="other-detail open-detail">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    Has the person you care for changed address?
+
+
+                </legend>
+
+
+                <ul class="radio " id="caredForChangedAddress_answer">
+
+
+                    <li>
+
+                        <label for="caredForChangedAddress_answer_yes" class="show-detail3" onmousedown="">
+                            <input type="radio" id="caredForChangedAddress_answer_yes"
+                                   name="caredForChangedAddress.answer" onmousedown="" value="yes"/>
+                            <span>Yes</span></label>
+                    </li>
+
+                    <li>
+
+                        <label for="caredForChangedAddress_answer_no" class="remove-detail3" onmousedown="">
+                            <input type="radio" id="caredForChangedAddress_answer_no"
+                                   name="caredForChangedAddress.answer" onmousedown="" value="no"/>
+                            <span>No</span></label>
+                    </li>
+
+
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li id="changedAddressSame" class="other-detail open-detail3">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    Is this the same address as you?
+
+
+                </legend>
+
+
+                <ul class="radio " id="sameAddress_answer">
+
+
+                    <li>
+
+                        <label for="sameAddress_answer_yes" class="remove-detail4" onmousedown="">
+                            <input type="radio" id="sameAddress_answer_yes" name="sameAddress.answer" onmousedown=""
+                                   value="yes"/>
+                            <span>Yes</span></label>
+                    </li>
+
+                    <li>
+
+                        <label for="sameAddress_answer_no" class="show-detail4" onmousedown="">
+                            <input type="radio" id="sameAddress_answer_no" name="sameAddress.answer" onmousedown=""
+                                   value="no"/>
+                            <span>No</span></label>
+                    </li>
+
+
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li id="sameAddressData" class="other-detail open-detail4">
+<ul class="extra-group">
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>Address</legend>
+
+
+        <ul class="address-stack">
+            <li>
+
+
+                <label for="sameAddress_theirNewAddress_lineOne">
+
+
+                    sameAddress_theirNewAddress_lineOne
+
+
+                </label>
+
+
+                <input type="text" id="sameAddress_theirNewAddress_lineOne" name="sameAddress.theirNewAddress.lineOne"
+                       value="" maxLength="35" autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="sameAddress_theirNewAddress_lineTwo">
+
+
+                    sameAddress_theirNewAddress_lineTwo
+
+
+                </label>
+
+
+                <input type="text" id="sameAddress_theirNewAddress_lineTwo" name="sameAddress.theirNewAddress.lineTwo"
+                       value="" maxLength="35" autocomplete="off">
+
+
+            </li>
+
+            <li>
+
+
+                <label for="sameAddress_theirNewAddress_lineThree">
+
+
+                    sameAddress_theirNewAddress_lineThree
+
+
+                </label>
+
+
+                <input type="text" id="sameAddress_theirNewAddress_lineThree"
+                       name="sameAddress.theirNewAddress.lineThree" value="" maxLength="35" autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li class="open-detail4">
+
+
+    <label for="sameAddress_theirNewPostcode">
+
+
+        Their postcode
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="sameAddress_theirNewPostcode" name="sameAddress.theirNewPostcode" value="" maxLength="8"
+           class="postcode" autocomplete="off">
+
+
+</li>
+
+
+</ul>
+</li>
+
+
+<li>
+
+
+    <label for="moreAboutChanges">
+
+
+        Tell us more about your changes
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+    <p class="helper above">If you did not tell us about any of your changes as soon as they happened, we need you to
+        tell us why.</p>
+
+
+    <textarea id="moreAboutChanges" name="moreAboutChanges" maxLength="300"></textarea>
+
+
+</li>
+
+
+</ul>
+
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li>
+            <a href="../declaration/dec.html" class="button">Next</a>
+        </li>
+
+        <li>
+            <a href="../index.html" class="button">Back to index</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+</form>
+
+
+</article>
+
+<aside class="left-col">
+
+    <section id="help">
+        <h2>Get help</h2>
+
+        <h3>Helpline 0345 608 4321</h3>
+
+        <p>Mon to Thurs: 8:30am - 5pm.</p>
+
+        <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+
+        <p>Closed public holidays.</p>
+
+        <p>Calls answered within 5 minutes
+            <a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a>
+        </p>
+
+        <h3>Report technical problem with this prototype</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Changes - COA " target="_top">Click here to report a problem</a></p>
+
+        <h3>Make a suggestion</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+
+    </section>
+
+</aside>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

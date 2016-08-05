@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+    </div>
+</header>
+<!--end header-->
+
+<main role="main" id="main">
+
+<div class="carers-allowance clearfix">
+
+<!--javascript for back button-->
+
+<article>
+
+<nav class="back-nav">
+          <a id="backButton" href="javascript:history.back()">Back</a>
+  </nav>
+
+<h1>Declaration</h1>
+
+<form action="/circumstances/consent-and-declaration/declaration" method="POST">
+
+<input type="hidden" id="js" name="jsEnabled" value="false">
+<input type="hidden" name="csrfToken"
+       value="31d76c2edea1bf9bd3fb1d3d92cc45cc16642450-1427884854554-96fe2b0c7853e11f7caf637c"/>
+
+<div class="form-wrap">
+<fieldset class="form-elements">
+    <legend>Further information</legend>
+
+    <ul>
+
+        <li>
+
+            <label for="furtherInfoContact">
+
+                Contact phone or mobile number
+
+            </label>
+
+            <p class="helper above">Alternatively, tell us here if you do not have a contact number.</p>
+
+            <input type="text" id="furtherInfoContact" name="furtherInfoContact" value="" maxLength="35"
+                   autocomplete="off">
+
+        </li>
+
+    </ul>
+
+</fieldset>
+
+<fieldset class="form-elements">
+<legend>Declaration</legend>
+
+<section class="dec">
+    <h3>The declarations below set out your legal responsibilities in respect of your claim.</h3>
+
+    <ul>
+        <li>I declare that I understand the <a id="claimnotes" href=../guide/guide.html" target="_blank">Carer's
+            Allowance Claim Notes</a> and that the information provided on this change of circumstances form is correct
+            and complete.
+        </li>
+        <li>I understand that I must report any further changes in my circumstances or those of the person that I am
+            caring for which may affect my entitlement promptly and by failing to do so I may be liable to prosecution
+            or face a financial penalty.
+        </li>
+        <li>I will use the online service or phone 0345 608 4321 or write to Carer's Allowance Unit, Palatine House,
+            Lancaster Road, Preston, PR1 1HB to report a change in my circumstances or that of the person that I am
+            caring for.
+        </li>
+        <li>If I give false or incomplete information or fail to report any future changes in my circumstances or those
+            of the person that I am caring for promptly, I understand that my Carer's Allowance may be stopped or
+            reduced and any overpayment of Carer's Allowance may be recovered.In addition I may be prosecuted or face a
+            financial penalty.
+        </li>
+    </ul>
+</section>
+
+
+<div class="group declare show-detail">
+
+    <label for="circsSomeOneElse">
+        Please tick this box if this change of circumstances form has been filled in by someone else. Please ensure that
+        you understand the declarations above as another person cannot make the declarations on your behalf.</label>
+    <input type="checkbox" id="circsSomeOneElse" name="circsSomeOneElse" value="true">
+
+</div>
+
+
+<ul>
+
+
+    <li id="nameOrOrganisationWrapper" >
+        <ul class="extra-group open-detail">
+
+
+            <li>
+
+
+                <label for="nameOrOrganisation">
+
+
+                    Your name and/or organisation
+
+
+                </label>
+
+
+                <input type="text" id="nameOrOrganisation" name="nameOrOrganisation" value="" maxLength="60"
+                       autocomplete="off">
+
+
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+<div class="group declare ">
+
+
+    <input type="checkbox" id="confirm" name="confirm" value="true">
+    <label for="confirm">
+        Please tick this box to confirm that you understand and make the declarations above.</label>
+
+</div>
+
+
+<ul class="circs-group">
+
+
+    <li>
+
+
+        <fieldset class="question-group">
+
+
+            <legend>
+
+
+                Do you agree to us obtaining information from any other persons or organisations you may have told us
+                about?
+
+
+            </legend>
+
+
+            <ul class="radio " id="obtainInfoAgreement">
+
+
+                <li>
+
+                    <label for="obtainInfoAgreement_yes" class="remove-detail2" onmousedown="">
+                        <input type="radio" id="obtainInfoAgreement_yes" name="obtainInfoAgreement" onmousedown=""
+                               value="yes"/>
+                        <span>Yes</span></label>
+                </li>
+
+                <li>
+
+                    <label for="obtainInfoAgreement_no" class="show-detail2" onmousedown="">
+                        <input type="radio" id="obtainInfoAgreement_no" name="obtainInfoAgreement" onmousedown=""
+                               value="no"/>
+                        <span>No</span></label>
+                </li>
+
+
+            </ul>
+
+        </fieldset>
+
+
+    </li>
+
+
+    <li id="why" class="other-detail open-detail2">
+        <ul class="extra-group">
+
+
+            <li>
+
+
+                <label for="obtainInfoWhy">
+
+
+                    Please tell us why not
+
+
+                </label>
+
+
+                <textarea id="obtainInfoWhy" name="obtainInfoWhy" maxLength="300"></textarea>
+
+                <p class="helper right">300 characters left</p>
+
+
+            </li>
+
+
+        </ul>
+    </li>
+
+</ul>
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li>
+            <a href="../changeComplete/finish.html" class="button">Next</a>
+        </li>
+
+        <li>
+            <a href="../index.html" class="button">Back to index</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+</form>
+
+
+</article>
+
+<aside class="left-col">
+
+    <section id="help">
+        <h2>Get help</h2>
+
+        <h3>Helpline 0345 608 4321</h3>
+
+        <p>Mon to Thurs: 8:30am - 5pm.</p>
+
+        <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+
+        <p>Closed public holidays.</p>
+
+        <p>Calls answered within 5 minutes
+            <a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a>
+        </p>
+
+        <h3>Report technical problem with this prototype</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Changes - Declaration " target="_top">Click here to report a problem</a></p>
+
+        <h3>Make a suggestion</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+
+    </section>
+
+</aside>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

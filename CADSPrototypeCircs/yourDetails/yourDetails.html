@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+<div class="helper-mobile">
+    <a class="help">Get help</a>
+</div>
+
+<aside class="left-col">
+    <section id="help">
+        <h2>Get help</h2>
+        <h3>Helpline 0345 608 4321</h3>
+        <p>Mon to Thurs 8.30am - 5pm</p>
+        <p class="grouped">Friday: 8.30am - 4.30pm</p>
+        <p>Closed public holidays.</p>
+        <p>Calls answered within 5 minutes.<a href="https://gov.uk/call-charges" target="_blank">Call charges</a></p>                <h3>Report technical problem with this prototype</h3>
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Changes - Your details " target="_top">Click here to report a problem</a></p>
+        <h3>Make a suggestion</h3>
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+    </section>
+</aside>
+
+
+<article>
+
+    <!--javascript for back button-->
+
+    <nav class="back-nav">
+        <a id="backButton" href="javascript:history.back()">Back</a>
+    </nav>
+
+    <h1>Report a change in your circumstances</h1>
+
+<div class="form-wrap">
+<fieldset class="form-elements">
+<legend>Your details</legend>
+
+<p>So we can identify who you are, confirm the following details. You can then tell us about your change.</p>
+
+<ul>
+
+
+<li>
+
+
+    <label for="fullName">
+
+
+        Full name
+
+
+    </label>
+
+
+    <input type="text" id="fullName" name="fullName" value="" maxLength="35" autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <label for="nationalInsuranceNumber_nino">
+
+
+        National Insurance number
+
+
+    </label>
+
+    <p class="helper above">For example, VO123456D</p>
+
+
+    <input type="text" id="nationalInsuranceNumber_nino" name="nationalInsuranceNumber.nino" value="" maxLength="9"
+           class="ni-number" autocomplete="off">
+
+
+    <p class="helper">This is on your NI number card, benefit letter, payslip or P60.</p>
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Date of birth
+
+
+        </legend>
+
+        <p class="helper above" id="dateOfBirth_defaultDateContextualHelp">For example, 25 3 1975</p>
+
+
+        <!-- datePlaceholder -->
+
+
+        <ul class="inline year" id="dateOfBirth">
+            <li class="day">
+                <label for="dateOfBirth_day">Day</label>
+
+
+                <input type="tel" id="dateOfBirth_day" name="dateOfBirth.day" title="Must be numbers only" value=""
+                       maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li class="month">
+                <label for="dateOfBirth_month">Month</label>
+
+
+                <input type="tel" id="dateOfBirth_month" name="dateOfBirth.month" title="Must be numbers only" value=""
+                       maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li class="year">
+                <label for="dateOfBirth_year">Year</label>
+
+
+                <input type="tel" id="dateOfBirth_year" name="dateOfBirth.year" title="Must be numbers only" value=""
+                       maxLength="4" autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+</ul>
+
+
+</fieldset>
+
+<fieldset class="form-elements">
+    <legend>Person you care for</legend>
+    <ul>
+
+
+        <li>
+
+
+            <label for="theirFullName">
+
+
+                Their full name
+
+
+            </label>
+
+
+            <input type="text" id="theirFullName" name="theirFullName" value="" maxLength="35" autocomplete="off">
+
+
+        </li>
+
+
+        <li>
+
+
+            <label for="theirRelationshipToYou">
+
+
+                Their relationship to you
+
+
+            </label>
+
+            <p class="helper above">For example, father, mother, son, daughter.</p>
+
+
+            <input type="text" id="theirRelationshipToYou" name="theirRelationshipToYou" value="" maxLength="35"
+                   autocomplete="off">
+
+
+        </li>
+
+    </ul>
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li>
+            <a href="../typeOfCOC/typeOfCOC.html" class="button">Next</a>
+        </li>
+
+        <li>
+            <a href="../index.html" class="button">Back to index</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+    </article>
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

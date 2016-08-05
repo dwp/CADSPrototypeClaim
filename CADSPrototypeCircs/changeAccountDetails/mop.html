@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+<article>
+
+<!--javascript for back button-->
+
+ <nav class="back-nav">
+          <a id="backButton" href="javascript:history.back()">Back</a>
+  </nav>
+
+<h1>Report a change in your circumstances</h1>
+
+
+<form action="/circumstances/report-changes/payment-change" method="POST">
+
+<input type="hidden" name="csrfToken"
+       value="ba9cd1059e0927cfbf07bf2c060a694dcdfb7043-1427967615233-1e0247b0f9bdd0b47407065d"/>
+
+<div class="form-wrap">
+<fieldset class="form-elements" data-journey="carers-allowance:report-change:payment">
+<legend>Existing payment details</legend>
+
+<ul class="coc-layout">
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Are you currently paid into a bank or building society?
+
+
+        </legend>
+
+
+        <ul class="radio " id="currentlyPaidIntoBank_answer">
+
+
+            <li>
+
+                <label for="currentlyPaidIntoBank_answer_yes" onmousedown="" class="show-detail remove-detail2">
+                    <input type="radio" id="currentlyPaidIntoBank_answer_yes" name="currentlyPaidIntoBank.answer"
+                           onmousedown="" value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="currentlyPaidIntoBank_answer_no" onmousedown="" class="show-detail2 remove-detail">
+                    <input type="radio" id="currentlyPaidIntoBank_answer_no" name="currentlyPaidIntoBank.answer"
+                           onmousedown="" value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="currentlyPaidIntoBankWrap1" class="other-detail open-detail">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <label for="currentlyPaidIntoBank_text1">
+
+
+                Name of current bank or building society
+
+
+            </label>
+
+
+            <input type="text" id="currentlyPaidIntoBank_text1" name="currentlyPaidIntoBank.text1" value=""
+                   maxLength="35" autocomplete="off">
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li id="currentlyPaidIntoBankWrap2" class="other-detail open-detail2">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <label for="currentlyPaidIntoBank_text2">
+
+
+                Confirm your method of payment
+
+
+            </label>
+
+
+            <input type="text" id="currentlyPaidIntoBank_text2" name="currentlyPaidIntoBank.text2" value=""
+                   maxLength="35" autocomplete="off">
+
+
+        </li>
+
+
+    </ul>
+</li>
+</ul>
+</fieldset>
+<fieldset class="form-elements">
+<legend>New payment details</legend>
+
+<ul class="coc-layout">
+
+
+<li>
+
+
+    <label for="accountHolderName">
+
+
+        Name of account holder
+
+
+    </label>
+
+
+    <input type="text" id="accountHolderName" name="accountHolderName" value="" maxLength="40" autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <label for="bankFullName">
+
+
+        Full name of bank or building society
+
+
+    </label>
+
+
+    <input type="text" id="bankFullName" name="bankFullName" value="" autocomplete="off" maxLength="60">
+
+
+</li>
+
+
+<li>
+
+
+    <p class="sub">
+
+
+        Sort code
+
+
+    </p>
+
+
+    <ul class="inline sort-code">
+
+
+        <li>
+
+
+            <label for="sortCode_sort1">
+
+
+                sortCode_sort1
+
+
+            </label>
+
+
+            <input type="tel" id="sortCode_sort1" name="sortCode.sort1" title="Must be numbers only" value=""
+                   maxLength="2" autocomplete="off">
+
+
+        </li>
+
+
+        <li>
+
+
+            <label for="sortCode_sort2">
+
+
+                sortCode_sort2
+
+
+            </label>
+
+
+            <input type="tel" id="sortCode_sort2" name="sortCode.sort2" title="Must be numbers only" value=""
+                   maxLength="2" autocomplete="off">
+
+
+        </li>
+
+
+        <li>
+
+
+            <label for="sortCode_sort3">
+
+
+                sortCode_sort3
+
+
+            </label>
+
+
+            <input type="tel" id="sortCode_sort3" name="sortCode.sort3" title="Must be numbers only" value=""
+                   maxLength="2" autocomplete="off">
+
+
+        </li>
+    </ul>
+
+
+</li>
+
+
+<li>
+
+
+    <label for="accountNumber">
+
+
+        Account number
+
+
+    </label>
+
+
+    <input type="text" id="accountNumber" name="accountNumber" value="" maxLength="10" autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <label for="rollOrReferenceNumber">
+
+
+        Building society roll or reference number
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+
+    <input type="text" id="rollOrReferenceNumber" name="rollOrReferenceNumber" value="" maxLength="18"
+           autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="nested-fieldset">
+
+
+        <legend class="nestedLabel">
+
+
+            How often do you want to get paid?
+
+
+        </legend>
+
+
+        <ul class="radio radio-stack" id="paymentFrequency">
+
+
+            <li>
+
+                <label for="paymentFrequency_Every_week" onmousedown="">
+                    <input type="radio" id="paymentFrequency_Every_week" name="paymentFrequency" onmousedown=""
+                           value="Every week"/>
+                    <span>Every week</span></label>
+            </li>
+
+            <li>
+
+                <label for="paymentFrequency_Every_four_weeks" onmousedown="">
+                    <input type="radio" id="paymentFrequency_Every_four_weeks" name="paymentFrequency" onmousedown=""
+                           value="Every four weeks"/>
+                    <span>Every four weeks</span></label>
+            </li>
+
+            <li>
+
+                <label for="paymentFrequency_Every_thirteen_weeks" onmousedown="">
+                    <input type="radio" id="paymentFrequency_Every_thirteen_weeks" name="paymentFrequency"
+                           onmousedown="" value="Every thirteen weeks"/>
+                    <span>Every thirteen weeks</span></label>
+            </li>
+
+
+        </ul>
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <label for="moreAboutChanges">
+
+
+        Tell us more about your changes
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+    <p class="helper above">If you did not tell us about any of your changes as soon as they happened, we need you to
+        tell us why.</p>
+
+
+    <textarea id="moreAboutChanges" name="moreAboutChanges" maxLength="300"></textarea>
+
+
+</li>
+
+</ul>
+
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li>
+            <a href="../declaration/dec.html" class="button">Next</a>
+        </li>
+
+        <li>
+            <a href="../index.html" class="button">Back to index</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+</form>
+
+</article>
+
+<aside class="left-col">
+
+    <section id="help">
+        <h2>Get help</h2>
+
+        <h3>Helpline 0345 608 4321</h3>
+
+        <p>Mon to Thurs: 8:30am - 5pm.</p>
+
+        <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+
+        <p>Closed public holidays.</p>
+
+        <p>Calls answered within 5 minutes
+            <a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a>
+        </p>
+
+        <h3>Report technical problem with this prototype</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Changes - Mop " target="_top">Click here to report a problem</a></p>
+
+        <h3>Make a suggestion</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+
+    </section>
+
+</aside>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+<div class="carers-allowance clearfix">
+
+<article>
+
+<nav class="back-nav">
+    <a id="backButton" href="javascript:history.back()">Back</a>
+</nav>
+
+<h1>Report a change in your circumstances</h1>
+
+
+<form action="/circumstances/report-changes/breaks-in-care" method="POST">
+
+<input type="hidden" name="csrfToken"
+       value="f11b58d6e0904232ea3da4eb7731251f986c070e-1427814477235-36bb8582d4457c7f6b3b1c78"/>
+
+<div class="form-wrap">
+<fieldset class="form-elements">
+
+<legend>Breaks from caring</legend>
+
+<ul>
+<li><p>We understand if you don't have exact details for some breaks, include as much information as possible to prevent
+    any unnecessary delays.</p></li>
+
+
+<li class="c-help">
+    <div class="helper-more" data-initial="Do I need to report a break from caring? – Help" data-close="Close"
+         onmousedown="if($(this).text().trim() === 'Do I need to report a break from caring? – Help'){  } else {  }"> Do
+        I need to report a break from caring? – Help
+    </div>
+    <div class="helper-info"><p>We need to know about any times when, for any reason, you spend less than 35 hours a
+        week caring for the person you care for. <br/>For example, if they were in respite care, in hospital or on
+        holiday without you, or you were in hospital or on holiday without them. </p></div>
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            When did your most recent break from caring start?
+
+
+        </legend>
+
+        <p class="helper above" id="breaksInCareStartDate_defaultDateContextualHelp">For example, 25 2 2015</p>
+
+
+        <!-- datePlaceholder -->
+
+
+        <ul class="inline year" id="breaksInCareStartDate">
+            <li>
+                <label for="breaksInCareStartDate_day">Day</label>
+
+
+                <input type="tel" id="breaksInCareStartDate_day" name="breaksInCareStartDate.day"
+                       title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li class="month">
+                <label for="breaksInCareStartDate_month">Month</label>
+
+
+                <input type="tel" id="breaksInCareStartDate_month" name="breaksInCareStartDate.month"
+                       title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li>
+                <label for="breaksInCareStartDate_year">Year</label>
+
+
+                <input type="tel" id="breaksInCareStartDate_year" name="breaksInCareStartDate.year"
+                       title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li class="short-field">
+
+
+    <label for="breaksInCareStartTime">
+
+
+        Start time
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+    <p class="helper above">For example, 10:00am.</p>
+
+
+    <input type="text" id="breaksInCareStartTime" name="breaksInCareStartTime" value="" maxLength="10"
+           autocomplete="off">
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="nested-fieldset">
+
+
+        <legend class="nestedLabel">
+
+
+            Where was the person you care for?
+
+
+        </legend>
+
+
+        <p class="helper above">During this time, they were:</p>
+
+
+        <ul class="radio radio-stack" id="wherePersonBreaksInCare_answer">
+
+
+            <li class="remove-detail">
+
+                <label for="wherePersonBreaksInCare_answer_In_hospital" onmousedown="">
+                    <input type="radio" id="wherePersonBreaksInCare_answer_In_hospital"
+                           name="wherePersonBreaksInCare.answer" onmousedown="" value="In hospital"
+                           class="listWithOther"/>
+                    <span>in hospital</span></label>
+            </li>
+
+            <li class="remove-detail">
+
+                <label for="wherePersonBreaksInCare_answer_In_respite_care" onmousedown="">
+                    <input type="radio" id="wherePersonBreaksInCare_answer_In_respite_care"
+                           name="wherePersonBreaksInCare.answer" onmousedown="" value="In respite care"
+                           class="listWithOther"/>
+                    <span>in respite care</span></label>
+            </li>
+
+            <li class="remove-detail">
+
+                <label for="wherePersonBreaksInCare_answer_On_holiday" onmousedown="">
+                    <input type="radio" id="wherePersonBreaksInCare_answer_On_holiday"
+                           name="wherePersonBreaksInCare.answer" onmousedown="" value="On holiday"
+                           class="listWithOther"/>
+                    <span>on holiday</span></label>
+            </li>
+
+            <li class="remove-detail">
+
+                <label for="wherePersonBreaksInCare_answer_At_home" onmousedown="">
+                    <input type="radio" id="wherePersonBreaksInCare_answer_At_home"
+                           name="wherePersonBreaksInCare.answer" onmousedown="" value="At home" class="listWithOther"/>
+                    <span>at home</span></label>
+            </li>
+
+            <li class="show-detail">
+
+                <label for="wherePersonBreaksInCare_answer_Somewhere_else" onmousedown="">
+                    <input type="radio" id="wherePersonBreaksInCare_answer_Somewhere_else"
+                           name="wherePersonBreaksInCare.answer" onmousedown="" value="Somewhere else"
+                           class="listWithOther otherValue"/>
+                    <span>somewhere else</span></label>
+            </li>
+
+
+        </ul>
+
+
+        <ul id="wherePersonBreaksInCareWrap" class="other-detail open-detail extra-group">
+
+
+            <li>
+
+
+                <textarea id="wherePersonBreaksInCare_text" name="wherePersonBreaksInCare.text"
+                          maxLength="60"></textarea>
+
+                <p class="helper right">60 characters left</p>
+
+
+            </li>
+
+
+        </ul>
+
+
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="nested-fieldset">
+
+
+        <legend class="nestedLabel">
+
+
+            Where were you?
+
+
+        </legend>
+
+
+        <p class="helper above">During this time, I was:</p>
+
+
+        <ul class="radio radio-stack" id="whereYouBreaksInCare_answer">
+
+
+            <li class="remove-detail2">
+
+                <label for="whereYouBreaksInCare_answer_At_home" onmousedown="">
+                    <input type="radio" id="whereYouBreaksInCare_answer_At_home" name="whereYouBreaksInCare.answer"
+                           onmousedown="" value="At home" class="listWithOther"/>
+                    <span>at home</span></label>
+            </li>
+
+            <li class="remove-detail2">
+
+                <label for="whereYouBreaksInCare_answer_On_holiday" onmousedown="">
+                    <input type="radio" id="whereYouBreaksInCare_answer_On_holiday" name="whereYouBreaksInCare.answer"
+                           onmousedown="" value="On holiday" class="listWithOther"/>
+                    <span>on holiday</span></label>
+            </li>
+
+            <li class="remove-detail2">
+
+                <label for="whereYouBreaksInCare_answer_In_hospital" onmousedown="">
+                    <input type="radio" id="whereYouBreaksInCare_answer_In_hospital" name="whereYouBreaksInCare.answer"
+                           onmousedown="" value="In hospital" class="listWithOther"/>
+                    <span>in hospital</span></label>
+            </li>
+
+            <li class="show-detail2">
+
+                <label for="whereYouBreaksInCare_answer_Somewhere_else" onmousedown="">
+                    <input type="radio" id="whereYouBreaksInCare_answer_Somewhere_else"
+                           name="whereYouBreaksInCare.answer" onmousedown="" value="Somewhere else"
+                           class="listWithOther otherValue"/>
+                    <span>somewhere else</span></label>
+            </li>
+
+
+        </ul>
+
+
+        <ul id="whereYouBreaksInCareWrap" class="other-detail open-detail2 extra-group">
+
+
+            <li>
+
+
+                <textarea id="whereYouBreaksInCare_text" name="whereYouBreaksInCare.text" maxLength="60"></textarea>
+
+                <p class="helper right">60 characters left</p>
+
+
+            </li>
+
+
+        </ul>
+
+
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Has this break from caring ended?
+
+
+        </legend>
+
+
+        <ul class="radio " id="breakEnded_answer">
+
+
+            <li>
+
+                <label for="breakEnded_answer_yes" onmousedown="" class="show-detail3">
+                    <input type="radio" id="breakEnded_answer_yes" name="breakEnded.answer" onmousedown="" value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="breakEnded_answer_no" onmousedown="" class="remove-detail3">
+                    <input type="radio" id="breakEnded_answer_no" name="breakEnded.answer" onmousedown="" value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li id="breakEndedDateTime" class="other-detail open-detail3">
+<ul class="extra-group">
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            When did the break from caring end?
+
+
+        </legend>
+
+        <p class="helper above" id="breakEnded_endDate_defaultDateContextualHelp">For example, 4 3 2015</p>
+
+
+        <!-- datePlaceholder -->
+
+
+        <ul class="inline year other-detail open-detail3" id="breakEnded_endDate">
+            <li>
+                <label for="breakEnded_endDate_day">Day</label>
+
+
+                <input type="tel" id="breakEnded_endDate_day" name="breakEnded.endDate.day" title="Must be numbers only"
+                       value="" maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li class="month">
+                <label for="breakEnded_endDate_month">Month</label>
+
+
+                <input type="tel" id="breakEnded_endDate_month" name="breakEnded.endDate.month"
+                       title="Must be numbers only" value="" maxLength="2" autocomplete="off">
+
+
+            </li>
+
+            <li>
+                <label for="breakEnded_endDate_year">Year</label>
+
+
+                <input type="tel" id="breakEnded_endDate_year" name="breakEnded.endDate.year"
+                       title="Must be numbers only" value="" maxLength="4" autocomplete="off">
+
+
+            </li>
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li class="short-field open-detail3">
+
+
+    <label for="breakEnded_endTime">
+
+
+        End time
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+    <p class="helper above">For example, 4:30pm</p>
+
+
+    <input type="text" id="breakEnded_endTime" name="breakEnded.endTime" value="" maxLength="10" autocomplete="off">
+
+
+</li>
+
+
+</ul>
+</li>
+
+
+<li id="expectStartCaring" class="other-detail open-detail3">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    Do you expect to start caring again?
+
+
+                </legend>
+
+
+                <ul class="radio " id="expectStartCaring_answer">
+
+
+                    <li>
+
+                        <label for="expectStartCaring_answer_yes" onmousedown="" class="show-detail4 remove-detail5">
+                            <input type="radio" id="expectStartCaring_answer_yes" name="expectStartCaring.answer"
+                                   onmousedown="" value="yes"/>
+                            <span>Yes</span></label>
+                    </li>
+
+                    <li>
+
+                        <label for="expectStartCaring_answer_no" onmousedown="" class="show-detail5 remove-detail4">
+                            <input type="radio" id="expectStartCaring_answer_no" name="expectStartCaring.answer"
+                                   onmousedown="" value="no"/>
+                            <span>No</span></label>
+                    </li>
+
+                    <li>
+
+                        <label for="expectStartCaring_answer_dontknow" onmousedown="" class="remove-detail4 remove-detail5">
+                            <input type="radio" id="expectStartCaring_answer_dontknow" name="expectStartCaring.answer"
+                                   onmousedown="" value="dontknow"/>
+                            <span>Don&#x27;t know</span></label>
+                    </li>
+
+
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li id="expectStartCaringDate" class="other-detail open-detail4">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    What date do you expect to start caring again?
+
+
+                    <em>(optional)</em>
+
+
+                </legend>
+
+                <p class="helper above" id="expectStartCaring_expectStartCaringDate_defaultDateContextualHelp">For
+                    example, 7 4 2015</p>
+
+
+                <!-- datePlaceholder -->
+
+
+                <ul class="inline year" id="expectStartCaring_expectStartCaringDate">
+                    <li>
+                        <label for="expectStartCaring_expectStartCaringDate_day">Day</label>
+
+
+                        <input type="tel" id="expectStartCaring_expectStartCaringDate_day"
+                               name="expectStartCaring.expectStartCaringDate.day" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li class="month">
+                        <label for="expectStartCaring_expectStartCaringDate_month">Month</label>
+
+
+                        <input type="tel" id="expectStartCaring_expectStartCaringDate_month"
+                               name="expectStartCaring.expectStartCaringDate.month" title="Must be numbers only"
+                               value="" maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li>
+                        <label for="expectStartCaring_expectStartCaringDate_year">Year</label>
+
+
+                        <input type="tel" id="expectStartCaring_expectStartCaringDate_year"
+                               name="expectStartCaring.expectStartCaringDate.year" title="Must be numbers only" value=""
+                               maxLength="4" autocomplete="off">
+
+
+                    </li>
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li id="permanentBreakDate" class="other-detail open-detail5">
+    <ul class="extra-group">
+
+
+        <li>
+
+
+            <fieldset class="question-group">
+
+
+                <legend>
+
+
+                    What date did you decide that the break was permanent?
+
+
+                </legend>
+
+                <p class="helper above" id="expectStartCaring_permanentBreakDate_defaultDateContextualHelp">For example,
+                    4 3 2015</p>
+
+
+                <!-- datePlaceholder -->
+
+
+                <ul class="inline year" id="expectStartCaring_permanentBreakDate">
+                    <li>
+                        <label for="expectStartCaring_permanentBreakDate_day">Day</label>
+
+
+                        <input type="tel" id="expectStartCaring_permanentBreakDate_day"
+                               name="expectStartCaring.permanentBreakDate.day" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li class="month">
+                        <label for="expectStartCaring_permanentBreakDate_month">Month</label>
+
+
+                        <input type="tel" id="expectStartCaring_permanentBreakDate_month"
+                               name="expectStartCaring.permanentBreakDate.month" title="Must be numbers only" value=""
+                               maxLength="2" autocomplete="off">
+
+
+                    </li>
+
+                    <li>
+                        <label for="expectStartCaring_permanentBreakDate_year">Year</label>
+
+
+                        <input type="tel" id="expectStartCaring_permanentBreakDate_year"
+                               name="expectStartCaring.permanentBreakDate.year" title="Must be numbers only" value=""
+                               maxLength="4" autocomplete="off">
+
+
+                    </li>
+                </ul>
+
+            </fieldset>
+
+
+        </li>
+
+
+    </ul>
+</li>
+
+
+<li>
+
+
+    <fieldset class="question-group">
+
+
+        <legend>
+
+
+            Did you or the person you care for receive any medical treatment or professional care during the break?
+
+
+        </legend>
+
+
+        <ul class="radio " id="medicalCareDuringBreak">
+
+
+            <li>
+
+                <label for="medicalCareDuringBreak_yes" onmousedown="">
+                    <input type="radio" id="medicalCareDuringBreak_yes" name="medicalCareDuringBreak" onmousedown=""
+                           value="yes"/>
+                    <span>Yes</span></label>
+            </li>
+
+            <li>
+
+                <label for="medicalCareDuringBreak_no" onmousedown="">
+                    <input type="radio" id="medicalCareDuringBreak_no" name="medicalCareDuringBreak" onmousedown=""
+                           value="no"/>
+                    <span>No</span></label>
+            </li>
+
+
+        </ul>
+
+    </fieldset>
+
+
+</li>
+
+
+<li>
+
+
+    <label for="moreAboutChanges">
+
+
+        Tell us more about your changes
+
+
+        <em>(optional)</em>
+
+
+    </label>
+
+    <p class="helper above">If you did not tell us about any of your changes as soon as they happened, we need you to
+        tell us why.</p>
+
+
+    <textarea id="moreAboutChanges" name="moreAboutChanges" maxLength="300"></textarea>
+
+
+</li>
+
+
+</ul>
+
+</fieldset>
+
+<nav class="form-steps">
+    <ul>
+        <li>
+            <a href="breaksSummary.html" class="button">Next</a>
+        </li>
+        <li>
+            <a href="../index.html" class="button">Back to index</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+</form>
+
+
+</article>
+
+<aside class="left-col">
+
+    <section id="help">
+        <h2>Get help</h2>
+
+        <h3>Helpline 0345 608 4321</h3>
+
+        <p>Mon to Thurs: 8:30am - 5pm.</p>
+
+        <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+
+        <p>Closed public holidays.</p>
+
+        <p>Calls answered within 5 minutes
+            <a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a>
+        </p>
+
+        <h3>Report technical problem with this prototype</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Changes - Breaks in care " target="_top">Click here to report a problem</a></p>
+
+        <h3>Make a suggestion</h3>
+
+        <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+
+    </section>
+
+</aside>
+
+</div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>

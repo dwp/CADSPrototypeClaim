@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>Prototype</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" media="screen" href="../css/main.css">
+
+    <link href="../css/header-footer-only.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!--[if gte IE 9]><!-->
+    <link href="../css/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<a href="#main" class="visuallyhidden">Skip to main content</a>
+
+
+<header role="banner" id="global-header">
+    <div class="wrapper clearfix">
+        <a href="https://www.gov.uk" title="GOV.UK" class="crown">
+            <img src="../img/crown.png" alt="GOV.UK">
+            GOV.UK
+        </a>
+        <section>
+            <h1 class="page-title beta">Carer's Allowance <span>Prototype</span></h1>
+        </section>
+
+
+    </div>
+</header>
+<!--end header-->
+
+
+<main role="main" id="main">
+
+
+    <div class="carers-allowance clearfix">
+
+
+        <article>
+
+        <!--javascript for back button-->
+
+        <nav class="back-nav">
+                  <a id="backButton" href="javascript:history.back()">Back</a>
+          </nav>
+
+            <h1>Report a change in your circumstances</h1>
+
+
+            <form action="/circumstances/report-changes/other-change" method="POST">
+
+                <input type="hidden" name="csrfToken"
+                       value="d12f6f3d8c2768dd4c806e3cf041dc300803cfac-1427967808336-1e0247b0f9bdd0b47407065d"/>
+
+                <div class="form-wrap">
+                    <fieldset class="form-elements" data-journey="carers-allowance:report-change:other-change">
+                        <legend>Other changes</legend>
+                        <ul class="coc-layout">
+
+
+                            <li>
+
+
+                                <label for="changeInCircs">
+
+
+                                    Tell us about your changes including all dates.
+
+
+                                </label>
+
+
+                                <textarea id="changeInCircs" name="changeInCircs" maxLength="2000"></textarea>
+
+                                <p class="helper right">2000 characters left</p>
+
+
+                            </li>
+
+                        </ul>
+                    </fieldset>
+
+                    <nav class="form-steps">
+                        <ul>
+                            <li>
+                                <a href="../declaration/dec.html" class="button">Next</a>
+                            </li>
+
+                            <li>
+                                <a href="../index.html" class="button">Back to index</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </form>
+
+        </article>
+
+        <aside class="left-col">
+
+            <section id="help">
+                <h2>Get help</h2>
+
+                <h3>Helpline 0345 608 4321</h3>
+
+                <p>Mon to Thurs: 8:30am - 5pm.</p>
+
+                <p class="grouped">Friday: 8:30am - 4:30pm.</p>
+
+                <p>Closed public holidays.</p>
+
+                <p>Calls answered within 5 minutes
+                    <a href="https://www.gov.uk/call-charges" target="_blank">Call charges</a>
+                </p>
+
+                <h3>Report technical problem with this prototype</h3>
+
+                <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=C A D S Changes - Other change " target="_top">Click here to report a problem</a></p>
+
+                <h3>Make a suggestion</h3>
+
+                <p><a href="mailTo:cau.cads@dwp.gsi.gov.uk?Subject=Suggestion " target="_top">Click here to make a suggestion</a></p>
+
+            </section>
+
+        </aside>
+
+    </div>
+</main>
+
+<footer>
+    <div class="container clearfix">
+
+        <div>
+            <nav class="language">
+
+                <a id="privacy" target="privacyLink"
+                   href="https://www.gov.uk/government/organisations/department-for-work-pensions/about/personal-information-charter"
+                        >Privacy</a>
+            </nav>
+            <p>Made in Preston by Department for Work &amp; Pensions</p>
+
+            <p class="ogl">All content is available under the <a
+                    href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="openGovLink"
+                    >Open Government Licence v2.0</a>, except where otherwise stated</p>
+        </div>
+
+        <div class="fr">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+               target="crownLink"> &copy; Crown Copyright</a>
+        </div>
+    </div>
+</footer>
+<!--/ footer -->
+<!-- -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/custom.js"></script>
+
+
+</body>
+</html>
